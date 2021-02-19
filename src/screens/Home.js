@@ -13,23 +13,24 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
 import { debounce } from "lodash";
 import SearchBarInfoCard from "../components/Searchbar";
-
+import AsyncStorage from "@react-native-community/async-storage";
 const Home = ({ navigation }) => {
   /////////////////////////////////////////////////////////
   //////// top ten button/////////////////////////////////
   const [topTenButtonText, setTopTenButtonText] = useState("More"); // topTenButtonText = "More"
   const [topTenCount, setTopTenCount] = useState(5); // topTenCount = 5
-  onMoreButtonClicked = () => {
+  const onMoreButtonClicked = () => {
     if (topTenCount == 5) {
       setTopTenCount(10); // setting setTopTenCount to 10
       setTopTenButtonText("Less");
+      console.log("from main ");
     } else {
       setTopTenCount(5);
       setTopTenButtonText("More");
     }
   };
   /////////////////////////////////////////////////////////
-  //top ten data //////////////////////////////////////////
+  ///////////top ten data //////////////////////////////////////////
   const [isLoadingTopTen, setLoadingTopTen] = useState(true);
   const [topTen, setTopTen] = useState([]);
   useEffect(() => {
@@ -47,10 +48,11 @@ const Home = ({ navigation }) => {
 
     fetchAutoTopTen();
     // call more here
-  });
+    console.log("hi");
+  }, []);
   /////////////////////////////////////////////////////////
   // search data /////////////////////////////////////////
-  search = async (value) => {
+  search = async (value, storeInState = true) => {
     console.log("search", value);
     if (value) {
       console.log("start loading");
@@ -58,25 +60,29 @@ const Home = ({ navigation }) => {
         `https://esgstockapi.azurewebsites.net/search?q=${value}`
       );
       const searchData = await searchResponse.json();
-      if (searchData == null) {
-        setSearchData(["NO RESULT"]);
-        console.log("null");
-      } else setSearchData(searchData);
+      if (storeInState) {
+        if (searchData == null) {
+          setSearchData(["NO RESULT"]);
+          console.log("null");
+        } else setSearchData(searchData);
+      } else {
+        return searchData;
+      }
 
       // console.log(searchData);
     }
   };
 
-  const [isSearching, setIsSearching] = useState(false);
-  const searchHandle = useCallback(debounce(search, 500), []);
+  // const [isSearching, setIsSearching] = useState(false);
+  const searchHandle = useCallback(debounce(search, 500), []); //this is a fucntion
   onChangeText = (value) => {
     console.log(value);
     if (value.length > 3) {
       searchHandle(value);
-      setIsSearching(true);
+      // setIsSearching(true);
     } else {
       searchHandle.cancel();
-      setIsSearching(false);
+      // setIsSearching(false);
       setSearchData([]);
     }
 
@@ -109,6 +115,39 @@ const Home = ({ navigation }) => {
       keyboardDidShowListener.remove();
     };
   }, []);
+
+  //////////////////////////////////////////////////////
+  ////////////getting stared stocks /////////////////////////////
+  const [staredData, setstaredData] = useState([]);
+  const updateStarred = async () => {
+    try {
+      const keys = await AsyncStorage.getAllKeys();
+      console.log("here are the keys");
+      console.log(keys);
+
+      const allFavorites = await Promise.all(
+        keys.map(async (item) => {
+          console.log(item);
+          const data = await search(item, false);
+          return data.length > 0 ? data[0] : null;
+        })
+      );
+
+      setstaredData(allFavorites);
+    } catch (error) {
+      // Error retrieving data
+      console.log(error.message);
+    }
+  };
+  useEffect(() => {
+    updateStarred();
+
+    // Subscribe for the focus Listener
+    const unsubscribe = navigation.addListener("focus", updateStarred);
+    return () => {
+      unsubscribe();
+    };
+  }, [navigation]);
 
   return (
     <ScrollView
@@ -264,9 +303,7 @@ const Home = ({ navigation }) => {
 
       <View style={externalStyle.home_component}>
         <View style={{ width: "70%" }}>
-          <Text style={externalStyle.home_title}>
-            Top Worst ESG Rating Stock
-          </Text>
+          <Text style={externalStyle.home_title}>Favorite Stocks</Text>
         </View>
         <View style={{ width: "30%", alignItems: "flex-end" }}>
           <View style={externalStyle.more_buttom}>
@@ -288,9 +325,29 @@ const Home = ({ navigation }) => {
         showsHorizontalScrollIndicator={false}
         style={{ paddingBottom: 0 }}
       >
-        {data1.map((item, index) => (
-          <InfoCard {...item} key={index} />
-        ))}
+        {isLoadingTopTen ? (
+          <Text
+            style={{
+              fontWeight: "bold",
+              fontSize: 13,
+              color: "#FFF",
+              textAlign: "center",
+            }}
+          >
+            Loading top ten
+          </Text>
+        ) : (
+          staredData.map((item, index) => (
+            <InfoCard
+              navigation={navigation}
+              stock={item.name}
+              esgrating={item.esgrating}
+              industry={item.group}
+              esgwarning={item.rating}
+              key={index}
+            />
+          ))
+        )}
       </ScrollView>
       <View style={externalStyle.home_component}>
         <View style={{ width: "50%" }}>
@@ -352,21 +409,6 @@ const Home = ({ navigation }) => {
   );
 };
 export default Home;
-
-const data = [
-  {
-    stock: "Apple",
-    esgrating: "$127.83",
-  },
-  {
-    stock: "google",
-    esgrating: "$117.8",
-  },
-  {
-    stock: "Amazon",
-    esgrating: "$127.83",
-  },
-];
 
 const data1 = [
   {

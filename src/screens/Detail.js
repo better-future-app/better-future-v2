@@ -13,26 +13,92 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native-gesture-handler";
-import { LinearGradient } from "expo-linear-gradient";
+import AsyncStorage from "@react-native-community/async-storage";
 import externalStyle from "./styleSheet";
-
-import {
-  LineChart,
-  BarChart,
-  PieChart,
-  ProgressChart,
-  ContributionGraph,
-  StackedBarChart,
-} from "react-native-chart-kit";
-
+import { LineChart } from "react-native-chart-kit";
 import RNSpeedometer from "react-native-speedometer";
-
-import ReactStoreIndicator from "react-score-indicator";
+const status = "stared";
 //  recive things from other pages , { navigation, route } : navigation is auto passed
 //route is what you pass in, it must do the same way for other pages too
 const Detail = ({ navigation, route }) => {
   //this is how to get your pass in data .
   const { stock, esgrating, industry, esgwarning } = route.params;
+
+  const [isStartedStock, setisStartedStock] = useState(false);
+
+  const _storeData = async () => {
+    try {
+      await AsyncStorage.setItem(stock, status);
+    } catch (error) {
+      console.log("error in _storeData", error);
+    }
+  };
+
+  // const _retrieveData = async () => {
+  //   try {
+  //     const value = await AsyncStorage.getItem(stock);
+  //     if (value !== null) {
+  //       // We have data!!
+  //       console.log(value);
+  //       setisStartedStock(true);
+  //     } else {
+  //       setisStartedStock(false);
+  //     }
+  //   } catch (error) {
+  //     console.log("error in _retrieveData");
+  //     // Error retrieving data
+  //     // console.log(error);
+  //   }
+  // };
+  const _removeData = async () => {
+    try {
+      await AsyncStorage.removeItem(stock);
+    } catch (error) {
+      // Error retrieving data
+      console.log("error in _removeData ");
+    }
+  };
+
+  /////////////////////////////////////////////////////////////////////
+  /////////////star path////////////////////////////
+
+  const defaults = require("../Interface_icons/62-Star/rating-star-add.png");
+  const clicked = require("../Interface_icons/62-Star/rating-star-check.png");
+  const loading = require("../images/giphy.gif");
+  const [starPath, setstartPath] = useState(loading);
+  const count = 0;
+  useEffect(() => {
+    async function checkifstarted() {
+      try {
+        const value = await AsyncStorage.getItem(stock);
+        if (value !== null) {
+          // We have data!!
+          console.log(value);
+          setstartPath(clicked);
+        } else {
+          setstartPath(defaults);
+        }
+      } catch (error) {
+        console.log("error in _retrieveData");
+        // Error retrieving data
+        // console.log(error);
+      }
+    }
+    checkifstarted();
+  }, []);
+
+  const starButtonClicked = () => {
+    if (starPath === defaults) {
+      _storeData();
+      setstartPath(clicked);
+    } else {
+      setstartPath(defaults);
+      _removeData();
+    }
+  };
+
+  /////////////////////////////////////////////////////////////////////
+  ///////////// ranking data ////////////////////////////
   const [totalIndustryNumber, settotalIndustryNumber] = useState();
   const [industryRank, setindustryRank] = useState();
   const [totalglobalNumber, settotalglobalNumber] = useState();
@@ -52,7 +118,27 @@ const Detail = ({ navigation, route }) => {
       setglobalrank(Data.globalRank);
     }
     fetchIndustryNumber();
-  });
+  }, []);
+  /////////////////////////////////////////////////////////////////////
+  ///////////// ranking data ////////////////////////////
+  // const [star, setTopTen] = useState([]);
+  // useEffect(() => {
+  //   const starData = require("../local_data/data.json");
+  //   var json = JSON.stringify(starData);
+  //   var parsedJson = JSON.parse(json);
+  //   //searching in json
+  //   // parsedJson.company.map((item, index) => {
+  //   //     console.log(item);
+  //   //   }
+  //   // });
+  // 1   const data = JSON.parse(storage.getItem(starKey) || ""); // might crash the first time
+  //   const valueToRemove = "Apple";
+  //  2 const filteredItems = data.filter(  // adding or removing
+  //     (item) => item !== valueToRemove
+  //   );
+  //  3  storage.setItem(starKey, JSON.stringify(filteredItems));
+  //   console.log(filteredItems);
+  // });
 
   return (
     <ScrollView
@@ -69,6 +155,8 @@ const Detail = ({ navigation, route }) => {
       <View
         style={{
           flexDirection: "row",
+
+          justifyContent: "space-between",
         }}
       >
         <Text
@@ -79,16 +167,29 @@ const Detail = ({ navigation, route }) => {
             paddingBottom: -10,
           }}
         >
-          N/A
+          N/A{" "}
+          <Text
+            style={{
+              fontSize: 20,
+              paddingTop: 40,
+            }}
+          >
+            USD
+          </Text>
         </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            paddingTop: 40,
-          }}
-        >
-          USD
-        </Text>
+
+        <TouchableOpacity onPress={() => starButtonClicked()}>
+          <Image
+            // source={starPath}
+            source={starPath}
+            style={{
+              maxHeight: 48,
+              maxWidth: 48,
+              marginTop: 20,
+              marginRight: 20,
+            }}
+          />
+        </TouchableOpacity>
       </View>
       <View>
         <LineChart
@@ -150,8 +251,8 @@ const Detail = ({ navigation, route }) => {
               },
               {
                 name: "Low Risk",
-                labelColor: "#48CFAE",
-                activeBarColor: "#48CFAE",
+                labelColor: "#AAEE68",
+                activeBarColor: "#AAEE68",
               },
               {
                 name: "Medium Risk",

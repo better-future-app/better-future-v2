@@ -1,7 +1,9 @@
-SELECT TOP(100)
-    *
-from ESGSTOCK
-ORDER BY esgrating DESC
+DROP TABLE ESGSTOCK
+
+-- SELECT TOP(100)
+--     *
+-- from ESGSTOCK
+-- ORDER BY esgrating DESC
 -- SELECT TOP(10)* FROM ESGSTOCK Where [group] = 'Automobiles' ORDER by esgrating ASC
 -- SELECT *
 -- FROM ESGSTOCK
