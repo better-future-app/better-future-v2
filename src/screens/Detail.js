@@ -240,7 +240,7 @@ const Detail = ({ navigation, route }) => {
       <View style={externalStyle.company_esg_score_card}>
         <SafeAreaView style={{ flex: 1 }}>
           <RNSpeedometer
-            value={esgrating + 1}
+            value={esgrating + 1} // no more than 51 need to
             size={300}
             maxValue={50}
             labels={[
