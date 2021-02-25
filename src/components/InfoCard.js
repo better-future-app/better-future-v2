@@ -17,7 +17,7 @@ import {
 export default InfoCard = ({
   image,
   stock,
-  // rating,
+  ticker,
   esgrating,
   industry,
   esgwarning,
@@ -30,11 +30,11 @@ export default InfoCard = ({
   const mediumRisk = "#DCCF36";
   const highRisk = "#FC6E51";
   const sever = "#ED5565";
-
+  const noData = "#FFFFFF";
   useEffect(() => {
     async function assingEsgIndicatorColor() {
       setEsgRating(esgrating);
-      if (esgRating <= 10) {
+      if (esgRating <= 10 && esgRating > 0) {
         setEsgColorIndicator(negl);
       } else if (esgRating >= 10 && esgRating <= 20) {
         setEsgColorIndicator(lowRisk);
@@ -44,6 +44,8 @@ export default InfoCard = ({
         setEsgColorIndicator(highRisk);
       } else if (esgRating >= 40) {
         setEsgColorIndicator(sever);
+      } else if (esgrating == null) {
+        setEsgColorIndicator(noData);
       }
     }
     assingEsgIndicatorColor();
@@ -58,6 +60,7 @@ export default InfoCard = ({
           esgrating,
           industry,
           esgwarning,
+          ticker,
         })
       }
     >

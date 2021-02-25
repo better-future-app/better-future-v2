@@ -10,15 +10,9 @@ import SwiperComponent from "../components/SwiperComponent";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { ScrollView } from "react-native-gesture-handler";
 import externalStyle from "./styleSheet";
-import {
-  LineChart,
-  BarChart,
-  PieChart,
-  ProgressChart,
-  ContributionGraph,
-  StackedBarChart,
-} from "react-native-chart-kit";
-import ProgressCircle from "react-native-progress-circle";
+
+const windowWidth = Dimensions.get("window").width;
+
 const Detail = ({ navigation }) => {
   return (
     <ScrollView
@@ -28,118 +22,50 @@ const Detail = ({ navigation }) => {
     >
       <View style={externalStyle.header}>
         <View style={externalStyle.more_buttom}>
-          <Text style={externalStyle.header_text}>Profile</Text>
+          <Text style={externalStyle.header_text}>About Us</Text>
         </View>
-      </View>
-      <View
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          padding: 25,
-          paddingBottom: -15,
-        }}
-      >
-        <View
-          onPress={() => navigation.navigate("Detail")}
-          style={externalStyle.profile_image}
-        >
-          <Image
-            style={{
-              flex: 1,
-              width: null,
-              height: null,
-              marginTop: -50,
-              resizeMode: "contain",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-            source={require("../images/yoda_bb.png")}
-          />
-        </View>
-      </View>
-      <View>
-        <Text
-          style={{
-            fontWeight: "100",
-            fontSize: 20,
-            color: "#000000",
-            paddingBottom: 5,
-            paddingLeft: 20,
-          }}
-        >
-          OverAll Score
-        </Text>
       </View>
 
-      <View style={externalStyle.company_overall}>
-        <View
-          style={{
-            padding: 25,
-            flexDirection: "row",
-            justifyContent: "space-evenly",
-          }}
-        >
-          <View
-            style={{
-              flexDirection: "column",
-            }}
-          >
-            <ProgressCircle
-              percent={80}
-              radius={50}
-              borderWidth={8}
-              color="#3399FF"
-              shadowColor="#999"
-              bgColor="#fff"
-            >
-              <Text style={{ fontSize: 18 }}>{"80%"}</Text>
-            </ProgressCircle>
-            <Text style={{ fontSize: 12, textAlign: "center" }}>ENV</Text>
-          </View>
-          <View
-            style={{
-              flexDirection: "column",
-            }}
-          >
-            <ProgressCircle
-              percent={60}
-              radius={50}
-              borderWidth={8}
-              color="#ffc305"
-              shadowColor="#999"
-              bgColor="#fff"
-            >
-              <Text style={{ fontSize: 18 }}>{"60%"}</Text>
-            </ProgressCircle>
-            <Text style={{ fontSize: 12, textAlign: "center" }}>SOC</Text>
-          </View>
-          <View
-            style={{
-              flexDirection: "column",
-            }}
-          >
-            <ProgressCircle
-              percent={40}
-              radius={50}
-              borderWidth={8}
-              color="#c70039"
-              shadowColor="#999"
-              bgColor="#fff"
-            >
-              <Text style={{ fontSize: 18 }}>{"40%"}</Text>
-            </ProgressCircle>
-            <Text style={{ fontSize: 12, textAlign: "center" }}>GOV</Text>
-          </View>
-        </View>
-      </View>
-      <View style={{ padding: 20, paddingBottom: -10, flexDirection: "row" }}>
+      <View style={{ paddingLeft: "5%", paddingTop: "5%" }}>
         <Image
-          source={require("../Interface_icons/14-Alerts/48w/alert-circle.png")}
-          style={{ height: 20, width: 20, paddingRight: 20 }}
+          source={require("../images/wwulogo.png")}
+          style={{
+            width: windowWidth - 60,
+            height: 180,
+          }}
         />
-        <Text style={{ paddingLeft: 20 }}> Your GOV area is below average</Text>
       </View>
-      <View style={externalStyle.company_overall}></View>
+
+      <View style={{ paddingLeft: "10%", paddingTop: "5%" }}></View>
+      <View style={{ padding: "5%" }}>
+        <Text>
+          <Text style={externalStyle.tutorial_title}>Origins</Text>
+          {"\n"}
+          Better Future was created with the intention of educating and teaching
+          ethical investing. The program was developed by a group of students
+          from Western Washington University as part of their CSCI 436 -
+          'Technology for the Social Good' curriculum.{"\n"}
+        </Text>
+        <Text>
+          <Text style={externalStyle.tutorial_title}>Sources</Text>
+          {"\n"}
+          The ESG data located within the application is sourced from
+          Sustainalytics, and the stock price data is accessed through Alpha
+          Vantage.{"\n"}
+        </Text>
+        <Text>
+          <Text style={externalStyle.tutorial_title}>Data Collection</Text>
+          {"\n"}
+          All of your data processed by this app is local side only, we do not
+          collect personal information entered into Better Future.{"\n"}
+        </Text>
+        <Text>
+          <Text style={externalStyle.tutorial_title}>Contact Information</Text>
+          {"\n"}
+          Please contact us with inquiries and bug reports at:
+          NotAnEmailAddress@fix.this.
+        </Text>
+      </View>
     </ScrollView>
   );
 };

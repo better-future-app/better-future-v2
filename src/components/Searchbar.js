@@ -20,6 +20,7 @@ export default SearchBarInfoCard = ({
   esgrating,
   navigation,
   esgwarning,
+  ticker,
 }) => {
   return (
     <TouchableOpacity
@@ -30,6 +31,7 @@ export default SearchBarInfoCard = ({
           industry,
           esgrating,
           esgwarning,
+          ticker,
         })
       }
       style={{ paddingTop: 5 }}

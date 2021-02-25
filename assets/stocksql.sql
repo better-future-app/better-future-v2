@@ -1,8 +1,17 @@
-DROP TABLE ESGSTOCK
 
+-- UPDATE ESGSTOCK
+-- SET ticker = 'BAC'
+-- WHERE [name] LIKE 'Bank of America Corp.'
+
+-- SELECT t.*, e.name, e.esgrating, e.rating, e.href, e.[group] FROM tickertable t FULL OUTER JOIN ESGSTOCK e ON t.ticker = e.ticker Where t.company Like 'fb%' or t.ticker Like 'fb%';
+INSERT INTO tickertable
+    (ticker,company)
+VALUES('DIS', 'The Walt Disney Company');
+-- SELECT *
+-- FROM tickertable Where [company] Like 'Facebook%';
 -- SELECT TOP(100)
 --     *
--- from ESGSTOCK
+-- from e
 -- ORDER BY esgrating DESC
 -- SELECT TOP(10)* FROM ESGSTOCK Where [group] = 'Automobiles' ORDER by esgrating ASC
 -- SELECT *

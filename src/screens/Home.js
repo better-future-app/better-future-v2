@@ -77,7 +77,7 @@ const Home = ({ navigation }) => {
   const searchHandle = useCallback(debounce(search, 500), []); //this is a fucntion
   onChangeText = (value) => {
     console.log(value);
-    if (value.length > 3) {
+    if (value.length > 1) {
       searchHandle(value);
       // setIsSearching(true);
     } else {
@@ -231,7 +231,8 @@ const Home = ({ navigation }) => {
             .map((item, index) => (
               <SearchBarInfoCard
                 navigation={navigation}
-                stock={item.name}
+                stock={item.name || item.company}
+                ticker={item.ticker}
                 esgrating={item.esgrating}
                 industry={item.group}
                 esgwarning={item.rating}
@@ -290,6 +291,7 @@ const Home = ({ navigation }) => {
             .slice(0, topTenCount)
             .map((item, index) => (
               <InfoCard
+                ticker={item.ticker}
                 navigation={navigation}
                 stock={item.name}
                 esgrating={item.esgrating}
@@ -340,7 +342,8 @@ const Home = ({ navigation }) => {
           staredData.map((item, index) => (
             <InfoCard
               navigation={navigation}
-              stock={item.name}
+              stock={item.name || item.company}
+              ticker={item.ticker}
               esgrating={item.esgrating}
               industry={item.group}
               esgwarning={item.rating}
