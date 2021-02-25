@@ -1,0 +1,3 @@
+[submodule ".\\ESGSTOCKAPI\\"]
+	path = .\\ESGSTOCKAPI\\
+	url = git@github.com:better-future-app/better-future-v2.git
