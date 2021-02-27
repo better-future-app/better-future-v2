@@ -24,7 +24,6 @@ const term = {
   monthly: "Monthly Time Series",
   daily: "Daily Time Series",
 };
-
 const monthNames = [
   "January",
   "February",
@@ -38,6 +37,15 @@ const monthNames = [
   "October",
   "November",
   "December",
+];
+const dayNames = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 // term.monthly
@@ -103,6 +111,60 @@ const Detail = ({ navigation, route }) => {
       _removeData();
     }
   };
+  ////Butttons For GRAPH///
+  const [colorDefaultone, setcolorDefaultone] = useState("#ffffff");
+  const [colorDefaulttwo, setcolorDefaulttwo] = useState("#ffffff");
+  const [colorDefaultthree, setcolorDefaultthree] = useState("#00bfff");
+  const [colorDefaultfour, setcolorDefaultfour] = useState("#ffffff");
+  const [Freq, setFreq] = useState("monthly"); // topTenCount = 5
+  const onDButtonClicked = () => {
+    setFreq("daily");
+    setcolorDefaultone("#00bfff");
+    setcolorDefaulttwo("#ffffff");
+    setcolorDefaultthree("#ffffff");
+    setcolorDefaultfour("#ffffff");
+    // console.log("D");
+  };
+  const onWButtonClicked = () => {
+    setFreq("weekly");
+    setcolorDefaultone("#ffffff");
+    setcolorDefaulttwo("#00bfff");
+    setcolorDefaultthree("#ffffff");
+    setcolorDefaultfour("#ffffff");
+    // console.log("W");
+  };
+  const onMButtonClicked = () => {
+    setFreq("monthly");
+    setcolorDefaultone("#ffffff");
+    setcolorDefaulttwo("#ffffff");
+    setcolorDefaultthree("#00bfff");
+    setcolorDefaultfour("#ffffff");
+    //  console.log("M");
+  };
+  const onYButtonClicked = () => {
+    setFreq("annually");
+    setcolorDefaultone("#ffffff");
+    setcolorDefaulttwo("#ffffff");
+    setcolorDefaultthree("#ffffff");
+    setcolorDefaultfour("#00bfff");
+    //  console.log("Y");
+  };
+
+  function freqforGraph(date) {
+    // console.log(date.getFullYear());
+    if (Freq == "daily") {
+      return dayNames[date.getDay()];
+    }
+    if (Freq == "monthly") {
+      return monthNames[date.getMonth()];
+    }
+    if (Freq == "annually") {
+      return date.getFullYear();
+    }
+    if (Freq == "weekly") {
+      return monthNames[date.getMonth()];
+    }
+  }
 
   /////////////////////////////////////////////////////////////////////
   ///////////// ranking data ////////////////////////////
@@ -166,36 +228,34 @@ const Detail = ({ navigation, route }) => {
   //  3  storage.setItem(starKey, JSON.stringify(filteredItems));
   //   console.log(filteredItems);
   // });
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, "0");
+  var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = yyyy + "-" + mm + "-" + dd; //Todays current date for the end endDate in URL
 
   const [isLoadinghistoricstockPrice, setLoadinghistoricstockPrice] = useState(
     true
   );
-  const [fivemonthprice, setfivemonthprice] = useState(0);
-  const [fourmonthprice, setfourmonthprice] = useState(0);
-  const [threemonthprice, setthreemonthprice] = useState(0);
-  const [twomonthprice, settwomonthprice] = useState(0);
-  const [onemonthprice, setonemonthprice] = useState(0);
   const [stockPrice, setStockPrice] = useState();
   useEffect(() => {
+    // console.log('render');
     async function fetchAutohistoricPrice() {
       const stockhistoricPriceResponse = await fetch(
-        `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=${ticker}&apikey=45ZJ0MLEEW0P9DFL`
+        `https://api.tiingo.com/tiingo/daily/${ticker}/prices?startDate=2015-1-1&endDate=${today}&resampleFreq=${Freq}&token=a3c84e49049c02fdbb248d63c783e5e18a621639`
       );
 
       const stockPricehistoricData = await stockhistoricPriceResponse.json();
-      const selectedUnit = "monthly"; // imageine this is state
-      const selectedUnitKey = term.monthly; // todo: make a method to convert selected unit to key. getUnitKey(selectedUnit)
 
-      const stockData = stockPricehistoricData[selectedUnitKey];
-      // console.log(stockPricehistoricData);
-      const sortedStockData = Object.keys(stockData)
+      const sortedStockData = Object.keys(stockPricehistoricData) //makes a set of keys from data
         .map((key) => {
-          var value = stockData[key];
-          const date = new Date(key);
+          var value = stockPricehistoricData[key];
+          const date = new Date(value["date"]); //takes date from JSON file
           return {
             date,
-            closePrice: parseInt(value["4. close"]),
-            displayString: monthNames[date.getMonth()], // getDisplayString(selectedUnit, date)
+            closePrice: parseInt(value["close"]), //get close price
+            displayString: freqforGraph(date), // converts date to number and then assigns to a string name representation.
           };
         })
         .sort((a, b) => b.date - a.date)
@@ -226,7 +286,7 @@ const Detail = ({ navigation, route }) => {
 
     fetchAutohistoricPrice();
     // call more here
-  }, []);
+  }, [Freq]);
 
   const failed = false;
 
@@ -326,11 +386,71 @@ const Detail = ({ navigation, route }) => {
         )}
       </View>
       {esgrating ? ( // if no esgrating, no showing the esg data
-        <View>
-          <Text style={externalStyle.company_overallESG_text}>
-            OverAll ESG Score
-          </Text>
+        <View style={{ marginTop: -30 }}>
+          <View style={externalStyle.home_component}>
+            <View style={{ width: "27.5%", alignItems: "flex-end" }}>
+              <View style={externalStyle.more_buttom}>
+                <TouchableOpacity onPress={() => onDButtonClicked()}>
+                  <Text
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: 13,
+                      color: colorDefaultone,
+                    }}
+                  >
+                    {"W"}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+            <View style={{ width: "20%", alignItems: "flex-end" }}>
+              <View style={externalStyle.more_buttom}>
+                <TouchableOpacity onPress={() => onWButtonClicked()}>
+                  <Text
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: 13,
+                      color: colorDefaulttwo,
+                    }}
+                  >
+                    {"M"}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+            <View style={{ width: "20%", alignItems: "flex-end" }}>
+              <View style={externalStyle.more_buttom}>
+                <TouchableOpacity onPress={() => onMButtonClicked()}>
+                  <Text
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: 13,
+                      color: colorDefaultthree,
+                    }}
+                  >
+                    {"5M"}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+            <View style={{ width: "20%", alignItems: "flex-end" }}>
+              <View style={externalStyle.more_buttom}>
+                <TouchableOpacity onPress={() => onYButtonClicked()}>
+                  <Text
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: 13,
+                      color: colorDefaultfour,
+                    }}
+                  >
+                    {"5Y"}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
 
+          <Text style={externalStyle.company_overallESG_text}>ESG Score</Text>
           <View style={externalStyle.company_esg_score_card}>
             <SafeAreaView style={{ flex: 1 }}>
               <RNSpeedometer
