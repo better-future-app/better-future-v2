@@ -60,7 +60,7 @@ const Detail = ({ navigation, route }) => {
 
   const _storeData = async () => {
     try {
-      await AsyncStorage.setItem(stock, status);
+      await AsyncStorage.setItem(stock, status); //setItem (key ,value ) (tsla,stared ) ("numberofstock"stock+,10)
     } catch (error) {
       console.log("error in _storeData", error);
     }
@@ -176,7 +176,7 @@ const Detail = ({ navigation, route }) => {
   useEffect(() => {
     async function fetchIndustryNumber() {
       const totalIndustryNumber = await fetch(
-        `https://esgstockapi.azurewebsites.net/detials?industry=${encodeURIComponent(
+        `https://esgstock1.azurewebsites.net/detials?industry=${encodeURIComponent(
           industry
         ).replace(/%20/g, "+")}&company=${stock.replace(/\s+/g, "+")}`
       );
@@ -193,22 +193,25 @@ const Detail = ({ navigation, route }) => {
   }, []);
   /////////////////////////////////////////////////////////////////////
   ///////////// stock price and discription ////////////////////////////
-  const [currentstockprice, setcurrentstockprice] = useState();
+  const [currentstockprice, setcurrentstockprice] = useState("N/A");
   const [stockdiscription, setstockdiscription] = useState();
+
   useEffect(() => {
     async function fetchPriceData() {
       const stockhistoricPriceResponse = await fetch(
-        `https://esgstockapi.azurewebsites.net/stockprice?q=${ticker}`
+        `https://esgstock1.azurewebsites.net/stockprice?q=${ticker}`
       );
       const stockpricedata = await stockhistoricPriceResponse.json();
       setcurrentstockprice(stockpricedata[0].close);
       const stockdiscriptionresponse = await fetch(
-        `https://esgstockapi.azurewebsites.net/meta?q=${ticker}`
+        `https://esgstock1.azurewebsites.net/meta?q=${ticker}`
       );
       const stockdiscription = await stockdiscriptionresponse.json();
       setstockdiscription(stockdiscription.description.substr(0, 430) + "...");
     }
-    fetchPriceData();
+    if (ticker) {
+      fetchPriceData();
+    }
   }, []);
   // const [star, setTopTen] = useState([]);
   // useEffect(() => {
@@ -262,29 +265,14 @@ const Detail = ({ navigation, route }) => {
         .slice(0, 5)
         .reverse();
 
-      // console.log("Parsed dates", sortedStockData);
       setStockPrice(sortedStockData);
-      // setonemonthprice(
-      //   stockPricehistoricData["Monthly Time Series"]["2021-01-29"]["4. close"]
-      // );
-      // settwomonthprice(
-      //   stockPricehistoricData["Monthly Time Series"]["2020-12-31"]["4. close"]
-      // );
-      // setthreemonthprice(
-      //   stockPricehistoricData["Monthly Time Series"]["2020-11-30"]["4. close"]
-      // );
-      // setfourmonthprice(
-      //   stockPricehistoricData["Monthly Time Series"]["2020-10-30"]["4. close"]
-      // );
-      // setfivemonthprice(
-      //   stockPricehistoricData["Monthly Time Series"]["2020-09-30"]["4. close"]
-      // );
       setLoadinghistoricstockPrice(false);
     }
 
     // more functions
-
-    fetchAutohistoricPrice();
+    if (ticker) {
+      fetchAutohistoricPrice();
+    }
     // call more here
   }, [Freq]);
 
@@ -344,112 +332,121 @@ const Detail = ({ navigation, route }) => {
       </View>
       <View>
         {stockPrice ? (
-          <LineChart
-            data={{
-              labels: stockPrice.map((x) => x.displayString),
-              datasets: [
-                {
-                  data: stockPrice.map((x) => x.closePrice),
-                },
-              ],
-            }}
-            width={Dimensions.get("window").width - 20} // from react-native
-            height={300}
-            yAxisLabel="$"
-            yAxisInterval={1} // optional, defaults to 1
-            chartConfig={{
-              backgroundColor: "#ffffff",
-              backgroundGradientFrom: "#ffffff",
-              backgroundGradientTo: "#ffffff",
-              decimalPlaces: 2, // optional, defaults to 2dp
-              color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
-              labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
-              propsForDots: {
-                r: "6",
-                strokeWidth: "2",
-                stroke: "#000000",
-              },
-            }}
-            bezier
-            style={{
-              padding: 10,
-              borderRadius: 16,
-              marginBottom: -10,
-            }}
-          />
+          <View>
+            <View>
+              <LineChart
+                data={{
+                  labels: stockPrice.map((x) => x.displayString),
+                  datasets: [
+                    {
+                      data: stockPrice.map((x) => x.closePrice),
+                    },
+                  ],
+                }}
+                width={Dimensions.get("window").width - 20} // from react-native
+                height={300}
+                yAxisLabel="$"
+                yAxisInterval={1} // optional, defaults to 1
+                chartConfig={{
+                  backgroundColor: "#ffffff",
+                  backgroundGradientFrom: "#ffffff",
+                  backgroundGradientTo: "#ffffff",
+                  decimalPlaces: 2, // optional, defaults to 2dp
+                  color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+                  labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+                  propsForDots: {
+                    r: "6",
+                    strokeWidth: "2",
+                    stroke: "#000000",
+                  },
+                }}
+                bezier
+                style={{
+                  padding: 10,
+                  borderRadius: 16,
+                  marginBottom: -10,
+                }}
+              />
+            </View>
+            <View style={{ marginTop: -30 }}>
+              <View style={externalStyle.home_component}>
+                <View style={{ width: "27.5%", alignItems: "flex-end" }}>
+                  <View style={externalStyle.more_buttom}>
+                    <TouchableOpacity onPress={() => onDButtonClicked()}>
+                      <Text
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: 13,
+                          color: colorDefaultone,
+                        }}
+                      >
+                        {"W"}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
+                <View style={{ width: "20%", alignItems: "flex-end" }}>
+                  <View style={externalStyle.more_buttom}>
+                    <TouchableOpacity onPress={() => onWButtonClicked()}>
+                      <Text
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: 13,
+                          color: colorDefaulttwo,
+                        }}
+                      >
+                        {"M"}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
+                <View style={{ width: "20%", alignItems: "flex-end" }}>
+                  <View style={externalStyle.more_buttom}>
+                    <TouchableOpacity onPress={() => onMButtonClicked()}>
+                      <Text
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: 13,
+                          color: colorDefaultthree,
+                        }}
+                      >
+                        {"5M"}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
+                <View style={{ width: "20%", alignItems: "flex-end" }}>
+                  <View style={externalStyle.more_buttom}>
+                    <TouchableOpacity onPress={() => onYButtonClicked()}>
+                      <Text
+                        style={{
+                          fontWeight: "bold",
+                          fontSize: 13,
+                          color: colorDefaultfour,
+                        }}
+                      >
+                        {"5Y"}
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
         ) : (
-          <View style={{ minHeight: failed ? 0 : 300 }}>
-            <Text style={externalStyle.company_overallESG_text}>
-              loading...
-            </Text>
+          <View
+            style={{ padding: 20, paddingBottom: -10, flexDirection: "row" }}
+          >
+            <Image
+              source={require("../Interface_icons/14-Alerts/48w/alert-circle.png")}
+              style={{ height: 20, width: 20, paddingRight: 20 }}
+            />
+            <Text style={{ paddingLeft: 20 }}> Stock Data is not avaible</Text>
           </View>
         )}
       </View>
       {esgrating ? ( // if no esgrating, no showing the esg data
-        <View style={{ marginTop: -30 }}>
-          <View style={externalStyle.home_component}>
-            <View style={{ width: "27.5%", alignItems: "flex-end" }}>
-              <View style={externalStyle.more_buttom}>
-                <TouchableOpacity onPress={() => onDButtonClicked()}>
-                  <Text
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: 13,
-                      color: colorDefaultone,
-                    }}
-                  >
-                    {"W"}
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            </View>
-            <View style={{ width: "20%", alignItems: "flex-end" }}>
-              <View style={externalStyle.more_buttom}>
-                <TouchableOpacity onPress={() => onWButtonClicked()}>
-                  <Text
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: 13,
-                      color: colorDefaulttwo,
-                    }}
-                  >
-                    {"M"}
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            </View>
-            <View style={{ width: "20%", alignItems: "flex-end" }}>
-              <View style={externalStyle.more_buttom}>
-                <TouchableOpacity onPress={() => onMButtonClicked()}>
-                  <Text
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: 13,
-                      color: colorDefaultthree,
-                    }}
-                  >
-                    {"5M"}
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            </View>
-            <View style={{ width: "20%", alignItems: "flex-end" }}>
-              <View style={externalStyle.more_buttom}>
-                <TouchableOpacity onPress={() => onYButtonClicked()}>
-                  <Text
-                    style={{
-                      fontWeight: "bold",
-                      fontSize: 13,
-                      color: colorDefaultfour,
-                    }}
-                  >
-                    {"5Y"}
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            </View>
-          </View>
-
+        <View>
           <Text style={externalStyle.company_overallESG_text}>ESG Score</Text>
           <View style={externalStyle.company_esg_score_card}>
             <SafeAreaView style={{ flex: 1 }}>
@@ -524,12 +521,18 @@ const Detail = ({ navigation, route }) => {
           <Text style={{ paddingLeft: 20 }}> ESG Data is not avaible</Text>
         </View>
       )}
-      <Text style={externalStyle.company_overallESG_text}>Discription</Text>
-      <View style={externalStyle.company_esg_score_card}>
-        <View style={{ width: 370, paddingLeft: 25, paddingTop: 10 }}>
-          <Text style={{ fontSize: 16 }}>{stockdiscription}</Text>
+      {stockPrice ? (
+        <View>
+          <Text style={externalStyle.company_overallESG_text}>Discription</Text>
+          <View style={externalStyle.company_esg_score_card}>
+            <View style={{ width: 370, paddingLeft: 25, paddingTop: 10 }}>
+              <Text style={{ fontSize: 16 }}>{stockdiscription}</Text>
+            </View>
+          </View>
         </View>
-      </View>
+      ) : (
+        <Text></Text>
+      )}
     </ScrollView>
   );
 };

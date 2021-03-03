@@ -1,12 +1,19 @@
 
 -- UPDATE ESGSTOCK
--- SET ticker = 'BAC'
--- WHERE [name] LIKE 'Bank of America Corp.'
+-- SET name  = 'Boeing'
+-- WHERE [name] LIKE 'The Boeing Company'
 
--- SELECT t.*, e.name, e.esgrating, e.rating, e.href, e.[group] FROM tickertable t FULL OUTER JOIN ESGSTOCK e ON t.ticker = e.ticker Where t.company Like 'fb%' or t.ticker Like 'fb%';
-INSERT INTO tickertable
-    (ticker,company)
-VALUES('DIS', 'The Walt Disney Company');
+-- SELECT *
+-- FROM ESGSTOCK
+-- Where [name] Like 'Boeing%';
+ALTER TABLE "ESGSTOCK" CHANGE COLUMN "ticker" TO "esgticker";
+
+-- SELECT t.*, e.name, e.esgrating, e.rating, e.href, e.[group]
+-- FROM tickertable t FULL OUTER JOIN ESGSTOCK e ON t.ticker = e.ticker
+-- Where t.company Like 'Boeing%' or t.ticker Like 'Boeing%' or e.ticker Like 'Boeing%' or e.name Like 'Boeing%' ;
+-- INSERT INTO tickertable
+--     (ticker,company)
+-- VALUES('DIS', 'The Walt Disney Company');
 -- SELECT *
 -- FROM tickertable Where [company] Like 'Facebook%';
 -- SELECT TOP(100)
@@ -69,3 +76,4 @@ VALUES('DIS', 'The Walt Disney Company');
 
 -- SELECT COUNT([name]) AS totalrow
 -- from ESGSTOCK
+

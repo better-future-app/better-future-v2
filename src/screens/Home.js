@@ -36,7 +36,7 @@ const Home = ({ navigation }) => {
   useEffect(() => {
     async function fetchAutoTopTen() {
       const topTenResponse = await fetch(
-        "https://esgstockapi.azurewebsites.net/hotstock"
+        "https://esgstock1.azurewebsites.net/hotstock"
       );
       const topTenData = await topTenResponse.json();
 
@@ -57,7 +57,7 @@ const Home = ({ navigation }) => {
     if (value) {
       console.log("start loading");
       const searchResponse = await fetch(
-        `https://esgstockapi.azurewebsites.net/search?q=${value}`
+        `https://esgstock1.azurewebsites.net/search?q=${value}`
       );
       const searchData = await searchResponse.json();
       if (storeInState) {
@@ -232,7 +232,7 @@ const Home = ({ navigation }) => {
               <SearchBarInfoCard
                 navigation={navigation}
                 stock={item.name || item.company}
-                ticker={item.ticker}
+                ticker={item.ticker || item.stockticker}
                 esgrating={item.esgrating}
                 industry={item.group}
                 esgwarning={item.rating}
@@ -291,7 +291,7 @@ const Home = ({ navigation }) => {
             .slice(0, topTenCount)
             .map((item, index) => (
               <InfoCard
-                ticker={item.ticker}
+                ticker={item.ticker || item.stockticker}
                 navigation={navigation}
                 stock={item.name}
                 esgrating={item.esgrating}
@@ -343,7 +343,7 @@ const Home = ({ navigation }) => {
             <InfoCard
               navigation={navigation}
               stock={item.name || item.company}
-              ticker={item.ticker}
+              ticker={item.ticker || item.stockticker}
               esgrating={item.esgrating}
               industry={item.group}
               esgwarning={item.rating}
