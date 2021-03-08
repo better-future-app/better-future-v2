@@ -49,7 +49,7 @@ const dayNames = [
 ];
 
 // term.monthly
-
+console.log("detials page");
 //  recive things from other pages , { navigation, route } : navigation is auto passed
 //route is what you pass in, it must do the same way for other pages too
 const Detail = ({ navigation, route }) => {
@@ -60,14 +60,14 @@ const Detail = ({ navigation, route }) => {
 
   const _storeData = async () => {
     try {
-      await AsyncStorage.setItem(stock, status); //setItem (key ,value ) (tsla,stared ) ("numberofstock"stock+,10)
+      // await AsyncStorage.setItem(stock, status); //setItem (key ,value ) (tsla,stared ) ("numberofstock"stock+,10)
     } catch (error) {
       console.log("error in _storeData", error);
     }
   };
   const _removeData = async () => {
     try {
-      await AsyncStorage.removeItem(stock);
+      // await AsyncStorage.removeItem(stock);
     } catch (error) {
       // Error retrieving data
       console.log("error in _removeData ");
@@ -85,6 +85,7 @@ const Detail = ({ navigation, route }) => {
   useEffect(() => {
     async function checkifstarted() {
       try {
+        console.log(stock);
         const value = await AsyncStorage.getItem(stock);
         if (value !== null) {
           // We have data!!
@@ -244,6 +245,8 @@ const Detail = ({ navigation, route }) => {
   const [stockPrice, setStockPrice] = useState();
   useEffect(() => {
     // console.log('render');
+
+    let isMounted = true;
     async function fetchAutohistoricPrice() {
       const stockhistoricPriceResponse = await fetch(
         `https://api.tiingo.com/tiingo/daily/${ticker}/prices?startDate=2015-1-1&endDate=${today}&resampleFreq=${Freq}&token=a3c84e49049c02fdbb248d63c783e5e18a621639`
@@ -265,8 +268,10 @@ const Detail = ({ navigation, route }) => {
         .slice(0, 5)
         .reverse();
 
-      setStockPrice(sortedStockData);
-      setLoadinghistoricstockPrice(false);
+      if (isMounted) {
+        setStockPrice(sortedStockData);
+        setLoadinghistoricstockPrice(false);
+      }
     }
 
     // more functions
@@ -274,6 +279,10 @@ const Detail = ({ navigation, route }) => {
       fetchAutohistoricPrice();
     }
     // call more here
+    return () => {
+      console.log("unmounted");
+      isMounted = false;
+    };
   }, [Freq]);
 
   const failed = false;
@@ -457,8 +466,8 @@ const Detail = ({ navigation, route }) => {
                 labels={[
                   {
                     name: "Negl.",
-                    labelColor: "A0D468",
-                    activeBarColor: "#A0D468",
+                    labelColor: "#90be5d",
+                    activeBarColor: "#90be5d",
                   },
                   {
                     name: "Low Risk",

@@ -21,19 +21,12 @@ export default SearchBarInfoCard = ({
   navigation,
   esgwarning,
   ticker,
+  onPress,
 }) => {
   return (
     <TouchableOpacity
       // this is how to pass things to other pages
-      onPress={() =>
-        navigation.navigate("Detail", {
-          stock,
-          industry,
-          esgrating,
-          esgwarning,
-          ticker,
-        })
-      }
+      onPress={() => onPress(ticker)}
       style={{ paddingTop: 5 }}
     >
       <View style={externalStyle.Searchbar_size}>

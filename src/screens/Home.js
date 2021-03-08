@@ -23,7 +23,6 @@ const Home = ({ navigation }) => {
     if (topTenCount == 5) {
       setTopTenCount(10); // setting setTopTenCount to 10
       setTopTenButtonText("Less");
-      console.log("from main ");
     } else {
       setTopTenCount(5);
       setTopTenButtonText("More");
@@ -48,14 +47,11 @@ const Home = ({ navigation }) => {
 
     fetchAutoTopTen();
     // call more here
-    console.log("hi");
   }, []);
   /////////////////////////////////////////////////////////
   // search data /////////////////////////////////////////
   search = async (value, storeInState = true) => {
-    console.log("search", value);
     if (value) {
-      console.log("start loading");
       const searchResponse = await fetch(
         `https://esgstock1.azurewebsites.net/search?q=${value}`
       );
@@ -76,7 +72,6 @@ const Home = ({ navigation }) => {
   // const [isSearching, setIsSearching] = useState(false);
   const searchHandle = useCallback(debounce(search, 500), []); //this is a fucntion
   onChangeText = (value) => {
-    console.log(value);
     if (value.length > 1) {
       searchHandle(value);
       // setIsSearching(true);
@@ -119,19 +114,41 @@ const Home = ({ navigation }) => {
   //////////////////////////////////////////////////////
   ////////////getting stared stocks /////////////////////////////
   const [staredData, setstaredData] = useState([]);
+  const [isStartedData, setIsStaratedDate] = useState(false);
   const updateStarred = async () => {
     try {
       const keys = await AsyncStorage.getAllKeys();
-      console.log("here are the keys");
-      console.log(keys);
+      //console.log("here are the keys");
+      //console.log(keys);
+      // for (var i = 0; i < keys.length; i++) {
+      //   if (keys[i].substring(0, 9) == "numShares") {
+      //     keys.splice(i, 1);
+      //   }
+      // }
 
       const allFavorites = await Promise.all(
         keys.map(async (item) => {
-          console.log(item);
-          const data = await search(item, false);
-          return data.length > 0 ? data[0] : null;
+          //console.log(item);
+          if (
+            item.substring(0, 9) != "numShares" &&
+            item.substring(0, 12) != "averagePrice"
+          ) {
+            const data = await search(item, false);
+            // console.log(data[0]["price"]);
+            return data.length > 0 ? data[0] : null;
+          }
         })
-      );
+      ).then(function (values) {
+        return values.filter(function (value) {
+          return typeof value !== "undefined";
+        });
+      });
+
+      if (allFavorites.length != 0) {
+        setIsStaratedDate(true);
+      } else {
+        setIsStaratedDate(false);
+      }
 
       setstaredData(allFavorites);
     } catch (error) {
@@ -226,19 +243,26 @@ const Home = ({ navigation }) => {
           />
         </View>
         {isKeyboardVisible ? (
-          searchData
-            .slice(0, 5)
-            .map((item, index) => (
-              <SearchBarInfoCard
-                navigation={navigation}
-                stock={item.name || item.company}
-                ticker={item.ticker || item.stockticker}
-                esgrating={item.esgrating}
-                industry={item.group}
-                esgwarning={item.rating}
-                key={index}
-              />
-            ))
+          searchData.slice(0, 5).map((item, index) => (
+            <SearchBarInfoCard
+              navigation={navigation}
+              stock={item.name || item.company}
+              ticker={item.ticker || item.stockticker}
+              esgrating={item.esgrating}
+              industry={item.group}
+              esgwarning={item.rating}
+              key={index}
+              onPress={(ticker) =>
+                navigation.navigate("Detail", {
+                  stock: item.company,
+                  industry: item.industry,
+                  esgrating: item.esgrating,
+                  esgwarning: item.esgwarning,
+                  ticker: item.stockticker,
+                })
+              }
+            />
+          ))
         ) : (
           <Text></Text>
         )}
@@ -327,18 +351,7 @@ const Home = ({ navigation }) => {
         showsHorizontalScrollIndicator={false}
         style={{ paddingBottom: 0 }}
       >
-        {isLoadingTopTen ? (
-          <Text
-            style={{
-              fontWeight: "bold",
-              fontSize: 13,
-              color: "#FFF",
-              textAlign: "center",
-            }}
-          >
-            Loading top ten
-          </Text>
-        ) : (
+        {isStartedData ? (
           staredData.map((item, index) => (
             <InfoCard
               navigation={navigation}
@@ -350,6 +363,14 @@ const Home = ({ navigation }) => {
               key={index}
             />
           ))
+        ) : (
+          <View style={externalStyle.home_company_list}>
+            <View style={externalStyle.card}>
+              <Text style={externalStyle.home_company_text}>
+                No Favorite Stocks
+              </Text>
+            </View>
+          </View>
         )}
       </ScrollView>
       <View style={externalStyle.home_component}>

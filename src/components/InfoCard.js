@@ -22,9 +22,13 @@ export default InfoCard = ({
   industry,
   esgwarning,
   navigation,
+  investmentPage,
 }) => {
+  // make a fucntion to fatch the storage for average price and stock not a map fucntion
+  //just use getiteam(numstock.contact(stock)) for numstock
   const [esgColorIndicator, setEsgColorIndicator] = useState();
   const [esgRating, setEsgRating] = useState();
+  const [isInvestmentPage, setIsInvestmentPage] = useState(false);
   const negl = "#A0D468";
   const lowRisk = "#AAEE68";
   const mediumRisk = "#DCCF36";
@@ -32,7 +36,7 @@ export default InfoCard = ({
   const sever = "#ED5565";
   const noData = "#FFFFFF";
   useEffect(() => {
-    async function assingEsgIndicatorColor() {
+    function assingEsgIndicatorColor() {
       setEsgRating(esgrating);
       if (esgRating <= 10 && esgRating > 0) {
         setEsgColorIndicator(negl);
@@ -48,7 +52,13 @@ export default InfoCard = ({
         setEsgColorIndicator(noData);
       }
     }
+    function checkisInvestmentPage() {
+      if (investmentPage == "ture") {
+        setIsInvestmentPage(true);
+      }
+    }
     assingEsgIndicatorColor();
+    checkisInvestmentPage();
   }, []);
 
   return (
@@ -65,8 +75,8 @@ export default InfoCard = ({
       }
     >
       <View style={externalStyle.home_company_list}>
-        <Image source={image} />
         <View style={externalStyle.card}>
+          {/* chek for isInvestmentPage , and disply numstock  and average price  */}
           <Text style={externalStyle.home_company_text}>{stock}</Text>
           <Text style={externalStyle.home_company_text}>
             <View

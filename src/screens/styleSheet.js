@@ -185,6 +185,16 @@ const styleSheet = StyleSheet.create({
     paddingHorizontal: 10,
     justifyContent: "space-between",
   },
+  Searchbar: {
+    backgroundColor: "#FFF",
+    paddingVertical: 8,
+    paddingHorizontal: 20,
+    marginHorizontal: 25,
+    borderRadius: 15,
+    marginTop: 25,
+    flexDirection: "row",
+    alignItems: "center",
+  },
 });
 
 export default styleSheet;

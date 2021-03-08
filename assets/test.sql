@@ -1,16818 +1,16818 @@
 CREATE TABLE tickertable
 (
-    ticker VARCHAR(33) PRIMARY KEY
+  ticker VARCHAR(33) PRIMARY KEY
   ,
-    company VARCHAR(175)
+  company VARCHAR(175)
 );
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AACG', 'ATA Creativity Global ');
+  ('AACG', 'ATA Creativity Global ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AACQ', 'Artius Acquisition Inc. ');
+  ('AACQ', 'Artius Acquisition Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AACQU', 'Artius Acquisition Inc.');
+  ('AACQU', 'Artius Acquisition Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AACQW', 'Artius Acquisition Inc.');
+  ('AACQW', 'Artius Acquisition Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAL', 'American Airlines Group');
+  ('AAL', 'American Airlines Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAME', 'Atlantic American Corporation');
+  ('AAME', 'Atlantic American Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAOI', 'Applied Optoelectronics');
+  ('AAOI', 'Applied Optoelectronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAON', 'AAON');
+  ('AAON', 'AAON');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAPL', 'Apple Inc.');
+  ('AAPL', 'Apple Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAWW', 'Atlas Air Worldwide Holdings');
+  ('AAWW', 'Atlas Air Worldwide Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AAXJ', 'iShares MSCI All Country Asia ex Japan Index Fund');
+  ('AAXJ', 'iShares MSCI All Country Asia ex Japan Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABCB', 'Ameris Bancorp');
+  ('ABCB', 'Ameris Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABCL', 'AbCellera Biologics Inc.');
+  ('ABCL', 'AbCellera Biologics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABCM', 'Abcam plc ');
+  ('ABCM', 'Abcam plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABEO', 'Abeona Therapeutics Inc.');
+  ('ABEO', 'Abeona Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABGI', 'ABG Acquisition Corp.');
+  ('ABGI', 'ABG Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABIO', 'ARCA biopharma');
+  ('ABIO', 'ARCA biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABMD', 'ABIOMED');
+  ('ABMD', 'ABIOMED');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABNB', 'Airbnb');
+  ('ABNB', 'Airbnb');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABST', 'Absolute Software Corporation');
+  ('ABST', 'Absolute Software Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABTX', 'Allegiance Bancshares');
+  ('ABTX', 'Allegiance Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ABUS', 'Arbutus Biopharma Corporation');
+  ('ABUS', 'Arbutus Biopharma Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACAC', 'Acies Acquisition Corp.');
+  ('ACAC', 'Acies Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACACU', 'Acies Acquisition Corp.');
+  ('ACACU', 'Acies Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACACW', 'Acies Acquisition Corp.');
+  ('ACACW', 'Acies Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACAD', 'ACADIA Pharmaceuticals Inc.');
+  ('ACAD', 'ACADIA Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACBI', 'Atlantic Capital Bancshares');
+  ('ACBI', 'Atlantic Capital Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACCD', 'Accolade');
+  ('ACCD', 'Accolade');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACER', 'Acer Therapeutics Inc.');
+  ('ACER', 'Acer Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACET', 'Adicet Bio');
+  ('ACET', 'Adicet Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACEV', 'ACE Convergence Acquisition Corp.s');
+  ('ACEV', 'ACE Convergence Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACEVU', 'ACE Convergence Acquisition Corp.');
+  ('ACEVU', 'ACE Convergence Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACEVW', 'ACE Convergence Acquisition Corp.');
+  ('ACEVW', 'ACE Convergence Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACGL', 'Arch Capital Group Ltd.');
+  ('ACGL', 'Arch Capital Group Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACGLO', 'Arch Capital Group Ltd. ');
+  ('ACGLO', 'Arch Capital Group Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACGLP', 'Arch Capital Group Ltd. - Depositary Shares Representing Interest in 5.25% Non-Cumulative Preferred Series E Shrs');
+  ('ACGLP', 'Arch Capital Group Ltd. - Depositary Shares Representing Interest in 5.25% Non-Cumulative Preferred Series E Shrs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACHC', 'Acadia Healthcare Company');
+  ('ACHC', 'Acadia Healthcare Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACHV', 'Achieve Life Sciences');
+  ('ACHV', 'Achieve Life Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACIA', 'Acacia Communications');
+  ('ACIA', 'Acacia Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACIU', 'AC Immune SA');
+  ('ACIU', 'AC Immune SA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACIW', 'ACI Worldwide');
+  ('ACIW', 'ACI Worldwide');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACKIT', 'Ackrell SPAC Partners I Co. ');
+  ('ACKIT', 'Ackrell SPAC Partners I Co. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACKIU', 'Ackrell SPAC Partners I Co. s');
+  ('ACKIU', 'Ackrell SPAC Partners I Co. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACKIW', 'Ackrell SPAC Partners I Co. s');
+  ('ACKIW', 'Ackrell SPAC Partners I Co. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACLS', 'Axcelis Technologies');
+  ('ACLS', 'Axcelis Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACMR', 'ACM Research');
+  ('ACMR', 'ACM Research');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACNB', 'ACNB Corporation');
+  ('ACNB', 'ACNB Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACOR', 'Acorda Therapeutics');
+  ('ACOR', 'Acorda Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACRS', 'Aclaris Therapeutics');
+  ('ACRS', 'Aclaris Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACRX', 'AcelRx Pharmaceuticals');
+  ('ACRX', 'AcelRx Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACST', 'Acasti Pharma');
+  ('ACST', 'Acasti Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACTC', 'ArcLight Clean Transition Corp.s');
+  ('ACTC', 'ArcLight Clean Transition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACTCU', 'ArcLight Clean Transition Corp.');
+  ('ACTCU', 'ArcLight Clean Transition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACTCW', 'ArcLight Clean Transition Corp.');
+  ('ACTCW', 'ArcLight Clean Transition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACTG', 'Acacia Research Corporation');
+  ('ACTG', 'Acacia Research Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACWI', 'iShares MSCI ACWI Index Fund');
+  ('ACWI', 'iShares MSCI ACWI Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ACWX', 'iShares MSCI ACWI ex US Index Fund');
+  ('ACWX', 'iShares MSCI ACWI ex US Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADAG', 'Adagene Inc. - ADS');
+  ('ADAG', 'Adagene Inc. - ADS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADAP', 'Adaptimmune Therapeutics plc ');
+  ('ADAP', 'Adaptimmune Therapeutics plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADBE', 'Adobe Inc.');
+  ('ADBE', 'Adobe Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADERU', '26 Capital Acquisition Corp.');
+  ('ADERU', '26 Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADES', 'Advanced Emissions Solutions');
+  ('ADES', 'Advanced Emissions Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADI', 'Analog Devices');
+  ('ADI', 'Analog Devices');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADIL', 'Adial Pharmaceuticals');
+  ('ADIL', 'Adial Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADILW', 'Adial Pharmaceuticals');
+  ('ADILW', 'Adial Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADMA', 'ADMA Biologics Inc');
+  ('ADMA', 'ADMA Biologics Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADMP', 'Adamis Pharmaceuticals Corporation');
+  ('ADMP', 'Adamis Pharmaceuticals Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADMS', 'Adamas Pharmaceuticals');
+  ('ADMS', 'Adamas Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADN', 'Advent Technologies Holdings');
+  ('ADN', 'Advent Technologies Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADNWW', 'Advent Technologies Holdings');
+  ('ADNWW', 'Advent Technologies Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADOC', 'Edoc Acquisition Corp.');
+  ('ADOC', 'Edoc Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADOCR', 'Edoc Acquisition Corp.');
+  ('ADOCR', 'Edoc Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADOCW', 'Edoc Acquisition Corp.');
+  ('ADOCW', 'Edoc Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADP', 'Automatic Data Processing');
+  ('ADP', 'Automatic Data Processing');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADPT', 'Adaptive Biotechnologies Corporation');
+  ('ADPT', 'Adaptive Biotechnologies Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADRE', 'Invesco BLDRS Emerging Markets 50 ADR Index Fund');
+  ('ADRE', 'Invesco BLDRS Emerging Markets 50 ADR Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADSK', 'Autodesk');
+  ('ADSK', 'Autodesk');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADTN', 'ADTRAN');
+  ('ADTN', 'ADTRAN');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADTX', 'ADiTx Therapeutics');
+  ('ADTX', 'ADiTx Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADUS', 'Addus HomeCare Corporation');
+  ('ADUS', 'Addus HomeCare Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADV', 'Advantage Solutions Inc.  ');
+  ('ADV', 'Advantage Solutions Inc.  ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADVM', 'Adverum Biotechnologies');
+  ('ADVM', 'Adverum Biotechnologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADVWW', 'Advantage Solutions Inc. ');
+  ('ADVWW', 'Advantage Solutions Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADXN', 'Addex Therapeutics Ltd ');
+  ('ADXN', 'Addex Therapeutics Ltd ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ADXS', 'Advaxis');
+  ('ADXS', 'Advaxis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEACU', 'Authentic Equity Acquisition Corp.');
+  ('AEACU', 'Authentic Equity Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEGN', 'Aegion Corp ');
+  ('AEGN', 'Aegion Corp ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEHL', 'Antelope Enterprise Holdings Limited');
+  ('AEHL', 'Antelope Enterprise Holdings Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEHR', 'Aehr Test Systems');
+  ('AEHR', 'Aehr Test Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEI', 'Alset EHome International Inc.');
+  ('AEI', 'Alset EHome International Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEIS', 'Advanced Energy Industries');
+  ('AEIS', 'Advanced Energy Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEMD', 'Aethlon Medical');
+  ('AEMD', 'Aethlon Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEP', 'American Electric Power Company');
+  ('AEP', 'American Electric Power Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEPPL', 'American Electric Power Company');
+  ('AEPPL', 'American Electric Power Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEPPZ', 'American Electric Power Company');
+  ('AEPPZ', 'American Electric Power Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AERI', 'Aerie Pharmaceuticals');
+  ('AERI', 'Aerie Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AESE', 'Allied Esports Entertainment');
+  ('AESE', 'Allied Esports Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEY', 'ADDvantage Technologies Group');
+  ('AEY', 'ADDvantage Technologies Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEYE', 'AudioEye');
+  ('AEYE', 'AudioEye');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AEZS', 'Aeterna Zentaris Inc.');
+  ('AEZS', 'Aeterna Zentaris Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFBI', 'Affinity Bancshares');
+  ('AFBI', 'Affinity Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFIB', 'Acutus Medical');
+  ('AFIB', 'Acutus Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFIN', 'American Finance Trust');
+  ('AFIN', 'American Finance Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFINO', 'American Finance Trust');
+  ('AFINO', 'American Finance Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFINP', 'American Finance Trust');
+  ('AFINP', 'American Finance Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFMD', 'Affimed N.V.');
+  ('AFMD', 'Affimed N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFRM', 'Affirm Holdings');
+  ('AFRM', 'Affirm Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AFYA', 'Afya Limited ');
+  ('AFYA', 'Afya Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGBA', 'AGBA Acquisition Limited ');
+  ('AGBA', 'AGBA Acquisition Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGBAR', 'AGBA Acquisition Limited');
+  ('AGBAR', 'AGBA Acquisition Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGBAU', 'AGBA Acquisition Limited');
+  ('AGBAU', 'AGBA Acquisition Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGBAW', 'AGBA Acquisition Limited');
+  ('AGBAW', 'AGBA Acquisition Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGC', 'Altimeter Growth Corp.s');
+  ('AGC', 'Altimeter Growth Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGCUU', 'Altimeter Growth Corp.');
+  ('AGCUU', 'Altimeter Growth Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGCWW', 'Altimeter Growth Corp.');
+  ('AGCWW', 'Altimeter Growth Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGEN', 'Agenus Inc.');
+  ('AGEN', 'Agenus Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGFS', 'AgroFresh Solutions');
+  ('AGFS', 'AgroFresh Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGFY', 'Agrify Corporation');
+  ('AGFY', 'Agrify Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGIO', 'Agios Pharmaceuticals');
+  ('AGIO', 'Agios Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGLE', 'Aeglea BioTherapeutics');
+  ('AGLE', 'Aeglea BioTherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGMH', 'AGM Group Holdings Inc.s');
+  ('AGMH', 'AGM Group Holdings Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGNC', 'AGNC Investment Corp.');
+  ('AGNC', 'AGNC Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGNCM', 'AGNC Investment Corp. - Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock');
+  ('AGNCM', 'AGNC Investment Corp. - Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGNCN', 'AGNC Investment Corp. - Depositary Shares Each Representing a 1/1');
+  ('AGNCN', 'AGNC Investment Corp. - Depositary Shares Each Representing a 1/1');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGNCO', 'AGNC Investment Corp. - Depositary Shares');
+  ('AGNCO', 'AGNC Investment Corp. - Depositary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGNCP', 'AGNC Investment Corp. - Depositary Shares Each Representing a 1/1');
+  ('AGNCP', 'AGNC Investment Corp. - Depositary Shares Each Representing a 1/1');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGRX', 'Agile Therapeutics');
+  ('AGRX', 'Agile Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGTC', 'Applied Genetic Technologies Corporation');
+  ('AGTC', 'Applied Genetic Technologies Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGYS', 'Agilysys');
+  ('AGYS', 'Agilysys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AGZD', 'WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund');
+  ('AGZD', 'WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AHAC', 'Alpha Healthcare Acquisition Corp.');
+  ('AHAC', 'Alpha Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AHACU', 'Alpha Healthcare Acquisition Corp.');
+  ('AHACU', 'Alpha Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AHACW', 'Alpha Healthcare Acquisition Corp.');
+  ('AHACW', 'Alpha Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AHCO', 'AdaptHealth Corp.  ');
+  ('AHCO', 'AdaptHealth Corp.  ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AHPI', 'Allied Healthcare Products');
+  ('AHPI', 'Allied Healthcare Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIA', 'iShares Asia 50 ETF');
+  ('AIA', 'iShares Asia 50 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIH', 'Aesthetic Medical International Holdings Group Ltd. ');
+  ('AIH', 'Aesthetic Medical International Holdings Group Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIHS', 'Senmiao Technology Limited');
+  ('AIHS', 'Senmiao Technology Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIKI', 'AIkido Pharma Inc.');
+  ('AIKI', 'AIkido Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIMC', 'Altra Industrial Motion Corp.');
+  ('AIMC', 'Altra Industrial Motion Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AINV', 'Apollo Investment Corporation - Closed End Fund');
+  ('AINV', 'Apollo Investment Corporation - Closed End Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIQ', 'Global X Artificial Intelligence & Technology ETF');
+  ('AIQ', 'Global X Artificial Intelligence & Technology ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIRG', 'Airgain');
+  ('AIRG', 'Airgain');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIRR', 'First Trust RBA American Industrial Renaissance ETF');
+  ('AIRR', 'First Trust RBA American Industrial Renaissance ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIRT', 'Air T');
+  ('AIRT', 'Air T');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIRTP', 'Air T');
+  ('AIRTP', 'Air T');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AIRTW', 'Air T');
+  ('AIRTW', 'Air T');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKAM', 'Akamai Technologies');
+  ('AKAM', 'Akamai Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKBA', 'Akebia Therapeutics');
+  ('AKBA', 'Akebia Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKER', 'Akers Biosciences Inc.');
+  ('AKER', 'Akers Biosciences Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKICU', 'Sports Ventures Acquisition Corp.');
+  ('AKICU', 'Sports Ventures Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKRO', 'Akero Therapeutics');
+  ('AKRO', 'Akero Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKTS', 'Akoustis Technologies');
+  ('AKTS', 'Akoustis Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKTX', 'Akari Therapeutics Plc ');
+  ('AKTX', 'Akari Therapeutics Plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKU', 'Akumin Inc.');
+  ('AKU', 'Akumin Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AKUS', 'Akouos');
+  ('AKUS', 'Akouos');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALAC', 'Alberton Acquisition Corporation s');
+  ('ALAC', 'Alberton Acquisition Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALACR', 'Alberton Acquisition Corporations');
+  ('ALACR', 'Alberton Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALACU', 'Alberton Acquisition Corporation');
+  ('ALACU', 'Alberton Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALACW', 'Alberton Acquisition Corporation');
+  ('ALACW', 'Alberton Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALBO', 'Albireo Pharma');
+  ('ALBO', 'Albireo Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALCO', 'Alico');
+  ('ALCO', 'Alico');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALDX', 'Aldeyra Therapeutics');
+  ('ALDX', 'Aldeyra Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALEC', 'Alector');
+  ('ALEC', 'Alector');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALGM', 'Allegro MicroSystems');
+  ('ALGM', 'Allegro MicroSystems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALGN', 'Align Technology');
+  ('ALGN', 'Align Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALGS', 'Aligos Therapeutics');
+  ('ALGS', 'Aligos Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALGT', 'Allegiant Travel Company');
+  ('ALGT', 'Allegiant Travel Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALIM', 'Alimera Sciences');
+  ('ALIM', 'Alimera Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALJJ', 'ALJ Regional Holdings');
+  ('ALJJ', 'ALJ Regional Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALKS', 'Alkermes plc s');
+  ('ALKS', 'Alkermes plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALLK', 'Allakos Inc.');
+  ('ALLK', 'Allakos Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALLO', 'Allogene Therapeutics');
+  ('ALLO', 'Allogene Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALLT', 'Allot Ltd. s');
+  ('ALLT', 'Allot Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALNA', 'Allena Pharmaceuticals');
+  ('ALNA', 'Allena Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALNY', 'Alnylam Pharmaceuticals');
+  ('ALNY', 'Alnylam Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALOT', 'AstroNova');
+  ('ALOT', 'AstroNova');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALPN', 'Alpine Immune Sciences');
+  ('ALPN', 'Alpine Immune Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALRM', 'Alarm.com Holdings');
+  ('ALRM', 'Alarm.com Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALRN', 'Aileron Therapeutics');
+  ('ALRN', 'Aileron Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALRS', 'Alerus Financial Corporation');
+  ('ALRS', 'Alerus Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALSK', 'Alaska Communications Systems Group');
+  ('ALSK', 'Alaska Communications Systems Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALT', 'Altimmune');
+  ('ALT', 'Altimmune');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTA', 'Altabancorp');
+  ('ALTA', 'Altabancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTM', 'Altus Midstream Company ');
+  ('ALTM', 'Altus Midstream Company ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTO', 'Alto Ingredients');
+  ('ALTO', 'Alto Ingredients');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTR', 'Altair Engineering Inc. ');
+  ('ALTR', 'Altair Engineering Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTU', 'Altitude Acquisition Corp. ');
+  ('ALTU', 'Altitude Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTUU', 'Altitude Acquisition Corp.');
+  ('ALTUU', 'Altitude Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTUW', 'Altitude Acquisition Corp.');
+  ('ALTUW', 'Altitude Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALTY', 'Global X SuperDividend Alternatives ETF');
+  ('ALTY', 'Global X SuperDividend Alternatives ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALVR', 'AlloVir');
+  ('ALVR', 'AlloVir');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALXN', 'Alexion Pharmaceuticals');
+  ('ALXN', 'Alexion Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALXO', 'ALX Oncology Holdings Inc.');
+  ('ALXO', 'ALX Oncology Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ALYA', 'Alithya Group inc. - Class A subordinate voting shares');
+  ('ALYA', 'Alithya Group inc. - Class A subordinate voting shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMAL', 'Amalgamated Bank ');
+  ('AMAL', 'Amalgamated Bank ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMAT', 'Applied Materials');
+  ('AMAT', 'Applied Materials');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMBA', 'Ambarella');
+  ('AMBA', 'Ambarella');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMCA', 'iShares Russell 1000 Pure U.S. Revenue ETF');
+  ('AMCA', 'iShares Russell 1000 Pure U.S. Revenue ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMCX', 'AMC Networks Inc. ');
+  ('AMCX', 'AMC Networks Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMD', 'Advanced Micro Devices');
+  ('AMD', 'Advanced Micro Devices');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMED', 'Amedisys Inc');
+  ('AMED', 'Amedisys Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMEH', 'Apollo Medical Holdings');
+  ('AMEH', 'Apollo Medical Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMGN', 'Amgen Inc.');
+  ('AMGN', 'Amgen Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMHC', 'Amplitude Healthcare Acquisition Corporation ');
+  ('AMHC', 'Amplitude Healthcare Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMHCU', 'Amplitude Healthcare Acquisition Corporation');
+  ('AMHCU', 'Amplitude Healthcare Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMHCW', 'Amplitude Healthcare Acquisition Corporation');
+  ('AMHCW', 'Amplitude Healthcare Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMKR', 'Amkor Technology');
+  ('AMKR', 'Amkor Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMNB', 'American National Bankshares');
+  ('AMNB', 'American National Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMOT', 'Allied Motion Technologies');
+  ('AMOT', 'Allied Motion Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMPG', 'Amplitech Group');
+  ('AMPG', 'Amplitech Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMPGW', 'Amplitech Group');
+  ('AMPGW', 'Amplitech Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMPH', 'Amphastar Pharmaceuticals');
+  ('AMPH', 'Amphastar Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMRB', 'American River Bankshares');
+  ('AMRB', 'American River Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMRK', 'A-Mark Precious Metals');
+  ('AMRK', 'A-Mark Precious Metals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMRN', 'Amarin Corporation plc ');
+  ('AMRN', 'Amarin Corporation plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMRS', 'Amyris');
+  ('AMRS', 'Amyris');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMSC', 'American Superconductor Corporation');
+  ('AMSC', 'American Superconductor Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMSF', 'AMERISAFE');
+  ('AMSF', 'AMERISAFE');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMST', 'Amesite Inc.');
+  ('AMST', 'Amesite Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMSWA', 'American Software');
+  ('AMSWA', 'American Software');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMTB', 'Amerant Bancorp Inc. ');
+  ('AMTB', 'Amerant Bancorp Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMTBB', 'Amerant Bancorp Inc. - Class B Common Stock');
+  ('AMTBB', 'Amerant Bancorp Inc. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMTI', 'Applied Molecular Transport Inc.');
+  ('AMTI', 'Applied Molecular Transport Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMTX', 'Aemetis');
+  ('AMTX', 'Aemetis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMWD', 'American Woodmark Corporation');
+  ('AMWD', 'American Woodmark Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMYT', 'Amryt Pharma plc ');
+  ('AMYT', 'Amryt Pharma plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AMZN', 'Amazon.com');
+  ('AMZN', 'Amazon.com');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANAB', 'AnaptysBio');
+  ('ANAB', 'AnaptysBio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANAT', 'American National Group');
+  ('ANAT', 'American National Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANCN', 'Anchiano Therapeutics Ltd. ');
+  ('ANCN', 'Anchiano Therapeutics Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANDA', 'Andina Acquisition Corp. III s');
+  ('ANDA', 'Andina Acquisition Corp. III s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANDAR', 'Andina Acquisition Corp. III');
+  ('ANDAR', 'Andina Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANDAU', 'Andina Acquisition Corp. III');
+  ('ANDAU', 'Andina Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANDAW', 'Andina Acquisition Corp. III');
+  ('ANDAW', 'Andina Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANDE', 'The Andersons');
+  ('ANDE', 'The Andersons');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANGI', 'ANGI Homeservices Inc. ');
+  ('ANGI', 'ANGI Homeservices Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANGL', 'VanEck Vectors Fallen Angel High Yield Bond ETF');
+  ('ANGL', 'VanEck Vectors Fallen Angel High Yield Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANGN', 'Angion Biomedica Corp.');
+  ('ANGN', 'Angion Biomedica Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANGO', 'AngioDynamics');
+  ('ANGO', 'AngioDynamics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANIK', 'Anika Therapeutics Inc.');
+  ('ANIK', 'Anika Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANIP', 'ANI Pharmaceuticals');
+  ('ANIP', 'ANI Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANIX', 'Anixa Biosciences');
+  ('ANIX', 'Anixa Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANNX', 'Annexon');
+  ('ANNX', 'Annexon');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANPC', 'AnPac Bio-Medical Science Co.');
+  ('ANPC', 'AnPac Bio-Medical Science Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANSS', 'ANSYS');
+  ('ANSS', 'ANSYS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANTE', 'AirNet Technology Inc. ');
+  ('ANTE', 'AirNet Technology Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ANY', 'Sphere 3D Corp.');
+  ('ANY', 'Sphere 3D Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AOSL', 'Alpha and Omega Semiconductor Limited');
+  ('AOSL', 'Alpha and Omega Semiconductor Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AOUT', 'American Outdoor Brands');
+  ('AOUT', 'American Outdoor Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APA', 'Apache Corporation');
+  ('APA', 'Apache Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APDN', 'Applied DNA Sciences');
+  ('APDN', 'Applied DNA Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APEI', 'American Public Education');
+  ('APEI', 'American Public Education');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APEN', 'Apollo Endosurgery');
+  ('APEN', 'Apollo Endosurgery');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APHA', 'Aphria Inc.');
+  ('APHA', 'Aphria Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('API', 'Agora');
+  ('API', 'Agora');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APLS', 'Apellis Pharmaceuticals');
+  ('APLS', 'Apellis Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APLT', 'Applied Therapeutics');
+  ('APLT', 'Applied Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APM', 'Aptorum Group Limiteds');
+  ('APM', 'Aptorum Group Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APOG', 'Apogee Enterprises');
+  ('APOG', 'Apogee Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APOP', 'Cellect Biotechnology Ltd. ');
+  ('APOP', 'Cellect Biotechnology Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APOPW', 'Cellect Biotechnology Ltd.s to Purchase ADR (1 WT and $7.50 to purchase 0.2 ADS)');
+  ('APOPW', 'Cellect Biotechnology Ltd.s to Purchase ADR (1 WT and $7.50 to purchase 0.2 ADS)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APPF', 'AppFolio');
+  ('APPF', 'AppFolio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APPH', 'AppHarvest');
+  ('APPH', 'AppHarvest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APPHW', 'AppHarvest');
+  ('APPHW', 'AppHarvest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APPN', 'Appian Corporation ');
+  ('APPN', 'Appian Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APPS', 'Digital Turbine');
+  ('APPS', 'Digital Turbine');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APR', 'Apria');
+  ('APR', 'Apria');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APRE', 'Aprea Therapeutics');
+  ('APRE', 'Aprea Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APTO', 'Aptose Biosciences');
+  ('APTO', 'Aptose Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APTX', 'Aptinyx Inc.');
+  ('APTX', 'Aptinyx Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APVO', 'Aptevo Therapeutics Inc.');
+  ('APVO', 'Aptevo Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APWC', 'Asia Pacific Wire ');
+  ('APWC', 'Asia Pacific Wire ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APXT', 'Apex Technology Acquisition Corporation ');
+  ('APXT', 'Apex Technology Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APXTU', 'Apex Technology Acquisition Corporation');
+  ('APXTU', 'Apex Technology Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APXTW', 'Apex Technology Acquisition Corporation');
+  ('APXTW', 'Apex Technology Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('APYX', 'Apyx Medical Corporation');
+  ('APYX', 'Apyx Medical Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AQB', 'AquaBounty Technologies');
+  ('AQB', 'AquaBounty Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AQMS', 'Aqua Metals');
+  ('AQMS', 'Aqua Metals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AQST', 'Aquestive Therapeutics');
+  ('AQST', 'Aquestive Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARAV', 'Aravive');
+  ('ARAV', 'Aravive');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARAY', 'Accuray Incorporated');
+  ('ARAY', 'Accuray Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARBG', 'Aequi Acquisition Corp.');
+  ('ARBG', 'Aequi Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARBGU', 'Aequi Acquisition Corp.');
+  ('ARBGU', 'Aequi Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARBGW', 'Aequi Acquisition Corp.s');
+  ('ARBGW', 'Aequi Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARCB', 'ArcBest Corporation');
+  ('ARCB', 'ArcBest Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARCC', 'Ares Capital Corporation - Closed End Fund');
+  ('ARCC', 'Ares Capital Corporation - Closed End Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARCE', 'Arco Platform Limited ');
+  ('ARCE', 'Arco Platform Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARCT', 'Arcturus Therapeutics Holdings Inc.');
+  ('ARCT', 'Arcturus Therapeutics Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARDS', 'Aridis Pharmaceuticals Inc.');
+  ('ARDS', 'Aridis Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARDX', 'Ardelyx');
+  ('ARDX', 'Ardelyx');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AREC', 'American Resources Corporation ');
+  ('AREC', 'American Resources Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARGX', 'argenx SE ');
+  ('ARGX', 'argenx SE ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARKIU', 'Ark Global Acquisition Corp.');
+  ('ARKIU', 'Ark Global Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARKO', 'ARKO Corp.');
+  ('ARKO', 'ARKO Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARKOW', 'ARKO Corp.');
+  ('ARKOW', 'ARKO Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARKR', 'Ark Restaurants Corp.');
+  ('ARKR', 'Ark Restaurants Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARLP', 'Alliance Resource Partners');
+  ('ARLP', 'Alliance Resource Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARNA', 'Arena Pharmaceuticals');
+  ('ARNA', 'Arena Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AROW', 'Arrow Financial Corporation');
+  ('AROW', 'Arrow Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARPO', 'Aerpio Pharmaceuticals');
+  ('ARPO', 'Aerpio Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARQT', 'Arcutis Biotherapeutics');
+  ('ARQT', 'Arcutis Biotherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARRY', 'Array Technologies');
+  ('ARRY', 'Array Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARTL', 'Artelo Biosciences');
+  ('ARTL', 'Artelo Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARTLW', 'Artelo Biosciences');
+  ('ARTLW', 'Artelo Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARTNA', 'Artesian Resources Corporation - Class A Non-Voting Common Stock');
+  ('ARTNA', 'Artesian Resources Corporation - Class A Non-Voting Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARTW', 'Art''s-Way Manufacturing Co.');
+  ('ARTW', 'Art''s-Way Manufacturing Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARVN', 'Arvinas');
+  ('ARVN', 'Arvinas');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARWR', 'Arrowhead Pharmaceuticals');
+  ('ARWR', 'Arrowhead Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ARYA', 'ARYA Sciences Acquisition Corp IIIs');
+  ('ARYA', 'ARYA Sciences Acquisition Corp IIIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASAXU', 'Astrea Acquisition Corp.');
+  ('ASAXU', 'Astrea Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASET', 'FlexShares Real Assets Allocation Index Fund');
+  ('ASET', 'FlexShares Real Assets Allocation Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASLE', 'AerSale Corporation');
+  ('ASLE', 'AerSale Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASLEW', 'AerSale Corporations');
+  ('ASLEW', 'AerSale Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASLN', 'ASLAN Pharmaceuticals Limited ');
+  ('ASLN', 'ASLAN Pharmaceuticals Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASMB', 'Assembly Biosciences');
+  ('ASMB', 'Assembly Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASML', 'ASML Holding N.V. - New York Registry Shares');
+  ('ASML', 'ASML Holding N.V. - New York Registry Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASND', 'Ascendis Pharma A/S ');
+  ('ASND', 'Ascendis Pharma A/S ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASO', 'Academy Sports and Outdoors');
+  ('ASO', 'Academy Sports and Outdoors');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASPCU', 'Alpha Capital Acquisition Company');
+  ('ASPCU', 'Alpha Capital Acquisition Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASPS', 'Altisource Portfolio Solutions S.A.');
+  ('ASPS', 'Altisource Portfolio Solutions S.A.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASPU', 'Aspen Group Inc.');
+  ('ASPU', 'Aspen Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASRT', 'Assertio Holdings');
+  ('ASRT', 'Assertio Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASRV', 'AmeriServ Financial Inc.');
+  ('ASRV', 'AmeriServ Financial Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASRVP', 'AmeriServ Financial Inc. - AmeriServ Financial Trust I - 8.45% Beneficial Unsecured Securities');
+  ('ASRVP', 'AmeriServ Financial Inc. - AmeriServ Financial Trust I - 8.45% Beneficial Unsecured Securities');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASTC', 'Astrotech Corporation');
+  ('ASTC', 'Astrotech Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASTE', 'Astec Industries');
+  ('ASTE', 'Astec Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASUR', 'Asure Software Inc');
+  ('ASUR', 'Asure Software Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ASYS', 'Amtech Systems');
+  ('ASYS', 'Amtech Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATAX', 'America First Multifamily Investors');
+  ('ATAX', 'America First Multifamily Investors');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATCX', 'Atlas Technical Consultants');
+  ('ATCX', 'Atlas Technical Consultants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATEC', 'Alphatec Holdings');
+  ('ATEC', 'Alphatec Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATEX', 'Anterix Inc.');
+  ('ATEX', 'Anterix Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATHA', 'Athira Pharma');
+  ('ATHA', 'Athira Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATHE', 'Alterity Therapeutics Limited ');
+  ('ATHE', 'Alterity Therapeutics Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATHX', 'Athersys');
+  ('ATHX', 'Athersys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATIF', 'ATIF Holdings Limited s');
+  ('ATIF', 'ATIF Holdings Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATLC', 'Atlanticus Holdings Corporation');
+  ('ATLC', 'Atlanticus Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATLO', 'Ames National Corporation');
+  ('ATLO', 'Ames National Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATNF', '180 Life Sciences Corp.');
+  ('ATNF', '180 Life Sciences Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATNFW', '180 Life Sciences Corp.');
+  ('ATNFW', '180 Life Sciences Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATNI', 'ATN International');
+  ('ATNI', 'ATN International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATNX', 'Athenex');
+  ('ATNX', 'Athenex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATOM', 'Atomera Incorporated');
+  ('ATOM', 'Atomera Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATOS', 'Atossa Therapeutics');
+  ('ATOS', 'Atossa Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATRA', 'Atara Biotherapeutics');
+  ('ATRA', 'Atara Biotherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATRC', 'AtriCure');
+  ('ATRC', 'AtriCure');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATRI', 'Atrion Corporation');
+  ('ATRI', 'Atrion Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATRO', 'Astronics Corporation');
+  ('ATRO', 'Astronics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATRS', 'Antares Pharma');
+  ('ATRS', 'Antares Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATSG', 'Air Transport Services Group');
+  ('ATSG', 'Air Transport Services Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATVI', 'Activision Blizzard');
+  ('ATVI', 'Activision Blizzard');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ATXI', 'Avenue Therapeutics');
+  ('ATXI', 'Avenue Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUB', 'Atlantic Union Bankshares Corporation');
+  ('AUB', 'Atlantic Union Bankshares Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUBAP', 'Atlantic Union Bankshares Corporation - Depositary Shares each representing a 1/400th ownership interest in a share of 6.875%Perpetual Non-Cumulative Preferred Stock');
+  ('AUBAP', 'Atlantic Union Bankshares Corporation - Depositary Shares each representing a 1/400th ownership interest in a share of 6.875%Perpetual Non-Cumulative Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUBN', 'Auburn National Bancorporation');
+  ('AUBN', 'Auburn National Bancorporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUDC', 'AudioCodes Ltd. s');
+  ('AUDC', 'AudioCodes Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUPH', 'Aurinia Pharmaceuticals Inc');
+  ('AUPH', 'Aurinia Pharmaceuticals Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUTL', 'Autolus Therapeutics plc ');
+  ('AUTL', 'Autolus Therapeutics plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUTO', 'AutoWeb');
+  ('AUTO', 'AutoWeb');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUUD', 'Auddia Inc.');
+  ('AUUD', 'Auddia Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUUDW', 'Auddia Inc.s');
+  ('AUUDW', 'Auddia Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AUVI', 'Applied UV');
+  ('AUVI', 'Applied UV');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVAV', 'AeroVironment');
+  ('AVAV', 'AeroVironment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVCO', 'Avalon GloboCare Corp.');
+  ('AVCO', 'Avalon GloboCare Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVCT', 'American Virtual Cloud Technologies');
+  ('AVCT', 'American Virtual Cloud Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVCTW', 'American Virtual Cloud Technologies');
+  ('AVCTW', 'American Virtual Cloud Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVDL', 'Avadel Pharmaceuticals plc  each representing one Ordinary Share');
+  ('AVDL', 'Avadel Pharmaceuticals plc  each representing one Ordinary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVEO', 'AVEO Pharmaceuticals');
+  ('AVEO', 'AVEO Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVGO', 'Broadcom Inc.');
+  ('AVGO', 'Broadcom Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVGOP', 'Broadcom Inc. - 8.00% Mandatory Convertible Preferred Stock');
+  ('AVGOP', 'Broadcom Inc. - 8.00% Mandatory Convertible Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVGR', 'Avinger');
+  ('AVGR', 'Avinger');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVID', 'Avid Technology');
+  ('AVID', 'Avid Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVIR', 'Atea Pharmaceuticals');
+  ('AVIR', 'Atea Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVNW', 'Aviat Networks');
+  ('AVNW', 'Aviat Networks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVO', 'Mission Produce');
+  ('AVO', 'Mission Produce');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVRO', 'AVROBIO');
+  ('AVRO', 'AVROBIO');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVT', 'Avnet');
+  ('AVT', 'Avnet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AVXL', 'Anavex Life Sciences Corp.');
+  ('AVXL', 'Anavex Life Sciences Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AWH', 'Aspira Women''s Health Inc.');
+  ('AWH', 'Aspira Women''s Health Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AWRE', 'Aware');
+  ('AWRE', 'Aware');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXAS', 'Abraxas Petroleum Corporation');
+  ('AXAS', 'Abraxas Petroleum Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXDX', 'Accelerate Diagnostics');
+  ('AXDX', 'Accelerate Diagnostics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXGN', 'Axogen');
+  ('AXGN', 'Axogen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXLA', 'Axcella Health Inc.');
+  ('AXLA', 'Axcella Health Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXNX', 'Axonics Modulation Technologies');
+  ('AXNX', 'Axonics Modulation Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXON', 'Axon Enterprise');
+  ('AXON', 'Axon Enterprise');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXSM', 'Axsome Therapeutics');
+  ('AXSM', 'Axsome Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AXTI', 'AXT Inc');
+  ('AXTI', 'AXT Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AY', 'Atlantica Sustainable Infrastructure plc s');
+  ('AY', 'Atlantica Sustainable Infrastructure plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AYLA', 'Ayala Pharmaceuticals');
+  ('AYLA', 'Ayala Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AYRO', 'AYRO');
+  ('AYRO', 'AYRO');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AYTU', 'Aytu BioScience');
+  ('AYTU', 'Aytu BioScience');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AZN', 'AstraZeneca PLC ');
+  ('AZN', 'AstraZeneca PLC ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AZPN', 'Aspen Technology');
+  ('AZPN', 'Aspen Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AZRX', 'AzurRx BioPharma');
+  ('AZRX', 'AzurRx BioPharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('AZYO', 'Aziyo Biologics');
+  ('AZYO', 'Aziyo Biologics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BAND', 'Bandwidth Inc. ');
+  ('BAND', 'Bandwidth Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BANF', 'BancFirst Corporation');
+  ('BANF', 'BancFirst Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BANFP', 'BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities');
+  ('BANFP', 'BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BANR', 'Banner Corporation');
+  ('BANR', 'Banner Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BANX', 'StoneCastle Financial Corp');
+  ('BANX', 'StoneCastle Financial Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BAOS', 'Baosheng Media Group Holdings Limited s');
+  ('BAOS', 'Baosheng Media Group Holdings Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BASI', 'Bioanalytical Systems');
+  ('BASI', 'Bioanalytical Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BATRA', 'Liberty Media Corporation - Series A Liberty Braves Common Stock');
+  ('BATRA', 'Liberty Media Corporation - Series A Liberty Braves Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BATRK', 'Liberty Media Corporation - Series C Liberty Braves Common Stock');
+  ('BATRK', 'Liberty Media Corporation - Series C Liberty Braves Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBBY', 'Bed Bath & Beyond Inc.');
+  ('BBBY', 'Bed Bath & Beyond Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBCP', 'Concrete Pumping Holdings');
+  ('BBCP', 'Concrete Pumping Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBGI', 'Beasley Broadcast Group');
+  ('BBGI', 'Beasley Broadcast Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBH', 'VanEck Vectors Biotech ETF');
+  ('BBH', 'VanEck Vectors Biotech ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBI', 'Brickell Biotech');
+  ('BBI', 'Brickell Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBIG', 'Vinco Ventures');
+  ('BBIG', 'Vinco Ventures');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBIO', 'BridgeBio Pharma');
+  ('BBIO', 'BridgeBio Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBQ', 'BBQ Holdings');
+  ('BBQ', 'BBQ Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BBSI', 'Barrett Business Services');
+  ('BBSI', 'Barrett Business Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCAB', 'BioAtla');
+  ('BCAB', 'BioAtla');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCAC', 'Brookline Capital Acquisition Corp.');
+  ('BCAC', 'Brookline Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCACU', 'Brookline Capital Acquisition Corp.s');
+  ('BCACU', 'Brookline Capital Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCACW', 'Brookline Capital Acquisition Corp.');
+  ('BCACW', 'Brookline Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCBP', 'BCB Bancorp');
+  ('BCBP', 'BCB Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCDA', 'BioCardia');
+  ('BCDA', 'BioCardia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCDAW', 'BioCardia');
+  ('BCDAW', 'BioCardia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCEL', 'Atreca');
+  ('BCEL', 'Atreca');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCLI', 'Brainstorm Cell Therapeutics Inc.');
+  ('BCLI', 'Brainstorm Cell Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCML', 'BayCom Corp');
+  ('BCML', 'BayCom Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCOR', 'Blucora');
+  ('BCOR', 'Blucora');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCOV', 'Brightcove Inc.');
+  ('BCOV', 'Brightcove Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCOW', '1895 Bancorp of Wisconsin');
+  ('BCOW', '1895 Bancorp of Wisconsin');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCPC', 'Balchem Corporation');
+  ('BCPC', 'Balchem Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCRX', 'BioCryst Pharmaceuticals');
+  ('BCRX', 'BioCryst Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCTG', 'BCTG Acquisition Corp.');
+  ('BCTG', 'BCTG Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCTX', 'BriaCell Therapeutics Corp.');
+  ('BCTX', 'BriaCell Therapeutics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCTXW', 'BriaCell Therapeutics Corp.');
+  ('BCTXW', 'BriaCell Therapeutics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCYC', 'Bicycle Therapeutics plc ');
+  ('BCYC', 'Bicycle Therapeutics plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCYP', 'Big Cypress Acquisition Corp.');
+  ('BCYP', 'Big Cypress Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCYPU', 'Big Cypress Acquisition Corp.');
+  ('BCYPU', 'Big Cypress Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BCYPW', 'Big Cypress Acquisition Corp.');
+  ('BCYPW', 'Big Cypress Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BDSI', 'BioDelivery Sciences International');
+  ('BDSI', 'BioDelivery Sciences International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BDSX', 'Biodesix');
+  ('BDSX', 'Biodesix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BDTX', 'Black Diamond Therapeutics');
+  ('BDTX', 'Black Diamond Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BEAM', 'Beam Therapeutics Inc.');
+  ('BEAM', 'Beam Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BECN', 'Beacon Roofing Supply');
+  ('BECN', 'Beacon Roofing Supply');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BEEM', 'Beam Global');
+  ('BEEM', 'Beam Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BEEMW', 'Beam Global');
+  ('BEEMW', 'Beam Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BELFA', 'Bel Fuse Inc. ');
+  ('BELFA', 'Bel Fuse Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BELFB', 'Bel Fuse Inc. - Class B Common Stock');
+  ('BELFB', 'Bel Fuse Inc. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BENE', 'Benessere Capital Acquisition Corp. ');
+  ('BENE', 'Benessere Capital Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BENER', 'Benessere Capital Acquisition Corp.');
+  ('BENER', 'Benessere Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BENEU', 'Benessere Capital Acquisition Corp.');
+  ('BENEU', 'Benessere Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BENEW', 'Benessere Capital Acquisition Corp.');
+  ('BENEW', 'Benessere Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFC', 'Bank First Corporation');
+  ('BFC', 'Bank First Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFI', 'BurgerFi International Inc');
+  ('BFI', 'BurgerFi International Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFIIW', 'BurgerFi International Inc');
+  ('BFIIW', 'BurgerFi International Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFIN', 'BankFinancial Corporation');
+  ('BFIN', 'BankFinancial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFIT', 'Global X Health & Wellness Thematic ETF');
+  ('BFIT', 'Global X Health & Wellness Thematic ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFRA', 'Biofrontera AG ');
+  ('BFRA', 'Biofrontera AG ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BFST', 'Business First Bancshares');
+  ('BFST', 'Business First Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BGCP', 'BGC Partners');
+  ('BGCP', 'BGC Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BGFV', 'Big 5 Sporting Goods Corporation');
+  ('BGFV', 'Big 5 Sporting Goods Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BGNE', 'BeiGene');
+  ('BGNE', 'BeiGene');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BGRN', 'iShares Global Green Bond ETF');
+  ('BGRN', 'iShares Global Green Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHAT', 'Blue Hat Interactive Entertainment Technology s');
+  ('BHAT', 'Blue Hat Interactive Entertainment Technology s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHF', 'Brighthouse Financial');
+  ('BHF', 'Brighthouse Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHFAL', 'Brighthouse Financial');
+  ('BHFAL', 'Brighthouse Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHFAN', 'Brighthouse Financial');
+  ('BHFAN', 'Brighthouse Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHFAO', 'Brighthouse Financial');
+  ('BHFAO', 'Brighthouse Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHFAP', 'Brighthouse Financial');
+  ('BHFAP', 'Brighthouse Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHSE', 'Bull Horn Holdings Corp. s');
+  ('BHSE', 'Bull Horn Holdings Corp. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHSEU', 'Bull Horn Holdings Corp.');
+  ('BHSEU', 'Bull Horn Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHSEW', 'Bull Horn Holdings Corp.s');
+  ('BHSEW', 'Bull Horn Holdings Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BHTG', 'BioHiTech Global');
+  ('BHTG', 'BioHiTech Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIB', 'ProShares Ultra Nasdaq Biotechnology');
+  ('BIB', 'ProShares Ultra Nasdaq Biotechnology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BICK', 'First Trust BICK Index Fund');
+  ('BICK', 'First Trust BICK Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIDU', 'Baidu');
+  ('BIDU', 'Baidu');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIGC', 'BigCommerce Holdings');
+  ('BIGC', 'BigCommerce Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIIB', 'Biogen Inc.');
+  ('BIIB', 'Biogen Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BILI', 'Bilibili Inc. ');
+  ('BILI', 'Bilibili Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIMI', 'BOQI International Medical Inc.');
+  ('BIMI', 'BOQI International Medical Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIOC', 'Biocept');
+  ('BIOC', 'Biocept');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIOL', 'Biolase');
+  ('BIOL', 'Biolase');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIOTU', 'Biotech Acquisition Company');
+  ('BIOTU', 'Biotech Acquisition Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIS', 'ProShares UltraShort Nasdaq Biotechnology');
+  ('BIS', 'ProShares UltraShort Nasdaq Biotechnology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BIVI', 'BioVie Inc.');
+  ('BIVI', 'BioVie Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BJK', 'VanEck Vectors Gaming ETF');
+  ('BJK', 'VanEck Vectors Gaming ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BJRI', 'BJ''s Restaurants');
+  ('BJRI', 'BJ''s Restaurants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKCC', 'BlackRock Capital Investment Corporation');
+  ('BKCC', 'BlackRock Capital Investment Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKEP', 'Blueknight Energy Partners L.P.');
+  ('BKEP', 'Blueknight Energy Partners L.P.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKEPP', 'Blueknight Energy Partners L.P.');
+  ('BKEPP', 'Blueknight Energy Partners L.P.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKNG', 'Booking Holdings Inc.');
+  ('BKNG', 'Booking Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKSC', 'Bank of South Carolina Corp.');
+  ('BKSC', 'Bank of South Carolina Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BKYI', 'BIO-key International');
+  ('BKYI', 'BIO-key International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BL', 'BlackLine');
+  ('BL', 'BlackLine');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLBD', 'Blue Bird Corporation');
+  ('BLBD', 'Blue Bird Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLCM', 'Bellicum Pharmaceuticals');
+  ('BLCM', 'Bellicum Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLCN', 'Siren Nasdaq NexGen Economy ETF');
+  ('BLCN', 'Siren Nasdaq NexGen Economy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLCT', 'BlueCity Holdings Limited ');
+  ('BLCT', 'BlueCity Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLDP', 'Ballard Power Systems');
+  ('BLDP', 'Ballard Power Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLDR', 'Builders FirstSource');
+  ('BLDR', 'Builders FirstSource');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLFS', 'BioLife Solutions');
+  ('BLFS', 'BioLife Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLI', 'Berkeley Lights');
+  ('BLI', 'Berkeley Lights');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLIN', 'Bridgeline Digital');
+  ('BLIN', 'Bridgeline Digital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLKB', 'Blackbaud');
+  ('BLKB', 'Blackbaud');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLMN', 'Bloomin'' Brands');
+  ('BLMN', 'Bloomin'' Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLNK', 'Blink Charging Co.');
+  ('BLNK', 'Blink Charging Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLNKW', 'Blink Charging Co.');
+  ('BLNKW', 'Blink Charging Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLPH', 'Bellerophon Therapeutics');
+  ('BLPH', 'Bellerophon Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLRX', 'BioLineRx Ltd. ');
+  ('BLRX', 'BioLineRx Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLSA', 'BCLS Acquisition Corp.s');
+  ('BLSA', 'BCLS Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLTSU', 'Bright Lights Acquisition Corp.');
+  ('BLTSU', 'Bright Lights Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLU', 'BELLUS Health Inc.');
+  ('BLU', 'BELLUS Health Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLUE', 'bluebird bio');
+  ('BLUE', 'bluebird bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLUW', 'Blue Water Acquisition Corp. ');
+  ('BLUW', 'Blue Water Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLUWU', 'Blue Water Acquisition Corp.');
+  ('BLUWU', 'Blue Water Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BLUWW', 'Blue Water Acquisition Corp.');
+  ('BLUWW', 'Blue Water Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMBL', 'Bumble Inc.');
+  ('BMBL', 'Bumble Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMLP', 'Dorsey Wright MLP Index ETNs due December 10');
+  ('BMLP', 'Dorsey Wright MLP Index ETNs due December 10');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMRA', 'Biomerica');
+  ('BMRA', 'Biomerica');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMRC', 'Bank of Marin Bancorp');
+  ('BMRC', 'Bank of Marin Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMRN', 'BioMarin Pharmaceutical Inc.');
+  ('BMRN', 'BioMarin Pharmaceutical Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BMTC', 'Bryn Mawr Bank Corporation');
+  ('BMTC', 'Bryn Mawr Bank Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BND', 'Vanguard Total Bond Market ETF');
+  ('BND', 'Vanguard Total Bond Market ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNDW', 'Vanguard Total World Bond ETF');
+  ('BNDW', 'Vanguard Total World Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNDX', 'Vanguard Total International Bond ETF');
+  ('BNDX', 'Vanguard Total International Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNFT', 'Benefitfocus');
+  ('BNFT', 'Benefitfocus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNGO', 'Bionano Genomics');
+  ('BNGO', 'Bionano Genomics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNGOW', 'Bionano Genomics');
+  ('BNGOW', 'Bionano Genomics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNR', 'Burning Rock Biotech Limited ');
+  ('BNR', 'Burning Rock Biotech Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNSO', 'Bonso Electronics International');
+  ('BNSO', 'Bonso Electronics International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNTC', 'Benitec Biopharma Inc.');
+  ('BNTC', 'Benitec Biopharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BNTX', 'BioNTech SE ');
+  ('BNTX', 'BioNTech SE ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOCH', 'Bank of Commerce Holdings (CA)');
+  ('BOCH', 'Bank of Commerce Holdings (CA)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOKF', 'BOK Financial Corporation');
+  ('BOKF', 'BOK Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOKFL', 'BOK Financial Corporation - 5.375% Subordinated Notes due 2056');
+  ('BOKFL', 'BOK Financial Corporation - 5.375% Subordinated Notes due 2056');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOLT', 'Bolt Biotherapeutics');
+  ('BOLT', 'Bolt Biotherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOMN', 'Boston Omaha Corporation ');
+  ('BOMN', 'Boston Omaha Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOOM', 'DMC Global Inc.');
+  ('BOOM', 'DMC Global Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOSC', 'B.O.S. Better Online Solutions s');
+  ('BOSC', 'B.O.S. Better Online Solutions s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOTJ', 'Bank of the James Financial Group');
+  ('BOTJ', 'Bank of the James Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOTZ', 'Global X Robotics & Artificial Intelligence ETF');
+  ('BOTZ', 'Global X Robotics & Artificial Intelligence ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOWX', 'BowX Acquisition Corp. ');
+  ('BOWX', 'BowX Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOWXU', 'BowX Acquisition Corp.');
+  ('BOWXU', 'BowX Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOWXW', 'BowX Acquisition Corp.');
+  ('BOWXW', 'BowX Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BOXL', 'Boxlight Corporation ');
+  ('BOXL', 'Boxlight Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPFH', 'Boston Private Financial Holdings');
+  ('BPFH', 'Boston Private Financial Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPMC', 'Blueprint Medicines Corporation');
+  ('BPMC', 'Blueprint Medicines Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPOP', 'Popular');
+  ('BPOP', 'Popular');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPOPM', 'Popular');
+  ('BPOPM', 'Popular');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPOPN', 'Popular');
+  ('BPOPN', 'Popular');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPRN', 'The Bank of Princeton');
+  ('BPRN', 'The Bank of Princeton');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPTH', 'Bio-Path Holdings');
+  ('BPTH', 'Bio-Path Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPTS', 'Biophytis SA - American Depositary Share');
+  ('BPTS', 'Biophytis SA - American Depositary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPY', 'Brookfield Property Partners L.P. - Limited Partnership Units');
+  ('BPY', 'Brookfield Property Partners L.P. - Limited Partnership Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPYPN', 'Brookfield Property Partners L.P. - 5.750% Class A Cumulative Redeemable Perpetual Preferred Units');
+  ('BPYPN', 'Brookfield Property Partners L.P. - 5.750% Class A Cumulative Redeemable Perpetual Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPYPO', 'Brookfield Property Partners L.P. - 6.375% Class A Cumulative Redeemable Perpetual Preferred Units');
+  ('BPYPO', 'Brookfield Property Partners L.P. - 6.375% Class A Cumulative Redeemable Perpetual Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPYPP', 'Brookfield Property Partners L.P. - 6.50% Class A Cumulative Redeemable Perpetual Preferred Units');
+  ('BPYPP', 'Brookfield Property Partners L.P. - 6.50% Class A Cumulative Redeemable Perpetual Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPYU', 'Brookfield Property REIT Inc. ');
+  ('BPYU', 'Brookfield Property REIT Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BPYUP', 'Brookfield Property REIT Inc. - 6.375% Series A Preferred Stock');
+  ('BPYUP', 'Brookfield Property REIT Inc. - 6.375% Series A Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BREZ', 'Breeze Holdings Acquisition Corp.');
+  ('BREZ', 'Breeze Holdings Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BREZR', 'Breeze Holdings Acquisition Corp.');
+  ('BREZR', 'Breeze Holdings Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BREZW', 'Breeze Holdings Acquisition Corp.');
+  ('BREZW', 'Breeze Holdings Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRID', 'Bridgford Foods Corporation');
+  ('BRID', 'Bridgford Foods Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRKL', 'Brookline Bancorp');
+  ('BRKL', 'Brookline Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRKR', 'Bruker Corporation');
+  ('BRKR', 'Bruker Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRKS', 'Brooks Automation');
+  ('BRKS', 'Brooks Automation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRLI', 'Brilliant Acquisition Corporation s');
+  ('BRLI', 'Brilliant Acquisition Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRLIR', 'Brilliant Acquisition Corporations');
+  ('BRLIR', 'Brilliant Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRLIU', 'Brilliant Acquisition Corporation');
+  ('BRLIU', 'Brilliant Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRLIW', 'Brilliant Acquisition Corporations');
+  ('BRLIW', 'Brilliant Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BROG', 'Brooge Energy Limited  s');
+  ('BROG', 'Brooge Energy Limited  s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BROGW', 'Brooge Energy Limited ');
+  ('BROGW', 'Brooge Energy Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRP', 'BRP Group');
+  ('BRP', 'BRP Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRPA', 'Big Rock Partners Acquisition Corp.');
+  ('BRPA', 'Big Rock Partners Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRPAR', 'Big Rock Partners Acquisition Corp.');
+  ('BRPAR', 'Big Rock Partners Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRPAU', 'Big Rock Partners Acquisition Corp.');
+  ('BRPAU', 'Big Rock Partners Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRPAW', 'Big Rock Partners Acquisition Corp.');
+  ('BRPAW', 'Big Rock Partners Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRPMU', 'B. Riley Principal 150 Merger Corp.');
+  ('BRPMU', 'B. Riley Principal 150 Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRQS', 'Borqs Technologies');
+  ('BRQS', 'Borqs Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BRY', 'Berry Corporation (bry)');
+  ('BRY', 'Berry Corporation (bry)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSAE', 'Invesco BulletShares 2021 USD Emerging Markets Debt ETF');
+  ('BSAE', 'Invesco BulletShares 2021 USD Emerging Markets Debt ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSBE', 'Invesco BulletShares 2022 USD Emerging Markets Debt ETF');
+  ('BSBE', 'Invesco BulletShares 2022 USD Emerging Markets Debt ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSBK', 'Bogota Financial Corp.');
+  ('BSBK', 'Bogota Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCE', 'Invesco BulletShares 2023 USD Emerging Markets Debt ETF');
+  ('BSCE', 'Invesco BulletShares 2023 USD Emerging Markets Debt ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCL', 'Invesco BulletShares 2021 Corporate Bond ETF');
+  ('BSCL', 'Invesco BulletShares 2021 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCM', 'Invesco BulletShares 2022 Corporate Bond ETF');
+  ('BSCM', 'Invesco BulletShares 2022 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCN', 'Invesco BulletShares 2023 Corporate Bond ETF');
+  ('BSCN', 'Invesco BulletShares 2023 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCO', 'Invesco BulletShares 2024 Corporate Bond ETF');
+  ('BSCO', 'Invesco BulletShares 2024 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCP', 'Invesco BulletShares 2025 Corporate Bond ETF');
+  ('BSCP', 'Invesco BulletShares 2025 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCQ', 'Invesco BulletShares 2026 Corporate Bond ETF');
+  ('BSCQ', 'Invesco BulletShares 2026 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCR', 'Invesco BulletShares 2027 Corporate Bond ETF');
+  ('BSCR', 'Invesco BulletShares 2027 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCS', 'Invesco BulletShares 2028 Corporate Bond ETF');
+  ('BSCS', 'Invesco BulletShares 2028 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCT', 'Invesco BulletShares 2029 Corporate Bond ETF');
+  ('BSCT', 'Invesco BulletShares 2029 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSCU', 'Invesco BulletShares 2030 Corporate Bond ETF');
+  ('BSCU', 'Invesco BulletShares 2030 Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSDE', 'Invesco BulletShares 2024 USD Emerging Markets Debt ETF');
+  ('BSDE', 'Invesco BulletShares 2024 USD Emerging Markets Debt ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSET', 'Bassett Furniture Industries');
+  ('BSET', 'Bassett Furniture Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSGM', 'BioSig Technologies');
+  ('BSGM', 'BioSig Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJL', 'Invesco BulletShares 2021 High Yield Corporate Bond ETF');
+  ('BSJL', 'Invesco BulletShares 2021 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJM', 'Invesco BulletShares 2022 High Yield Corporate Bond ETF');
+  ('BSJM', 'Invesco BulletShares 2022 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJN', 'Invesco BulletShares 2023 High Yield Corporate Bond ETF');
+  ('BSJN', 'Invesco BulletShares 2023 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJO', 'Invesco BulletShares 2024 High Yield Corporate Bond ETF');
+  ('BSJO', 'Invesco BulletShares 2024 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJP', 'Invesco BulletShares 2025 High Yield Corporate Bond ETF');
+  ('BSJP', 'Invesco BulletShares 2025 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJQ', 'Invesco BulletShares 2026 High Yield Corporate Bond ETF');
+  ('BSJQ', 'Invesco BulletShares 2026 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJR', 'Invesco BulletShares 2027 High Yield Corporate Bond ETF');
+  ('BSJR', 'Invesco BulletShares 2027 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSJS', 'Invesco BulletShares 2028 High Yield Corporate Bond ETF');
+  ('BSJS', 'Invesco BulletShares 2028 High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSML', 'Invesco BulletShares 2021 Municipal Bond ETF');
+  ('BSML', 'Invesco BulletShares 2021 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMM', 'Invesco BulletShares 2022 Municipal Bond ETF');
+  ('BSMM', 'Invesco BulletShares 2022 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMN', 'Invesco BulletShares 2023 Municipal Bond ETF');
+  ('BSMN', 'Invesco BulletShares 2023 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMO', 'Invesco BulletShares 2024 Municipal Bond ETF');
+  ('BSMO', 'Invesco BulletShares 2024 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMP', 'Invesco BulletShares 2025 Municipal Bond ETF');
+  ('BSMP', 'Invesco BulletShares 2025 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMQ', 'Invesco BulletShares 2026 Municipal Bond ETF');
+  ('BSMQ', 'Invesco BulletShares 2026 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMR', 'Invesco BulletShares 2027 Municipal Bond ETF');
+  ('BSMR', 'Invesco BulletShares 2027 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMS', 'Invesco BulletShares 2028 Municipal Bond ETF');
+  ('BSMS', 'Invesco BulletShares 2028 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMT', 'Invesco BulletShares 2029 Municipal Bond ETF');
+  ('BSMT', 'Invesco BulletShares 2029 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSMU', 'Invesco BulletShares 2030 Municipal Bond ETF');
+  ('BSMU', 'Invesco BulletShares 2030 Municipal Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSPE', 'Bespoke Capital Acquisition Corp. - Class A Restricted Voting Shares');
+  ('BSPE', 'Bespoke Capital Acquisition Corp. - Class A Restricted Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSQR', 'BSQUARE Corporation');
+  ('BSQR', 'BSQUARE Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSRR', 'Sierra Bancorp');
+  ('BSRR', 'Sierra Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSVN', 'Bank7 Corp.');
+  ('BSVN', 'Bank7 Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BSY', 'Bentley Systems');
+  ('BSY', 'Bentley Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTAI', 'BioXcel Therapeutics');
+  ('BTAI', 'BioXcel Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTAQ', 'Burgundy Technology Acquisition Corporations');
+  ('BTAQ', 'Burgundy Technology Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTAQU', 'Burgundy Technology Acquisition Corporation');
+  ('BTAQU', 'Burgundy Technology Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTAQW', 'Burgundy Technology Acquisition Corporation');
+  ('BTAQW', 'Burgundy Technology Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTBT', 'Bit Digital');
+  ('BTBT', 'Bit Digital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTEC', 'Principal Healthcare Innovators Index ETF');
+  ('BTEC', 'Principal Healthcare Innovators Index ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTNB', 'Bridgetown 2 Holdings Limiteds');
+  ('BTNB', 'Bridgetown 2 Holdings Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTRS', 'BTRS Holdings Inc. - Class 1 Common Stock');
+  ('BTRS', 'BTRS Holdings Inc. - Class 1 Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTRSW', 'BTRS Holdings Inc.s');
+  ('BTRSW', 'BTRS Holdings Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTWN', 'Bridgetown Holdings Limiteds');
+  ('BTWN', 'Bridgetown Holdings Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTWNU', 'Bridgetown Holdings Limiteds');
+  ('BTWNU', 'Bridgetown Holdings Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BTWNW', 'Bridgetown Holdings Limiteds');
+  ('BTWNW', 'Bridgetown Holdings Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BUG', 'Global X Cybersecurity ETF');
+  ('BUG', 'Global X Cybersecurity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BUSE', 'First Busey Corporation');
+  ('BUSE', 'First Busey Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BVS', 'Bioventus Inc. ');
+  ('BVS', 'Bioventus Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BVXV', 'BiondVax Pharmaceuticals Ltd. ');
+  ('BVXV', 'BiondVax Pharmaceuticals Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWAC', 'Better World Acquisition Corp.');
+  ('BWAC', 'Better World Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWACU', 'Better World Acquisition Corp.');
+  ('BWACU', 'Better World Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWACW', 'Better World Acquisition Corp.s');
+  ('BWACW', 'Better World Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWAY', 'Brainsway Ltd. ');
+  ('BWAY', 'Brainsway Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWB', 'Bridgewater Bancshares');
+  ('BWB', 'Bridgewater Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWEN', 'Broadwind');
+  ('BWEN', 'Broadwind');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWFG', 'Bankwell Financial Group');
+  ('BWFG', 'Bankwell Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BWMX', 'Betterware de Mexico');
+  ('BWMX', 'Betterware de Mexico');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BXRX', 'Baudax Bio');
+  ('BXRX', 'Baudax Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BYFC', 'Broadway Financial Corporation');
+  ('BYFC', 'Broadway Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BYND', 'Beyond Meat');
+  ('BYND', 'Beyond Meat');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BYSI', 'BeyondSpring');
+  ('BYSI', 'BeyondSpring');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('BZUN', 'Baozun Inc. ');
+  ('BZUN', 'Baozun Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAAS', 'China Automotive Systems');
+  ('CAAS', 'China Automotive Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CABA', 'Cabaletta Bio');
+  ('CABA', 'Cabaletta Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAC', 'Camden National Corporation');
+  ('CAC', 'Camden National Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CACC', 'Credit Acceptance Corporation');
+  ('CACC', 'Credit Acceptance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CACG', 'ClearBridge All Cap Growth ETF');
+  ('CACG', 'ClearBridge All Cap Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAHCU', 'CA Healthcare Acquisition Corp.');
+  ('CAHCU', 'CA Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAKE', 'The Cheesecake Factory Incorporated');
+  ('CAKE', 'The Cheesecake Factory Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CALA', 'Calithera Biosciences');
+  ('CALA', 'Calithera Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CALB', 'California BanCorp');
+  ('CALB', 'California BanCorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CALM', 'Cal-Maine Foods');
+  ('CALM', 'Cal-Maine Foods');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CALT', 'Calliditas Therapeutics AB ');
+  ('CALT', 'Calliditas Therapeutics AB ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAMP', 'CalAmp Corp.');
+  ('CAMP', 'CalAmp Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAMT', 'Camtek Ltd. s');
+  ('CAMT', 'Camtek Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAN', 'Canaan Inc. ');
+  ('CAN', 'Canaan Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAPA', 'HighCape Capital Acquisition Corp. ');
+  ('CAPA', 'HighCape Capital Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAPAU', 'HighCape Capital Acquisition Corp.');
+  ('CAPAU', 'HighCape Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAPAW', 'HighCape Capital Acquisition Corp.');
+  ('CAPAW', 'HighCape Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAPR', 'Capricor Therapeutics');
+  ('CAPR', 'Capricor Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CAR', 'Avis Budget Group');
+  ('CAR', 'Avis Budget Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CARA', 'Cara Therapeutics');
+  ('CARA', 'Cara Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CARE', 'Carter Bankshares');
+  ('CARE', 'Carter Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CARG', 'CarGurus');
+  ('CARG', 'CarGurus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CARV', 'Carver Bancorp');
+  ('CARV', 'Carver Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CARZ', 'First Trust NASDAQ Global Auto Index Fund');
+  ('CARZ', 'First Trust NASDAQ Global Auto Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CASA', 'Casa Systems');
+  ('CASA', 'Casa Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CASH', 'Meta Financial Group');
+  ('CASH', 'Meta Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CASI', 'CASI Pharmaceuticals');
+  ('CASI', 'CASI Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CASS', 'Cass Information Systems');
+  ('CASS', 'Cass Information Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CASY', 'Caseys General Stores');
+  ('CASY', 'Caseys General Stores');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CATB', 'Catabasis Pharmaceuticals');
+  ('CATB', 'Catabasis Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CATC', 'Cambridge Bancorp');
+  ('CATC', 'Cambridge Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CATH', 'Global X S&P 500 Catholic Values ETF');
+  ('CATH', 'Global X S&P 500 Catholic Values ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CATM', 'Cardtronics plc');
+  ('CATM', 'Cardtronics plc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CATY', 'Cathay General Bancorp');
+  ('CATY', 'Cathay General Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBAN', 'Colony Bankcorp');
+  ('CBAN', 'Colony Bankcorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBAT', 'CBAK Energy Technology');
+  ('CBAT', 'CBAK Energy Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBAY', 'CymaBay Therapeutics Inc.');
+  ('CBAY', 'CymaBay Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBFV', 'CB Financial Services');
+  ('CBFV', 'CB Financial Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBIO', 'Catalyst Biosciences');
+  ('CBIO', 'Catalyst Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBLI', 'Cleveland BioLabs');
+  ('CBLI', 'Cleveland BioLabs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBMB', 'CBM Bancorp');
+  ('CBMB', 'CBM Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBNK', 'Capital Bancorp');
+  ('CBNK', 'Capital Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBPO', 'China Biologic Products Holdings');
+  ('CBPO', 'China Biologic Products Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBRL', 'Cracker Barrel Old Country Store');
+  ('CBRL', 'Cracker Barrel Old Country Store');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBSH', 'Commerce Bancshares');
+  ('CBSH', 'Commerce Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CBTX', 'CBTX');
+  ('CBTX', 'CBTX');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCAP', 'Crescent Capital BDC');
+  ('CCAP', 'Crescent Capital BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCB', 'Coastal Financial Corporation');
+  ('CCB', 'Coastal Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCBG', 'Capital City Bank Group');
+  ('CCBG', 'Capital City Bank Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCCC', 'C4 Therapeutics');
+  ('CCCC', 'C4 Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCD', 'Calamos Dynamic Convertible & Income Fund');
+  ('CCD', 'Calamos Dynamic Convertible & Income Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCLP', 'CSI Compressco LP - common units');
+  ('CCLP', 'CSI Compressco LP - common units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCMP', 'CMC Materials');
+  ('CCMP', 'CMC Materials');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCNC', 'Code Chain New Continent Limited');
+  ('CCNC', 'Code Chain New Continent Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCNE', 'CNB Financial Corporation');
+  ('CCNE', 'CNB Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCNEP', 'CNB Financial Corporation - Depositary shares');
+  ('CCNEP', 'CNB Financial Corporation - Depositary shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCOI', 'Cogent Communications Holdings');
+  ('CCOI', 'Cogent Communications Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCRC', 'China Customer Relations Centers');
+  ('CCRC', 'China Customer Relations Centers');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCRN', 'Cross Country Healthcare');
+  ('CCRN', 'Cross Country Healthcare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CCXI', 'ChemoCentryx');
+  ('CCXI', 'ChemoCentryx');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CD', 'Chindata Group Holdings Limited ');
+  ('CD', 'Chindata Group Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDAK', 'Codiak BioSciences');
+  ('CDAK', 'Codiak BioSciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDC', 'VictoryShares US EQ Income Enhanced Volatility Wtd ETF');
+  ('CDC', 'VictoryShares US EQ Income Enhanced Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDEV', 'Centennial Resource Development');
+  ('CDEV', 'Centennial Resource Development');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDK', 'CDK Global');
+  ('CDK', 'CDK Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDL', 'VictoryShares US Large Cap High Div Volatility Wtd ETF');
+  ('CDL', 'VictoryShares US Large Cap High Div Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDLX', 'Cardlytics');
+  ('CDLX', 'Cardlytics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDMO', 'Avid Bioservices');
+  ('CDMO', 'Avid Bioservices');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDMOP', 'Avid Bioservices');
+  ('CDMOP', 'Avid Bioservices');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDNA', 'CareDx');
+  ('CDNA', 'CareDx');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDNS', 'Cadence Design Systems');
+  ('CDNS', 'Cadence Design Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDTX', 'Cidara Therapeutics');
+  ('CDTX', 'Cidara Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDW', 'CDW Corporation');
+  ('CDW', 'CDW Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDXC', 'ChromaDex Corporation');
+  ('CDXC', 'ChromaDex Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDXS', 'Codexis');
+  ('CDXS', 'Codexis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CDZI', 'Cadiz');
+  ('CDZI', 'Cadiz');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CECE', 'CECO Environmental Corp.');
+  ('CECE', 'CECO Environmental Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEFA', 'Global X S&P Catholic Values Developed ex-U.S. ETF');
+  ('CEFA', 'Global X S&P Catholic Values Developed ex-U.S. ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CELC', 'Celcuity Inc.');
+  ('CELC', 'Celcuity Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CELH', 'Celsius Holdings');
+  ('CELH', 'Celsius Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEMI', 'Chembio Diagnostics');
+  ('CEMI', 'Chembio Diagnostics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CENHU', 'Centricus Acquisition Corp.');
+  ('CENHU', 'Centricus Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CENT', 'Central Garden & Pet Company');
+  ('CENT', 'Central Garden & Pet Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CENTA', 'Central Garden & Pet Company  Nonvoting');
+  ('CENTA', 'Central Garden & Pet Company  Nonvoting');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CENX', 'Century Aluminum Company');
+  ('CENX', 'Century Aluminum Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CERC', 'Cerecor Inc.');
+  ('CERC', 'Cerecor Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CERE', 'Cerevel Therapeutics Holdings');
+  ('CERE', 'Cerevel Therapeutics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEREW', 'Cerevel Therapeutics Holdings');
+  ('CEREW', 'Cerevel Therapeutics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CERN', 'Cerner Corporation');
+  ('CERN', 'Cerner Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CERS', 'Cerus Corporation');
+  ('CERS', 'Cerus Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CERT', 'Certara');
+  ('CERT', 'Certara');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CETX', 'Cemtrex Inc.');
+  ('CETX', 'Cemtrex Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CETXP', 'Cemtrex Inc. - Series 1 Preferred Stock');
+  ('CETXP', 'Cemtrex Inc. - Series 1 Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CETXW', 'Cemtrex Inc. - Series 1 Warrant');
+  ('CETXW', 'Cemtrex Inc. - Series 1 Warrant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEVA', 'CEVA');
+  ('CEVA', 'CEVA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEY', 'VictoryShares Emerging Market High Div Volatility Wtd ETF');
+  ('CEY', 'VictoryShares Emerging Market High Div Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CEZ', 'VictoryShares Emerging Market Volatility Wtd ETF');
+  ('CEZ', 'VictoryShares Emerging Market Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFA', 'VictoryShares US 500 Volatility Wtd ETF');
+  ('CFA', 'VictoryShares US 500 Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFAC', 'CF Finance Acquisition Corp. III');
+  ('CFAC', 'CF Finance Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFACU', 'CF Finance Acquisition Corp. III');
+  ('CFACU', 'CF Finance Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFACW', 'CF Finance Acquisition Corp. III');
+  ('CFACW', 'CF Finance Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFB', 'CrossFirst Bankshares');
+  ('CFB', 'CrossFirst Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFBK', 'CF Bankshares Inc.');
+  ('CFBK', 'CF Bankshares Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFFI', 'C&F Financial Corporation');
+  ('CFFI', 'C&F Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFFN', 'Capitol Federal Financial');
+  ('CFFN', 'Capitol Federal Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFFVU', 'CF Acquisition Corp. V');
+  ('CFFVU', 'CF Acquisition Corp. V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFII', 'CF Finance Acquisition Corp. II ');
+  ('CFII', 'CF Finance Acquisition Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFIIU', 'CF Finance Acquisition Corp. II');
+  ('CFIIU', 'CF Finance Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFIIW', 'CF Finance Acquisition Corp. II');
+  ('CFIIW', 'CF Finance Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFIV', 'CF Acquisition Corp. IV ');
+  ('CFIV', 'CF Acquisition Corp. IV ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFIVU', 'CF Acquisition Corp. IV');
+  ('CFIVU', 'CF Acquisition Corp. IV');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFIVW', 'CF Acquisition Corp. IV');
+  ('CFIVW', 'CF Acquisition Corp. IV');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFMS', 'Conformis');
+  ('CFMS', 'Conformis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFO', 'VictoryShares US 500 Enhanced Volatility Wtd ETF');
+  ('CFO', 'VictoryShares US 500 Enhanced Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFRX', 'ContraFect Corporation');
+  ('CFRX', 'ContraFect Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CFVIU', 'CF Acquisition Corp. VI');
+  ('CFVIU', 'CF Acquisition Corp. VI');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CG', 'The Carlyle Group Inc.');
+  ('CG', 'The Carlyle Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGBD', 'TCG BDC');
+  ('CGBD', 'TCG BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGC', 'Canopy Growth Corporation');
+  ('CGC', 'Canopy Growth Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGEM', 'Cullinan Management');
+  ('CGEM', 'Cullinan Management');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGEN', 'Compugen Ltd. s');
+  ('CGEN', 'Compugen Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGIX', 'Cancer Genetics');
+  ('CGIX', 'Cancer Genetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGNT', 'Cognyte Software Ltd. s');
+  ('CGNT', 'Cognyte Software Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGNX', 'Cognex Corporation');
+  ('CGNX', 'Cognex Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGO', 'Calamos Global Total Return Fund');
+  ('CGO', 'Calamos Global Total Return Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGRO', 'Collective Growth Corporation ');
+  ('CGRO', 'Collective Growth Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGROU', 'Collective Growth Corporation');
+  ('CGROU', 'Collective Growth Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CGROW', 'Collective Growth Corporation');
+  ('CGROW', 'Collective Growth Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHB', 'Global X China Biotech Innovation ETF');
+  ('CHB', 'Global X China Biotech Innovation ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHCI', 'Comstock Holding Companies');
+  ('CHCI', 'Comstock Holding Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHCO', 'City Holding Company');
+  ('CHCO', 'City Holding Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHDN', 'Churchill Downs');
+  ('CHDN', 'Churchill Downs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHEF', 'The Chefs'' Warehouse');
+  ('CHEF', 'The Chefs'' Warehouse');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHEK', 'Check-Cap Ltd. ');
+  ('CHEK', 'Check-Cap Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHEKZ', 'Check-Cap Ltd. - Series C Warrant');
+  ('CHEKZ', 'Check-Cap Ltd. - Series C Warrant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHFS', 'CHF Solutions');
+  ('CHFS', 'CHF Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHI', 'Calamos Convertible Opportunities and Income Fund');
+  ('CHI', 'Calamos Convertible Opportunities and Income Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHK', 'Chesapeake Energy Corporation');
+  ('CHK', 'Chesapeake Energy Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHKEL', 'Chesapeake Energy Corporation - Class C Warrants');
+  ('CHKEL', 'Chesapeake Energy Corporation - Class C Warrants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHKEW', 'Chesapeake Energy Corporation - Class A Warrants');
+  ('CHKEW', 'Chesapeake Energy Corporation - Class A Warrants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHKEZ', 'Chesapeake Energy Corporation - Class B Warrants');
+  ('CHKEZ', 'Chesapeake Energy Corporation - Class B Warrants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHKP', 'Check Point Software Technologies Ltd. s');
+  ('CHKP', 'Check Point Software Technologies Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHMA', 'Chiasma');
+  ('CHMA', 'Chiasma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHMG', 'Chemung Financial Corp');
+  ('CHMG', 'Chemung Financial Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHNA', 'Loncar China BioPharma ETF');
+  ('CHNA', 'Loncar China BioPharma ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHNG', 'Change Healthcare Inc.');
+  ('CHNG', 'Change Healthcare Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHNGU', 'Change Healthcare Inc. - Tangible Equity Units');
+  ('CHNGU', 'Change Healthcare Inc. - Tangible Equity Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHNR', 'China Natural Resources');
+  ('CHNR', 'China Natural Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHPM', 'CHP Merger Corp. ');
+  ('CHPM', 'CHP Merger Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHPMU', 'CHP Merger Corp.');
+  ('CHPMU', 'CHP Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHPMW', 'CHP Merger Corp.');
+  ('CHPMW', 'CHP Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHRS', 'Coherus BioSciences');
+  ('CHRS', 'Coherus BioSciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHRW', 'C.H. Robinson Worldwide');
+  ('CHRW', 'C.H. Robinson Worldwide');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHSCL', 'CHS Inc - Class B Cumulative Redeemable Preferred Stock');
+  ('CHSCL', 'CHS Inc - Class B Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHSCM', 'CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock');
+  ('CHSCM', 'CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHSCN', 'CHS Inc - Preferred Class B Series 2 Reset Rate');
+  ('CHSCN', 'CHS Inc - Preferred Class B Series 2 Reset Rate');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHSCO', 'CHS Inc - Class B Cumulative Redeemable Preferred Stock');
+  ('CHSCO', 'CHS Inc - Class B Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHSCP', 'CHS Inc - 8%  Cumulative Redeemable Preferred Stock');
+  ('CHSCP', 'CHS Inc - 8%  Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHTR', 'Charter Communications');
+  ('CHTR', 'Charter Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHUY', 'Chuy''s Holdings');
+  ('CHUY', 'Chuy''s Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHW', 'Calamos Global Dynamic Income Fund');
+  ('CHW', 'Calamos Global Dynamic Income Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHX', 'ChampionX Corporation');
+  ('CHX', 'ChampionX Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CHY', 'Calamos Convertible and High Income Fund');
+  ('CHY', 'Calamos Convertible and High Income Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIBR', 'First Trust NASDAQ Cybersecurity ETF');
+  ('CIBR', 'First Trust NASDAQ Cybersecurity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CID', 'VictoryShares International High Div Volatility Wtd ETF');
+  ('CID', 'VictoryShares International High Div Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIDM', 'Cinedigm Corp ');
+  ('CIDM', 'Cinedigm Corp ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIGI', 'Colliers International Group Inc.  - Subordinate Voting Shares');
+  ('CIGI', 'Colliers International Group Inc.  - Subordinate Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIH', 'China Index Holdings Limited - American Depository Shares');
+  ('CIH', 'China Index Holdings Limited - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIIC', 'CIIG Merger Corp. ');
+  ('CIIC', 'CIIG Merger Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIICU', 'CIIG Merger Corp.s');
+  ('CIICU', 'CIIG Merger Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIICW', 'CIIG Merger Corp.s');
+  ('CIICW', 'CIIG Merger Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIL', 'VictoryShares International Volatility Wtd ETF');
+  ('CIL', 'VictoryShares International Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CINF', 'Cincinnati Financial Corporation');
+  ('CINF', 'Cincinnati Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIVB', 'Civista Bancshares');
+  ('CIVB', 'Civista Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIZ', 'VictoryShares Developed Enhanced Volatility Wtd ETF');
+  ('CIZ', 'VictoryShares Developed Enhanced Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CIZN', 'Citizens Holding Company');
+  ('CIZN', 'Citizens Holding Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CJJD', 'China Jo-Jo Drugstores');
+  ('CJJD', 'China Jo-Jo Drugstores');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CKPT', 'Checkpoint Therapeutics');
+  ('CKPT', 'Checkpoint Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLAR', 'Clarus Corporation');
+  ('CLAR', 'Clarus Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLBK', 'Columbia Financial');
+  ('CLBK', 'Columbia Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLBS', 'Caladrius Biosciences');
+  ('CLBS', 'Caladrius Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLDB', 'Cortland Bancorp');
+  ('CLDB', 'Cortland Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLDX', 'Celldex Therapeutics');
+  ('CLDX', 'Celldex Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLEU', 'China Liberal Education Holdings Limited s');
+  ('CLEU', 'China Liberal Education Holdings Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLFD', 'Clearfield');
+  ('CLFD', 'Clearfield');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLGN', 'CollPlant Biotechnologies Ltd. ');
+  ('CLGN', 'CollPlant Biotechnologies Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLIR', 'ClearSign Technologies Corporation');
+  ('CLIR', 'ClearSign Technologies Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLLS', 'Cellectis S.A. ');
+  ('CLLS', 'Cellectis S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLMT', 'Calumet Specialty Products Partners');
+  ('CLMT', 'Calumet Specialty Products Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLNE', 'Clean Energy Fuels Corp.');
+  ('CLNE', 'Clean Energy Fuels Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLNN', 'Clene Inc.');
+  ('CLNN', 'Clene Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLNNW', 'Clene Inc.');
+  ('CLNNW', 'Clene Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLOU', 'Global X Cloud Computing ETF');
+  ('CLOU', 'Global X Cloud Computing ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLOV', 'Clover Health Investments');
+  ('CLOV', 'Clover Health Investments');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLOVW', 'Clover Health Investments');
+  ('CLOVW', 'Clover Health Investments');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLPS', 'CLPS Incorporation');
+  ('CLPS', 'CLPS Incorporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLPT', 'ClearPoint Neuro Inc.');
+  ('CLPT', 'ClearPoint Neuro Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLRB', 'Cellectar Biosciences');
+  ('CLRB', 'Cellectar Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLRBZ', 'Cellectar Biosciences');
+  ('CLRBZ', 'Cellectar Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLRG', 'IQ Chaikin U.S. Large Cap ETF');
+  ('CLRG', 'IQ Chaikin U.S. Large Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLRMU', 'Clarim Acquisition Corp.');
+  ('CLRMU', 'Clarim Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLRO', 'ClearOne');
+  ('CLRO', 'ClearOne');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLSD', 'Clearside Biomedical');
+  ('CLSD', 'Clearside Biomedical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLSK', 'CleanSpark');
+  ('CLSK', 'CleanSpark');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLSN', 'Celsion Corporation');
+  ('CLSN', 'Celsion Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLVR', 'Clever Leaves Holdings Inc.');
+  ('CLVR', 'Clever Leaves Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLVRW', 'Clever Leaves Holdings Inc.');
+  ('CLVRW', 'Clever Leaves Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLVS', 'Clovis Oncology');
+  ('CLVS', 'Clovis Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLWT', 'Euro Tech Holdings Company Limited s');
+  ('CLWT', 'Euro Tech Holdings Company Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CLXT', 'Calyxt');
+  ('CLXT', 'Calyxt');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMBM', 'Cambium Networks Corporation s');
+  ('CMBM', 'Cambium Networks Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMCO', 'Columbus McKinnon Corporation');
+  ('CMCO', 'Columbus McKinnon Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMCSA', 'Comcast Corporation ');
+  ('CMCSA', 'Comcast Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMCT', 'CIM Commercial Trust Corporation');
+  ('CMCT', 'CIM Commercial Trust Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMCTP', 'CIM Commercial Trust Corporation - Series L Preferred Stock');
+  ('CMCTP', 'CIM Commercial Trust Corporation - Series L Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CME', 'CME Group Inc. ');
+  ('CME', 'CME Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMFNL', 'Investcorp Credit Management BDC');
+  ('CMFNL', 'Investcorp Credit Management BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMIIU', 'CM Life Sciences II Inc.');
+  ('CMIIU', 'CM Life Sciences II Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMLF', 'CM Life Sciences');
+  ('CMLF', 'CM Life Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMLFU', 'CM Life Sciences');
+  ('CMLFU', 'CM Life Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMLFW', 'CM Life Sciences');
+  ('CMLFW', 'CM Life Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMLS', 'Cumulus Media Inc. ');
+  ('CMLS', 'Cumulus Media Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMPI', 'Checkmate Pharmaceuticals');
+  ('CMPI', 'Checkmate Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMPR', 'Cimpress plc s');
+  ('CMPR', 'Cimpress plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMPS', 'COMPASS Pathways Plc - American Depository Shares');
+  ('CMPS', 'COMPASS Pathways Plc - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMRX', 'Chimerix');
+  ('CMRX', 'Chimerix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CMTL', 'Comtech Telecommunications Corp.');
+  ('CMTL', 'Comtech Telecommunications Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNBKA', 'Century Bancorp');
+  ('CNBKA', 'Century Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNCE', 'Concert Pharmaceuticals');
+  ('CNCE', 'Concert Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNCR', 'Loncar Cancer Immunotherapy ETF');
+  ('CNCR', 'Loncar Cancer Immunotherapy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNDT', 'Conduent Incorporated');
+  ('CNDT', 'Conduent Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNET', 'ZW Data Action Technologies Inc.');
+  ('CNET', 'ZW Data Action Technologies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNEY', 'CN Energy Group Inc. s');
+  ('CNEY', 'CN Energy Group Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNFR', 'Conifer Holdings');
+  ('CNFR', 'Conifer Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNFRL', 'Conifer Holdings');
+  ('CNFRL', 'Conifer Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNNB', 'Cincinnati Bancorp');
+  ('CNNB', 'Cincinnati Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNOB', 'ConnectOne Bancorp');
+  ('CNOB', 'ConnectOne Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNSL', 'Consolidated Communications Holdings');
+  ('CNSL', 'Consolidated Communications Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNSP', 'CNS Pharmaceuticals');
+  ('CNSP', 'CNS Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNST', 'Constellation Pharmaceuticals');
+  ('CNST', 'Constellation Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNTG', 'Centogene N.V.');
+  ('CNTG', 'Centogene N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNTY', 'Century Casinos');
+  ('CNTY', 'Century Casinos');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNXC', 'Concentrix Corporation');
+  ('CNXC', 'Concentrix Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CNXN', 'PC Connection');
+  ('CNXN', 'PC Connection');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COCP', 'Cocrystal Pharma');
+  ('COCP', 'Cocrystal Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CODA', 'Coda Octopus Group');
+  ('CODA', 'Coda Octopus Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CODX', 'Co-Diagnostics');
+  ('CODX', 'Co-Diagnostics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COFS', 'ChoiceOne Financial Services');
+  ('COFS', 'ChoiceOne Financial Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COGT', 'Cogent Biosciences');
+  ('COGT', 'Cogent Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COHR', 'Coherent');
+  ('COHR', 'Coherent');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COHU', 'Cohu');
+  ('COHU', 'Cohu');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COKE', 'Coca-Cola Consolidated');
+  ('COKE', 'Coca-Cola Consolidated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COLB', 'Columbia Banking System');
+  ('COLB', 'Columbia Banking System');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COLIU', 'Colicity Inc.s');
+  ('COLIU', 'Colicity Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COLL', 'Collegium Pharmaceutical');
+  ('COLL', 'Collegium Pharmaceutical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COLM', 'Columbia Sportswear Company');
+  ('COLM', 'Columbia Sportswear Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COMM', 'CommScope Holding Company');
+  ('COMM', 'CommScope Holding Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COMS', 'ComSovereign Holding Corp.');
+  ('COMS', 'ComSovereign Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COMSW', 'ComSovereign Holding Corp.s');
+  ('COMSW', 'ComSovereign Holding Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COMT', 'iShares Commodities Select Strategy ETF');
+  ('COMT', 'iShares Commodities Select Strategy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CONE', 'CyrusOne Inc');
+  ('CONE', 'CyrusOne Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CONN', 'Conn''s');
+  ('CONN', 'Conn''s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CONX', 'CONX Corp. ');
+  ('CONX', 'CONX Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CONXU', 'CONX Corp.');
+  ('CONXU', 'CONX Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CONXW', 'CONX Corp.');
+  ('CONXW', 'CONX Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COOL', 'Corner Growth Acquisition Corp.s');
+  ('COOL', 'Corner Growth Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COOLU', 'Corner Growth Acquisition Corp.');
+  ('COOLU', 'Corner Growth Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COOLW', 'Corner Growth Acquisition Corp.');
+  ('COOLW', 'Corner Growth Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COOP', 'Mr. Cooper Group Inc.');
+  ('COOP', 'Mr. Cooper Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CORE', 'Core-Mark Holding Company');
+  ('CORE', 'Core-Mark Holding Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CORT', 'Corcept Therapeutics Incorporated');
+  ('CORT', 'Corcept Therapeutics Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COST', 'Costco Wholesale Corporation');
+  ('COST', 'Costco Wholesale Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COUP', 'Coupa Software Incorporated');
+  ('COUP', 'Coupa Software Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COVAU', 'COVA Acquisition Corp.');
+  ('COVAU', 'COVA Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COWN', 'Cowen Inc. ');
+  ('COWN', 'Cowen Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COWNL', 'Cowen Inc. - 7.75% Senior Notes due 2033');
+  ('COWNL', 'Cowen Inc. - 7.75% Senior Notes due 2033');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('COWNZ', 'Cowen Inc. - 7.35% Senior Notes Due 2027');
+  ('COWNZ', 'Cowen Inc. - 7.35% Senior Notes Due 2027');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPAH', 'CounterPath Corporation');
+  ('CPAH', 'CounterPath Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPHC', 'Canterbury Park Holding Corporation');
+  ('CPHC', 'Canterbury Park Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPIX', 'Cumberland Pharmaceuticals Inc.');
+  ('CPIX', 'Cumberland Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPLP', 'Capital Product Partners L.P. - common units representing limited partner interests');
+  ('CPLP', 'Capital Product Partners L.P. - common units representing limited partner interests');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPRT', 'Copart');
+  ('CPRT', 'Copart');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPRX', 'Catalyst Pharmaceuticals');
+  ('CPRX', 'Catalyst Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPSH', 'CPS Technologies Corp.');
+  ('CPSH', 'CPS Technologies Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPSI', 'Computer Programs and Systems');
+  ('CPSI', 'Computer Programs and Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPSS', 'Consumer Portfolio Services');
+  ('CPSS', 'Consumer Portfolio Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPST', 'Capstone Turbine Corporation');
+  ('CPST', 'Capstone Turbine Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPTA', 'Capitala Finance Corp.');
+  ('CPTA', 'Capitala Finance Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPTAG', 'Capitala Finance Corp. - 5.75% Convertible Notes Due 2022');
+  ('CPTAG', 'Capitala Finance Corp. - 5.75% Convertible Notes Due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPTAL', 'Capitala Finance Corp. - 6% Notes Due 2022');
+  ('CPTAL', 'Capitala Finance Corp. - 6% Notes Due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CPZ', 'Calamos Long/Short Equity & Dynamic Income Trust');
+  ('CPZ', 'Calamos Long/Short Equity & Dynamic Income Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRAI', 'CRA International');
+  ('CRAI', 'CRA International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRBP', 'Corbus Pharmaceuticals Holdings');
+  ('CRBP', 'Corbus Pharmaceuticals Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRDF', 'Cardiff Oncology');
+  ('CRDF', 'Cardiff Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CREE', 'Cree');
+  ('CREE', 'Cree');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CREG', 'China Recycling Energy Corporation');
+  ('CREG', 'China Recycling Energy Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRESY', 'Cresud S.A.C.I.F. y A. ');
+  ('CRESY', 'Cresud S.A.C.I.F. y A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CREX', 'Creative Realities');
+  ('CREX', 'Creative Realities');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CREXW', 'Creative Realities');
+  ('CREXW', 'Creative Realities');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRIS', 'Curis');
+  ('CRIS', 'Curis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRKN', 'Crown Electrokinetics Corp.');
+  ('CRKN', 'Crown Electrokinetics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRMD', 'CorMedix Inc.');
+  ('CRMD', 'CorMedix Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRMT', 'America''s Car-Mart');
+  ('CRMT', 'America''s Car-Mart');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRNC', 'Cerence Inc.');
+  ('CRNC', 'Cerence Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRNT', 'Ceragon Networks Ltd. s');
+  ('CRNT', 'Ceragon Networks Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRNX', 'Crinetics Pharmaceuticals');
+  ('CRNX', 'Crinetics Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRON', 'Cronos Group Inc. - Common Share');
+  ('CRON', 'Cronos Group Inc. - Common Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CROX', 'Crocs');
+  ('CROX', 'Crocs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRSA', 'Crescent Acquisition Corp ');
+  ('CRSA', 'Crescent Acquisition Corp ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRSAU', 'Crescent Acquisition Corp');
+  ('CRSAU', 'Crescent Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRSAW', 'Crescent Acquisition Corp');
+  ('CRSAW', 'Crescent Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRSP', 'CRISPR Therapeutics AG');
+  ('CRSP', 'CRISPR Therapeutics AG');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRSR', 'Corsair Gaming');
+  ('CRSR', 'Corsair Gaming');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRTD', 'Creatd Inc.');
+  ('CRTD', 'Creatd Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRTDW', 'Creatd Inc.');
+  ('CRTDW', 'Creatd Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRTO', 'Criteo S.A. ');
+  ('CRTO', 'Criteo S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRTX', 'Cortexyme');
+  ('CRTX', 'Cortexyme');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRUS', 'Cirrus Logic');
+  ('CRUS', 'Cirrus Logic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRVL', 'CorVel Corp.');
+  ('CRVL', 'CorVel Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRVS', 'Corvus Pharmaceuticals');
+  ('CRVS', 'Corvus Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRWD', 'CrowdStrike Holdings');
+  ('CRWD', 'CrowdStrike Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CRWS', 'Crown Crafts');
+  ('CRWS', 'Crown Crafts');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSA', 'VictoryShares US Small Cap Volatility Wtd ETF');
+  ('CSA', 'VictoryShares US Small Cap Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSB', 'VictoryShares US Small Cap High Div Volatility Wtd ETF');
+  ('CSB', 'VictoryShares US Small Cap High Div Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSBR', 'Champions Oncology');
+  ('CSBR', 'Champions Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSCO', 'Cisco Systems');
+  ('CSCO', 'Cisco Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSCW', 'Color Star Technology Co. Ltd. s');
+  ('CSCW', 'Color Star Technology Co. Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSF', 'VictoryShares US Discovery Enhanced Volatility Wtd ETF');
+  ('CSF', 'VictoryShares US Discovery Enhanced Volatility Wtd ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSGP', 'CoStar Group');
+  ('CSGP', 'CoStar Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSGS', 'CSG Systems International');
+  ('CSGS', 'CSG Systems International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSII', 'Cardiovascular Systems');
+  ('CSII', 'Cardiovascular Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSIQ', 'Canadian Solar Inc.');
+  ('CSIQ', 'Canadian Solar Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSML', 'IQ Chaikin U.S. Small Cap ETF');
+  ('CSML', 'IQ Chaikin U.S. Small Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSOD', 'Cornerstone OnDemand');
+  ('CSOD', 'Cornerstone OnDemand');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSPI', 'CSP Inc.');
+  ('CSPI', 'CSP Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSQ', 'Calamos Strategic Total Return Fund');
+  ('CSQ', 'Calamos Strategic Total Return Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSSE', 'Chicken Soup for the Soul Entertainment');
+  ('CSSE', 'Chicken Soup for the Soul Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSSEN', 'Chicken Soup for the Soul Entertainment');
+  ('CSSEN', 'Chicken Soup for the Soul Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSSEP', 'Chicken Soup for the Soul Entertainment');
+  ('CSSEP', 'Chicken Soup for the Soul Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSTE', 'Caesarstone Ltd. s');
+  ('CSTE', 'Caesarstone Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSTL', 'Castle Biosciences');
+  ('CSTL', 'Castle Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSTR', 'CapStar Financial Holdings');
+  ('CSTR', 'CapStar Financial Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSWC', 'Capital Southwest Corporation');
+  ('CSWC', 'Capital Southwest Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSWI', 'CSW Industrials');
+  ('CSWI', 'CSW Industrials');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CSX', 'CSX Corporation');
+  ('CSX', 'CSX Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTAQ', 'Carney Technology Acquisition Corp. II ');
+  ('CTAQ', 'Carney Technology Acquisition Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTAQU', 'Carney Technology Acquisition Corp. IIs');
+  ('CTAQU', 'Carney Technology Acquisition Corp. IIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTAQW', 'Carney Technology Acquisition Corp. II');
+  ('CTAQW', 'Carney Technology Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTAS', 'Cintas Corporation');
+  ('CTAS', 'Cintas Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTBI', 'Community Trust Bancorp');
+  ('CTBI', 'Community Trust Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTEC', 'Global X CleanTech ETF');
+  ('CTEC', 'Global X CleanTech ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTG', 'Computer Task Group');
+  ('CTG', 'Computer Task Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTHR', 'Charles & Colvard Ltd.');
+  ('CTHR', 'Charles & Colvard Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTIB', 'Yunhong CTI Ltd.');
+  ('CTIB', 'Yunhong CTI Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTIC', 'CTI BioPharma Corp.');
+  ('CTIC', 'CTI BioPharma Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTMX', 'CytomX Therapeutics');
+  ('CTMX', 'CytomX Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTRE', 'CareTrust REIT');
+  ('CTRE', 'CareTrust REIT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTRM', 'Castor Maritime Inc.');
+  ('CTRM', 'Castor Maritime Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTRN', 'Citi Trends');
+  ('CTRN', 'Citi Trends');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTSH', 'Cognizant Technology Solutions Corporation ');
+  ('CTSH', 'Cognizant Technology Solutions Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTSO', 'Cytosorbents Corporation');
+  ('CTSO', 'Cytosorbents Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTXR', 'Citius Pharmaceuticals');
+  ('CTXR', 'Citius Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTXRW', 'Citius Pharmaceuticals');
+  ('CTXRW', 'Citius Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CTXS', 'Citrix Systems');
+  ('CTXS', 'Citrix Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CUBA', 'The Herzfeld Caribbean Basin Fund');
+  ('CUBA', 'The Herzfeld Caribbean Basin Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CUE', 'Cue Biopharma');
+  ('CUE', 'Cue Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CUEN', 'Cuentas');
+  ('CUEN', 'Cuentas');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CUENW', 'Cuentas');
+  ('CUENW', 'Cuentas');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CURI', 'CuriosityStream Inc.  ');
+  ('CURI', 'CuriosityStream Inc.  ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CURIW', 'CuriosityStream Inc. ');
+  ('CURIW', 'CuriosityStream Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CUTR', 'Cutera');
+  ('CUTR', 'Cutera');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVAC', 'CureVac N.V. s');
+  ('CVAC', 'CureVac N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVBF', 'CVB Financial Corporation');
+  ('CVBF', 'CVB Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVCO', 'Cavco Industries');
+  ('CVCO', 'Cavco Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVCY', 'Central Valley Community Bancorp');
+  ('CVCY', 'Central Valley Community Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVET', 'Covetrus');
+  ('CVET', 'Covetrus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVGI', 'Commercial Vehicle Group');
+  ('CVGI', 'Commercial Vehicle Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVGW', 'Calavo Growers');
+  ('CVGW', 'Calavo Growers');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVLG', 'Covenant Logistics Group');
+  ('CVLG', 'Covenant Logistics Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVLT', 'Commvault Systems');
+  ('CVLT', 'Commvault Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVLY', 'Codorus Valley Bancorp');
+  ('CVLY', 'Codorus Valley Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CVV', 'CVD Equipment Corporation');
+  ('CVV', 'CVD Equipment Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CWBC', 'Community West Bancshares');
+  ('CWBC', 'Community West Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CWBR', 'CohBar');
+  ('CWBR', 'CohBar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CWCO', 'Consolidated Water Co. Ltd. s');
+  ('CWCO', 'Consolidated Water Co. Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CWST', 'Casella Waste Systems');
+  ('CWST', 'Casella Waste Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CXDC', 'China XD Plastics Company Limited');
+  ('CXDC', 'China XD Plastics Company Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CXDO', 'Crexendo');
+  ('CXDO', 'Crexendo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CXSE', 'WisdomTree China ex-State-Owned Enterprises Fund');
+  ('CXSE', 'WisdomTree China ex-State-Owned Enterprises Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYAD', 'Celyad Oncology SA ');
+  ('CYAD', 'Celyad Oncology SA ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYAN', 'Cyanotech Corporation');
+  ('CYAN', 'Cyanotech Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYBE', 'CyberOptics Corporation');
+  ('CYBE', 'CyberOptics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYBR', 'CyberArk Software Ltd. s');
+  ('CYBR', 'CyberArk Software Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYCC', 'Cyclacel Pharmaceuticals');
+  ('CYCC', 'Cyclacel Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYCCP', 'Cyclacel Pharmaceuticals');
+  ('CYCCP', 'Cyclacel Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYCN', 'Cyclerion Therapeutics');
+  ('CYCN', 'Cyclerion Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYRN', 'CYREN Ltd. s');
+  ('CYRN', 'CYREN Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYRX', 'CryoPort');
+  ('CYRX', 'CryoPort');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYTH', 'Cyclo Therapeutics');
+  ('CYTH', 'Cyclo Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYTHW', 'Cyclo Therapeutics');
+  ('CYTHW', 'Cyclo Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CYTK', 'Cytokinetics');
+  ('CYTK', 'Cytokinetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CZNC', 'Citizens & Northern Corp');
+  ('CZNC', 'Citizens & Northern Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CZR', 'Caesars Entertainment');
+  ('CZR', 'Caesars Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('CZWI', 'Citizens Community Bancorp');
+  ('CZWI', 'Citizens Community Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DADA', 'Dada Nexus Limited ');
+  ('DADA', 'Dada Nexus Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DAIO', 'Data I/O Corporation');
+  ('DAIO', 'Data I/O Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DAKT', 'Daktronics');
+  ('DAKT', 'Daktronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DALI', 'First Trust Dorsey Wright DALI 1 ETF');
+  ('DALI', 'First Trust Dorsey Wright DALI 1 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DARE', 'Dare Bioscience');
+  ('DARE', 'Dare Bioscience');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DAX', 'Global X DAX Germany ETF');
+  ('DAX', 'Global X DAX Germany ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBDR', 'Roman DBDR Tech Acquisition Corp. ');
+  ('DBDR', 'Roman DBDR Tech Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBDRU', 'Roman DBDR Tech Acquisition Corp.');
+  ('DBDRU', 'Roman DBDR Tech Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBDRW', 'Roman DBDR Tech Acquisition Corp.');
+  ('DBDRW', 'Roman DBDR Tech Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBTX', 'Decibel Therapeutics');
+  ('DBTX', 'Decibel Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBVT', 'DBV Technologies S.A. ');
+  ('DBVT', 'DBV Technologies S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DBX', 'Dropbox');
+  ('DBX', 'Dropbox');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCBO', 'Docebo Inc.');
+  ('DCBO', 'Docebo Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCOM', 'Dime Community Bancshares');
+  ('DCOM', 'Dime Community Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCOMP', 'Dime Community Bancshares');
+  ('DCOMP', 'Dime Community Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCPH', 'Deciphera Pharmaceuticals');
+  ('DCPH', 'Deciphera Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCRB', 'Decarbonization Plus Acquisition Corporation ');
+  ('DCRB', 'Decarbonization Plus Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCRBU', 'Decarbonization Plus Acquisition Corporation');
+  ('DCRBU', 'Decarbonization Plus Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCRBW', 'Decarbonization Plus Acquisition Corporation');
+  ('DCRBW', 'Decarbonization Plus Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCRNU', 'Decarbonization Plus Acquisition Corporation II');
+  ('DCRNU', 'Decarbonization Plus Acquisition Corporation II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCT', 'Duck Creek Technologies');
+  ('DCT', 'Duck Creek Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DCTH', 'Delcath Systems');
+  ('DCTH', 'Delcath Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DDIV', 'First Trust Dorsey Wright Momentum & Dividend ETF');
+  ('DDIV', 'First Trust Dorsey Wright Momentum & Dividend ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DDMX', 'DD3 Acquisition Corp. II ');
+  ('DDMX', 'DD3 Acquisition Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DDMXU', 'DD3 Acquisition Corp. II');
+  ('DDMXU', 'DD3 Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DDMXW', 'DD3 Acquisition Corp. II');
+  ('DDMXW', 'DD3 Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DDOG', 'Datadog');
+  ('DDOG', 'Datadog');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DEMZ', 'DEMZ Political Contributions ETF');
+  ('DEMZ', 'DEMZ Political Contributions ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DENN', 'Denny''s Corporation');
+  ('DENN', 'Denny''s Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFFN', 'Diffusion Pharmaceuticals Inc.');
+  ('DFFN', 'Diffusion Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFH', 'Dream Finders Homes');
+  ('DFH', 'Dream Finders Homes');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFHT', 'Deerfield Healthcare Technology Acquisitions Corp. ');
+  ('DFHT', 'Deerfield Healthcare Technology Acquisitions Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFHTU', 'Deerfield Healthcare Technology Acquisitions Corp.');
+  ('DFHTU', 'Deerfield Healthcare Technology Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFHTW', 'Deerfield Healthcare Technology Acquisitions Corp.');
+  ('DFHTW', 'Deerfield Healthcare Technology Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFNL', 'Davis Select Financial ETF');
+  ('DFNL', 'Davis Select Financial ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFPH', 'DFP Healthcare Acquisitions Corp. ');
+  ('DFPH', 'DFP Healthcare Acquisitions Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFPHU', 'DFP Healthcare Acquisitions Corp.');
+  ('DFPHU', 'DFP Healthcare Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DFPHW', 'DFP Healthcare Acquisitions Corp.');
+  ('DFPHW', 'DFP Healthcare Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGICA', 'Donegal Group');
+  ('DGICA', 'Donegal Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGICB', 'Donegal Group');
+  ('DGICB', 'Donegal Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGII', 'Digi International Inc.');
+  ('DGII', 'Digi International Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGLY', 'Digital Ally');
+  ('DGLY', 'Digital Ally');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGNS', 'Dragoneer Growth Opportunities Corp. IIs');
+  ('DGNS', 'Dragoneer Growth Opportunities Corp. IIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGRE', 'WisdomTree Emerging Markets Quality Dividend Growth Fund');
+  ('DGRE', 'WisdomTree Emerging Markets Quality Dividend Growth Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGRS', 'WisdomTree U.S. SmallCap Quality Dividend Growth Fund');
+  ('DGRS', 'WisdomTree U.S. SmallCap Quality Dividend Growth Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DGRW', 'WisdomTree U.S. Quality Dividend Growth Fund');
+  ('DGRW', 'WisdomTree U.S. Quality Dividend Growth Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DHC', 'Diversified Healthcare Trust  of Beneficial Interest');
+  ('DHC', 'Diversified Healthcare Trust  of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DHCNI', 'Diversified Healthcare Trust  - 5.625% Senior Notes due 2042');
+  ('DHCNI', 'Diversified Healthcare Trust  - 5.625% Senior Notes due 2042');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DHCNL', 'Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046');
+  ('DHCNL', 'Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DHHCU', 'DiamondHead Holdings Corp.');
+  ('DHHCU', 'DiamondHead Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DHIL', 'Diamond Hill Investment Group');
+  ('DHIL', 'Diamond Hill Investment Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DINT', 'Davis Select International ETF');
+  ('DINT', 'Davis Select International ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DIOD', 'Diodes Incorporated');
+  ('DIOD', 'Diodes Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DISCA', 'Discovery');
+  ('DISCA', 'Discovery');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DISCB', 'Discovery');
+  ('DISCB', 'Discovery');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DISCK', 'Discovery');
+  ('DISCK', 'Discovery');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DISH', 'DISH Network Corporation ');
+  ('DISH', 'DISH Network Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DJCO', 'Daily Journal Corp. (S.C.)');
+  ('DJCO', 'Daily Journal Corp. (S.C.)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DKNG', 'DraftKings Inc. ');
+  ('DKNG', 'DraftKings Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DLCAU', 'Deep Lake Capital Acquisition Corp.');
+  ('DLCAU', 'Deep Lake Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DLHC', 'DLH Holdings Corp.');
+  ('DLHC', 'DLH Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DLPN', 'Dolphin Entertainment');
+  ('DLPN', 'Dolphin Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DLTH', 'Duluth Holdings Inc. - Class B Common Stock');
+  ('DLTH', 'Duluth Holdings Inc. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DLTR', 'Dollar Tree');
+  ('DLTR', 'Dollar Tree');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DMAC', 'DiaMedica Therapeutics Inc.');
+  ('DMAC', 'DiaMedica Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DMLP', 'Dorchester Minerals');
+  ('DMLP', 'Dorchester Minerals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DMRC', 'Digimarc Corporation');
+  ('DMRC', 'Digimarc Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DMTK', 'DermTech');
+  ('DMTK', 'DermTech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DMXF', 'iShares ESG Advanced MSCI EAFE ETF');
+  ('DMXF', 'iShares ESG Advanced MSCI EAFE ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DNLI', 'Denali Therapeutics Inc.');
+  ('DNLI', 'Denali Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOCU', 'DocuSign');
+  ('DOCU', 'DocuSign');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOGZ', 'Dogness (International) Corporation ');
+  ('DOGZ', 'Dogness (International) Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOMO', 'Domo');
+  ('DOMO', 'Domo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOOO', 'BRP Inc. - Common Subordinate Voting Shares');
+  ('DOOO', 'BRP Inc. - Common Subordinate Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DORM', 'Dorman Products');
+  ('DORM', 'Dorman Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOX', 'Amdocs Limited s');
+  ('DOX', 'Amdocs Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DOYU', 'DouYu International Holdings Limited ');
+  ('DOYU', 'DouYu International Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRIO', 'DarioHealth Corp.');
+  ('DRIO', 'DarioHealth Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRIOW', 'DarioHealth Corp.');
+  ('DRIOW', 'DarioHealth Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRIV', 'Global X Autonomous & Electric Vehicles ETF');
+  ('DRIV', 'Global X Autonomous & Electric Vehicles ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRNA', 'Dicerna Pharmaceuticals');
+  ('DRNA', 'Dicerna Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRRX', 'DURECT Corporation');
+  ('DRRX', 'DURECT Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRTT', 'DIRTT Environmental Solutions Ltd.');
+  ('DRTT', 'DIRTT Environmental Solutions Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DRVN', 'Driven Brands Holdings Inc.');
+  ('DRVN', 'Driven Brands Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSAC', 'Duddell Street Acquisition Corp.s');
+  ('DSAC', 'Duddell Street Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSACU', 'Duddell Street Acquisition Corp.');
+  ('DSACU', 'Duddell Street Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSACW', 'Duddell Street Acquisition Corp.');
+  ('DSACW', 'Duddell Street Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSGX', 'The Descartes Systems Group Inc.');
+  ('DSGX', 'The Descartes Systems Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSKE', 'Daseke');
+  ('DSKE', 'Daseke');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSKEW', 'Daseke');
+  ('DSKEW', 'Daseke');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSP', 'Viant Technology Inc.');
+  ('DSP', 'Viant Technology Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSPG', 'DSP Group');
+  ('DSPG', 'DSP Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DSWL', 'Deswell Industries');
+  ('DSWL', 'Deswell Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DTEA', 'DAVIDsTEA Inc.');
+  ('DTEA', 'DAVIDsTEA Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DTIL', 'Precision BioSciences');
+  ('DTIL', 'Precision BioSciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DTSS', 'Datasea Inc.');
+  ('DTSS', 'Datasea Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUNE', 'Dune Acquisition Corporation ');
+  ('DUNE', 'Dune Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUNEU', 'Dune Acquisition Corporation');
+  ('DUNEU', 'Dune Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUNEW', 'Dune Acquisition Corporation');
+  ('DUNEW', 'Dune Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUO', 'Fangdd Network Group Ltd. ');
+  ('DUO', 'Fangdd Network Group Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUOT', 'Duos Technologies Group');
+  ('DUOT', 'Duos Technologies Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DUSA', 'Davis Select U.S. Equity ETF');
+  ('DUSA', 'Davis Select U.S. Equity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DVAX', 'Dynavax Technologies Corporation');
+  ('DVAX', 'Dynavax Technologies Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DVLU', 'First Trust Dorsey Wright Momentum & Value ETF');
+  ('DVLU', 'First Trust Dorsey Wright Momentum & Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DVOL', 'First Trust Dorsey Wright Momentum & Low Volatility ETF');
+  ('DVOL', 'First Trust Dorsey Wright Momentum & Low Volatility ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DVY', 'iShares Select Dividend ETF');
+  ('DVY', 'iShares Select Dividend ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWAS', 'Invesco DWA SmallCap Momentum ETF');
+  ('DWAS', 'Invesco DWA SmallCap Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWAT', 'Arrow DWA Tactical: Macro ETF');
+  ('DWAT', 'Arrow DWA Tactical: Macro ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWAW', 'AdvisorShares Dorsey Wright FSM All Cap World ETF');
+  ('DWAW', 'AdvisorShares Dorsey Wright FSM All Cap World ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWCR', 'Arrow DWA Tactical: International ETF');
+  ('DWCR', 'Arrow DWA Tactical: International ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWEQ', 'AdvisorShares Dorsey Wright Alpha Equal Weight ETF');
+  ('DWEQ', 'AdvisorShares Dorsey Wright Alpha Equal Weight ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWFI', 'SPDR Dorsey Wright Fixed Income Allocation ETF');
+  ('DWFI', 'SPDR Dorsey Wright Fixed Income Allocation ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWLD', 'Davis Select Worldwide ETF');
+  ('DWLD', 'Davis Select Worldwide ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWMC', 'AdvisorShares Dorsey Wright Micro-Cap ETF');
+  ('DWMC', 'AdvisorShares Dorsey Wright Micro-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWPP', 'First Trust Dorsey Wright People''s Portfolio ETF');
+  ('DWPP', 'First Trust Dorsey Wright People''s Portfolio ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWSH', 'AdvisorShares Dorsey Wright Short ETF');
+  ('DWSH', 'AdvisorShares Dorsey Wright Short ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWSN', 'Dawson Geophysical Company');
+  ('DWSN', 'Dawson Geophysical Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DWUS', 'AdvisorShares Dorsey Wright FSM US Core ETF');
+  ('DWUS', 'AdvisorShares Dorsey Wright FSM US Core ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DXCM', 'DexCom');
+  ('DXCM', 'DexCom');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DXGE', 'WisdomTree Germany Hedged Equity Fund');
+  ('DXGE', 'WisdomTree Germany Hedged Equity Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DXJS', 'WisdomTree Japan Hedged SmallCap Equity Fund');
+  ('DXJS', 'WisdomTree Japan Hedged SmallCap Equity Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DXPE', 'DXP Enterprises');
+  ('DXPE', 'DXP Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DXYN', 'The Dixie Group');
+  ('DXYN', 'The Dixie Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DYAI', 'Dyadic International');
+  ('DYAI', 'Dyadic International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DYN', 'Dyne Therapeutics');
+  ('DYN', 'Dyne Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DYNT', 'Dynatronics Corporation');
+  ('DYNT', 'Dynatronics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('DZSI', 'DZS Inc.');
+  ('DZSI', 'DZS Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EA', 'Electronic Arts Inc.');
+  ('EA', 'Electronic Arts Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EACPU', 'Edify Acquisition Corp.s');
+  ('EACPU', 'Edify Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EAR', 'Eargo');
+  ('EAR', 'Eargo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EARS', 'Auris Medical Holding Ltd.');
+  ('EARS', 'Auris Medical Holding Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EAST', 'Eastside Distilling');
+  ('EAST', 'Eastside Distilling');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBAY', 'eBay Inc.');
+  ('EBAY', 'eBay Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBAYL', 'eBay Inc. - 6.0% Notes Due 2056');
+  ('EBAYL', 'eBay Inc. - 6.0% Notes Due 2056');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBC', 'Eastern Bankshares');
+  ('EBC', 'Eastern Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBIX', 'Ebix');
+  ('EBIX', 'Ebix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBIZ', 'Global X E-commerce ETF');
+  ('EBIZ', 'Global X E-commerce ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBMT', 'Eagle Bancorp Montana');
+  ('EBMT', 'Eagle Bancorp Montana');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBON', 'Ebang International Holdings Inc.s');
+  ('EBON', 'Ebang International Holdings Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBSB', 'Meridian Bancorp');
+  ('EBSB', 'Meridian Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EBTC', 'Enterprise Bancorp Inc');
+  ('EBTC', 'Enterprise Bancorp Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECHO', 'Echo Global Logistics');
+  ('ECHO', 'Echo Global Logistics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECOL', 'US Ecology');
+  ('ECOL', 'US Ecology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECOLW', 'US Ecology');
+  ('ECOLW', 'US Ecology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECOR', 'electroCore');
+  ('ECOR', 'electroCore');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECOW', 'Pacer Emerging Markets Cash Cows 100 ETF');
+  ('ECOW', 'Pacer Emerging Markets Cash Cows 100 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ECPG', 'Encore Capital Group Inc');
+  ('ECPG', 'Encore Capital Group Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDAP', 'EDAP TMS S.A. ');
+  ('EDAP', 'EDAP TMS S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDIT', 'Editas Medicine');
+  ('EDIT', 'Editas Medicine');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDOC', 'Global X Telemedicine & Digital Health ETF');
+  ('EDOC', 'Global X Telemedicine & Digital Health ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDRY', 'EuroDry Ltd.');
+  ('EDRY', 'EuroDry Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDSA', 'Edesa Biotech');
+  ('EDSA', 'Edesa Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDTK', 'Skillful Craftsman Education Technology Limited ');
+  ('EDTK', 'Skillful Craftsman Education Technology Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDTX', 'EdtechX Holdings Acquisition Corp. II ');
+  ('EDTX', 'EdtechX Holdings Acquisition Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDTXU', 'EdtechX Holdings Acquisition Corp. II');
+  ('EDTXU', 'EdtechX Holdings Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDTXW', 'EdtechX Holdings Acquisition Corp. II');
+  ('EDTXW', 'EdtechX Holdings Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDUC', 'Educational Development Corporation');
+  ('EDUC', 'Educational Development Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EDUT', 'Global X Education ETF');
+  ('EDUT', 'Global X Education ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EEFT', 'Euronet Worldwide');
+  ('EEFT', 'Euronet Worldwide');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EEMA', 'iShares MSCI Emerging Markets Asia ETF');
+  ('EEMA', 'iShares MSCI Emerging Markets Asia ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EFAS', 'Global X MSCI SuperDividend EAFE ETF');
+  ('EFAS', 'Global X MSCI SuperDividend EAFE ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EFOI', 'Energy Focus');
+  ('EFOI', 'Energy Focus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EFSC', 'Enterprise Financial Services Corporation');
+  ('EFSC', 'Enterprise Financial Services Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EGAN', 'eGain Corporation');
+  ('EGAN', 'eGain Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EGBN', 'Eagle Bancorp');
+  ('EGBN', 'Eagle Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EGLE', 'Eagle Bulk Shipping Inc.');
+  ('EGLE', 'Eagle Bulk Shipping Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EGOV', 'NIC Inc.');
+  ('EGOV', 'NIC Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EGRX', 'Eagle Pharmaceuticals');
+  ('EGRX', 'Eagle Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EH', 'EHang Holdings Limited - ADS');
+  ('EH', 'EHang Holdings Limited - ADS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EHTH', 'eHealth');
+  ('EHTH', 'eHealth');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EIGR', 'Eiger BioPharmaceuticals');
+  ('EIGR', 'Eiger BioPharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EKSO', 'Ekso Bionics Holdings');
+  ('EKSO', 'Ekso Bionics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ELDN', 'Eledon Pharmaceuticals');
+  ('ELDN', 'Eledon Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ELOX', 'Eloxx Pharmaceuticals');
+  ('ELOX', 'Eloxx Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ELSE', 'Electro-Sensors');
+  ('ELSE', 'Electro-Sensors');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ELTK', 'Eltek Ltd. s');
+  ('ELTK', 'Eltek Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ELYS', 'Elys Game Technology');
+  ('ELYS', 'Elys Game Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMB', 'iShares J.P. Morgan USD Emerging Markets Bond ETF');
+  ('EMB', 'iShares J.P. Morgan USD Emerging Markets Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMCB', 'WisdomTree Emerging Markets Corporate Bond Fund');
+  ('EMCB', 'WisdomTree Emerging Markets Corporate Bond Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMCF', 'Emclaire Financial Corp');
+  ('EMCF', 'Emclaire Financial Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMIF', 'iShares S&P Emerging Markets Infrastructure Index Fund');
+  ('EMIF', 'iShares S&P Emerging Markets Infrastructure Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMKR', 'EMCORE Corporation');
+  ('EMKR', 'EMCORE Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EML', 'Eastern Company (The)');
+  ('EML', 'Eastern Company (The)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMXC', 'iShares MSCI Emerging Markets ex China ETF');
+  ('EMXC', 'iShares MSCI Emerging Markets ex China ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EMXF', 'iShares ESG Advanced MSCI EM ETF');
+  ('EMXF', 'iShares ESG Advanced MSCI EM ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENDP', 'Endo International plc s');
+  ('ENDP', 'Endo International plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENFAU', '890 5th Avenue Partners');
+  ('ENFAU', '890 5th Avenue Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENG', 'ENGlobal Corporation');
+  ('ENG', 'ENGlobal Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENLV', 'Enlivex Therapeutics Ltd. s');
+  ('ENLV', 'Enlivex Therapeutics Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENNVU', 'ECP Environmental Growth Opportunities Corp.');
+  ('ENNVU', 'ECP Environmental Growth Opportunities Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENOB', 'Enochian Biosciences');
+  ('ENOB', 'Enochian Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENPH', 'Enphase Energy');
+  ('ENPH', 'Enphase Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENSG', 'The Ensign Group');
+  ('ENSG', 'The Ensign Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENTA', 'Enanta Pharmaceuticals');
+  ('ENTA', 'Enanta Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENTG', 'Entegris');
+  ('ENTG', 'Entegris');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENTX', 'Entera Bio Ltd. s');
+  ('ENTX', 'Entera Bio Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENTXW', 'Entera Bio Ltd.');
+  ('ENTXW', 'Entera Bio Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENVB', 'Enveric Biosciences');
+  ('ENVB', 'Enveric Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENVIU', 'Environmental Impact Acquisition Corp.');
+  ('ENVIU', 'Environmental Impact Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ENZL', 'iShares MSCI New Zealand ETF');
+  ('ENZL', 'iShares MSCI New Zealand ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EOLS', 'Evolus');
+  ('EOLS', 'Evolus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EOSE', 'Eos Energy Enterprises');
+  ('EOSE', 'Eos Energy Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EOSEW', 'Eos Energy Enterprises');
+  ('EOSEW', 'Eos Energy Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EPAY', 'Bottomline Technologies');
+  ('EPAY', 'Bottomline Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EPHYU', 'Epiphany Technology Acquisition Corp.');
+  ('EPHYU', 'Epiphany Technology Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EPIX', 'ESSA Pharma Inc.');
+  ('EPIX', 'ESSA Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EPSN', 'Epsilon Energy Ltd.');
+  ('EPSN', 'Epsilon Energy Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EPZM', 'Epizyme');
+  ('EPZM', 'Epizyme');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQ', 'Equillium');
+  ('EQ', 'Equillium');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQBK', 'Equity Bancshares');
+  ('EQBK', 'Equity Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQIX', 'Equinix');
+  ('EQIX', 'Equinix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQOS', 'Diginex Limited s');
+  ('EQOS', 'Diginex Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQOSW', 'Diginex Limited');
+  ('EQOSW', 'Diginex Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EQRR', 'ProShares Equities for Rising Rates ETF');
+  ('EQRR', 'ProShares Equities for Rising Rates ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERES', 'East Resources Acquisition Company ');
+  ('ERES', 'East Resources Acquisition Company ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERESU', 'East Resources Acquisition Company');
+  ('ERESU', 'East Resources Acquisition Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERESW', 'East Resources Acquisition Company');
+  ('ERESW', 'East Resources Acquisition Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERIC', 'Ericsson  each representing 1 underlying Class B share');
+  ('ERIC', 'Ericsson  each representing 1 underlying Class B share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERIE', 'Erie Indemnity Company ');
+  ('ERIE', 'Erie Indemnity Company ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERII', 'Energy Recovery');
+  ('ERII', 'Energy Recovery');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ERYP', 'Erytech Pharma S.A. ');
+  ('ERYP', 'Erytech Pharma S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESBK', 'Elmira Savings Bank NY (The)');
+  ('ESBK', 'Elmira Savings Bank NY (The)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESCA', 'Escalade');
+  ('ESCA', 'Escalade');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESEA', 'Euroseas Ltd.');
+  ('ESEA', 'Euroseas Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGD', 'iShares ESG Aware MSCI EAFE ETF');
+  ('ESGD', 'iShares ESG Aware MSCI EAFE ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGE', 'iShares ESG Aware MSCI EM ETF');
+  ('ESGE', 'iShares ESG Aware MSCI EM ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGR', 'Enstar Group Limited s');
+  ('ESGR', 'Enstar Group Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGRO', 'Enstar Group Limited - Depository Shares 7.00% Perpetual Non-Cumulative Preference Shares');
+  ('ESGRO', 'Enstar Group Limited - Depository Shares 7.00% Perpetual Non-Cumulative Preference Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGRP', 'Enstar Group Limited 000th of an interest in Preference Shares');
+  ('ESGRP', 'Enstar Group Limited 000th of an interest in Preference Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESGU', 'iShares ESG Aware MSCI USA ETF');
+  ('ESGU', 'iShares ESG Aware MSCI USA ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESLT', 'Elbit Systems Ltd. s');
+  ('ESLT', 'Elbit Systems Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESPO', 'VanEck Vectors Video Gaming and eSports ETF');
+  ('ESPO', 'VanEck Vectors Video Gaming and eSports ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESPR', 'Esperion Therapeutics');
+  ('ESPR', 'Esperion Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESQ', 'Esquire Financial Holdings');
+  ('ESQ', 'Esquire Financial Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESSA', 'ESSA Bancorp');
+  ('ESSA', 'ESSA Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESSC', 'East Stone Acquisition Corporation s');
+  ('ESSC', 'East Stone Acquisition Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESSCR', 'East Stone Acquisition Corporation');
+  ('ESSCR', 'East Stone Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESSCU', 'East Stone Acquisition Corporation');
+  ('ESSCU', 'East Stone Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESSCW', 'East Stone Acquisition Corporation');
+  ('ESSCW', 'East Stone Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESTA', 'Establishment Labs Holdings Inc.');
+  ('ESTA', 'Establishment Labs Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ESXB', 'Community Bankers Trust Corporation.');
+  ('ESXB', 'Community Bankers Trust Corporation.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETAC', 'E.Merge Technology Acquisition Corp. ');
+  ('ETAC', 'E.Merge Technology Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETACU', 'E.Merge Technology Acquisition Corp.');
+  ('ETACU', 'E.Merge Technology Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETACW', 'E.Merge Technology Acquisition Corp.');
+  ('ETACW', 'E.Merge Technology Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETNB', '89bio');
+  ('ETNB', '89bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETON', 'Eton Pharmaceuticals');
+  ('ETON', 'Eton Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETSY', 'Etsy');
+  ('ETSY', 'Etsy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ETTX', 'Entasis Therapeutics Holdings Inc.');
+  ('ETTX', 'Entasis Therapeutics Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EUCR', 'Eucrates Biomedical Acquisition Corp. s');
+  ('EUCR', 'Eucrates Biomedical Acquisition Corp. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EUCRU', 'Eucrates Biomedical Acquisition Corp.');
+  ('EUCRU', 'Eucrates Biomedical Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EUCRW', 'Eucrates Biomedical Acquisition Corp.');
+  ('EUCRW', 'Eucrates Biomedical Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EUFN', 'iShares MSCI Europe Financials Sector Index Fund');
+  ('EUFN', 'iShares MSCI Europe Financials Sector Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EUSGU', 'European Sustainable Growth Acquisition Corp.');
+  ('EUSGU', 'European Sustainable Growth Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVAX', 'Evaxion Biotech A/S - American Depositary Share');
+  ('EVAX', 'Evaxion Biotech A/S - American Depositary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVBG', 'Everbridge');
+  ('EVBG', 'Everbridge');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVER', 'EverQuote');
+  ('EVER', 'EverQuote');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVFM', 'Evofem Biosciences');
+  ('EVFM', 'Evofem Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVGBC', 'Eaton Vance Global Income Builder NextShares');
+  ('EVGBC', 'Eaton Vance Global Income Builder NextShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVGN', 'Evogene Ltd. s');
+  ('EVGN', 'Evogene Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVK', 'Ever-Glory International Group');
+  ('EVK', 'Ever-Glory International Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVLMC', 'Eaton Vance TABS 5-to-15 Year Laddered Municipal Bond NextShares');
+  ('EVLMC', 'Eaton Vance TABS 5-to-15 Year Laddered Municipal Bond NextShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVLO', 'Evelo Biosciences');
+  ('EVLO', 'Evelo Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVOJU', 'Evo Acquisition Corp.');
+  ('EVOJU', 'Evo Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVOK', 'Evoke Pharma');
+  ('EVOK', 'Evoke Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVOL', 'Evolving Systems');
+  ('EVOL', 'Evolving Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVOP', 'EVO Payments');
+  ('EVOP', 'EVO Payments');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EVSTC', 'Eaton Vance Stock NextShares');
+  ('EVSTC', 'Eaton Vance Stock NextShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EWBC', 'East West Bancorp');
+  ('EWBC', 'East West Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EWEB', 'Global X Emerging Markets Internet & E-commerce ETF');
+  ('EWEB', 'Global X Emerging Markets Internet & E-commerce ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EWJE', 'iShares MSCI Japan Equal Weighted ETF');
+  ('EWJE', 'iShares MSCI Japan Equal Weighted ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EWJV', 'iShares MSCI Japan Value ETF');
+  ('EWJV', 'iShares MSCI Japan Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EWZS', 'iShares MSCI Brazil Small-Cap ETF');
+  ('EWZS', 'iShares MSCI Brazil Small-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXAS', 'Exact Sciences Corporation');
+  ('EXAS', 'Exact Sciences Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXC', 'Exelon Corporation');
+  ('EXC', 'Exelon Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXEL', 'Exelixis');
+  ('EXEL', 'Exelixis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXFO', 'EXFO Inc - Subordinate Voting Shares');
+  ('EXFO', 'EXFO Inc - Subordinate Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXLS', 'ExlService Holdings');
+  ('EXLS', 'ExlService Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPC', 'Experience Investment Corp. ');
+  ('EXPC', 'Experience Investment Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPCU', 'Experience Investment Corp.');
+  ('EXPCU', 'Experience Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPCW', 'Experience Investment Corp.s');
+  ('EXPCW', 'Experience Investment Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPD', 'Expeditors International of Washington');
+  ('EXPD', 'Expeditors International of Washington');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPE', 'Expedia Group');
+  ('EXPE', 'Expedia Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPI', 'eXp World Holdings');
+  ('EXPI', 'eXp World Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXPO', 'Exponent');
+  ('EXPO', 'Exponent');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EXTR', 'Extreme Networks');
+  ('EXTR', 'Extreme Networks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYE', 'National Vision Holdings');
+  ('EYE', 'National Vision Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYEG', 'Eyegate Pharmaceuticals');
+  ('EYEG', 'Eyegate Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYEN', 'Eyenovia');
+  ('EYEN', 'Eyenovia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYES', 'Second Sight Medical Products');
+  ('EYES', 'Second Sight Medical Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYESW', 'Second Sight Medical Products');
+  ('EYESW', 'Second Sight Medical Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EYPT', 'EyePoint Pharmaceuticals');
+  ('EYPT', 'EyePoint Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EZGO', 'EZGO Technologies Ltd. s');
+  ('EZGO', 'EZGO Technologies Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('EZPW', 'EZCORP');
+  ('EZPW', 'EZCORP');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAAR', 'First Trust Alternative Absolute Return Strategy ETF');
+  ('FAAR', 'First Trust Alternative Absolute Return Strategy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAB', 'First Trust Multi Cap Value AlphaDEX Fund');
+  ('FAB', 'First Trust Multi Cap Value AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAD', 'First Trust Multi Cap Growth AlphaDEX Fund');
+  ('FAD', 'First Trust Multi Cap Growth AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FALN', 'iShares Fallen Angels USD Bond ETF');
+  ('FALN', 'iShares Fallen Angels USD Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAMI', 'Farmmi');
+  ('FAMI', 'Farmmi');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FANG', 'Diamondback Energy');
+  ('FANG', 'Diamondback Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FANH', 'Fanhua Inc. ');
+  ('FANH', 'Fanhua Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FARM', 'Farmer Brothers Company');
+  ('FARM', 'Farmer Brothers Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FARO', 'FARO Technologies');
+  ('FARO', 'FARO Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAST', 'Fastenal Company');
+  ('FAST', 'Fastenal Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FAT', 'FAT Brands Inc.');
+  ('FAT', 'FAT Brands Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FATBP', 'FAT Brands Inc. - 8.25% Series B Cumulative Preferred Stock');
+  ('FATBP', 'FAT Brands Inc. - 8.25% Series B Cumulative Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FATBW', 'FAT Brands Inc.');
+  ('FATBW', 'FAT Brands Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FATE', 'Fate Therapeutics');
+  ('FATE', 'Fate Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FB', 'Facebook');
+  ('FB', 'Facebook');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBIO', 'Fortress Biotech');
+  ('FBIO', 'Fortress Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBIOP', 'Fortress Biotech');
+  ('FBIOP', 'Fortress Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBIZ', 'First Business Financial Services');
+  ('FBIZ', 'First Business Financial Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBMS', 'The First Bancshares');
+  ('FBMS', 'The First Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBNC', 'First Bancorp');
+  ('FBNC', 'First Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBRX', 'Forte Biosciences');
+  ('FBRX', 'Forte Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBSS', 'Fauquier Bankshares');
+  ('FBSS', 'Fauquier Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FBZ', 'First Trust Brazil AlphaDEX Fund');
+  ('FBZ', 'First Trust Brazil AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCA', 'First Trust China AlphaDEX Fund');
+  ('FCA', 'First Trust China AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCAC', 'Falcon Capital Acquisition Corp. ');
+  ('FCAC', 'Falcon Capital Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCACU', 'Falcon Capital Acquisition Corp.');
+  ('FCACU', 'Falcon Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCACW', 'Falcon Capital Acquisition Corp.');
+  ('FCACW', 'Falcon Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCAL', 'First Trust California Municipal High income ETF');
+  ('FCAL', 'First Trust California Municipal High income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCAP', 'First Capital');
+  ('FCAP', 'First Capital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCBC', 'First Community Bankshares');
+  ('FCBC', 'First Community Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCBP', 'First Choice Bancorp');
+  ('FCBP', 'First Choice Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCCO', 'First Community Corporation');
+  ('FCCO', 'First Community Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCCY', '1st Constitution Bancorp (NJ)');
+  ('FCCY', '1st Constitution Bancorp (NJ)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCEF', 'First Trust CEF Income Opportunity ETF');
+  ('FCEF', 'First Trust CEF Income Opportunity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCEL', 'FuelCell Energy');
+  ('FCEL', 'FuelCell Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCFS', 'FirstCash');
+  ('FCFS', 'FirstCash');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCNCA', 'First Citizens BancShares');
+  ('FCNCA', 'First Citizens BancShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCNCP', 'First Citizens BancShares');
+  ('FCNCP', 'First Citizens BancShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCRD', 'First Eagle Alternative Capital BDC');
+  ('FCRD', 'First Eagle Alternative Capital BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FCVT', 'First Trust SSI Strategic Convertible Securities ETF');
+  ('FCVT', 'First Trust SSI Strategic Convertible Securities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDBC', 'Fidelity D & D Bancorp');
+  ('FDBC', 'Fidelity D & D Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDIV', 'First Trust Strategic Income ETF');
+  ('FDIV', 'First Trust Strategic Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDMT', '4D Molecular Therapeutics');
+  ('FDMT', '4D Molecular Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDNI', 'First Trust Dow Jones International Internet ETF');
+  ('FDNI', 'First Trust Dow Jones International Internet ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDT', 'First Trust Developed Markets Ex-US AlphaDEX Fund');
+  ('FDT', 'First Trust Developed Markets Ex-US AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDTS', 'First Trust Developed Markets ex-US Small Cap AlphaDEX Fund');
+  ('FDTS', 'First Trust Developed Markets ex-US Small Cap AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDUS', 'Fidus Investment Corporation');
+  ('FDUS', 'Fidus Investment Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDUSG', 'Fidus Investment Corporation - 5.375% Notes Due 2024');
+  ('FDUSG', 'Fidus Investment Corporation - 5.375% Notes Due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FDUSZ', 'Fidus Investment Corporation - 6% Notes due 2024');
+  ('FDUSZ', 'Fidus Investment Corporation - 6% Notes due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEIM', 'Frequency Electronics');
+  ('FEIM', 'Frequency Electronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FELE', 'Franklin Electric Co.');
+  ('FELE', 'Franklin Electric Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEM', 'First Trust Emerging Markets AlphaDEX Fund');
+  ('FEM', 'First Trust Emerging Markets AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEMB', 'First Trust Emerging Markets Local Currency Bond ETF');
+  ('FEMB', 'First Trust Emerging Markets Local Currency Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEMS', 'First Trust Emerging Markets Small Cap AlphaDEX Fund');
+  ('FEMS', 'First Trust Emerging Markets Small Cap AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FENC', 'Fennec Pharmaceuticals Inc.');
+  ('FENC', 'Fennec Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEP', 'First Trust Europe AlphaDEX Fund');
+  ('FEP', 'First Trust Europe AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEUZ', 'First Trust Eurozone AlphaDEX ETF');
+  ('FEUZ', 'First Trust Eurozone AlphaDEX ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEX', 'First Trust Large Cap Core AlphaDEX Fund');
+  ('FEX', 'First Trust Large Cap Core AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FEYE', 'FireEye');
+  ('FEYE', 'FireEye');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFBC', 'First Financial Bancorp.');
+  ('FFBC', 'First Financial Bancorp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFBW', 'FFBW');
+  ('FFBW', 'FFBW');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFHL', 'Fuwei Films (Holdings) Co.');
+  ('FFHL', 'Fuwei Films (Holdings) Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFIC', 'Flushing Financial Corporation');
+  ('FFIC', 'Flushing Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFIN', 'First Financial Bankshares');
+  ('FFIN', 'First Financial Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFIV', 'F5 Networks');
+  ('FFIV', 'F5 Networks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFNW', 'First Financial Northwest');
+  ('FFNW', 'First Financial Northwest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FFWM', 'First Foundation Inc.');
+  ('FFWM', 'First Foundation Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FGBI', 'First Guaranty Bancshares');
+  ('FGBI', 'First Guaranty Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FGEN', 'FibroGen');
+  ('FGEN', 'FibroGen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FGF', 'FG Financial Group');
+  ('FGF', 'FG Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FGFPP', 'FG Financial Group');
+  ('FGFPP', 'FG Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FGM', 'First Trust Germany AlphaDEX Fund');
+  ('FGM', 'First Trust Germany AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FHB', 'First Hawaiian');
+  ('FHB', 'First Hawaiian');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FHTX', 'Foghorn Therapeutics Inc.');
+  ('FHTX', 'Foghorn Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIBK', 'First Interstate BancSystem');
+  ('FIBK', 'First Interstate BancSystem');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FICS', 'First Trust International Developed Capital Strength ETF');
+  ('FICS', 'First Trust International Developed Capital Strength ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FID', 'First Trust S&P International Dividend Aristocrats ETF');
+  ('FID', 'First Trust S&P International Dividend Aristocrats ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIII', 'Forum Merger III Corporation ');
+  ('FIII', 'Forum Merger III Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIIIU', 'Forum Merger III Corporations');
+  ('FIIIU', 'Forum Merger III Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIIIW', 'Forum Merger III Corporation');
+  ('FIIIW', 'Forum Merger III Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FINMU', 'Marlin Technology Corporation');
+  ('FINMU', 'Marlin Technology Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FINX', 'Global X FinTech ETF');
+  ('FINX', 'Global X FinTech ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FISI', 'Financial Institutions');
+  ('FISI', 'Financial Institutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FISV', 'Fiserv');
+  ('FISV', 'Fiserv');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FITB', 'Fifth Third Bancorp');
+  ('FITB', 'Fifth Third Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FITBI', 'Fifth Third Bancorp - Depositary Share repstg 1/1000th Ownership Interest Perp Pfd Series I');
+  ('FITBI', 'Fifth Third Bancorp - Depositary Share repstg 1/1000th Ownership Interest Perp Pfd Series I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FITBO', 'Fifth Third Bancorp - Depositary Shares each representing a 1/1000th ownership interest in a share of Non-Cumulative Perpetual Preferred Stock');
+  ('FITBO', 'Fifth Third Bancorp - Depositary Shares each representing a 1/1000th ownership interest in a share of Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FITBP', 'Fifth Third Bancorp - Depositary Shares each representing 1/40th share of Fifth Third 6.00% Non-Cumulative Perpetual Class B Preferred Stock');
+  ('FITBP', 'Fifth Third Bancorp - Depositary Shares each representing 1/40th share of Fifth Third 6.00% Non-Cumulative Perpetual Class B Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIVE', 'Five Below');
+  ('FIVE', 'Five Below');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIVN', 'Five9');
+  ('FIVN', 'Five9');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIXD', 'First Trust TCW Opportunistic Fixed Income ETF');
+  ('FIXD', 'First Trust TCW Opportunistic Fixed Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIXX', 'Homology Medicines');
+  ('FIXX', 'Homology Medicines');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FIZZ', 'National Beverage Corp.');
+  ('FIZZ', 'National Beverage Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FJP', 'First Trust Japan AlphaDEX Fund');
+  ('FJP', 'First Trust Japan AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FKU', 'First Trust United Kingdom AlphaDEX Fund');
+  ('FKU', 'First Trust United Kingdom AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLAC', 'Frazier Lifesciences Acquisition Corporations');
+  ('FLAC', 'Frazier Lifesciences Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLACU', 'Frazier Lifesciences Acquisition Corporation');
+  ('FLACU', 'Frazier Lifesciences Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLACW', 'Frazier Lifesciences Acquisition Corporation');
+  ('FLACW', 'Frazier Lifesciences Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLDM', 'Fluidigm Corporation');
+  ('FLDM', 'Fluidigm Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLEX', 'Flex Ltd. s');
+  ('FLEX', 'Flex Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLGT', 'Fulgent Genetics');
+  ('FLGT', 'Fulgent Genetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLIC', 'The First of Long Island Corporation');
+  ('FLIC', 'The First of Long Island Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLIR', 'FLIR Systems');
+  ('FLIR', 'FLIR Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLL', 'Full House Resorts');
+  ('FLL', 'Full House Resorts');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLMN', 'Falcon Minerals Corporation ');
+  ('FLMN', 'Falcon Minerals Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLMNW', 'Falcon Minerals Corporation');
+  ('FLMNW', 'Falcon Minerals Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLN', 'First Trust Latin America AlphaDEX Fund');
+  ('FLN', 'First Trust Latin America AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLNT', 'Fluent');
+  ('FLNT', 'Fluent');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLUX', 'Flux Power Holdings');
+  ('FLUX', 'Flux Power Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLWS', '1-800-FLOWERS.COM');
+  ('FLWS', '1-800-FLOWERS.COM');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLXN', 'Flexion Therapeutics');
+  ('FLXN', 'Flexion Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FLXS', 'Flexsteel Industries');
+  ('FLXS', 'Flexsteel Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMAO', 'Farmers & Merchants Bancorp');
+  ('FMAO', 'Farmers & Merchants Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMB', 'First Trust Managed Municipal ETF');
+  ('FMB', 'First Trust Managed Municipal ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMBH', 'First Mid Bancshares');
+  ('FMBH', 'First Mid Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMBI', 'First Midwest Bancorp');
+  ('FMBI', 'First Midwest Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMBIO', 'First Midwest Bancorp');
+  ('FMBIO', 'First Midwest Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMBIP', 'First Midwest Bancorp');
+  ('FMBIP', 'First Midwest Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMHI', 'First Trust Municipal High Income ETF');
+  ('FMHI', 'First Trust Municipal High Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMNB', 'Farmers National Banc Corp.');
+  ('FMNB', 'Farmers National Banc Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FMTX', 'Forma Therapeutics Holdings');
+  ('FMTX', 'Forma Therapeutics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNCB', 'FNCB Bancorp Inc.');
+  ('FNCB', 'FNCB Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNHC', 'FedNat Holding Company');
+  ('FNHC', 'FedNat Holding Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNK', 'First Trust Mid Cap Value AlphaDEX Fund');
+  ('FNK', 'First Trust Mid Cap Value AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNKO', 'Funko');
+  ('FNKO', 'Funko');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNLC', 'First Bancorp');
+  ('FNLC', 'First Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNWB', 'First Northwest Bancorp');
+  ('FNWB', 'First Northwest Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNX', 'First Trust Mid Cap Core AlphaDEX Fund');
+  ('FNX', 'First Trust Mid Cap Core AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FNY', 'First Trust Mid Cap Growth AlphaDEX Fund');
+  ('FNY', 'First Trust Mid Cap Growth AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOCS', 'Focus Financial Partners Inc.');
+  ('FOCS', 'Focus Financial Partners Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOLD', 'Amicus Therapeutics');
+  ('FOLD', 'Amicus Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FONR', 'Fonar Corporation');
+  ('FONR', 'Fonar Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FORD', 'Forward Industries');
+  ('FORD', 'Forward Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOREU', 'Foresight Acquisition Corp.');
+  ('FOREU', 'Foresight Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FORM', 'FormFactor');
+  ('FORM', 'FormFactor');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FORR', 'Forrester Research');
+  ('FORR', 'Forrester Research');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FORTY', 'Formula Systems (1985) Ltd. ');
+  ('FORTY', 'Formula Systems (1985) Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOSL', 'Fossil Group');
+  ('FOSL', 'Fossil Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOX', 'Fox Corporation - Class B Common Stock');
+  ('FOX', 'Fox Corporation - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOXA', 'Fox Corporation ');
+  ('FOXA', 'Fox Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOXF', 'Fox Factory Holding Corp.');
+  ('FOXF', 'Fox Factory Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FOXWU', 'FoxWayne Enterprises Acquisition Corp.');
+  ('FOXWU', 'FoxWayne Enterprises Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FPA', 'First Trust Asia Pacific Ex-Japan AlphaDEX Fund');
+  ('FPA', 'First Trust Asia Pacific Ex-Japan AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FPAY', 'FlexShopper');
+  ('FPAY', 'FlexShopper');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FPRX', 'Five Prime Therapeutics');
+  ('FPRX', 'Five Prime Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FPXE', 'First Trust IPOX Europe Equity Opportunities ETF');
+  ('FPXE', 'First Trust IPOX Europe Equity Opportunities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FPXI', 'First Trust International Equity Opportunities ETF');
+  ('FPXI', 'First Trust International Equity Opportunities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRAF', 'Franklin Financial Services Corporation');
+  ('FRAF', 'Franklin Financial Services Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRBA', 'First Bank');
+  ('FRBA', 'First Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRBK', 'Republic First Bancorp');
+  ('FRBK', 'Republic First Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FREE', 'Whole Earth Brands');
+  ('FREE', 'Whole Earth Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FREEW', 'Whole Earth Brands');
+  ('FREEW', 'Whole Earth Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FREQ', 'Frequency Therapeutics');
+  ('FREQ', 'Frequency Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRG', 'Franchise Group');
+  ('FRG', 'Franchise Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRGAP', 'Franchise Group');
+  ('FRGAP', 'Franchise Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRGI', 'Fiesta Restaurant Group');
+  ('FRGI', 'Fiesta Restaurant Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRHC', 'Freedom Holding Corp.');
+  ('FRHC', 'Freedom Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRLN', 'Freeline Therapeutics Holdings plc - ADSs');
+  ('FRLN', 'Freeline Therapeutics Holdings plc - ADSs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRME', 'First Merchants Corporation');
+  ('FRME', 'First Merchants Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FROG', 'JFrog Ltd. s');
+  ('FROG', 'JFrog Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRPH', 'FRP Holdings');
+  ('FRPH', 'FRP Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRPT', 'Freshpet');
+  ('FRPT', 'Freshpet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRSX', 'Foresight Autonomous Holdings Ltd. ');
+  ('FRSX', 'Foresight Autonomous Holdings Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FRTA', 'Forterra');
+  ('FRTA', 'Forterra');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSBW', 'FS Bancorp');
+  ('FSBW', 'FS Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSEA', 'First Seacoast Bancorp');
+  ('FSEA', 'First Seacoast Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSFG', 'First Savings Financial Group');
+  ('FSFG', 'First Savings Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSII', 'FS Development Corp. II ');
+  ('FSII', 'FS Development Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSLR', 'First Solar');
+  ('FSLR', 'First Solar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSRV', 'FinServ Acquisition Corp. ');
+  ('FSRV', 'FinServ Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSRVU', 'FinServ Acquisition Corp.');
+  ('FSRVU', 'FinServ Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSRVW', 'FinServ Acquisition Corp.');
+  ('FSRVW', 'FinServ Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSRXU', 'FinServ Acquisition Corp. II');
+  ('FSRXU', 'FinServ Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSSIU', 'Fortistar Sustainable Solutions Corp.');
+  ('FSSIU', 'Fortistar Sustainable Solutions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSTR', 'L.B. Foster Company');
+  ('FSTR', 'L.B. Foster Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSTX', 'F-star Therapeutics');
+  ('FSTX', 'F-star Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSV', 'FirstService Corporation');
+  ('FSV', 'FirstService Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FSZ', 'First Trust Switzerland AlphaDEX Fund');
+  ('FSZ', 'First Trust Switzerland AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTA', 'First Trust Large Cap Value AlphaDEX Fund');
+  ('FTA', 'First Trust Large Cap Value AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTAAU', 'FTAC Athena Acquisition Corp.');
+  ('FTAAU', 'FTAC Athena Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTAG', 'First Trust Indxx Global Agriculture ETF');
+  ('FTAG', 'First Trust Indxx Global Agriculture ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTC', 'First Trust Large Cap Growth AlphaDEX Fund');
+  ('FTC', 'First Trust Large Cap Growth AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTCS', 'First Trust Capital Strength ETF');
+  ('FTCS', 'First Trust Capital Strength ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTCV', 'FinTech Acquisition Corp. V ');
+  ('FTCV', 'FinTech Acquisition Corp. V ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTCVU', 'FinTech Acquisition Corp. V');
+  ('FTCVU', 'FinTech Acquisition Corp. V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTCVW', 'FinTech Acquisition Corp. V');
+  ('FTCVW', 'FinTech Acquisition Corp. V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTDR', 'frontdoor');
+  ('FTDR', 'frontdoor');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTEK', 'Fuel Tech');
+  ('FTEK', 'Fuel Tech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTFT', 'Future FinTech Group Inc.');
+  ('FTFT', 'Future FinTech Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTGC', 'First Trust Global Tactical Commodity Strategy Fund');
+  ('FTGC', 'First Trust Global Tactical Commodity Strategy Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTHI', 'First Trust BuyWrite Income ETF');
+  ('FTHI', 'First Trust BuyWrite Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTHM', 'Fathom Holdings Inc.');
+  ('FTHM', 'Fathom Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTIV', 'FinTech Acquisition Corp. IV ');
+  ('FTIV', 'FinTech Acquisition Corp. IV ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTIVU', 'FinTech Acquisition Corp. IV');
+  ('FTIVU', 'FinTech Acquisition Corp. IV');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTIVW', 'FinTech Acquisition Corp. IV');
+  ('FTIVW', 'FinTech Acquisition Corp. IV');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTLB', 'First Trust Hedged BuyWrite Income ETF');
+  ('FTLB', 'First Trust Hedged BuyWrite Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTNT', 'Fortinet');
+  ('FTNT', 'Fortinet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTOC', 'FTAC Olympus Acquisition Corp.s');
+  ('FTOC', 'FTAC Olympus Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTOCU', 'FTAC Olympus Acquisition Corp.');
+  ('FTOCU', 'FTAC Olympus Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTOCW', 'FTAC Olympus Acquisition Corp.');
+  ('FTOCW', 'FTAC Olympus Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTRI', 'First Trust Indxx Global Natural Resources Income ETF');
+  ('FTRI', 'First Trust Indxx Global Natural Resources Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTSL', 'First Trust Senior Loan Fund ETF');
+  ('FTSL', 'First Trust Senior Loan Fund ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTSM', 'First Trust Enhanced Short Maturity ETF');
+  ('FTSM', 'First Trust Enhanced Short Maturity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXD', 'First Trust Nasdaq Retail ETF');
+  ('FTXD', 'First Trust Nasdaq Retail ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXG', 'First Trust Nasdaq Food & Beverage ETF');
+  ('FTXG', 'First Trust Nasdaq Food & Beverage ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXH', 'First Trust Nasdaq Pharmaceuticals ETF');
+  ('FTXH', 'First Trust Nasdaq Pharmaceuticals ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXL', 'First Trust Nasdaq Semiconductor ETF');
+  ('FTXL', 'First Trust Nasdaq Semiconductor ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXN', 'First Trust Nasdaq Oil & Gas ETF');
+  ('FTXN', 'First Trust Nasdaq Oil & Gas ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXO', 'First Trust Nasdaq Bank ETF');
+  ('FTXO', 'First Trust Nasdaq Bank ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FTXR', 'First Trust Nasdaq Transportation ETF');
+  ('FTXR', 'First Trust Nasdaq Transportation ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FULC', 'Fulcrum Therapeutics');
+  ('FULC', 'Fulcrum Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FULT', 'Fulton Financial Corporation');
+  ('FULT', 'Fulton Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FULTP', 'Fulton Financial Corporation - Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock');
+  ('FULTP', 'Fulton Financial Corporation - Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUNC', 'First United Corporation');
+  ('FUNC', 'First United Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUND', 'Sprott Focus Trust');
+  ('FUND', 'Sprott Focus Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUSB', 'First US Bancshares');
+  ('FUSB', 'First US Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUSN', 'Fusion Pharmaceuticals Inc.');
+  ('FUSN', 'Fusion Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUTU', 'Futu Holdings Limited ');
+  ('FUTU', 'Futu Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FUV', 'Arcimoto');
+  ('FUV', 'Arcimoto');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FV', 'First Trust Dorsey Wright Focus 5 ETF');
+  ('FV', 'First Trust Dorsey Wright Focus 5 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FVAM', '5:01 Acquisition Corp. ');
+  ('FVAM', '5:01 Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FVC', 'First Trust Dorsey Wright Dynamic Focus 5 ETF');
+  ('FVC', 'First Trust Dorsey Wright Dynamic Focus 5 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FVCB', 'FVCBankcorp');
+  ('FVCB', 'FVCBankcorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FVE', 'Five Star Senior Living Inc.');
+  ('FVE', 'Five Star Senior Living Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FWAA', 'Fifth Wall Acquisition Corp. I ');
+  ('FWAA', 'Fifth Wall Acquisition Corp. I ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FWONA', 'Liberty Media Corporation - Series A Liberty Formula One Common Stock');
+  ('FWONA', 'Liberty Media Corporation - Series A Liberty Formula One Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FWONK', 'Liberty Media Corporation - Series C Liberty Formula One Common Stock');
+  ('FWONK', 'Liberty Media Corporation - Series C Liberty Formula One Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FWP', 'Forward Pharma A/S ');
+  ('FWP', 'Forward Pharma A/S ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FWRD', 'Forward Air Corporation');
+  ('FWRD', 'Forward Air Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FXNC', 'First National Corporation');
+  ('FXNC', 'First National Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FYC', 'First Trust Small Cap Growth AlphaDEX Fund');
+  ('FYC', 'First Trust Small Cap Growth AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FYT', 'First Trust Small Cap Value AlphaDEX Fund');
+  ('FYT', 'First Trust Small Cap Value AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('FYX', 'First Trust Small Cap Core AlphaDEX Fund');
+  ('FYX', 'First Trust Small Cap Core AlphaDEX Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GABC', 'German American Bancorp');
+  ('GABC', 'German American Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GAIA', 'Gaia');
+  ('GAIA', 'Gaia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GAIN', 'Gladstone Investment Corporation - Business Development Company');
+  ('GAIN', 'Gladstone Investment Corporation - Business Development Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GAINL', 'Gladstone Investment Corporation - 6.375% Series E Cumulative Term Preferred Stock due 2025');
+  ('GAINL', 'Gladstone Investment Corporation - 6.375% Series E Cumulative Term Preferred Stock due 2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GAINM', 'Gladstone Investment Corporation - 6.25% Series D Cumulative Term Preferred Stock');
+  ('GAINM', 'Gladstone Investment Corporation - 6.25% Series D Cumulative Term Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GALT', 'Galectin Therapeutics Inc.');
+  ('GALT', 'Galectin Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GAN', 'GAN Limited s');
+  ('GAN', 'GAN Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GASS', 'StealthGas');
+  ('GASS', 'StealthGas');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBCI', 'Glacier Bancorp');
+  ('GBCI', 'Glacier Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBDC', 'Golub Capital BDC');
+  ('GBDC', 'Golub Capital BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBIO', 'Generation Bio Co.');
+  ('GBIO', 'Generation Bio Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBLI', 'Global Indemnity Group');
+  ('GBLI', 'Global Indemnity Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBLIL', 'Global Indemnity Group');
+  ('GBLIL', 'Global Indemnity Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBNY', 'Generations Bancorp NY');
+  ('GBNY', 'Generations Bancorp NY');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBOX', 'Greenbox POS');
+  ('GBOX', 'Greenbox POS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBS', 'GBS Inc.');
+  ('GBS', 'GBS Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GBT', 'Global Blood Therapeutics');
+  ('GBT', 'Global Blood Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GCACU', 'Growth Capital Acquisition Corp.');
+  ('GCACU', 'Growth Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GCBC', 'Greene County Bancorp');
+  ('GCBC', 'Greene County Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GCMG', 'GCM Grosvenor Inc. ');
+  ('GCMG', 'GCM Grosvenor Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GCMGW', 'GCM Grosvenor Inc.');
+  ('GCMGW', 'GCM Grosvenor Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GDEN', 'Golden Entertainment');
+  ('GDEN', 'Golden Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GDRX', 'GoodRx Holdings');
+  ('GDRX', 'GoodRx Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GDS', 'GDS Holdings Limited ');
+  ('GDS', 'GDS Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GDYN', 'Grid Dynamics Holdings');
+  ('GDYN', 'Grid Dynamics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GDYNW', 'Grid Dynamics Holdings');
+  ('GDYNW', 'Grid Dynamics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GECC', 'Great Elm Capital Corp.');
+  ('GECC', 'Great Elm Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GECCL', 'Great Elm Capital Corp. - 6.50% Notes due 2022');
+  ('GECCL', 'Great Elm Capital Corp. - 6.50% Notes due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GECCM', 'Great Elm Capital Corp. - 6.75% Notes Due 2025');
+  ('GECCM', 'Great Elm Capital Corp. - 6.75% Notes Due 2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GECCN', 'Great Elm Capital Corp. - Notes');
+  ('GECCN', 'Great Elm Capital Corp. - Notes');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GEG', 'Great Elm Group');
+  ('GEG', 'Great Elm Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GENC', 'Gencor Industries Inc.');
+  ('GENC', 'Gencor Industries Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GENE', 'Genetic Technologies Ltd  representing 600 ordinary shares');
+  ('GENE', 'Genetic Technologies Ltd  representing 600 ordinary shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GENY', 'Principal Millennials Index ETF');
+  ('GENY', 'Principal Millennials Index ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GEOS', 'Geospace Technologies Corporation');
+  ('GEOS', 'Geospace Technologies Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GERN', 'Geron Corporation');
+  ('GERN', 'Geron Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GEVO', 'Gevo');
+  ('GEVO', 'Gevo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GFED', 'Guaranty Federal Bancshares');
+  ('GFED', 'Guaranty Federal Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GFN', 'General Finance Corporation');
+  ('GFN', 'General Finance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GFNCP', 'General Finance Corporation - Cumulative Redeemable Perpetual Preferred Series C');
+  ('GFNCP', 'General Finance Corporation - Cumulative Redeemable Perpetual Preferred Series C');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GFNSZ', 'General Finance Corporation - 7.875% Senior Notes due 2025');
+  ('GFNSZ', 'General Finance Corporation - 7.875% Senior Notes due 2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GGAL', 'Grupo Financiero Galicia S.A. ');
+  ('GGAL', 'Grupo Financiero Galicia S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GH', 'Guardant Health');
+  ('GH', 'Guardant Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GHACU', 'Gaming & Hospitality Acquisition Corp.');
+  ('GHACU', 'Gaming & Hospitality Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GHSI', 'Guardion Health Sciences');
+  ('GHSI', 'Guardion Health Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GHVI', 'Gores Holdings VI');
+  ('GHVI', 'Gores Holdings VI');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GHVIU', 'Gores Holdings VI');
+  ('GHVIU', 'Gores Holdings VI');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GHVIW', 'Gores Holdings VI');
+  ('GHVIW', 'Gores Holdings VI');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GIFI', 'Gulf Island Fabrication');
+  ('GIFI', 'Gulf Island Fabrication');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GIGE', 'SoFi Gig Economy ETF');
+  ('GIGE', 'SoFi Gig Economy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GIGGU', 'GigCapital4');
+  ('GIGGU', 'GigCapital4');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GIGM', 'GigaMedia Limited s');
+  ('GIGM', 'GigaMedia Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GIII', 'G-III Apparel Group');
+  ('GIII', 'G-III Apparel Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GILD', 'Gilead Sciences');
+  ('GILD', 'Gilead Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GILT', 'Gilat Satellite Networks Ltd. s');
+  ('GILT', 'Gilat Satellite Networks Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLAD', 'Gladstone Capital Corporation');
+  ('GLAD', 'Gladstone Capital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLADL', 'Gladstone Capital Corporation - 5.375% Notes due 2024');
+  ('GLADL', 'Gladstone Capital Corporation - 5.375% Notes due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLAQ', 'Globis Acquisition Corp.');
+  ('GLAQ', 'Globis Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLAQU', 'Globis Acquisition Corp.');
+  ('GLAQU', 'Globis Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLAQW', 'Globis Acquisition Corp.');
+  ('GLAQW', 'Globis Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLBLU', 'Cartesian Growth Corporation');
+  ('GLBLU', 'Cartesian Growth Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLBS', 'Globus Maritime Limited');
+  ('GLBS', 'Globus Maritime Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLBZ', 'Glen Burnie Bancorp');
+  ('GLBZ', 'Glen Burnie Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLDD', 'Great Lakes Dredge & Dock Corporation');
+  ('GLDD', 'Great Lakes Dredge & Dock Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLDI', 'Credit Suisse Gold Shares Covered Call Exchange Traded Notes');
+  ('GLDI', 'Credit Suisse Gold Shares Covered Call Exchange Traded Notes');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLG', 'TD Holdings');
+  ('GLG', 'TD Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLMD', 'Galmed Pharmaceuticals Ltd. s');
+  ('GLMD', 'Galmed Pharmaceuticals Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLNG', 'Golar LNG Limited');
+  ('GLNG', 'Golar LNG Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLPG', 'Galapagos NV ');
+  ('GLPG', 'Galapagos NV ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLPI', 'Gaming and Leisure Properties');
+  ('GLPI', 'Gaming and Leisure Properties');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLRE', 'Greenlight Reinsurance');
+  ('GLRE', 'Greenlight Reinsurance');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLSI', 'Greenwich LifeSciences');
+  ('GLSI', 'Greenwich LifeSciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLTO', 'Galecto');
+  ('GLTO', 'Galecto');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLUU', 'Glu Mobile Inc.');
+  ('GLUU', 'Glu Mobile Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GLYC', 'GlycoMimetics');
+  ('GLYC', 'GlycoMimetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMAB', 'Genmab A/S ');
+  ('GMAB', 'Genmab A/S ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMBL', 'Esports Entertainment Group Inc.');
+  ('GMBL', 'Esports Entertainment Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMBLW', 'Esports Entertainment Group Inc.');
+  ('GMBLW', 'Esports Entertainment Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMBTU', 'Queen''s Gambit Growth Capital');
+  ('GMBTU', 'Queen''s Gambit Growth Capital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMDA', 'Gamida Cell Ltd. s');
+  ('GMDA', 'Gamida Cell Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMIIU', 'Gores Metropoulos II');
+  ('GMIIU', 'Gores Metropoulos II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMLP', 'Golar LNG Partners LP - Common Units Representing Limited Partnership');
+  ('GMLP', 'Golar LNG Partners LP - Common Units Representing Limited Partnership');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMLPP', 'Golar LNG Partners LP - 8.75% Series A Cumulative Redeemable Preferred Units');
+  ('GMLPP', 'Golar LNG Partners LP - 8.75% Series A Cumulative Redeemable Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GMTX', 'Gemini Therapeutics');
+  ('GMTX', 'Gemini Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNACU', 'Group Nine Acquisition Corp.');
+  ('GNACU', 'Group Nine Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNCA', 'Genocea Biosciences');
+  ('GNCA', 'Genocea Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNFT', 'GENFIT S.A. ');
+  ('GNFT', 'GENFIT S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNLN', 'Greenlane Holdings');
+  ('GNLN', 'Greenlane Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNMA', 'iShares GNMA Bond ETF');
+  ('GNMA', 'iShares GNMA Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNMK', 'GenMark Diagnostics');
+  ('GNMK', 'GenMark Diagnostics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNOG', 'Golden Nugget Online Gaming');
+  ('GNOG', 'Golden Nugget Online Gaming');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNOGW', 'Golden Nugget Online Gaming');
+  ('GNOGW', 'Golden Nugget Online Gaming');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNOM', 'Global X Genomics & Biotechnology ETF');
+  ('GNOM', 'Global X Genomics & Biotechnology ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNPX', 'Genprex');
+  ('GNPX', 'Genprex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNRS', 'Greenrose Acquisition Corp.');
+  ('GNRS', 'Greenrose Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNRSU', 'Greenrose Acquisition Corp.');
+  ('GNRSU', 'Greenrose Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNRSW', 'Greenrose Acquisition Corp.');
+  ('GNRSW', 'Greenrose Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNSS', 'Genasys Inc.');
+  ('GNSS', 'Genasys Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNTX', 'Gentex Corporation');
+  ('GNTX', 'Gentex Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNTY', 'Guaranty Bancshares');
+  ('GNTY', 'Guaranty Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GNUS', 'Genius Brands International');
+  ('GNUS', 'Genius Brands International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GO', 'Grocery Outlet Holding Corp.');
+  ('GO', 'Grocery Outlet Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOCO', 'GoHealth');
+  ('GOCO', 'GoHealth');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOEV', 'Canoo Inc.  ');
+  ('GOEV', 'Canoo Inc.  ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOEVW', 'Canoo Inc. ');
+  ('GOEVW', 'Canoo Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOGL', 'Golden Ocean Group Limited');
+  ('GOGL', 'Golden Ocean Group Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOGO', 'Gogo Inc.');
+  ('GOGO', 'Gogo Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOOD', 'Gladstone Commercial Corporation - Real Estate Investment Trust');
+  ('GOOD', 'Gladstone Commercial Corporation - Real Estate Investment Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOODM', 'Gladstone Commercial Corporation - Series D Cumulative Redeemable Preferred Stock');
+  ('GOODM', 'Gladstone Commercial Corporation - Series D Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOODN', 'Gladstone Commercial Corporation - 6.625% Series E Cumulative Redeemable Preferred Stock');
+  ('GOODN', 'Gladstone Commercial Corporation - 6.625% Series E Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOOGL', 'Alphabet Inc. ');
+  ('GOOGL', 'Alphabet Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOSS', 'Gossamer Bio');
+  ('GOSS', 'Gossamer Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOVX', 'GeoVax Labs');
+  ('GOVX', 'GeoVax Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GOVXW', 'GeoVax Labs');
+  ('GOVXW', 'GeoVax Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GP', 'GreenPower Motor Company Inc.');
+  ('GP', 'GreenPower Motor Company Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GPACU', 'Global Partner Acquisition Corp II');
+  ('GPACU', 'Global Partner Acquisition Corp II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GPP', 'Green Plains Partners LP - Common Units');
+  ('GPP', 'Green Plains Partners LP - Common Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GPRE', 'Green Plains');
+  ('GPRE', 'Green Plains');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GPRO', 'GoPro');
+  ('GPRO', 'GoPro');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRAY', 'Graybug Vision');
+  ('GRAY', 'Graybug Vision');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRBK', 'Green Brick Partners');
+  ('GRBK', 'Green Brick Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRCL', 'Gracell Biotechnologies Inc. ');
+  ('GRCL', 'Gracell Biotechnologies Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRCY', 'Greencity Acquisition Corporation s');
+  ('GRCY', 'Greencity Acquisition Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRCYU', 'Greencity Acquisition Corporation');
+  ('GRCYU', 'Greencity Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRCYW', 'Greencity Acquisition Corporations');
+  ('GRCYW', 'Greencity Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRFS', 'Grifols');
+  ('GRFS', 'Grifols');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRID', 'First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund');
+  ('GRID', 'First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRIL', 'Muscle Maker');
+  ('GRIL', 'Muscle Maker');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRIN', 'Grindrod Shipping Holdings Ltd. s');
+  ('GRIN', 'Grindrod Shipping Holdings Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRMN', 'Garmin Ltd.');
+  ('GRMN', 'Garmin Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRNQ', 'Greenpro Capital Corp.');
+  ('GRNQ', 'Greenpro Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRNV', 'GreenVision Acquisition Corp');
+  ('GRNV', 'GreenVision Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRNVR', 'GreenVision Acquisition Corps');
+  ('GRNVR', 'GreenVision Acquisition Corps');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRNVU', 'GreenVision Acquisition Corp');
+  ('GRNVU', 'GreenVision Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRNVW', 'GreenVision Acquisition Corp');
+  ('GRNVW', 'GreenVision Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GROW', 'U.S. Global Investors');
+  ('GROW', 'U.S. Global Investors');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRPN', 'Groupon');
+  ('GRPN', 'Groupon');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRSV', 'Gores Holdings V');
+  ('GRSV', 'Gores Holdings V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRSVU', 'Gores Holdings V');
+  ('GRSVU', 'Gores Holdings V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRSVW', 'Gores Holdings V');
+  ('GRSVW', 'Gores Holdings V');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRTS', 'Gritstone Oncology');
+  ('GRTS', 'Gritstone Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRTX', 'Galera Therapeutics');
+  ('GRTX', 'Galera Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRVY', 'GRAVITY Co.');
+  ('GRVY', 'GRAVITY Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GRWG', 'GrowGeneration Corp.');
+  ('GRWG', 'GrowGeneration Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSAQU', 'Global Synergy Acquisition Corp.s');
+  ('GSAQU', 'Global Synergy Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSBC', 'Great Southern Bancorp');
+  ('GSBC', 'Great Southern Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSEVU', 'Gores Holdings VII');
+  ('GSEVU', 'Gores Holdings VII');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSHD', 'Goosehead Insurance');
+  ('GSHD', 'Goosehead Insurance');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSIT', 'GSI Technology');
+  ('GSIT', 'GSI Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSKY', 'GreenSky');
+  ('GSKY', 'GreenSky');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSM', 'Ferroglobe PLC s');
+  ('GSM', 'Ferroglobe PLC s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSMG', 'Glory Star New Media Group Holdings Limited ');
+  ('GSMG', 'Glory Star New Media Group Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSMGW', 'Glory Star New Media Group Holdings Limited');
+  ('GSMGW', 'Glory Star New Media Group Holdings Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GSUM', 'Gridsum Holding Inc. ');
+  ('GSUM', 'Gridsum Holding Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GT', 'The Goodyear Tire & Rubber Company');
+  ('GT', 'The Goodyear Tire & Rubber Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTBP', 'GT Biopharma');
+  ('GTBP', 'GT Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTEC', 'Greenland Technologies Holding Corporation s');
+  ('GTEC', 'Greenland Technologies Holding Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTH', 'Genetron Holdings Limited ');
+  ('GTH', 'Genetron Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTHX', 'G1 Therapeutics');
+  ('GTHX', 'G1 Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTIM', 'Good Times Restaurants Inc.');
+  ('GTIM', 'Good Times Restaurants Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GTYH', 'GTY Technology Holdings');
+  ('GTYH', 'GTY Technology Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GURE', 'Gulf Resources');
+  ('GURE', 'Gulf Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GVP', 'GSE Systems');
+  ('GVP', 'GSE Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GWAC', 'Good Works Acquisition Corp.');
+  ('GWAC', 'Good Works Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GWACW', 'Good Works Acquisition Corp.');
+  ('GWACW', 'Good Works Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GWGH', 'GWG Holdings');
+  ('GWGH', 'GWG Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GWPH', 'GW Pharmaceuticals Plc ');
+  ('GWPH', 'GW Pharmaceuticals Plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GWRS', 'Global Water Resources');
+  ('GWRS', 'Global Water Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GXGX', 'GX Acquisition Corp. ');
+  ('GXGX', 'GX Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GXGXU', 'GX Acquisition Corp.');
+  ('GXGXU', 'GX Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GXGXW', 'GX Acquisition Corp.');
+  ('GXGXW', 'GX Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GXTG', 'Global X Thematic Growth ETF');
+  ('GXTG', 'Global X Thematic Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('GYRO', 'Gyrodyne');
+  ('GYRO', 'Gyrodyne');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HA', 'Hawaiian Holdings');
+  ('HA', 'Hawaiian Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAAC', 'Health Assurance Acquisition Corp. ');
+  ('HAAC', 'Health Assurance Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAACU', 'Health Assurance Acquisition Corp. - SAIL Securities');
+  ('HAACU', 'Health Assurance Acquisition Corp. - SAIL Securities');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAACW', 'Health Assurance Acquisition Corp.s');
+  ('HAACW', 'Health Assurance Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAFC', 'Hanmi Financial Corporation');
+  ('HAFC', 'Hanmi Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAIN', 'The Hain Celestial Group');
+  ('HAIN', 'The Hain Celestial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HALL', 'Hallmark Financial Services');
+  ('HALL', 'Hallmark Financial Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HALO', 'Halozyme Therapeutics');
+  ('HALO', 'Halozyme Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAPP', 'Happiness Biotech Group Limited s');
+  ('HAPP', 'Happiness Biotech Group Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HARP', 'Harpoon Therapeutics');
+  ('HARP', 'Harpoon Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAS', 'Hasbro');
+  ('HAS', 'Hasbro');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HAYN', 'Haynes International');
+  ('HAYN', 'Haynes International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBAN', 'Huntington Bancshares Incorporated');
+  ('HBAN', 'Huntington Bancshares Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBANN', 'Huntington Bancshares Incorporated - Depositary Shares each representing a 1/40th interest in a share of 5.875% Series C Non-Cumulative Perpetual Preferred Stock');
+  ('HBANN', 'Huntington Bancshares Incorporated - Depositary Shares each representing a 1/40th interest in a share of 5.875% Series C Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBANO', 'Huntington Bancshares Incorporated - Depositary Shares');
+  ('HBANO', 'Huntington Bancshares Incorporated - Depositary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBCP', 'Home Bancorp');
+  ('HBCP', 'Home Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBIO', 'Harvard Bioscience');
+  ('HBIO', 'Harvard Bioscience');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBMD', 'Howard Bancorp');
+  ('HBMD', 'Howard Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBNC', 'Horizon Bancorp');
+  ('HBNC', 'Horizon Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBP', 'Huttig Building Products');
+  ('HBP', 'Huttig Building Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HBT', 'HBT Financial');
+  ('HBT', 'HBT Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCAP', 'Harvest Capital Credit Corporation');
+  ('HCAP', 'Harvest Capital Credit Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCAPZ', 'Harvest Capital Credit Corporation - 6.125% Notes due 2022');
+  ('HCAPZ', 'Harvest Capital Credit Corporation - 6.125% Notes due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCAQ', 'HealthCor Catalio Acquisition Corp.s');
+  ('HCAQ', 'HealthCor Catalio Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCAR', 'Healthcare Services Acquisition Corporation ');
+  ('HCAR', 'Healthcare Services Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCARU', 'Healthcare Services Acquisition Corporation');
+  ('HCARU', 'Healthcare Services Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCARW', 'Healthcare Services Acquisition Corporation');
+  ('HCARW', 'Healthcare Services Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCAT', 'Health Catalyst');
+  ('HCAT', 'Health Catalyst');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCCCU', 'Healthcare Capital Corp.');
+  ('HCCCU', 'Healthcare Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCCI', 'Heritage-Crystal Clean');
+  ('HCCI', 'Heritage-Crystal Clean');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCDI', 'Harbor Custom Development');
+  ('HCDI', 'Harbor Custom Development');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCICU', 'Hennessy Capital Investment Corp. V Units');
+  ('HCICU', 'Hennessy Capital Investment Corp. V Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCIIU', 'Hudson Executive Investment Corp. II');
+  ('HCIIU', 'Hudson Executive Investment Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCKT', 'The Hackett Group');
+  ('HCKT', 'The Hackett Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCM', 'Hutchison China MediTech Limited ');
+  ('HCM', 'Hutchison China MediTech Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HCSG', 'Healthcare Services Group');
+  ('HCSG', 'Healthcare Services Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HDSN', 'Hudson Technologies');
+  ('HDSN', 'Hudson Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HEAR', 'Turtle Beach Corporation');
+  ('HEAR', 'Turtle Beach Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HEC', 'Hudson Executive Investment Corp. ');
+  ('HEC', 'Hudson Executive Investment Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HECCU', 'Hudson Executive Investment Corp.s');
+  ('HECCU', 'Hudson Executive Investment Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HECCW', 'Hudson Executive Investment Corp.');
+  ('HECCW', 'Hudson Executive Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HEES', 'H&E Equipment Services');
+  ('HEES', 'H&E Equipment Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HELE', 'Helen of Troy Limited');
+  ('HELE', 'Helen of Troy Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HEPA', 'Hepion Pharmaceuticals');
+  ('HEPA', 'Hepion Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HERD', 'Pacer Cash Cows Fund of Funds ETF');
+  ('HERD', 'Pacer Cash Cows Fund of Funds ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HERO', 'Global X Video Games & Esports ETF');
+  ('HERO', 'Global X Video Games & Esports ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HEWG', 'iShares Currency Hedged MSCI Germany ETF');
+  ('HEWG', 'iShares Currency Hedged MSCI Germany ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HFBL', 'Home Federal Bancorp');
+  ('HFBL', 'Home Federal Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HFFG', 'HF Foods Group Inc.');
+  ('HFFG', 'HF Foods Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HFWA', 'Heritage Financial Corporation');
+  ('HFWA', 'Heritage Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HGBL', 'Heritage Global Inc.');
+  ('HGBL', 'Heritage Global Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HGEN', 'Humanigen');
+  ('HGEN', 'Humanigen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HGSH', 'China HGS Real Estate');
+  ('HGSH', 'China HGS Real Estate');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HHR', 'HeadHunter Group PLC ');
+  ('HHR', 'HeadHunter Group PLC ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HIBB', 'Hibbett Sports');
+  ('HIBB', 'Hibbett Sports');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HIFS', 'Hingham Institution for Savings');
+  ('HIFS', 'Hingham Institution for Savings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HIHO', 'Highway Holdings Limited');
+  ('HIHO', 'Highway Holdings Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HIIIU', 'Hudson Executive Investment Corp. III');
+  ('HIIIU', 'Hudson Executive Investment Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HIMX', 'Himax Technologies');
+  ('HIMX', 'Himax Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HJLI', 'Hancock Jaffe Laboratories');
+  ('HJLI', 'Hancock Jaffe Laboratories');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HJLIW', 'Hancock Jaffe Laboratories');
+  ('HJLIW', 'Hancock Jaffe Laboratories');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLAHU', 'Hamilton Lane Alliance Holdings I');
+  ('HLAHU', 'Hamilton Lane Alliance Holdings I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLAL', 'Wahed FTSE USA Shariah ETF');
+  ('HLAL', 'Wahed FTSE USA Shariah ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLG', 'Hailiang Education Group Inc. ');
+  ('HLG', 'Hailiang Education Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLIO', 'Helios Technologies');
+  ('HLIO', 'Helios Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLIT', 'Harmonic Inc.');
+  ('HLIT', 'Harmonic Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLNE', 'Hamilton Lane Incorporated ');
+  ('HLNE', 'Hamilton Lane Incorporated ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HLXA', 'Helix Acquisition Corp.s');
+  ('HLXA', 'Helix Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMCO', 'HumanCo Acquisition Corp. ');
+  ('HMCO', 'HumanCo Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMCOU', 'HumanCo Acquisition Corp.');
+  ('HMCOU', 'HumanCo Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMCOW', 'HumanCo Acquisition Corp.');
+  ('HMCOW', 'HumanCo Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMHC', 'Houghton Mifflin Harcourt Company');
+  ('HMHC', 'Houghton Mifflin Harcourt Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMNF', 'HMN Financial');
+  ('HMNF', 'HMN Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMPT', 'Home Point Capital Inc.');
+  ('HMPT', 'Home Point Capital Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMST', 'HomeStreet');
+  ('HMST', 'HomeStreet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMSY', 'HMS Holdings Corp');
+  ('HMSY', 'HMS Holdings Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HMTV', 'Hemisphere Media Group');
+  ('HMTV', 'Hemisphere Media Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HNDL', 'Strategy Shares Nasdaq 7HANDL Index ETF');
+  ('HNDL', 'Strategy Shares Nasdaq 7HANDL Index ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HNNA', 'Hennessy Advisors');
+  ('HNNA', 'Hennessy Advisors');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HNRG', 'Hallador Energy Company');
+  ('HNRG', 'Hallador Energy Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOFT', 'Hooker Furniture Corporation');
+  ('HOFT', 'Hooker Furniture Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOFV', 'Hall of Fame Resort & Entertainment Company');
+  ('HOFV', 'Hall of Fame Resort & Entertainment Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOFVW', 'Hall of Fame Resort & Entertainment Company');
+  ('HOFVW', 'Hall of Fame Resort & Entertainment Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOL', 'Holicity Inc. ');
+  ('HOL', 'Holicity Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOLI', 'Hollysys Automation Technologies');
+  ('HOLI', 'Hollysys Automation Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOLUU', 'Holicity Inc.');
+  ('HOLUU', 'Holicity Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOLUW', 'Holicity Inc.');
+  ('HOLUW', 'Holicity Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOLX', 'Hologic');
+  ('HOLX', 'Hologic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOMB', 'Home BancShares');
+  ('HOMB', 'Home BancShares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HONE', 'HarborOne Bancorp');
+  ('HONE', 'HarborOne Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOOK', 'HOOKIPA Pharma Inc.');
+  ('HOOK', 'HOOKIPA Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOPE', 'Hope Bancorp');
+  ('HOPE', 'Hope Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOTH', 'Hoth Therapeutics');
+  ('HOTH', 'Hoth Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HOVNP', 'Hovnanian Enterprises Inc - Depositary Share representing 1/1000th of 7.625% Series A Preferred Stock');
+  ('HOVNP', 'Hovnanian Enterprises Inc - Depositary Share representing 1/1000th of 7.625% Series A Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HPK', 'HighPeak Energy');
+  ('HPK', 'HighPeak Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HPKEW', 'HighPeak Energy');
+  ('HPKEW', 'HighPeak Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HQI', 'HireQuest');
+  ('HQI', 'HireQuest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HQY', 'HealthEquity');
+  ('HQY', 'HealthEquity');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HRMY', 'Harmony Biosciences Holdings');
+  ('HRMY', 'Harmony Biosciences Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HROW', 'Harrow Health');
+  ('HROW', 'Harrow Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HRTX', 'Heron Therapeutics');
+  ('HRTX', 'Heron Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HRZN', 'Horizon Technology Finance Corporation');
+  ('HRZN', 'Horizon Technology Finance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSAQ', 'Health Sciences Acquisitions Corporation 2 s');
+  ('HSAQ', 'Health Sciences Acquisitions Corporation 2 s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSDT', 'Helius Medical Technologies');
+  ('HSDT', 'Helius Medical Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSIC', 'Henry Schein');
+  ('HSIC', 'Henry Schein');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSII', 'Heidrick & Struggles International');
+  ('HSII', 'Heidrick & Struggles International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSKA', 'Heska Corporation');
+  ('HSKA', 'Heska Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSON', 'Hudson Global');
+  ('HSON', 'Hudson Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HST', 'Host Hotels ');
+  ('HST', 'Host Hotels ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSTM', 'HealthStream');
+  ('HSTM', 'HealthStream');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HSTO', 'Histogen Inc.');
+  ('HSTO', 'Histogen Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTBI', 'HomeTrust Bancshares');
+  ('HTBI', 'HomeTrust Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTBK', 'Heritage Commerce Corp');
+  ('HTBK', 'Heritage Commerce Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTBX', 'Heat Biologics');
+  ('HTBX', 'Heat Biologics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTGM', 'HTG Molecular Diagnostics');
+  ('HTGM', 'HTG Molecular Diagnostics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTHT', 'Huazhu Group Limited ');
+  ('HTHT', 'Huazhu Group Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTIA', 'Healthcare Trust');
+  ('HTIA', 'Healthcare Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTLD', 'Heartland Express');
+  ('HTLD', 'Heartland Express');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTLF', 'Heartland Financial USA');
+  ('HTLF', 'Heartland Financial USA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTLFP', 'Heartland Financial USA');
+  ('HTLFP', 'Heartland Financial USA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTOO', 'Fusion Fuel Green PLC s');
+  ('HTOO', 'Fusion Fuel Green PLC s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HTOOW', 'Fusion Fuel Green PLC');
+  ('HTOOW', 'Fusion Fuel Green PLC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HUBG', 'Hub Group');
+  ('HUBG', 'Hub Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HUDI', 'Huadi International Group Co.');
+  ('HUDI', 'Huadi International Group Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HUGE', 'FSD Pharma Inc. - Class B Subordinate Voting Shares');
+  ('HUGE', 'FSD Pharma Inc. - Class B Subordinate Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HUIZ', 'Huize Holding Limited ');
+  ('HUIZ', 'Huize Holding Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HURC', 'Hurco Companies');
+  ('HURC', 'Hurco Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HURN', 'Huron Consulting Group Inc.');
+  ('HURN', 'Huron Consulting Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HUSN', 'Hudson Capital Inc. s');
+  ('HUSN', 'Hudson Capital Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HVBC', 'HV Bancorp');
+  ('HVBC', 'HV Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWBK', 'Hawthorn Bancshares');
+  ('HWBK', 'Hawthorn Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWC', 'Hancock Whitney Corporation');
+  ('HWC', 'Hancock Whitney Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWCC', 'Houston Wire & Cable Company');
+  ('HWCC', 'Houston Wire & Cable Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWCPL', 'Hancock Whitney Corporation - 5.95% Subordinated Notes due 2045');
+  ('HWCPL', 'Hancock Whitney Corporation - 5.95% Subordinated Notes due 2045');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWCPZ', 'Hancock Whitney Corporation - 6.25% Subordinated Notes due 2060');
+  ('HWCPZ', 'Hancock Whitney Corporation - 6.25% Subordinated Notes due 2060');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HWKN', 'Hawkins');
+  ('HWKN', 'Hawkins');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HX', 'Xiaobai Maimai Inc. ');
+  ('HX', 'Xiaobai Maimai Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYFM', 'Hydrofarm Holdings Group');
+  ('HYFM', 'Hydrofarm Holdings Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYLS', 'First Trust Tactical High Yield ETF');
+  ('HYLS', 'First Trust Tactical High Yield ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYMC', 'Hycroft Mining Holding Corporation ');
+  ('HYMC', 'Hycroft Mining Holding Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYMCL', 'Hycroft Mining Holding Corporations');
+  ('HYMCL', 'Hycroft Mining Holding Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYMCW', 'Hycroft Mining Holding Corporation');
+  ('HYMCW', 'Hycroft Mining Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYMCZ', 'Hycroft Mining Holding Corporation');
+  ('HYMCZ', 'Hycroft Mining Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYRE', 'HyreCar Inc.');
+  ('HYRE', 'HyreCar Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYXF', 'iShares ESG Advanced High Yield Corporate Bond ETF');
+  ('HYXF', 'iShares ESG Advanced High Yield Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HYZD', 'WisdomTree Interest Rate Hedged High Yield Bond Fund');
+  ('HYZD', 'WisdomTree Interest Rate Hedged High Yield Bond Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('HZNP', 'Horizon Therapeutics Public Limited Company s');
+  ('HZNP', 'Horizon Therapeutics Public Limited Company s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IAC', 'IAC/InterActiveCorp');
+  ('IAC', 'IAC/InterActiveCorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IART', 'Integra LifeSciences Holdings Corporation');
+  ('IART', 'Integra LifeSciences Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBB', 'iShares Nasdaq Biotechnology Index Fund');
+  ('IBB', 'iShares Nasdaq Biotechnology Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBBJ', 'Defiance Nasdaq Junior Biotechnology ETF');
+  ('IBBJ', 'Defiance Nasdaq Junior Biotechnology ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBCP', 'Independent Bank Corporation');
+  ('IBCP', 'Independent Bank Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBEX', 'IBEX Limited - Common Share');
+  ('IBEX', 'IBEX Limited - Common Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBKR', 'Interactive Brokers Group');
+  ('IBKR', 'Interactive Brokers Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBOC', 'International Bancshares Corporation');
+  ('IBOC', 'International Bancshares Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTA', 'iShares iBonds Dec 2021 Term Treasury ETF');
+  ('IBTA', 'iShares iBonds Dec 2021 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTB', 'iShares iBonds Dec 2022 Term Treasury ETF');
+  ('IBTB', 'iShares iBonds Dec 2022 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTD', 'iShares iBonds Dec 2023 Term Treasury ETF');
+  ('IBTD', 'iShares iBonds Dec 2023 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTE', 'iShares iBonds Dec 2024 Term Treasury ETF');
+  ('IBTE', 'iShares iBonds Dec 2024 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTF', 'iShares iBonds Dec 2025 Term Treasury ETF');
+  ('IBTF', 'iShares iBonds Dec 2025 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTG', 'iShares iBonds Dec 2026 Term Treasury ETF');
+  ('IBTG', 'iShares iBonds Dec 2026 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTH', 'iShares iBonds Dec 2027 Term Treasury ETF');
+  ('IBTH', 'iShares iBonds Dec 2027 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTI', 'iShares iBonds Dec 2028 Term Treasury ETF');
+  ('IBTI', 'iShares iBonds Dec 2028 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTJ', 'iShares iBonds Dec 2029 Term Treasury ETF');
+  ('IBTJ', 'iShares iBonds Dec 2029 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTK', 'iShares iBonds Dec 2030 Term Treasury ETF');
+  ('IBTK', 'iShares iBonds Dec 2030 Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IBTX', 'Independent Bank Group');
+  ('IBTX', 'Independent Bank Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICAD', 'icad inc.');
+  ('ICAD', 'icad inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICBK', 'County Bancorp');
+  ('ICBK', 'County Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICCC', 'ImmuCell Corporation');
+  ('ICCC', 'ImmuCell Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICCH', 'ICC Holdings');
+  ('ICCH', 'ICC Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICFI', 'ICF International');
+  ('ICFI', 'ICF International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICHR', 'Ichor Holdings s');
+  ('ICHR', 'Ichor Holdings s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICLK', 'iClick Interactive Asia Group Limited ');
+  ('ICLK', 'iClick Interactive Asia Group Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICLN', 'iShares S&P Global Clean Energy Index Fund');
+  ('ICLN', 'iShares S&P Global Clean Energy Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICLR', 'ICON plc s');
+  ('ICLR', 'ICON plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICMB', 'Investcorp Credit Management BDC');
+  ('ICMB', 'Investcorp Credit Management BDC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICON', 'Iconix Brand Group');
+  ('ICON', 'Iconix Brand Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICPT', 'Intercept Pharmaceuticals');
+  ('ICPT', 'Intercept Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ICUI', 'ICU Medical');
+  ('ICUI', 'ICU Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDCC', 'InterDigital');
+  ('IDCC', 'InterDigital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDEX', 'Ideanomics');
+  ('IDEX', 'Ideanomics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDLB', 'Invesco FTSE International Low Beta Equal Weight ETF');
+  ('IDLB', 'Invesco FTSE International Low Beta Equal Weight ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDN', 'Intellicheck');
+  ('IDN', 'Intellicheck');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDRA', 'Idera Pharmaceuticals');
+  ('IDRA', 'Idera Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDXG', 'Interpace Biosciences');
+  ('IDXG', 'Interpace Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDXX', 'IDEXX Laboratories');
+  ('IDXX', 'IDEXX Laboratories');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IDYA', 'IDEAYA Biosciences');
+  ('IDYA', 'IDEAYA Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEA', 'Infrastructure and Energy Alternatives');
+  ('IEA', 'Infrastructure and Energy Alternatives');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEAWW', 'Infrastructure and Energy Alternatives');
+  ('IEAWW', 'Infrastructure and Energy Alternatives');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEC', 'IEC Electronics Corp.');
+  ('IEC', 'IEC Electronics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEF', 'iShares 7-10 Year Treasury Bond ETF');
+  ('IEF', 'iShares 7-10 Year Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEI', 'iShares 3-7 Year Treasury Bond ETF');
+  ('IEI', 'iShares 3-7 Year Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEP', 'Icahn Enterprises L.P. - Depositary units');
+  ('IEP', 'Icahn Enterprises L.P. - Depositary units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IESC', 'IES Holdings');
+  ('IESC', 'IES Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IEUS', 'iShares MSCI Europe Small-Cap ETF');
+  ('IEUS', 'iShares MSCI Europe Small-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IFGL', 'iShares FTSE EPRA/NAREIT Global Real Estate ex-U.S. Index Fund');
+  ('IFGL', 'iShares FTSE EPRA/NAREIT Global Real Estate ex-U.S. Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IFMK', 'iFresh Inc.');
+  ('IFMK', 'iFresh Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IFRX', 'InflaRx N.V.');
+  ('IFRX', 'InflaRx N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IFV', 'First Trust Dorsey Wright International Focus 5 ETF');
+  ('IFV', 'First Trust Dorsey Wright International Focus 5 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGAC', 'IG Acquisition Corp. ');
+  ('IGAC', 'IG Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGACU', 'IG Acquisition Corp.');
+  ('IGACU', 'IG Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGACW', 'IG Acquisition Corp.');
+  ('IGACW', 'IG Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGF', 'iShares Global Infrastructure ETF');
+  ('IGF', 'iShares Global Infrastructure ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGIB', 'iShares 5-10 Year Investment Grade Corporate Bond ETF');
+  ('IGIB', 'iShares 5-10 Year Investment Grade Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGIC', 'International General Insurance Holdings Ltd. s');
+  ('IGIC', 'International General Insurance Holdings Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGICW', 'International General Insurance Holdings Ltd. expiring 3/17/2025');
+  ('IGICW', 'International General Insurance Holdings Ltd. expiring 3/17/2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGMS', 'IGM Biosciences');
+  ('IGMS', 'IGM Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGNYU', 'Ignyte Acquisition Corp.');
+  ('IGNYU', 'Ignyte Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGOV', 'iShares International Treasury Bond ETF');
+  ('IGOV', 'iShares International Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IGSB', 'iShares 1-5 Year Investment Grade Corporate Bond ETF');
+  ('IGSB', 'iShares 1-5 Year Investment Grade Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IHRT', 'iHeartMedia');
+  ('IHRT', 'iHeartMedia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IHYF', 'Invesco High Yield Bond Factor ETF');
+  ('IHYF', 'Invesco High Yield Bond Factor ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('III', 'Information Services Group');
+  ('III', 'Information Services Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIII', 'INSU Acquisition Corp. III ');
+  ('IIII', 'INSU Acquisition Corp. III ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIIIU', 'INSU Acquisition Corp. III');
+  ('IIIIU', 'INSU Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIIIW', 'INSU Acquisition Corp. III');
+  ('IIIIW', 'INSU Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIIN', 'Insteel Industries');
+  ('IIIN', 'Insteel Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIIV', 'i3 Verticals');
+  ('IIIV', 'i3 Verticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIN', 'IntriCon Corporation');
+  ('IIN', 'IntriCon Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIVI', 'II-VI Incorporated');
+  ('IIVI', 'II-VI Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IIVIP', 'II-VI Incorporated - 6.00% Series A Mandatory Convertible Preferred Stock');
+  ('IIVIP', 'II-VI Incorporated - 6.00% Series A Mandatory Convertible Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IJT', 'iShares S&P Small-Cap 600 Growth ETF');
+  ('IJT', 'iShares S&P Small-Cap 600 Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IKNX', 'Ikonics Corporation');
+  ('IKNX', 'Ikonics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IKT', 'Inhibikase Therapeutics');
+  ('IKT', 'Inhibikase Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ILMN', 'Illumina');
+  ('ILMN', 'Illumina');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ILPT', 'Industrial Logistics Properties Trust of Beneficial Interest');
+  ('ILPT', 'Industrial Logistics Properties Trust of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMAB', 'I-MAB ');
+  ('IMAB', 'I-MAB ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMAC', 'IMAC Holdings');
+  ('IMAC', 'IMAC Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMACW', 'IMAC Holdings');
+  ('IMACW', 'IMAC Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMBI', 'iMedia Brands');
+  ('IMBI', 'iMedia Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMCR', 'Immunocore Holdings plc ');
+  ('IMCR', 'Immunocore Holdings plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMGN', 'ImmunoGen');
+  ('IMGN', 'ImmunoGen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMKTA', 'Ingles Markets');
+  ('IMKTA', 'Ingles Markets');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMMP', 'Immutep Limited ');
+  ('IMMP', 'Immutep Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMMR', 'Immersion Corporation');
+  ('IMMR', 'Immersion Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMNM', 'Immunome');
+  ('IMNM', 'Immunome');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMOS', 'ChipMOS TECHNOLOGIES INC. ');
+  ('IMOS', 'ChipMOS TECHNOLOGIES INC. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMRA', 'IMARA Inc.');
+  ('IMRA', 'IMARA Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMRN', 'Immuron Limited ');
+  ('IMRN', 'Immuron Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMRNW', 'Immuron Limiteds');
+  ('IMRNW', 'Immuron Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMTE', 'Integrated Media Technology Limited s');
+  ('IMTE', 'Integrated Media Technology Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMTX', 'Immatics N.V. s');
+  ('IMTX', 'Immatics N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMTXW', 'Immatics N.V.s');
+  ('IMTXW', 'Immatics N.V.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMUX', 'Immunic');
+  ('IMUX', 'Immunic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMV', 'IMV Inc.');
+  ('IMV', 'IMV Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMVT', 'Immunovant');
+  ('IMVT', 'Immunovant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IMXI', 'International Money Express');
+  ('IMXI', 'International Money Express');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INBK', 'First Internet Bancorp');
+  ('INBK', 'First Internet Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INBKL', 'First Internet Bancorp - 6.0% Fixed-to-Floating Rate Subordinated Notes due 2026');
+  ('INBKL', 'First Internet Bancorp - 6.0% Fixed-to-Floating Rate Subordinated Notes due 2026');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INBKZ', 'First Internet Bancorp - Fixed-to-Floating Rate Subordinated Notes Due 2029');
+  ('INBKZ', 'First Internet Bancorp - Fixed-to-Floating Rate Subordinated Notes Due 2029');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INBX', 'Inhibrx');
+  ('INBX', 'Inhibrx');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INCY', 'Incyte Corporation');
+  ('INCY', 'Incyte Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INDB', 'Independent Bank Corp.');
+  ('INDB', 'Independent Bank Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INDT', 'INDUS Realty Trust');
+  ('INDT', 'INDUS Realty Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INDY', 'iShares S&P India Nifty 50 Index Fund');
+  ('INDY', 'iShares S&P India Nifty 50 Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INFI', 'Infinity Pharmaceuticals');
+  ('INFI', 'Infinity Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INFN', 'Infinera Corporation');
+  ('INFN', 'Infinera Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INFR', 'Legg Mason Global Infrastructure ETF');
+  ('INFR', 'Legg Mason Global Infrastructure ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INGN', 'Inogen');
+  ('INGN', 'Inogen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INKAU', 'KludeIn I Acquisition Corp.');
+  ('INKAU', 'KludeIn I Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INM', 'InMed Pharmaceuticals Inc.');
+  ('INM', 'InMed Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INMB', 'INmune Bio Inc.');
+  ('INMB', 'INmune Bio Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INMD', 'InMode Ltd.  s');
+  ('INMD', 'InMode Ltd.  s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INO', 'Inovio Pharmaceuticals');
+  ('INO', 'Inovio Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INOD', 'Innodata Inc.');
+  ('INOD', 'Innodata Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INOV', 'Inovalon Holdings');
+  ('INOV', 'Inovalon Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INPX', 'Inpixon ');
+  ('INPX', 'Inpixon ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INSE', 'Inspired Entertainment');
+  ('INSE', 'Inspired Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INSG', 'Inseego Corp.');
+  ('INSG', 'Inseego Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INSM', 'Insmed');
+  ('INSM', 'Insmed');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INTC', 'Intel Corporation');
+  ('INTC', 'Intel Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INTG', 'The Intergroup Corporation');
+  ('INTG', 'The Intergroup Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INTU', 'Intuit Inc.');
+  ('INTU', 'Intuit Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INTZ', 'Intrusion Inc.');
+  ('INTZ', 'Intrusion Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INVA', 'Innoviva');
+  ('INVA', 'Innoviva');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INVE', 'Identiv');
+  ('INVE', 'Identiv');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INVO', 'INVO BioScience');
+  ('INVO', 'INVO BioScience');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('INZY', 'Inozyme Pharma');
+  ('INZY', 'Inozyme Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IONS', 'Ionis Pharmaceuticals');
+  ('IONS', 'Ionis Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IOSP', 'Innospec Inc.');
+  ('IOSP', 'Innospec Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IOVA', 'Iovance Biotherapeutics');
+  ('IOVA', 'Iovance Biotherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPA', 'ImmunoPrecise Antibodies Ltd.');
+  ('IPA', 'ImmunoPrecise Antibodies Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPAR', 'Inter Parfums');
+  ('IPAR', 'Inter Parfums');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPDN', 'Professional Diversity Network');
+  ('IPDN', 'Professional Diversity Network');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPGP', 'IPG Photonics Corporation');
+  ('IPGP', 'IPG Photonics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPHA', 'Innate Pharma S.A. ');
+  ('IPHA', 'Innate Pharma S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPHI', 'Inphi Corporation');
+  ('IPHI', 'Inphi Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPKW', 'Invesco International BuyBack Achievers ETF');
+  ('IPKW', 'Invesco International BuyBack Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPLDP', 'Interstate Power and Light Company - Interstate Power & Light Company Perp Preferred 5.10% Series D');
+  ('IPLDP', 'Interstate Power and Light Company - Interstate Power & Light Company Perp Preferred 5.10% Series D');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IPWR', 'Ideal Power Inc.');
+  ('IPWR', 'Ideal Power Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IQ', 'iQIYI');
+  ('IQ', 'iQIYI');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRBT', 'iRobot Corporation');
+  ('IRBT', 'iRobot Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRCP', 'IRSA Propiedades Comerciales S.A. - American Depository Shares');
+  ('IRCP', 'IRSA Propiedades Comerciales S.A. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRDM', 'Iridium Communications Inc');
+  ('IRDM', 'Iridium Communications Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRIX', 'IRIDEX Corporation');
+  ('IRIX', 'IRIDEX Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRMD', 'iRadimed Corporation');
+  ('IRMD', 'iRadimed Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IROQ', 'IF Bancorp');
+  ('IROQ', 'IF Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRTC', 'iRhythm Technologies');
+  ('IRTC', 'iRhythm Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IRWD', 'Ironwood Pharmaceuticals');
+  ('IRWD', 'Ironwood Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISBC', 'Investors Bancorp');
+  ('ISBC', 'Investors Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISDX', 'Invesco RAFI Strategic Developed ex-US ETF');
+  ('ISDX', 'Invesco RAFI Strategic Developed ex-US ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISEE', 'IVERIC bio');
+  ('ISEE', 'IVERIC bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISEM', 'Invesco RAFI Strategic Emerging Markets ETF');
+  ('ISEM', 'Invesco RAFI Strategic Emerging Markets ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISHG', 'iShares 1-3 Year International Treasury Bond ETF');
+  ('ISHG', 'iShares 1-3 Year International Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISIG', 'Insignia Systems');
+  ('ISIG', 'Insignia Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISNS', 'Image Sensing Systems');
+  ('ISNS', 'Image Sensing Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISRG', 'Intuitive Surgical');
+  ('ISRG', 'Intuitive Surgical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISSC', 'Innovative Solutions and Support');
+  ('ISSC', 'Innovative Solutions and Support');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISTB', 'iShares Core 1-5 Year USD Bond ETF');
+  ('ISTB', 'iShares Core 1-5 Year USD Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISTR', 'Investar Holding Corporation');
+  ('ISTR', 'Investar Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ISUN', 'iSun');
+  ('ISUN', 'iSun');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITAC', 'Industrial Tech Acquisitions');
+  ('ITAC', 'Industrial Tech Acquisitions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITACU', 'Industrial Tech Acquisitions');
+  ('ITACU', 'Industrial Tech Acquisitions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITACW', 'Industrial Tech Acquisitions');
+  ('ITACW', 'Industrial Tech Acquisitions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITCI', 'Intra-Cellular Therapies Inc.');
+  ('ITCI', 'Intra-Cellular Therapies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITHXU', 'ITHAX Acquisition Corp.');
+  ('ITHXU', 'ITHAX Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITI', 'Iteris');
+  ('ITI', 'Iteris');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITIC', 'Investors Title Company');
+  ('ITIC', 'Investors Title Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITMR', 'Itamar Medical Ltd. - American Depository Shares');
+  ('ITMR', 'Itamar Medical Ltd. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITOS', 'iTeos Therapeutics');
+  ('ITOS', 'iTeos Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITQRU', 'Itiquira Acquisition Corp.');
+  ('ITQRU', 'Itiquira Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITRI', 'Itron');
+  ('ITRI', 'Itron');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITRM', 'Iterum Therapeutics plc ');
+  ('ITRM', 'Iterum Therapeutics plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ITRN', 'Ituran Location and Control Ltd. s');
+  ('ITRN', 'Ituran Location and Control Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IUS', 'Invesco RAFI Strategic US ETF');
+  ('IUS', 'Invesco RAFI Strategic US ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IUSB', 'iShares Core Total USD Bond Market ETF');
+  ('IUSB', 'iShares Core Total USD Bond Market ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IUSG', 'iShares Core S&P U.S. Growth ETF');
+  ('IUSG', 'iShares Core S&P U.S. Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IUSS', 'Invesco RAFI Strategic US Small Company ETF');
+  ('IUSS', 'Invesco RAFI Strategic US Small Company ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IUSV', 'iShares Core S&P U.S. Value ETF');
+  ('IUSV', 'iShares Core S&P U.S. Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IVA', 'Inventiva S.A. - American Depository Shares');
+  ('IVA', 'Inventiva S.A. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IVAC', 'Intevac');
+  ('IVAC', 'Intevac');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IXUS', 'iShares Core MSCI Total International Stock ETF');
+  ('IXUS', 'iShares Core MSCI Total International Stock ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('IZEA', 'IZEA Worldwide');
+  ('IZEA', 'IZEA Worldwide');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JACK', 'Jack In The Box Inc.');
+  ('JACK', 'Jack In The Box Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JAGX', 'Jaguar Health');
+  ('JAGX', 'Jaguar Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JAKK', 'JAKKS Pacific');
+  ('JAKK', 'JAKKS Pacific');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JAMF', 'Jamf Holding Corp.');
+  ('JAMF', 'Jamf Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JAN', 'JanOne Inc.');
+  ('JAN', 'JanOne Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JAZZ', 'Jazz Pharmaceuticals plc s');
+  ('JAZZ', 'Jazz Pharmaceuticals plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JBHT', 'J.B. Hunt Transport Services');
+  ('JBHT', 'J.B. Hunt Transport Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JBLU', 'JetBlue Airways Corporation');
+  ('JBLU', 'JetBlue Airways Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JBSS', 'John B. Sanfilippo & Son');
+  ('JBSS', 'John B. Sanfilippo & Son');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JCICU', 'Jack Creek Investment Corp.s');
+  ('JCICU', 'Jack Creek Investment Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JCOM', 'j2 Global');
+  ('JCOM', 'j2 Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JCS', 'Communications Systems');
+  ('JCS', 'Communications Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JCTCF', 'Jewett-Cameron Trading Company');
+  ('JCTCF', 'Jewett-Cameron Trading Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JD', 'JD.com');
+  ('JD', 'JD.com');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JFIN', 'Jiayin Group Inc. ');
+  ('JFIN', 'Jiayin Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JFU', '9F Inc. ');
+  ('JFU', '9F Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JG', 'Aurora Mobile Limited ');
+  ('JG', 'Aurora Mobile Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JJSF', 'J & J Snack Foods Corp.');
+  ('JJSF', 'J & J Snack Foods Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JKHY', 'Jack Henry & Associates');
+  ('JKHY', 'Jack Henry & Associates');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JKI', 'iShares Morningstar Mid-Cap ETF');
+  ('JKI', 'iShares Morningstar Mid-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JMPNL', 'JMP Group LLC - 7.25% Senior Notes due 2027');
+  ('JMPNL', 'JMP Group LLC - 7.25% Senior Notes due 2027');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JMPNZ', 'JMP Group LLC - 6.875% Senior Notes due 2029');
+  ('JMPNZ', 'JMP Group LLC - 6.875% Senior Notes due 2029');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JNCE', 'Jounce Therapeutics');
+  ('JNCE', 'Jounce Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JOBS', '51job');
+  ('JOBS', '51job');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JOET', 'Virtus Terranova U.S. Quality Momentum ETF');
+  ('JOET', 'Virtus Terranova U.S. Quality Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JOFFU', 'JOFF Fintech Acquisition Corp.');
+  ('JOFFU', 'JOFF Fintech Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JOUT', 'Johnson Outdoors Inc. ');
+  ('JOUT', 'Johnson Outdoors Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JRJC', 'China Finance Online Co. Limited ');
+  ('JRJC', 'China Finance Online Co. Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JRSH', 'Jerash Holdings (US)');
+  ('JRSH', 'Jerash Holdings (US)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JRVR', 'James River Group Holdings');
+  ('JRVR', 'James River Group Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JSM', 'Navient Corporation - 6% Senior Notes due December 15');
+  ('JSM', 'Navient Corporation - 6% Senior Notes due December 15');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JSMD', 'Janus Henderson Small/Mid Cap Growth Alpha ETF');
+  ('JSMD', 'Janus Henderson Small/Mid Cap Growth Alpha ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JSML', 'Janus Henderson Small Cap Growth Alpha ETF');
+  ('JSML', 'Janus Henderson Small Cap Growth Alpha ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JUPW', 'Jupiter Wellness');
+  ('JUPW', 'Jupiter Wellness');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JUPWW', 'Jupiter Wellness');
+  ('JUPWW', 'Jupiter Wellness');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JVA', 'Coffee Holding Co.');
+  ('JVA', 'Coffee Holding Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JYAC', 'Jiya Acquisition Corp. ');
+  ('JYAC', 'Jiya Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('JYNT', 'The Joint Corp.');
+  ('JYNT', 'The Joint Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KAIIU', 'Kismet Acquisition Two Corp.');
+  ('KAIIU', 'Kismet Acquisition Two Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KAIRU', 'Kairos Acquisition Corp.');
+  ('KAIRU', 'Kairos Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KALA', 'Kala Pharmaceuticals');
+  ('KALA', 'Kala Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KALU', 'Kaiser Aluminum Corporation');
+  ('KALU', 'Kaiser Aluminum Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KALV', 'KalVista Pharmaceuticals');
+  ('KALV', 'KalVista Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBAL', 'Kimball International');
+  ('KBAL', 'Kimball International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBNT', 'Kubient');
+  ('KBNT', 'Kubient');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBNTW', 'Kubient');
+  ('KBNTW', 'Kubient');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBSF', 'KBS Fashion Group Limited');
+  ('KBSF', 'KBS Fashion Group Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBWB', 'Invesco KBW Bank ETF');
+  ('KBWB', 'Invesco KBW Bank ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBWD', 'Invesco KBW High Dividend Yield Financial ETF');
+  ('KBWD', 'Invesco KBW High Dividend Yield Financial ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBWP', 'Invesco KBW Property & Casualty Insurance ETF');
+  ('KBWP', 'Invesco KBW Property & Casualty Insurance ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBWR', 'Invesco KBW Regional Banking ETF');
+  ('KBWR', 'Invesco KBW Regional Banking ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KBWY', 'Invesco KBW Premium Yield Equity REIT ETF');
+  ('KBWY', 'Invesco KBW Premium Yield Equity REIT ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KC', 'Kingsoft Cloud Holdings Limited ');
+  ('KC', 'Kingsoft Cloud Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KCAPL', 'Portman Ridge Finance Corporation - 6.125% Notes due 2022');
+  ('KCAPL', 'Portman Ridge Finance Corporation - 6.125% Notes due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KDMN', 'Kadmon Holdings');
+  ('KDMN', 'Kadmon Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KDNY', 'Chinook Therapeutics');
+  ('KDNY', 'Chinook Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KDP', 'Keurig Dr Pepper Inc.');
+  ('KDP', 'Keurig Dr Pepper Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KE', 'Kimball Electronics');
+  ('KE', 'Kimball Electronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KEJI', 'Global X China Disruption ETF');
+  ('KEJI', 'Global X China Disruption ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KELYA', 'Kelly Services');
+  ('KELYA', 'Kelly Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KELYB', 'Kelly Services');
+  ('KELYB', 'Kelly Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KEQU', 'Kewaunee Scientific Corporation');
+  ('KEQU', 'Kewaunee Scientific Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KERN', 'Akerna Corp.');
+  ('KERN', 'Akerna Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KERNW', 'Akerna Corp.');
+  ('KERNW', 'Akerna Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KFFB', 'Kentucky First Federal Bancorp');
+  ('KFFB', 'Kentucky First Federal Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KFRC', 'Kforce');
+  ('KFRC', 'Kforce');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KHC', 'The Kraft Heinz Company');
+  ('KHC', 'The Kraft Heinz Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KIDS', 'OrthoPediatrics Corp.');
+  ('KIDS', 'OrthoPediatrics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KIIIU', 'Kismet Acquisition Three Corp.');
+  ('KIIIU', 'Kismet Acquisition Three Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KIN', 'Kindred Biosciences');
+  ('KIN', 'Kindred Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KINS', 'Kingstone Companies');
+  ('KINS', 'Kingstone Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KINZ', 'KINS Technology Group Inc. ');
+  ('KINZ', 'KINS Technology Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KINZU', 'KINS Technology Group Inc.');
+  ('KINZU', 'KINS Technology Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KINZW', 'KINS Technology Group Inc.');
+  ('KINZW', 'KINS Technology Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KIRK', 'Kirkland''s');
+  ('KIRK', 'Kirkland''s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KLAC', 'KLA Corporation ');
+  ('KLAC', 'KLA Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KLAQU', 'KL Acquisition Corp');
+  ('KLAQU', 'KL Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KLDO', 'Kaleido Biosciences');
+  ('KLDO', 'Kaleido Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KLIC', 'Kulicke and Soffa Industries');
+  ('KLIC', 'Kulicke and Soffa Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KLXE', 'KLX Energy Services Holdings');
+  ('KLXE', 'KLX Energy Services Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KMDA', 'Kamada Ltd. s');
+  ('KMDA', 'Kamada Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KMPH', 'KemPharm');
+  ('KMPH', 'KemPharm');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KNDI', 'Kandi Technologies Group');
+  ('KNDI', 'Kandi Technologies Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KNSA', 'Kiniksa Pharmaceuticals');
+  ('KNSA', 'Kiniksa Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KNSL', 'Kinsale Capital Group');
+  ('KNSL', 'Kinsale Capital Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KNTE', 'Kinnate Biopharma Inc.');
+  ('KNTE', 'Kinnate Biopharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KOD', 'Kodiak Sciences Inc');
+  ('KOD', 'Kodiak Sciences Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KOPN', 'Kopin Corporation');
+  ('KOPN', 'Kopin Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KOR', 'Corvus Gold Inc.');
+  ('KOR', 'Corvus Gold Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KOSS', 'Koss Corporation');
+  ('KOSS', 'Koss Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KPTI', 'Karyopharm Therapeutics Inc.');
+  ('KPTI', 'Karyopharm Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRBP', 'Kiromic BioPharma');
+  ('KRBP', 'Kiromic BioPharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRKR', '36Kr Holdings Inc. ');
+  ('KRKR', '36Kr Holdings Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRMA', 'Global X Conscious Companies ETF');
+  ('KRMA', 'Global X Conscious Companies ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRMD', 'Repro Med Systems');
+  ('KRMD', 'Repro Med Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRNLU', 'Kernel Group Holdings');
+  ('KRNLU', 'Kernel Group Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRNT', 'Kornit Digital Ltd. s');
+  ('KRNT', 'Kornit Digital Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRNY', 'Kearny Financial');
+  ('KRNY', 'Kearny Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRON', 'Kronos Bio');
+  ('KRON', 'Kronos Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KROS', 'Keros Therapeutics');
+  ('KROS', 'Keros Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRTX', 'Karuna Therapeutics');
+  ('KRTX', 'Karuna Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRUS', 'Kura Sushi USA');
+  ('KRUS', 'Kura Sushi USA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KRYS', 'Krystal Biotech');
+  ('KRYS', 'Krystal Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KSMT', 'Kismet Acquisition One Corp s');
+  ('KSMT', 'Kismet Acquisition One Corp s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KSMTU', 'Kismet Acquisition One Corp');
+  ('KSMTU', 'Kismet Acquisition One Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KSMTW', 'Kismet Acquisition One Corp');
+  ('KSMTW', 'Kismet Acquisition One Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KSPN', 'Kaspien Holdings Inc.');
+  ('KSPN', 'Kaspien Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KTCC', 'Key Tronic Corporation');
+  ('KTCC', 'Key Tronic Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KTOS', 'Kratos Defense & Security Solutions');
+  ('KTOS', 'Kratos Defense & Security Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KTRA', 'Kintara Therapeutics');
+  ('KTRA', 'Kintara Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KURA', 'Kura Oncology');
+  ('KURA', 'Kura Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KVHI', 'KVH Industries');
+  ('KVHI', 'KVH Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KXIN', 'Kaixin Auto Holdings ');
+  ('KXIN', 'Kaixin Auto Holdings ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KYMR', 'Kymera Therapeutics');
+  ('KYMR', 'Kymera Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KZIA', 'Kazia Therapeutics Limited ');
+  ('KZIA', 'Kazia Therapeutics Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('KZR', 'Kezar Life Sciences');
+  ('KZR', 'Kezar Life Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LABP', 'Landos Biopharma');
+  ('LABP', 'Landos Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LACQ', 'Leisure Acquisition Corp.');
+  ('LACQ', 'Leisure Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LACQU', 'Leisure Acquisition Corp.');
+  ('LACQU', 'Leisure Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LACQW', 'Leisure Acquisition Corp.');
+  ('LACQW', 'Leisure Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAKE', 'Lakeland Industries');
+  ('LAKE', 'Lakeland Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAMR', 'Lamar Advertising Company ');
+  ('LAMR', 'Lamar Advertising Company ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LANC', 'Lancaster Colony Corporation');
+  ('LANC', 'Lancaster Colony Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAND', 'Gladstone Land Corporation');
+  ('LAND', 'Gladstone Land Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LANDM', 'Gladstone Land Corporation - 5.00% Series D Cumulative Term Preferred Stock');
+  ('LANDM', 'Gladstone Land Corporation - 5.00% Series D Cumulative Term Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LANDO', 'Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock');
+  ('LANDO', 'Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LARK', 'Landmark Bancorp Inc.');
+  ('LARK', 'Landmark Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LASR', 'nLIGHT');
+  ('LASR', 'nLIGHT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LATN', 'Union Acquisition Corp. II s');
+  ('LATN', 'Union Acquisition Corp. II s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LATNU', 'Union Acquisition Corp. IIs');
+  ('LATNU', 'Union Acquisition Corp. IIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LATNW', 'Union Acquisition Corp. II');
+  ('LATNW', 'Union Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAUR', 'Laureate Education');
+  ('LAUR', 'Laureate Education');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAWS', 'Lawson Products');
+  ('LAWS', 'Lawson Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAZR', 'Luminar Technologies');
+  ('LAZR', 'Luminar Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAZRW', 'Luminar Technologies');
+  ('LAZRW', 'Luminar Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LAZY', 'Lazydays Holdings');
+  ('LAZY', 'Lazydays Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBAI', 'Lakeland Bancorp');
+  ('LBAI', 'Lakeland Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBC', 'Luther Burbank Corporation');
+  ('LBC', 'Luther Burbank Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBRDA', 'Liberty Broadband Corporation ');
+  ('LBRDA', 'Liberty Broadband Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBRDK', 'Liberty Broadband Corporation - Class C Common Stock');
+  ('LBRDK', 'Liberty Broadband Corporation - Class C Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBRDP', 'Liberty Broadband Corporation - Series A Cumulative Redeemable Preferred Stock');
+  ('LBRDP', 'Liberty Broadband Corporation - Series A Cumulative Redeemable Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBTYA', 'Liberty Global plcs');
+  ('LBTYA', 'Liberty Global plcs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBTYB', 'Liberty Global plc - Class B Ordinary Shares');
+  ('LBTYB', 'Liberty Global plc - Class B Ordinary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LBTYK', 'Liberty Global plc - Class C Ordinary Shares');
+  ('LBTYK', 'Liberty Global plc - Class C Ordinary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCAP', 'Lionheart Acquisition Corp. II ');
+  ('LCAP', 'Lionheart Acquisition Corp. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCAPU', 'Lionheart Acquisition Corp. II');
+  ('LCAPU', 'Lionheart Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCAPW', 'Lionheart Acquisition Corp. II');
+  ('LCAPW', 'Lionheart Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCNB', 'LCNB Corporation');
+  ('LCNB', 'LCNB Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCUT', 'Lifetime Brands');
+  ('LCUT', 'Lifetime Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCY', 'Landcadia Holdings III');
+  ('LCY', 'Landcadia Holdings III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCYAU', 'Landcadia Holdings III');
+  ('LCYAU', 'Landcadia Holdings III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LCYAW', 'Landcadia Holdings III');
+  ('LCYAW', 'Landcadia Holdings III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LDEM', 'iShares ESG MSCI EM Leaders ETF');
+  ('LDEM', 'iShares ESG MSCI EM Leaders ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LDSF', 'First Trust Low Duration Strategic Focus ETF');
+  ('LDSF', 'First Trust Low Duration Strategic Focus ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LE', 'Lands'' End');
+  ('LE', 'Lands'' End');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LECO', 'Lincoln Electric Holdings');
+  ('LECO', 'Lincoln Electric Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEDS', 'SemiLEDS Corporation');
+  ('LEDS', 'SemiLEDS Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEGH', 'Legacy Housing Corporation');
+  ('LEGH', 'Legacy Housing Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEGN', 'Legend Biotech Corporation ');
+  ('LEGN', 'Legend Biotech Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEGOU', 'Legato Merger Corp.s');
+  ('LEGOU', 'Legato Merger Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEGR', 'First Trust Indxx Innovative Transaction & Process ETF');
+  ('LEGR', 'First Trust Indxx Innovative Transaction & Process ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LESL', 'Leslie''s');
+  ('LESL', 'Leslie''s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEVL', 'Level One Bancorp');
+  ('LEVL', 'Level One Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEVLP', 'Level One Bancorp');
+  ('LEVLP', 'Level One Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEXX', 'Lexaria Bioscience Corp.');
+  ('LEXX', 'Lexaria Bioscience Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LEXXW', 'Lexaria Bioscience Corp.');
+  ('LEXXW', 'Lexaria Bioscience Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFMD', 'LifeMD');
+  ('LFMD', 'LifeMD');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFTR', 'Lefteris Acquisition Corp. ');
+  ('LFTR', 'Lefteris Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFTRU', 'Lefteris Acquisition Corp.');
+  ('LFTRU', 'Lefteris Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFTRW', 'Lefteris Acquisition Corp.');
+  ('LFTRW', 'Lefteris Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFUS', 'Littelfuse');
+  ('LFUS', 'Littelfuse');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LFVN', 'Lifevantage Corporation');
+  ('LFVN', 'Lifevantage Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGACU', 'Lazard Growth Acquisition Corp. Is');
+  ('LGACU', 'Lazard Growth Acquisition Corp. Is');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGHL', 'Lion Group Holding Ltd. - American Depositary Share');
+  ('LGHL', 'Lion Group Holding Ltd. - American Depositary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGHLW', 'Lion Group Holding Ltd.');
+  ('LGHLW', 'Lion Group Holding Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGIH', 'LGI Homes');
+  ('LGIH', 'LGI Homes');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGND', 'Ligand Pharmaceuticals Incorporated');
+  ('LGND', 'Ligand Pharmaceuticals Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LGVN', 'Longeveron Inc.');
+  ('LGVN', 'Longeveron Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LHCG', 'LHC Group');
+  ('LHCG', 'LHC Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LHDX', 'Lucira Health');
+  ('LHDX', 'Lucira Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LI', 'Li Auto Inc. ');
+  ('LI', 'Li Auto Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIFE', 'aTyr Pharma');
+  ('LIFE', 'aTyr Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LILA', 'Liberty Latin America Ltd. ');
+  ('LILA', 'Liberty Latin America Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LILAK', 'Liberty Latin America Ltd. - Class C Common Stock');
+  ('LILAK', 'Liberty Latin America Ltd. - Class C Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LINC', 'Lincoln Educational Services Corporation');
+  ('LINC', 'Lincoln Educational Services Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIND', 'Lindblad Expeditions Holdings Inc. ');
+  ('LIND', 'Lindblad Expeditions Holdings Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIQT', 'LiqTech International');
+  ('LIQT', 'LiqTech International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LITE', 'Lumentum Holdings Inc.');
+  ('LITE', 'Lumentum Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVE', 'Live Ventures Incorporated');
+  ('LIVE', 'Live Ventures Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVK', 'LIV Capital Acquisition Corp.s');
+  ('LIVK', 'LIV Capital Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVKU', 'LIV Capital Acquisition Corp.');
+  ('LIVKU', 'LIV Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVKW', 'LIV Capital Acquisition Corp.');
+  ('LIVKW', 'LIV Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVN', 'LivaNova PLC s');
+  ('LIVN', 'LivaNova PLC s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIVX', 'LiveXLive Media');
+  ('LIVX', 'LiveXLive Media');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIXT', 'Lixte Biotechnology Holdings');
+  ('LIXT', 'Lixte Biotechnology Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIXTW', 'Lixte Biotechnology Holdings');
+  ('LIXTW', 'Lixte Biotechnology Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LIZI', 'LIZHI INC. ');
+  ('LIZI', 'LIZHI INC. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LJAQU', 'LightJump Acquisition Corporation');
+  ('LJAQU', 'LightJump Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LJPC', 'La Jolla Pharmaceutical Company');
+  ('LJPC', 'La Jolla Pharmaceutical Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LKCO', 'Luokung Technology Corp s');
+  ('LKCO', 'Luokung Technology Corp s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LKFN', 'Lakeland Financial Corporation');
+  ('LKFN', 'Lakeland Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LKQ', 'LKQ Corporation');
+  ('LKQ', 'LKQ Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LLIT', 'Lianluo Smart Limited ');
+  ('LLIT', 'Lianluo Smart Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LLNW', 'Limelight Networks');
+  ('LLNW', 'Limelight Networks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMACU', 'Liberty Media Acquisition Corporation');
+  ('LMACU', 'Liberty Media Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMAOU', 'LMF Acquisition Opportunities Inc.');
+  ('LMAOU', 'LMF Acquisition Opportunities Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMAT', 'LeMaitre Vascular');
+  ('LMAT', 'LeMaitre Vascular');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMB', 'Limbach Holdings');
+  ('LMB', 'Limbach Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMBS', 'First Trust Low Duration Opportunities ETF');
+  ('LMBS', 'First Trust Low Duration Opportunities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMFA', 'LM Funding America');
+  ('LMFA', 'LM Funding America');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMNL', 'Liminal BioSciences Inc.');
+  ('LMNL', 'Liminal BioSciences Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMNR', 'Limoneira Co');
+  ('LMNR', 'Limoneira Co');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMNX', 'Luminex Corporation');
+  ('LMNX', 'Luminex Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMPX', 'LMP Automotive Holdings');
+  ('LMPX', 'LMP Automotive Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMRK', 'Landmark Infrastructure Partners LP - Common Units');
+  ('LMRK', 'Landmark Infrastructure Partners LP - Common Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMRKN', 'Landmark Infrastructure Partners LP - Preferred Stock');
+  ('LMRKN', 'Landmark Infrastructure Partners LP - Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMRKO', 'Landmark Infrastructure Partners LP - Preferred Units');
+  ('LMRKO', 'Landmark Infrastructure Partners LP - Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMRKP', 'Landmark Infrastructure Partners LP - 8.00% Series A Cumulative Redeemable Perpetual Preferred Units');
+  ('LMRKP', 'Landmark Infrastructure Partners LP - 8.00% Series A Cumulative Redeemable Perpetual Preferred Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LMST', 'Limestone Bancorp');
+  ('LMST', 'Limestone Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LNDC', 'Landec Corporation');
+  ('LNDC', 'Landec Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LNGR', 'Global X Longevity Thematic ETF');
+  ('LNGR', 'Global X Longevity Thematic ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LNSR', 'LENSAR');
+  ('LNSR', 'LENSAR');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LNT', 'Alliant Energy Corporation');
+  ('LNT', 'Alliant Energy Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LNTH', 'Lantheus Holdings');
+  ('LNTH', 'Lantheus Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOAC', 'Longevity Acquisition Corporation s');
+  ('LOAC', 'Longevity Acquisition Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOACR', 'Longevity Acquisition Corporation');
+  ('LOACR', 'Longevity Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOACU', 'Longevity Acquisition Corporations');
+  ('LOACU', 'Longevity Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOACW', 'Longevity Acquisition Corporation');
+  ('LOACW', 'Longevity Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOAN', 'Manhattan Bridge Capital');
+  ('LOAN', 'Manhattan Bridge Capital');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOB', 'Live Oak Bancshares');
+  ('LOB', 'Live Oak Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOCO', 'El Pollo Loco Holdings');
+  ('LOCO', 'El Pollo Loco Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOGC', 'LogicBio Therapeutics');
+  ('LOGC', 'LogicBio Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOGI', 'Logitech International S.A. - Registered Shares');
+  ('LOGI', 'Logitech International S.A. - Registered Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOOP', 'Loop Industries');
+  ('LOOP', 'Loop Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOPE', 'Grand Canyon Education');
+  ('LOPE', 'Grand Canyon Education');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LORL', 'Loral Space and Communications');
+  ('LORL', 'Loral Space and Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOTZ', 'CarLotz');
+  ('LOTZ', 'CarLotz');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOTZW', 'CarLotz');
+  ('LOTZW', 'CarLotz');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LOVE', 'The Lovesac Company');
+  ('LOVE', 'The Lovesac Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPCN', 'Lipocine Inc.');
+  ('LPCN', 'Lipocine Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPLA', 'LPL Financial Holdings Inc.');
+  ('LPLA', 'LPL Financial Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPRO', 'Open Lending Corporation ');
+  ('LPRO', 'Open Lending Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPSN', 'LivePerson');
+  ('LPSN', 'LivePerson');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPTH', 'LightPath Technologies');
+  ('LPTH', 'LightPath Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LPTX', 'Leap Therapeutics');
+  ('LPTX', 'Leap Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LQDA', 'Liquidia Corporation');
+  ('LQDA', 'Liquidia Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LQDT', 'Liquidity Services');
+  ('LQDT', 'Liquidity Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LRCX', 'Lam Research Corporation');
+  ('LRCX', 'Lam Research Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LRGE', 'ClearBridge Large Cap Growth ESG ETF');
+  ('LRGE', 'ClearBridge Large Cap Growth ESG ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LRMR', 'Larimar Therapeutics');
+  ('LRMR', 'Larimar Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSAQ', 'LifeSci Acquisition II Corp.');
+  ('LSAQ', 'LifeSci Acquisition II Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSBK', 'Lake Shore Bancorp');
+  ('LSBK', 'Lake Shore Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSCC', 'Lattice Semiconductor Corporation');
+  ('LSCC', 'Lattice Semiconductor Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSEA', 'Landsea Homes Corporation');
+  ('LSEA', 'Landsea Homes Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSEAW', 'Landsea Homes Corporation');
+  ('LSEAW', 'Landsea Homes Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSTR', 'Landstar System');
+  ('LSTR', 'Landstar System');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSXMA', 'Liberty Media Corporation - Series A Liberty SiriusXM Common Stock');
+  ('LSXMA', 'Liberty Media Corporation - Series A Liberty SiriusXM Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSXMB', 'Liberty Media Corporation - Series B Liberty SiriusXM Common Stock');
+  ('LSXMB', 'Liberty Media Corporation - Series B Liberty SiriusXM Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LSXMK', 'Liberty Media Corporation - Series C Liberty SiriusXM Common Stock');
+  ('LSXMK', 'Liberty Media Corporation - Series C Liberty SiriusXM Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LTBR', 'Lightbridge Corporation');
+  ('LTBR', 'Lightbridge Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LTRN', 'Lantern Pharma Inc.');
+  ('LTRN', 'Lantern Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LTRPA', 'Liberty TripAdvisor Holdings');
+  ('LTRPA', 'Liberty TripAdvisor Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LTRPB', 'Liberty TripAdvisor Holdings');
+  ('LTRPB', 'Liberty TripAdvisor Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LTRX', 'Lantronix');
+  ('LTRX', 'Lantronix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LULU', 'lululemon athletica inc.');
+  ('LULU', 'lululemon athletica inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUMO', 'Lumos Pharma');
+  ('LUMO', 'Lumos Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUNA', 'Luna Innovations Incorporated');
+  ('LUNA', 'Luna Innovations Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUNG', 'Pulmonx Corporation');
+  ('LUNG', 'Pulmonx Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUXA', 'Lux Health Tech Acquisition Corp. ');
+  ('LUXA', 'Lux Health Tech Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUXAU', 'Lux Health Tech Acquisition Corp.s');
+  ('LUXAU', 'Lux Health Tech Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LUXAW', 'Lux Health Tech Acquisition Corp.s');
+  ('LUXAW', 'Lux Health Tech Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LVHD', 'Legg Mason Low Volatility High Dividend ETF');
+  ('LVHD', 'Legg Mason Low Volatility High Dividend ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LWACU', 'Locust Walk Acquisition Corp.');
+  ('LWACU', 'Locust Walk Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LWAY', 'Lifeway Foods');
+  ('LWAY', 'Lifeway Foods');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LX', 'LexinFintech Holdings Ltd. ');
+  ('LX', 'LexinFintech Holdings Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LXEH', 'Lixiang Education Holding Co.');
+  ('LXEH', 'Lixiang Education Holding Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LXRX', 'Lexicon Pharmaceuticals');
+  ('LXRX', 'Lexicon Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LYFT', 'Lyft');
+  ('LYFT', 'Lyft');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LYL', 'Dragon Victory International Limited s');
+  ('LYL', 'Dragon Victory International Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LYRA', 'Lyra Therapeutics');
+  ('LYRA', 'Lyra Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('LYTS', 'LSI Industries Inc.');
+  ('LYTS', 'LSI Industries Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAAC', 'Montes Archimedes Acquisition Corp. ');
+  ('MAAC', 'Montes Archimedes Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAACU', 'Montes Archimedes Acquisition Corp.');
+  ('MAACU', 'Montes Archimedes Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAACW', 'Montes Archimedes Acquisition Corp.');
+  ('MAACW', 'Montes Archimedes Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MACAU', 'Moringa Acquisition Corps');
+  ('MACAU', 'Moringa Acquisition Corps');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MACK', 'Merrimack Pharmaceuticals');
+  ('MACK', 'Merrimack Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MACU', 'Mallard Acquisition Corp.');
+  ('MACU', 'Mallard Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MACUU', 'Mallard Acquisition Corp.');
+  ('MACUU', 'Mallard Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MACUW', 'Mallard Acquisition Corp.');
+  ('MACUW', 'Mallard Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAGS', 'Magal Security Systems Ltd. s');
+  ('MAGS', 'Magal Security Systems Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MANH', 'Manhattan Associates');
+  ('MANH', 'Manhattan Associates');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MANT', 'ManTech International Corporation ');
+  ('MANT', 'ManTech International Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAR', 'Marriott International ');
+  ('MAR', 'Marriott International ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MARA', 'Marathon Patent Group');
+  ('MARA', 'Marathon Patent Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MARK', 'Remark Holdings');
+  ('MARK', 'Remark Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MARPS', 'Marine Petroleum Trusts of Beneficial Interest');
+  ('MARPS', 'Marine Petroleum Trusts of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MASI', 'Masimo Corporation');
+  ('MASI', 'Masimo Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MASS', '908 Devices Inc.');
+  ('MASS', '908 Devices Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAT', 'Mattel');
+  ('MAT', 'Mattel');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MATW', 'Matthews International Corporation ');
+  ('MATW', 'Matthews International Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAXN', 'Maxeon Solar Technologies');
+  ('MAXN', 'Maxeon Solar Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MAYS', 'J. W. Mays');
+  ('MAYS', 'J. W. Mays');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBB', 'iShares MBS ETF');
+  ('MBB', 'iShares MBS ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBCN', 'Middlefield Banc Corp.');
+  ('MBCN', 'Middlefield Banc Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBII', 'Marrone Bio Innovations');
+  ('MBII', 'Marrone Bio Innovations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBIN', 'Merchants Bancorp');
+  ('MBIN', 'Merchants Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBINO', 'Merchants Bancorp - Depositary Shares Each Representing a 1/40th Interest in a Share of Series B Fixed-to-Floating Rate');
+  ('MBINO', 'Merchants Bancorp - Depositary Shares Each Representing a 1/40th Interest in a Share of Series B Fixed-to-Floating Rate');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBINP', 'Merchants Bancorp - 7.00% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock');
+  ('MBINP', 'Merchants Bancorp - 7.00% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBIO', 'Mustang Bio');
+  ('MBIO', 'Mustang Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBNKP', 'Medallion Bank - Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock');
+  ('MBNKP', 'Medallion Bank - Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBOT', 'Microbot Medical Inc. ');
+  ('MBOT', 'Microbot Medical Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBRX', 'Moleculin Biotech');
+  ('MBRX', 'Moleculin Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBUU', 'Malibu Boats');
+  ('MBUU', 'Malibu Boats');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MBWM', 'Mercantile Bank Corporation');
+  ('MBWM', 'Mercantile Bank Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCADU', 'Mountain Crest Acquisition Corp. IIs each consisting of one share of Common Stock');
+  ('MCADU', 'Mountain Crest Acquisition Corp. IIs each consisting of one share of Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCBC', 'Macatawa Bank Corporation');
+  ('MCBC', 'Macatawa Bank Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCBS', 'MetroCity Bankshares');
+  ('MCBS', 'MetroCity Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCEF', 'First Trust Municipal CEF Income Opportunity ETF');
+  ('MCEF', 'First Trust Municipal CEF Income Opportunity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCFE', 'McAfee Corp. ');
+  ('MCFE', 'McAfee Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCFT', 'MasterCraft Boat Holdings');
+  ('MCFT', 'MasterCraft Boat Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCHI', 'iShares MSCI China ETF');
+  ('MCHI', 'iShares MSCI China ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCHP', 'Microchip Technology Incorporated');
+  ('MCHP', 'Microchip Technology Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCHX', 'Marchex');
+  ('MCHX', 'Marchex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCMJ', 'Merida Merger Corp. I');
+  ('MCMJ', 'Merida Merger Corp. I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCMJW', 'Merida Merger Corp. I');
+  ('MCMJW', 'Merida Merger Corp. I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCRB', 'Seres Therapeutics');
+  ('MCRB', 'Seres Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MCRI', 'Monarch Casino & Resort');
+  ('MCRI', 'Monarch Casino & Resort');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDB', 'MongoDB');
+  ('MDB', 'MongoDB');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDCA', 'MDC Partners Inc. - Class A Subordinate Voting Shares');
+  ('MDCA', 'MDC Partners Inc. - Class A Subordinate Voting Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDGL', 'Madrigal Pharmaceuticals');
+  ('MDGL', 'Madrigal Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDGS', 'Medigus Ltd. ');
+  ('MDGS', 'Medigus Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDGSW', 'Medigus Ltd. - Series C Warrant');
+  ('MDGSW', 'Medigus Ltd. - Series C Warrant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDIA', 'Mediaco Holding Inc. ');
+  ('MDIA', 'Mediaco Holding Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDIV', 'Multi-Asset Diversified Income Index Fund');
+  ('MDIV', 'Multi-Asset Diversified Income Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDJH', 'MDJM LTD s');
+  ('MDJH', 'MDJM LTD s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDLZ', 'Mondelez International');
+  ('MDLZ', 'Mondelez International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDNA', 'Medicenna Therapeutics Corp.');
+  ('MDNA', 'Medicenna Therapeutics Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDRR', 'Medalist Diversified REIT');
+  ('MDRR', 'Medalist Diversified REIT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDRRP', 'Medalist Diversified REIT');
+  ('MDRRP', 'Medalist Diversified REIT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDRX', 'Allscripts Healthcare Solutions');
+  ('MDRX', 'Allscripts Healthcare Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDVL', 'MedAvail Holdings');
+  ('MDVL', 'MedAvail Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDWD', 'MediWound Ltd. s');
+  ('MDWD', 'MediWound Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDWT', 'Midwest Holding Inc.');
+  ('MDWT', 'Midwest Holding Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MDXG', 'MiMedx Group');
+  ('MDXG', 'MiMedx Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MEDP', 'Medpace Holdings');
+  ('MEDP', 'Medpace Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MEDS', 'Trxade Group');
+  ('MEDS', 'Trxade Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MEIP', 'MEI Pharma');
+  ('MEIP', 'MEI Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MELI', 'MercadoLibre');
+  ('MELI', 'MercadoLibre');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MEOH', 'Methanex Corporation');
+  ('MEOH', 'Methanex Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MERC', 'Mercer International Inc.');
+  ('MERC', 'Mercer International Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MESA', 'Mesa Air Group');
+  ('MESA', 'Mesa Air Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MESO', 'Mesoblast Limited ');
+  ('MESO', 'Mesoblast Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('METC', 'Ramaco Resources');
+  ('METC', 'Ramaco Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('METX', 'Meten EdtechX Education Group Ltd. s');
+  ('METX', 'Meten EdtechX Education Group Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('METXW', 'Meten EdtechX Education Group Ltd.');
+  ('METXW', 'Meten EdtechX Education Group Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MFH', 'Mercurity Fintech Holding Inc. ');
+  ('MFH', 'Mercurity Fintech Holding Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MFIN', 'Medallion Financial Corp.');
+  ('MFIN', 'Medallion Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MFINL', 'Medallion Financial Corp. - 9.000% Notes due 2021');
+  ('MFINL', 'Medallion Financial Corp. - 9.000% Notes due 2021');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MFNC', 'Mackinac Financial Corporation');
+  ('MFNC', 'Mackinac Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGEE', 'MGE Energy Inc.');
+  ('MGEE', 'MGE Energy Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGI', 'Moneygram International');
+  ('MGI', 'Moneygram International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGIC', 'Magic Software Enterprises Ltd. s');
+  ('MGIC', 'Magic Software Enterprises Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGLN', 'Magellan Health');
+  ('MGLN', 'Magellan Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGNI', 'Magnite');
+  ('MGNI', 'Magnite');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGNX', 'MacroGenics');
+  ('MGNX', 'MacroGenics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGPI', 'MGP Ingredients');
+  ('MGPI', 'MGP Ingredients');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGRC', 'McGrath RentCorp');
+  ('MGRC', 'McGrath RentCorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGTA', 'Magenta Therapeutics');
+  ('MGTA', 'Magenta Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGTX', 'MeiraGTx Holdings plc s');
+  ('MGTX', 'MeiraGTx Holdings plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MGYR', 'Magyar Bancorp');
+  ('MGYR', 'Magyar Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MHLD', 'Maiden Holdings');
+  ('MHLD', 'Maiden Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MICT', 'MICT');
+  ('MICT', 'MICT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIDD', 'The Middleby Corporation');
+  ('MIDD', 'The Middleby Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIK', 'The Michaels Companies');
+  ('MIK', 'The Michaels Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MILE', 'Metromile');
+  ('MILE', 'Metromile');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MILEW', 'Metromile');
+  ('MILEW', 'Metromile');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MILN', 'Global X Millennials Thematic ETF');
+  ('MILN', 'Global X Millennials Thematic ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIME', 'Mimecast Limited s');
+  ('MIME', 'Mimecast Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIND', 'MIND Technology');
+  ('MIND', 'MIND Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MINDP', 'MIND Technology');
+  ('MINDP', 'MIND Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIRM', 'Mirum Pharmaceuticals');
+  ('MIRM', 'Mirum Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MIST', 'Milestone Pharmaceuticals Inc.');
+  ('MIST', 'Milestone Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MITK', 'Mitek Systems');
+  ('MITK', 'Mitek Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MITO', 'Stealth BioTherapeutics Corp. ');
+  ('MITO', 'Stealth BioTherapeutics Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MKD', 'Molecular Data Inc. - ADS');
+  ('MKD', 'Molecular Data Inc. - ADS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MKGI', 'Monaker Group');
+  ('MKGI', 'Monaker Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MKSI', 'MKS Instruments');
+  ('MKSI', 'MKS Instruments');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MKTX', 'MarketAxess Holdings');
+  ('MKTX', 'MarketAxess Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLAB', 'Mesa Laboratories');
+  ('MLAB', 'Mesa Laboratories');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLAC', 'Malacca Straits Acquisition Company Limiteds');
+  ('MLAC', 'Malacca Straits Acquisition Company Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLACU', 'Malacca Straits Acquisition Company Limiteds');
+  ('MLACU', 'Malacca Straits Acquisition Company Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLACW', 'Malacca Straits Acquisition Company Limiteds');
+  ('MLACW', 'Malacca Straits Acquisition Company Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLCO', 'Melco Resorts & Entertainment Limited ');
+  ('MLCO', 'Melco Resorts & Entertainment Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLHR', 'Herman Miller');
+  ('MLHR', 'Herman Miller');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLND', 'Millendo Therapeutics');
+  ('MLND', 'Millendo Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MLVF', 'Malvern Bancorp');
+  ('MLVF', 'Malvern Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MMAC', 'MMA Capital Holdings');
+  ('MMAC', 'MMA Capital Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MMLP', 'Martin Midstream Partners L.P. - Common Units Representing Limited Partnership Interests');
+  ('MMLP', 'Martin Midstream Partners L.P. - Common Units Representing Limited Partnership Interests');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MMSI', 'Merit Medical Systems');
+  ('MMSI', 'Merit Medical Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MMYT', 'MakeMyTrip Limited s');
+  ('MMYT', 'MakeMyTrip Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNDO', 'MIND C.T.I. Ltd. s');
+  ('MNDO', 'MIND C.T.I. Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNKD', 'MannKind Corporation');
+  ('MNKD', 'MannKind Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNOV', 'MediciNova');
+  ('MNOV', 'MediciNova');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNPR', 'Monopar Therapeutics Inc.');
+  ('MNPR', 'Monopar Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNRO', 'Monro');
+  ('MNRO', 'Monro');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNSB', 'MainStreet Bancshares');
+  ('MNSB', 'MainStreet Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNSBP', 'MainStreet Bancshares');
+  ('MNSBP', 'MainStreet Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNST', 'Monster Beverage Corporation');
+  ('MNST', 'Monster Beverage Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNTK', 'Montauk Renewables');
+  ('MNTK', 'Montauk Renewables');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MNTX', 'Manitex International');
+  ('MNTX', 'Manitex International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MODV', 'ModivCare Inc.');
+  ('MODV', 'ModivCare Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOFG', 'MidWestOne Financial Group');
+  ('MOFG', 'MidWestOne Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOGO', 'Mogo Inc.');
+  ('MOGO', 'Mogo Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOHO', 'ECMOHO Limited ');
+  ('MOHO', 'ECMOHO Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOMO', 'Momo Inc. ');
+  ('MOMO', 'Momo Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MONCU', 'Monument Circle Acquisition Corp. Units');
+  ('MONCU', 'Monument Circle Acquisition Corp. Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOR', 'MorphoSys AG ');
+  ('MOR', 'MorphoSys AG ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MORF', 'Morphic Holding');
+  ('MORF', 'Morphic Holding');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MORN', 'Morningstar');
+  ('MORN', 'Morningstar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOSY', 'MoSys');
+  ('MOSY', 'MoSys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOTN', 'Motion Acquisition Corp. ');
+  ('MOTN', 'Motion Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOTNU', 'Motion Acquisition Corp.');
+  ('MOTNU', 'Motion Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOTNW', 'Motion Acquisition Corp.s to purchase one Class A common');
+  ('MOTNW', 'Motion Acquisition Corp.s to purchase one Class A common');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOTS', 'Motus GI Holdings');
+  ('MOTS', 'Motus GI Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MOXC', 'Moxian');
+  ('MOXC', 'Moxian');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MPAA', 'Motorcar Parts of America');
+  ('MPAA', 'Motorcar Parts of America');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MPB', 'Mid Penn Bancorp');
+  ('MPB', 'Mid Penn Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MPWR', 'Monolithic Power Systems');
+  ('MPWR', 'Monolithic Power Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRAC', 'Marquee Raine Acquisition Corp.s');
+  ('MRAC', 'Marquee Raine Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRACU', 'Marquee Raine Acquisition Corp.');
+  ('MRACU', 'Marquee Raine Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRACW', 'Marquee Raine Acquisition Corp.');
+  ('MRACW', 'Marquee Raine Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRAM', 'Everspin Technologies');
+  ('MRAM', 'Everspin Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRBK', 'Meridian Corporation');
+  ('MRBK', 'Meridian Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRCC', 'Monroe Capital Corporation');
+  ('MRCC', 'Monroe Capital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRCY', 'Mercury Systems Inc');
+  ('MRCY', 'Mercury Systems Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MREO', 'Mereo BioPharma Group plc ');
+  ('MREO', 'Mereo BioPharma Group plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRIN', 'Marin Software Incorporated');
+  ('MRIN', 'Marin Software Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRKR', 'Marker Therapeutics');
+  ('MRKR', 'Marker Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRLN', 'Marlin Business Services Corp.');
+  ('MRLN', 'Marlin Business Services Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRM', 'MEDIROM Healthcare Technologies Inc. - American Depositary Share');
+  ('MRM', 'MEDIROM Healthcare Technologies Inc. - American Depositary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRNA', 'Moderna');
+  ('MRNA', 'Moderna');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRNS', 'Marinus Pharmaceuticals');
+  ('MRNS', 'Marinus Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRSN', 'Mersana Therapeutics');
+  ('MRSN', 'Mersana Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRTN', 'Marten Transport');
+  ('MRTN', 'Marten Transport');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRTX', 'Mirati Therapeutics');
+  ('MRTX', 'Mirati Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRUS', 'Merus N.V.');
+  ('MRUS', 'Merus N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRVI', 'Maravai LifeSciences Holdings');
+  ('MRVI', 'Maravai LifeSciences Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MRVL', 'Marvell Technology Group Ltd.');
+  ('MRVL', 'Marvell Technology Group Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSACU', 'Medicus Sciences Acquisition Corp.');
+  ('MSACU', 'Medicus Sciences Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSBI', 'Midland States Bancorp');
+  ('MSBI', 'Midland States Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSEX', 'Middlesex Water Company');
+  ('MSEX', 'Middlesex Water Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSFT', 'Microsoft Corporation');
+  ('MSFT', 'Microsoft Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSGM', 'Motorsport Games Inc. ');
+  ('MSGM', 'Motorsport Games Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSON', 'MISONIX');
+  ('MSON', 'MISONIX');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSTR', 'MicroStrategy Incorporated ');
+  ('MSTR', 'MicroStrategy Incorporated ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MSVB', 'Mid-Southern Bancorp');
+  ('MSVB', 'Mid-Southern Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTAC', 'MedTech Acquisition Corporation ');
+  ('MTAC', 'MedTech Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTACU', 'MedTech Acquisition Corporation');
+  ('MTACU', 'MedTech Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTACW', 'MedTech Acquisition Corporation');
+  ('MTACW', 'MedTech Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTBC', 'MTBC');
+  ('MTBC', 'MTBC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTBCP', 'MTBC');
+  ('MTBCP', 'MTBC');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTC', 'MMTec');
+  ('MTC', 'MMTec');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTCH', 'Match Group');
+  ('MTCH', 'Match Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTCR', 'Metacrine');
+  ('MTCR', 'Metacrine');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTEM', 'Molecular Templates');
+  ('MTEM', 'Molecular Templates');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTEX', 'Mannatech');
+  ('MTEX', 'Mannatech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTLS', 'Materialise NV ');
+  ('MTLS', 'Materialise NV ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTP', 'Midatech Pharma PLC ');
+  ('MTP', 'Midatech Pharma PLC ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTRX', 'Matrix Service Company');
+  ('MTRX', 'Matrix Service Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTSC', 'MTS Systems Corporation');
+  ('MTSC', 'MTS Systems Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTSI', 'MACOM Technology Solutions Holdings');
+  ('MTSI', 'MACOM Technology Solutions Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MTSL', 'MER Telemanagement Solutions Ltd. s');
+  ('MTSL', 'MER Telemanagement Solutions Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MU', 'Micron Technology');
+  ('MU', 'Micron Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MUDS', 'Mudrick Capital Acquisition Corporation II ');
+  ('MUDS', 'Mudrick Capital Acquisition Corporation II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MUDSU', 'Mudrick Capital Acquisition Corporation II');
+  ('MUDSU', 'Mudrick Capital Acquisition Corporation II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MUDSW', 'Mudrick Capital Acquisition Corporation II');
+  ('MUDSW', 'Mudrick Capital Acquisition Corporation II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MVBF', 'MVB Financial Corp.');
+  ('MVBF', 'MVB Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MVIS', 'MicroVision');
+  ('MVIS', 'MicroVision');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MWK', 'Mohawk Group Holdings');
+  ('MWK', 'Mohawk Group Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MXIM', 'Maxim Integrated Products');
+  ('MXIM', 'Maxim Integrated Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MYFW', 'First Western Financial');
+  ('MYFW', 'First Western Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MYGN', 'Myriad Genetics');
+  ('MYGN', 'Myriad Genetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MYRG', 'MYR Group');
+  ('MYRG', 'MYR Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MYSZ', 'My Size');
+  ('MYSZ', 'My Size');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('MYT', 'Urban Tea');
+  ('MYT', 'Urban Tea');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NAACU', 'North Atlantic Acquisition Corporation');
+  ('NAACU', 'North Atlantic Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NAII', 'Natural Alternatives International');
+  ('NAII', 'Natural Alternatives International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NAKD', 'Naked Brand Group Limited s');
+  ('NAKD', 'Naked Brand Group Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NAOV', 'NanoVibronix');
+  ('NAOV', 'NanoVibronix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NARI', 'Inari Medical');
+  ('NARI', 'Inari Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NATH', 'Nathan''s Famous');
+  ('NATH', 'Nathan''s Famous');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NATI', 'National Instruments Corporation');
+  ('NATI', 'National Instruments Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NATR', 'Nature''s Sunshine Products');
+  ('NATR', 'Nature''s Sunshine Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NAVI', 'Navient Corporation');
+  ('NAVI', 'Navient Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBAC', 'Newborn Acquisition Corp. s');
+  ('NBAC', 'Newborn Acquisition Corp. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBACR', 'Newborn Acquisition Corp.');
+  ('NBACR', 'Newborn Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBACU', 'Newborn Acquisition Corp.');
+  ('NBACU', 'Newborn Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBACW', 'Newborn Acquisition Corp.');
+  ('NBACW', 'Newborn Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBEV', 'NewAge');
+  ('NBEV', 'NewAge');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBIX', 'Neurocrine Biosciences');
+  ('NBIX', 'Neurocrine Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBLX', 'Noble Midstream Partners LP - Common Units');
+  ('NBLX', 'Noble Midstream Partners LP - Common Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBN', 'Northeast Bank');
+  ('NBN', 'Northeast Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBRV', 'Nabriva Therapeutics plc s');
+  ('NBRV', 'Nabriva Therapeutics plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBSE', 'NeuBase Therapeutics');
+  ('NBSE', 'NeuBase Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBTB', 'NBT Bancorp Inc.');
+  ('NBTB', 'NBT Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NBTX', 'Nanobiotix S.A. - ADSs');
+  ('NBTX', 'Nanobiotix S.A. - ADSs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCBS', 'Nicolet Bankshares Inc.');
+  ('NCBS', 'Nicolet Bankshares Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCMI', 'National CineMedia');
+  ('NCMI', 'National CineMedia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCNA', 'NuCana plc ');
+  ('NCNA', 'NuCana plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCNO', 'nCino');
+  ('NCNO', 'nCino');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCSM', 'NCS Multistage Holdings');
+  ('NCSM', 'NCS Multistage Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NCTY', 'The9 Limited - American Depository Shares');
+  ('NCTY', 'The9 Limited - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NDAQ', 'Nasdaq');
+  ('NDAQ', 'Nasdaq');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NDLS', 'Noodles & Company');
+  ('NDLS', 'Noodles & Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NDRA', 'ENDRA Life Sciences Inc.');
+  ('NDRA', 'ENDRA Life Sciences Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NDRAW', 'ENDRA Life Sciences Inc.s');
+  ('NDRAW', 'ENDRA Life Sciences Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NDSN', 'Nordson Corporation');
+  ('NDSN', 'Nordson Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEBC', 'Nebula Caravel Acquisition Corp. ');
+  ('NEBC', 'Nebula Caravel Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEBCU', 'Nebula Caravel Acquisition Corp.');
+  ('NEBCU', 'Nebula Caravel Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEBCW', 'Nebula Caravel Acquisition Corp.');
+  ('NEBCW', 'Nebula Caravel Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEO', 'NeoGenomics');
+  ('NEO', 'NeoGenomics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEOG', 'Neogen Corporation');
+  ('NEOG', 'Neogen Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEON', 'Neonode Inc.');
+  ('NEON', 'Neonode Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEOS', 'Neos Therapeutics');
+  ('NEOS', 'Neos Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEPH', 'Nephros');
+  ('NEPH', 'Nephros');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEPT', 'Neptune Wellness Solutions Inc. s');
+  ('NEPT', 'Neptune Wellness Solutions Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NERV', 'Minerva Neurosciences');
+  ('NERV', 'Minerva Neurosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NESR', 'National Energy Services Reunited Corp. s');
+  ('NESR', 'National Energy Services Reunited Corp. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NESRW', 'National Energy Services Reunited Corp.');
+  ('NESRW', 'National Energy Services Reunited Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NETE', 'Net Element');
+  ('NETE', 'Net Element');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEWA', 'Newater Technology');
+  ('NEWA', 'Newater Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEWT', 'Newtek Business Services Corp.');
+  ('NEWT', 'Newtek Business Services Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEWTL', 'Newtek Business Services Corp. - 5.75% Notes due 2024');
+  ('NEWTL', 'Newtek Business Services Corp. - 5.75% Notes due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEWTZ', 'Newtek Business Services Corp. - 5.50% Notes Due 2026');
+  ('NEWTZ', 'Newtek Business Services Corp. - 5.50% Notes Due 2026');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEXI', 'NexImmune');
+  ('NEXI', 'NexImmune');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NEXT', 'NextDecade Corporation');
+  ('NEXT', 'NextDecade Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NFBK', 'Northfield Bancorp');
+  ('NFBK', 'Northfield Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NFE', 'New Fortress Energy Inc. ');
+  ('NFE', 'New Fortress Energy Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NFLX', 'Netflix');
+  ('NFLX', 'Netflix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NFTY', 'First Trust India Nifty 50 Equal Weight ETF');
+  ('NFTY', 'First Trust India Nifty 50 Equal Weight ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NGAC', 'NextGen Acquisition Corporations');
+  ('NGAC', 'NextGen Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NGACU', 'NextGen Acquisition Corporations');
+  ('NGACU', 'NextGen Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NGACW', 'NextGen Acquisition Corporations');
+  ('NGACW', 'NextGen Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NGM', 'NGM Biopharmaceuticals');
+  ('NGM', 'NGM Biopharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NGMS', 'NeoGames S.A. s');
+  ('NGMS', 'NeoGames S.A. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NH', 'NantHealth');
+  ('NH', 'NantHealth');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHIC', 'NewHold Investment Corp. ');
+  ('NHIC', 'NewHold Investment Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHICU', 'NewHold Investment Corp.');
+  ('NHICU', 'NewHold Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHICW', 'NewHold Investment Corp.');
+  ('NHICW', 'NewHold Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHLD', 'National Holdings Corporation');
+  ('NHLD', 'National Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHLDW', 'National Holdings Corporations');
+  ('NHLDW', 'National Holdings Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NHTC', 'Natural Health Trends Corp. - Commn Stock');
+  ('NHTC', 'Natural Health Trends Corp. - Commn Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NICE', 'NICE Ltd  each representing one Ordinary Share');
+  ('NICE', 'NICE Ltd  each representing one Ordinary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NICK', 'Nicholas Financial');
+  ('NICK', 'Nicholas Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NISN', 'NiSun Intl Enterprise Development Group Co');
+  ('NISN', 'NiSun Intl Enterprise Development Group Co');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NIU', 'Niu Technologies ');
+  ('NIU', 'Niu Technologies ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NK', 'NantKwest');
+  ('NK', 'NantKwest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NKLA', 'Nikola Corporation');
+  ('NKLA', 'Nikola Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NKSH', 'National Bankshares');
+  ('NKSH', 'National Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NKTR', 'Nektar Therapeutics');
+  ('NKTR', 'Nektar Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NKTX', 'Nkarta');
+  ('NKTX', 'Nkarta');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NLOK', 'NortonLifeLock Inc.');
+  ('NLOK', 'NortonLifeLock Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NLSP', 'NLS Pharmaceutics Ltd.');
+  ('NLSP', 'NLS Pharmaceutics Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NLSPW', 'NLS Pharmaceutics Ltd.');
+  ('NLSPW', 'NLS Pharmaceutics Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NLTX', 'Neoleukin Therapeutics');
+  ('NLTX', 'Neoleukin Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMCI', 'Navios Maritime Containers L.P. - Common units representing limited partner interests');
+  ('NMCI', 'Navios Maritime Containers L.P. - Common units representing limited partner interests');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMFC', 'New Mountain Finance Corporation');
+  ('NMFC', 'New Mountain Finance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMFCL', 'New Mountain Finance Corporation - 5.75% Notes due 2023');
+  ('NMFCL', 'New Mountain Finance Corporation - 5.75% Notes due 2023');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMIH', 'NMI Holdings Inc');
+  ('NMIH', 'NMI Holdings Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMMC', 'North Mountain Merger Corp. ');
+  ('NMMC', 'North Mountain Merger Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMMCU', 'North Mountain Merger Corp.');
+  ('NMMCU', 'North Mountain Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMMCW', 'North Mountain Merger Corp.');
+  ('NMMCW', 'North Mountain Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMRD', 'Nemaura Medical Inc.');
+  ('NMRD', 'Nemaura Medical Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMRK', 'Newmark Group');
+  ('NMRK', 'Newmark Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NMTR', '9 Meters Biopharma');
+  ('NMTR', '9 Meters Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NNBR', 'NN');
+  ('NNBR', 'NN');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NNDM', 'Nano Dimension Ltd. ');
+  ('NNDM', 'Nano Dimension Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NNOX', 'NANO-X IMAGING LTD s');
+  ('NNOX', 'NANO-X IMAGING LTD s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NOAC', 'Natural Order Acquisition Corp.');
+  ('NOAC', 'Natural Order Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NOACU', 'Natural Order Acquisition Corp.');
+  ('NOACU', 'Natural Order Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NOACW', 'Natural Order Acquisition Corp.');
+  ('NOACW', 'Natural Order Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NODK', 'NI Holdings');
+  ('NODK', 'NI Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NOVN', 'Novan');
+  ('NOVN', 'Novan');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NOVT', 'Novanta Inc.');
+  ('NOVT', 'Novanta Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NPA', 'New Providence Acquisition Corp. ');
+  ('NPA', 'New Providence Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NPAUU', 'New Providence Acquisition Corp.');
+  ('NPAUU', 'New Providence Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NPAWW', 'New Providence Acquisition Corp.');
+  ('NPAWW', 'New Providence Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NRACU', 'Noble Rock Acquisition Corporation');
+  ('NRACU', 'Noble Rock Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NRBO', 'NeuroBo Pharmaceuticals');
+  ('NRBO', 'NeuroBo Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NRC', 'National Research Corporation');
+  ('NRC', 'National Research Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NRIM', 'Northrim BanCorp Inc');
+  ('NRIM', 'Northrim BanCorp Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NRIX', 'Nurix Therapeutics');
+  ('NRIX', 'Nurix Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NSEC', 'National Security Group');
+  ('NSEC', 'National Security Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NSIT', 'Insight Enterprises');
+  ('NSIT', 'Insight Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NSSC', 'NAPCO Security Technologies');
+  ('NSSC', 'NAPCO Security Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NSTG', 'NanoString Technologies');
+  ('NSTG', 'NanoString Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NSYS', 'Nortech Systems Incorporated');
+  ('NSYS', 'Nortech Systems Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTAP', 'NetApp');
+  ('NTAP', 'NetApp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTCT', 'NetScout Systems');
+  ('NTCT', 'NetScout Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTEC', 'Intec Pharma Ltd. s');
+  ('NTEC', 'Intec Pharma Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTES', 'NetEase');
+  ('NTES', 'NetEase');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTGR', 'NETGEAR');
+  ('NTGR', 'NETGEAR');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTIC', 'Northern Technologies International Corporation');
+  ('NTIC', 'Northern Technologies International Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTLA', 'Intellia Therapeutics');
+  ('NTLA', 'Intellia Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTNX', 'Nutanix');
+  ('NTNX', 'Nutanix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTRA', 'Natera');
+  ('NTRA', 'Natera');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTRS', 'Northern Trust Corporation');
+  ('NTRS', 'Northern Trust Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTRSO', 'Northern Trust Corporation - Depositary Shares Each Representing a 1/1');
+  ('NTRSO', 'Northern Trust Corporation - Depositary Shares Each Representing a 1/1');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTUS', 'Natus Medical Incorporated');
+  ('NTUS', 'Natus Medical Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NTWK', 'NETSOL Technologies Inc.');
+  ('NTWK', 'NETSOL Technologies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NUAN', 'Nuance Communications');
+  ('NUAN', 'Nuance Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NURO', 'NeuroMetrix');
+  ('NURO', 'NeuroMetrix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NUVA', 'NuVasive');
+  ('NUVA', 'NuVasive');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NUZE', 'NuZee');
+  ('NUZE', 'NuZee');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVAX', 'Novavax');
+  ('NVAX', 'Novavax');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVCN', 'Neovasc Inc.');
+  ('NVCN', 'Neovasc Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVCR', 'NovoCure Limited s');
+  ('NVCR', 'NovoCure Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVDA', 'NVIDIA Corporation');
+  ('NVDA', 'NVIDIA Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVEC', 'NVE Corporation');
+  ('NVEC', 'NVE Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVEE', 'NV5 Global');
+  ('NVEE', 'NV5 Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVFY', 'Nova Lifestyle');
+  ('NVFY', 'Nova Lifestyle');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVIV', 'InVivo Therapeutics Holdings Corp.');
+  ('NVIV', 'InVivo Therapeutics Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVMI', 'Nova Measuring Instruments Ltd. s');
+  ('NVMI', 'Nova Measuring Instruments Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVOS', 'Novo Integrated Sciences');
+  ('NVOS', 'Novo Integrated Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NVSAU', 'New Vista Acquisition Corp');
+  ('NVSAU', 'New Vista Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWBI', 'Northwest Bancshares');
+  ('NWBI', 'Northwest Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWE', 'NorthWestern Corporation');
+  ('NWE', 'NorthWestern Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWFL', 'Norwood Financial Corp.');
+  ('NWFL', 'Norwood Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWL', 'Newell Brands Inc.');
+  ('NWL', 'Newell Brands Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWLI', 'National Western Life Group');
+  ('NWLI', 'National Western Life Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWPX', 'Northwest Pipe Company');
+  ('NWPX', 'Northwest Pipe Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWS', 'News Corporation - Class B Common Stock');
+  ('NWS', 'News Corporation - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NWSA', 'News Corporation ');
+  ('NWSA', 'News Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXGN', 'NextGen Healthcare');
+  ('NXGN', 'NextGen Healthcare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXPI', 'NXP Semiconductors N.V.');
+  ('NXPI', 'NXP Semiconductors N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXST', 'Nexstar Media Group');
+  ('NXST', 'Nexstar Media Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXTC', 'NextCure');
+  ('NXTC', 'NextCure');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXTD', 'NXT-ID Inc.');
+  ('NXTD', 'NXT-ID Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NXTG', 'First Trust Indxx NextG ETF');
+  ('NXTG', 'First Trust Indxx NextG ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMT', 'New York Mortgage Trust');
+  ('NYMT', 'New York Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMTM', 'New York Mortgage Trust');
+  ('NYMTM', 'New York Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMTN', 'New York Mortgage Trust');
+  ('NYMTN', 'New York Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMTO', 'New York Mortgage Trust');
+  ('NYMTO', 'New York Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMTP', 'New York Mortgage Trust');
+  ('NYMTP', 'New York Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('NYMX', 'Nymox Pharmaceutical Corporation');
+  ('NYMX', 'Nymox Pharmaceutical Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OAS', 'Oasis Petroleum Inc.');
+  ('OAS', 'Oasis Petroleum Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBAS', 'Optibase Ltd. s');
+  ('OBAS', 'Optibase Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBCI', 'Ocean Bio-Chem');
+  ('OBCI', 'Ocean Bio-Chem');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBLG', 'Oblong Inc.');
+  ('OBLG', 'Oblong Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBLN', 'Obalon Therapeutics');
+  ('OBLN', 'Obalon Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBNK', 'Origin Bancorp');
+  ('OBNK', 'Origin Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OBSV', 'ObsEva SA');
+  ('OBSV', 'ObsEva SA');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCAXU', 'OCA Acquisition Corp.');
+  ('OCAXU', 'OCA Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCC', 'Optical Cable Corporation');
+  ('OCC', 'Optical Cable Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCCI', 'OFS Credit Company');
+  ('OCCI', 'OFS Credit Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCCIP', 'OFS Credit Company');
+  ('OCCIP', 'OFS Credit Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCDX', 'Ortho Clinical Diagnostics plc s');
+  ('OCDX', 'Ortho Clinical Diagnostics plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCFC', 'OceanFirst Financial Corp.');
+  ('OCFC', 'OceanFirst Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCFCP', 'OceanFirst Financial Corp. - Depositary Shares');
+  ('OCFCP', 'OceanFirst Financial Corp. - Depositary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCG', 'Oriental Culture Holding LTD s');
+  ('OCG', 'Oriental Culture Holding LTD s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCGN', 'Ocugen');
+  ('OCGN', 'Ocugen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCSI', 'Oaktree Strategic Income Corporation');
+  ('OCSI', 'Oaktree Strategic Income Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCSL', 'Oaktree Specialty Lending Corporation');
+  ('OCSL', 'Oaktree Specialty Lending Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCUL', 'Ocular Therapeutix');
+  ('OCUL', 'Ocular Therapeutix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OCUP', 'Ocuphire Pharma');
+  ('OCUP', 'Ocuphire Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ODFL', 'Old Dominion Freight Line');
+  ('ODFL', 'Old Dominion Freight Line');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ODP', 'The ODP Corporation');
+  ('ODP', 'The ODP Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ODT', 'Odonate Therapeutics');
+  ('ODT', 'Odonate Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OEG', 'Orbital Energy Group');
+  ('OEG', 'Orbital Energy Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OEPWU', 'One Equity Partners Open Water I Corp.');
+  ('OEPWU', 'One Equity Partners Open Water I Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OESX', 'Orion Energy Systems');
+  ('OESX', 'Orion Energy Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFED', 'Oconee Federal Financial Corp.');
+  ('OFED', 'Oconee Federal Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFIX', 'Orthofix Medical Inc. ');
+  ('OFIX', 'Orthofix Medical Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFLX', 'Omega Flex');
+  ('OFLX', 'Omega Flex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFS', 'OFS Capital Corporation');
+  ('OFS', 'OFS Capital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFSSG', 'OFS Capital Corporation - 6.25% Notes Due 2023');
+  ('OFSSG', 'OFS Capital Corporation - 6.25% Notes Due 2023');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFSSI', 'OFS Capital Corporation - 5.95% Notes due 2026');
+  ('OFSSI', 'OFS Capital Corporation - 5.95% Notes due 2026');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFSSL', 'OFS Capital Corporation - 6.375% Notes due 2025');
+  ('OFSSL', 'OFS Capital Corporation - 6.375% Notes due 2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OFSSZ', 'OFS Capital Corporation - 6.50% Notes due 2025');
+  ('OFSSZ', 'OFS Capital Corporation - 6.50% Notes due 2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OGI', 'Organigram Holdings Inc.');
+  ('OGI', 'Organigram Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OIIM', 'O2Micro International Limited ');
+  ('OIIM', 'O2Micro International Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OKTA', 'Okta');
+  ('OKTA', 'Okta');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OLB', 'The OLB Group');
+  ('OLB', 'The OLB Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OLD', 'The Long-Term Care ETF');
+  ('OLD', 'The Long-Term Care ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OLED', 'Universal Display Corporation');
+  ('OLED', 'Universal Display Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OLLI', 'Ollie''s Bargain Outlet Holdings');
+  ('OLLI', 'Ollie''s Bargain Outlet Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OLMA', 'Olema Pharmaceuticals');
+  ('OLMA', 'Olema Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OM', 'Outset Medical');
+  ('OM', 'Outset Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMAB', 'Grupo Aeroportuario del Centro Norte S.A.B. de C.V.  each representing 8 Series B shares');
+  ('OMAB', 'Grupo Aeroportuario del Centro Norte S.A.B. de C.V.  each representing 8 Series B shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMCL', 'Omnicell');
+  ('OMCL', 'Omnicell');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMEG', 'Omega Alpha SPACs');
+  ('OMEG', 'Omega Alpha SPACs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMER', 'Omeros Corporation');
+  ('OMER', 'Omeros Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMEX', 'Odyssey Marine Exploration');
+  ('OMEX', 'Odyssey Marine Exploration');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OMP', 'Oasis Midstream Partners LP - Common Units');
+  ('OMP', 'Oasis Midstream Partners LP - Common Units');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ON', 'ON Semiconductor Corporation');
+  ('ON', 'ON Semiconductor Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONB', 'Old National Bancorp');
+  ('ONB', 'Old National Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONCR', 'Oncorus');
+  ('ONCR', 'Oncorus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONCS', 'OncoSec Medical Incorporated');
+  ('ONCS', 'OncoSec Medical Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONCT', 'Oncternal Therapeutics');
+  ('ONCT', 'Oncternal Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONCY', 'Oncolytics Biotech Inc.');
+  ('ONCY', 'Oncolytics Biotech Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONDS', 'Ondas Holdings Inc.');
+  ('ONDS', 'Ondas Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONEM', '1Life Healthcare');
+  ('ONEM', '1Life Healthcare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONEQ', 'Fidelity Nasdaq Composite Index ETF');
+  ('ONEQ', 'Fidelity Nasdaq Composite Index ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONEW', 'OneWater Marine Inc. ');
+  ('ONEW', 'OneWater Marine Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONTX', 'Onconova Therapeutics');
+  ('ONTX', 'Onconova Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONTXW', 'Onconova Therapeutics');
+  ('ONTXW', 'Onconova Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ONVO', 'Organovo Holdings');
+  ('ONVO', 'Organovo Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPBK', 'OP Bancorp');
+  ('OPBK', 'OP Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPCH', 'Option Care Health');
+  ('OPCH', 'Option Care Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPEN', 'Opendoor Technologies Inc ');
+  ('OPEN', 'Opendoor Technologies Inc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPENW', 'Opendoor Technologies Inc ');
+  ('OPENW', 'Opendoor Technologies Inc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPGN', 'OpGen');
+  ('OPGN', 'OpGen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPHC', 'OptimumBank Holdings');
+  ('OPHC', 'OptimumBank Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPI', 'Office Properties Income Trust of Beneficial Interest');
+  ('OPI', 'Office Properties Income Trust of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPINI', 'Office Properties Income Trust - 5.875% Senior Notes due 2046');
+  ('OPINI', 'Office Properties Income Trust - 5.875% Senior Notes due 2046');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPINL', 'Office Properties Income Trust - 6.375% Senior Notes due 2050');
+  ('OPINL', 'Office Properties Income Trust - 6.375% Senior Notes due 2050');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPK', 'Opko Health');
+  ('OPK', 'Opko Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPNT', 'Opiant Pharmaceuticals');
+  ('OPNT', 'Opiant Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPOF', 'Old Point Financial Corporation');
+  ('OPOF', 'Old Point Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPRA', 'Opera Limited ');
+  ('OPRA', 'Opera Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPRT', 'Oportun Financial Corporation');
+  ('OPRT', 'Oportun Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPRX', 'OptimizeRx Corporation');
+  ('OPRX', 'OptimizeRx Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPT', 'Opthea Limited ');
+  ('OPT', 'Opthea Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPTN', 'OptiNose');
+  ('OPTN', 'OptiNose');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OPTT', 'Ocean Power Technologies');
+  ('OPTT', 'Ocean Power Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORBC', 'ORBCOMM Inc.');
+  ('ORBC', 'ORBCOMM Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORGO', 'Organogenesis Holdings Inc.  - Class A');
+  ('ORGO', 'Organogenesis Holdings Inc.  - Class A');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORGS', 'Orgenesis Inc.');
+  ('ORGS', 'Orgenesis Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORIC', 'Oric Pharmaceuticals');
+  ('ORIC', 'Oric Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORLY', 'O''Reilly Automotive');
+  ('ORLY', 'O''Reilly Automotive');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORMP', 'Oramed Pharmaceuticals Inc.');
+  ('ORMP', 'Oramed Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORPH', 'Orphazyme A/S ');
+  ('ORPH', 'Orphazyme A/S ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORRF', 'Orrstown Financial Services Inc');
+  ('ORRF', 'Orrstown Financial Services Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ORTX', 'Orchard Therapeutics plc ');
+  ('ORTX', 'Orchard Therapeutics plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSBC', 'Old Second Bancorp');
+  ('OSBC', 'Old Second Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSIS', 'OSI Systems');
+  ('OSIS', 'OSI Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSMT', 'Osmotica Pharmaceuticals plc s');
+  ('OSMT', 'Osmotica Pharmaceuticals plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSN', 'Ossen Innovation Co.');
+  ('OSN', 'Ossen Innovation Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSPN', 'OneSpan Inc.');
+  ('OSPN', 'OneSpan Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSS', 'One Stop Systems');
+  ('OSS', 'One Stop Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSTK', 'Overstock.com');
+  ('OSTK', 'Overstock.com');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSTRU', 'Oyster Enterprises Acquisition Corp.');
+  ('OSTRU', 'Oyster Enterprises Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSUR', 'OraSure Technologies');
+  ('OSUR', 'OraSure Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OSW', 'OneSpaWorld Holdings Limited');
+  ('OSW', 'OneSpaWorld Holdings Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTEL', 'Otelco Inc.');
+  ('OTEL', 'Otelco Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTEX', 'Open Text Corporation');
+  ('OTEX', 'Open Text Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTIC', 'Otonomy');
+  ('OTIC', 'Otonomy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTLK', 'Outlook Therapeutics');
+  ('OTLK', 'Outlook Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTLKW', 'Outlook Therapeutics');
+  ('OTLKW', 'Outlook Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTRA', 'OTR Acquisition Corp. ');
+  ('OTRA', 'OTR Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTRAU', 'OTR Acquisition Corp.');
+  ('OTRAU', 'OTR Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTRAW', 'OTR Acquisition Corp.');
+  ('OTRAW', 'OTR Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTRK', 'Ontrak');
+  ('OTRK', 'Ontrak');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTRKP', 'Ontrak');
+  ('OTRKP', 'Ontrak');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OTTR', 'Otter Tail Corporation');
+  ('OTTR', 'Otter Tail Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OVBC', 'Ohio Valley Banc Corp.');
+  ('OVBC', 'Ohio Valley Banc Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OVID', 'Ovid Therapeutics Inc.');
+  ('OVID', 'Ovid Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OVLY', 'Oak Valley Bancorp (CA)');
+  ('OVLY', 'Oak Valley Bancorp (CA)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXBR', 'Oxbridge Re Holdings Limited s');
+  ('OXBR', 'Oxbridge Re Holdings Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXBRW', 'Oxbridge Re Holdings Limited');
+  ('OXBRW', 'Oxbridge Re Holdings Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXFD', 'Oxford Immunotec Global PLC s');
+  ('OXFD', 'Oxford Immunotec Global PLC s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXLC', 'Oxford Lane Capital Corp.');
+  ('OXLC', 'Oxford Lane Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXLCM', 'Oxford Lane Capital Corp. - 6.75% Series 2024 Term Preferred Stock');
+  ('OXLCM', 'Oxford Lane Capital Corp. - 6.75% Series 2024 Term Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXLCO', 'Oxford Lane Capital Corp. - Term Preferred Shares');
+  ('OXLCO', 'Oxford Lane Capital Corp. - Term Preferred Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXLCP', 'Oxford Lane Capital Corp. - 6.25% Series 2027 Term Preferred Shares');
+  ('OXLCP', 'Oxford Lane Capital Corp. - 6.25% Series 2027 Term Preferred Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXSQ', 'Oxford Square Capital Corp. - Closed End Fund');
+  ('OXSQ', 'Oxford Square Capital Corp. - Closed End Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXSQL', 'Oxford Square Capital Corp. - 6.50% Notes due 2024');
+  ('OXSQL', 'Oxford Square Capital Corp. - 6.50% Notes due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OXSQZ', 'Oxford Square Capital Corp. - 6.25% Notes due 2026');
+  ('OXSQZ', 'Oxford Square Capital Corp. - 6.25% Notes due 2026');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OYST', 'Oyster Point Pharma');
+  ('OYST', 'Oyster Point Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OZK', 'Bank OZK');
+  ('OZK', 'Bank OZK');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('OZON', 'Ozon Holdings PLC - ADS');
+  ('OZON', 'Ozon Holdings PLC - ADS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAA', 'Plains All American Pipeline');
+  ('PAA', 'Plains All American Pipeline');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAAS', 'Pan American Silver Corp.');
+  ('PAAS', 'Pan American Silver Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PACB', 'Pacific Biosciences of California');
+  ('PACB', 'Pacific Biosciences of California');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PACW', 'PacWest Bancorp');
+  ('PACW', 'PacWest Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PACXU', 'Pioneer Merger Corp.');
+  ('PACXU', 'Pioneer Merger Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAE', 'PAE Incorporated ');
+  ('PAE', 'PAE Incorporated ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAEWW', 'PAE Incorporateds');
+  ('PAEWW', 'PAE Incorporateds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAGP', 'Plains GP Holdings');
+  ('PAGP', 'Plains GP Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAHC', 'Phibro Animal Health Corporation ');
+  ('PAHC', 'Phibro Animal Health Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAIC', 'Petra Acquisition');
+  ('PAIC', 'Petra Acquisition');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAICU', 'Petra Acquisition');
+  ('PAICU', 'Petra Acquisition');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAICW', 'Petra Acquisition');
+  ('PAICW', 'Petra Acquisition');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAND', 'Pandion Therapeutics Inc.');
+  ('PAND', 'Pandion Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PANL', 'Pangaea Logistics Solutions Ltd.');
+  ('PANL', 'Pangaea Logistics Solutions Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAQCU', 'Provident Acquisition Corp.s');
+  ('PAQCU', 'Provident Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PASG', 'Passage Bio');
+  ('PASG', 'Passage Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PATI', 'Patriot Transportation Holding');
+  ('PATI', 'Patriot Transportation Holding');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PATK', 'Patrick Industries');
+  ('PATK', 'Patrick Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAVM', 'PAVmed Inc.');
+  ('PAVM', 'PAVmed Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAVMW', 'PAVmed Inc.');
+  ('PAVMW', 'PAVmed Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAVMZ', 'PAVmed Inc. - Series Z Warrant');
+  ('PAVMZ', 'PAVmed Inc. - Series Z Warrant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAX', 'Patria Investments Limited ');
+  ('PAX', 'Patria Investments Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAYA', 'Paya Holdings Inc.');
+  ('PAYA', 'Paya Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAYAW', 'Paya Holdings Inc.');
+  ('PAYAW', 'Paya Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAYS', 'Paysign');
+  ('PAYS', 'Paysign');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PAYX', 'Paychex');
+  ('PAYX', 'Paychex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBCT', 'People''s United Financial');
+  ('PBCT', 'People''s United Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBCTP', 'People''s United Financial');
+  ('PBCTP', 'People''s United Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBFS', 'Pioneer Bancorp');
+  ('PBFS', 'Pioneer Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBHC', 'Pathfinder Bancorp');
+  ('PBHC', 'Pathfinder Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBIP', 'Prudential Bancorp');
+  ('PBIP', 'Prudential Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBLA', 'Panbela Therapeutics');
+  ('PBLA', 'Panbela Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBPB', 'Potbelly Corporation');
+  ('PBPB', 'Potbelly Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBTS', 'Powerbridge Technologies Co.');
+  ('PBTS', 'Powerbridge Technologies Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PBYI', 'Puma Biotechnology Inc');
+  ('PBYI', 'Puma Biotechnology Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCAR', 'PACCAR Inc.');
+  ('PCAR', 'PACCAR Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCB', 'PCB Bancorp');
+  ('PCB', 'PCB Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCH', 'PotlatchDeltic Corporation');
+  ('PCH', 'PotlatchDeltic Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCOM', 'Points International');
+  ('PCOM', 'Points International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCRX', 'Pacira BioSciences');
+  ('PCRX', 'Pacira BioSciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCSA', 'Processa Pharmaceuticals');
+  ('PCSA', 'Processa Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCSB', 'PCSB Financial Corporation');
+  ('PCSB', 'PCSB Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCTI', 'PCTEL');
+  ('PCTI', 'PCTEL');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCTY', 'Paylocity Holding Corporation');
+  ('PCTY', 'Paylocity Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCVX', 'Vaxcyte');
+  ('PCVX', 'Vaxcyte');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCYG', 'Park City Group');
+  ('PCYG', 'Park City Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PCYO', 'Pure Cycle Corporation');
+  ('PCYO', 'Pure Cycle Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDBC', 'Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF');
+  ('PDBC', 'Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDCE', 'PDC Energy');
+  ('PDCE', 'PDC Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDCO', 'Patterson Companies');
+  ('PDCO', 'Patterson Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDD', 'Pinduoduo Inc. ');
+  ('PDD', 'Pinduoduo Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDEV', 'Principal International Multi-Factor ETF');
+  ('PDEV', 'Principal International Multi-Factor ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDEX', 'Pro-Dex');
+  ('PDEX', 'Pro-Dex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDFS', 'PDF Solutions');
+  ('PDFS', 'PDF Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDLB', 'PDL Community Bancorp');
+  ('PDLB', 'PDL Community Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDP', 'Invesco DWA Momentum ETF');
+  ('PDP', 'Invesco DWA Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PDSB', 'PDS Biotechnology Corporation');
+  ('PDSB', 'PDS Biotechnology Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEBK', 'Peoples Bancorp of North Carolina');
+  ('PEBK', 'Peoples Bancorp of North Carolina');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEBO', 'Peoples Bancorp Inc.');
+  ('PEBO', 'Peoples Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEGA', 'Pegasystems Inc.');
+  ('PEGA', 'Pegasystems Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PENN', 'Penn National Gaming');
+  ('PENN', 'Penn National Gaming');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEP', 'PepsiCo');
+  ('PEP', 'PepsiCo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PERI', 'Perion Network Ltd s');
+  ('PERI', 'Perion Network Ltd s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PESI', 'Perma-Fix Environmental Services');
+  ('PESI', 'Perma-Fix Environmental Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PETQ', 'PetIQ');
+  ('PETQ', 'PetIQ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PETS', 'PetMed Express');
+  ('PETS', 'PetMed Express');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PETZ', 'TDH Holdings');
+  ('PETZ', 'TDH Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEY', 'Invesco High Yield Equity Dividend Achievers ETF');
+  ('PEY', 'Invesco High Yield Equity Dividend Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PEZ', 'Invesco DWA Consumer Cyclicals Momentum ETF');
+  ('PEZ', 'Invesco DWA Consumer Cyclicals Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFBC', 'Preferred Bank');
+  ('PFBC', 'Preferred Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFBI', 'Premier Financial Bancorp');
+  ('PFBI', 'Premier Financial Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFC', 'Premier Financial Corp. ');
+  ('PFC', 'Premier Financial Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFDRU', 'Pathfinder Acquisition Corporation');
+  ('PFDRU', 'Pathfinder Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFF', 'iShares Preferred and Income Securities ETF');
+  ('PFF', 'iShares Preferred and Income Securities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFG', 'Principal Financial Group Inc');
+  ('PFG', 'Principal Financial Group Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFHD', 'Professional Holding Corp. ');
+  ('PFHD', 'Professional Holding Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFI', 'Invesco DWA Financial Momentum ETF');
+  ('PFI', 'Invesco DWA Financial Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFIE', 'Profire Energy');
+  ('PFIE', 'Profire Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFIN', 'P & F Industries');
+  ('PFIN', 'P & F Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFIS', 'Peoples Financial Services Corp. ');
+  ('PFIS', 'Peoples Financial Services Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFLT', 'PennantPark Floating Rate Capital Ltd.');
+  ('PFLT', 'PennantPark Floating Rate Capital Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFM', 'Invesco Dividend Achievers ETF');
+  ('PFM', 'Invesco Dividend Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFMT', 'Performant Financial Corporation');
+  ('PFMT', 'Performant Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFPT', 'Proofpoint');
+  ('PFPT', 'Proofpoint');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFSW', 'PFSweb');
+  ('PFSW', 'PFSweb');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFX', 'PhenixFIN Corporation ');
+  ('PFX', 'PhenixFIN Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PFXNL', 'PhenixFIN Corporation  - Notes Due 2023');
+  ('PFXNL', 'PhenixFIN Corporation  - Notes Due 2023');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PGC', 'Peapack-Gladstone Financial Corporation');
+  ('PGC', 'Peapack-Gladstone Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PGEN', 'Precigen');
+  ('PGEN', 'Precigen');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PGJ', 'Invesco Golden Dragon China ETF');
+  ('PGJ', 'Invesco Golden Dragon China ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PGNY', 'Progyny');
+  ('PGNY', 'Progyny');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PGRWU', 'Progress Acquisition Corp.s.');
+  ('PGRWU', 'Progress Acquisition Corp.s.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHAR', 'Pharming Group N.V. - ADS');
+  ('PHAR', 'Pharming Group N.V. - ADS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHAS', 'PhaseBio Pharmaceuticals');
+  ('PHAS', 'PhaseBio Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHAT', 'Phathom Pharmaceuticals');
+  ('PHAT', 'Phathom Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHCF', 'Puhui Wealth Investment Management Co.');
+  ('PHCF', 'Puhui Wealth Investment Management Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHIC', 'Population Health Investment Co.');
+  ('PHIC', 'Population Health Investment Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHICU', 'Population Health Investment Co.');
+  ('PHICU', 'Population Health Investment Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHICW', 'Population Health Investment Co.');
+  ('PHICW', 'Population Health Investment Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHIO', 'Phio Pharmaceuticals Corp.');
+  ('PHIO', 'Phio Pharmaceuticals Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHIOW', 'Phio Pharmaceuticals Corp.s');
+  ('PHIOW', 'Phio Pharmaceuticals Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHO', 'Invesco Water Resources ETF');
+  ('PHO', 'Invesco Water Resources ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHUN', 'Phunware');
+  ('PHUN', 'Phunware');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHUNW', 'Phunware');
+  ('PHUNW', 'Phunware');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PHVS', 'Pharvaris N.V. s');
+  ('PHVS', 'Pharvaris N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PI', 'Impinj');
+  ('PI', 'Impinj');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PICO', 'PICO Holdings Inc.');
+  ('PICO', 'PICO Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PID', 'Invesco International Dividend Achievers ETF');
+  ('PID', 'Invesco International Dividend Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PIE', 'Invesco DWA Emerging Markets Momentum ETF');
+  ('PIE', 'Invesco DWA Emerging Markets Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PINC', 'Premier');
+  ('PINC', 'Premier');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PIO', 'Invesco Global Water ETF');
+  ('PIO', 'Invesco Global Water ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PIRS', 'Pieris Pharmaceuticals');
+  ('PIRS', 'Pieris Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PIXY', 'ShiftPixy');
+  ('PIXY', 'ShiftPixy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PIZ', 'Invesco DWA Developed Markets Momentum ETF');
+  ('PIZ', 'Invesco DWA Developed Markets Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PKBK', 'Parke Bancorp');
+  ('PKBK', 'Parke Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PKOH', 'Park-Ohio Holdings Corp.');
+  ('PKOH', 'Park-Ohio Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PKW', 'Invesco BuyBack Achievers ETF');
+  ('PKW', 'Invesco BuyBack Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLAB', 'Photronics');
+  ('PLAB', 'Photronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLAY', 'Dave & Buster''s Entertainment');
+  ('PLAY', 'Dave & Buster''s Entertainment');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLBC', 'Plumas Bancorp');
+  ('PLBC', 'Plumas Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLBY', 'PLBY Group');
+  ('PLBY', 'PLBY Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLCE', 'Children''s Place');
+  ('PLCE', 'Children''s Place');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLIN', 'China Xiangtai Food Co.');
+  ('PLIN', 'China Xiangtai Food Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLL', 'Piedmont Lithium Limited ');
+  ('PLL', 'Piedmont Lithium Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLMR', 'Palomar Holdings');
+  ('PLMR', 'Palomar Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLPC', 'Preformed Line Products Company');
+  ('PLPC', 'Preformed Line Products Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLRX', 'Pliant Therapeutics');
+  ('PLRX', 'Pliant Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLSE', 'Pulse Biosciences');
+  ('PLSE', 'Pulse Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLTK', 'Playtika Holding Corp.');
+  ('PLTK', 'Playtika Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLUG', 'Plug Power');
+  ('PLUG', 'Plug Power');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLUS', 'ePlus inc.');
+  ('PLUS', 'ePlus inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLW', 'Invesco 1-30 Laddered Treasury ETF');
+  ('PLW', 'Invesco 1-30 Laddered Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLXP', 'PLx Pharma Inc.');
+  ('PLXP', 'PLx Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLXS', 'Plexus Corp.');
+  ('PLXS', 'Plexus Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PLYA', 'Playa Hotels & Resorts N.V. s');
+  ('PLYA', 'Playa Hotels & Resorts N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PMBC', 'Pacific Mercantile Bancorp');
+  ('PMBC', 'Pacific Mercantile Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PMD', 'Psychemedics Corporation');
+  ('PMD', 'Psychemedics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PME', 'Pingtan Marine Enterprise Ltd. s');
+  ('PME', 'Pingtan Marine Enterprise Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PMGMU', 'Priveterra Acquisition Corp.s');
+  ('PMGMU', 'Priveterra Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PMVP', 'PMV Pharmaceuticals');
+  ('PMVP', 'PMV Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNBK', 'Patriot National Bancorp Inc.');
+  ('PNBK', 'Patriot National Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNFP', 'Pinnacle Financial Partners');
+  ('PNFP', 'Pinnacle Financial Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNFPP', 'Pinnacle Financial Partners');
+  ('PNFPP', 'Pinnacle Financial Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNNT', 'PennantPark Investment Corporation');
+  ('PNNT', 'PennantPark Investment Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNNTG', 'PennantPark Investment Corporation - 5.50% Notes Due 2024');
+  ('PNNTG', 'PennantPark Investment Corporation - 5.50% Notes Due 2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNQI', 'Invesco Nasdaq Internet ETF');
+  ('PNQI', 'Invesco Nasdaq Internet ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNRG', 'PrimeEnergy Resources Corporation');
+  ('PNRG', 'PrimeEnergy Resources Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PNTG', 'The Pennant Group');
+  ('PNTG', 'The Pennant Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POAI', 'Predictive Oncology Inc.');
+  ('POAI', 'Predictive Oncology Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PODD', 'Insulet Corporation');
+  ('PODD', 'Insulet Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POLA', 'Polar Power');
+  ('POLA', 'Polar Power');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POOL', 'Pool Corporation');
+  ('POOL', 'Pool Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POSH', 'Poshmark');
+  ('POSH', 'Poshmark');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POTX', 'Global X Cannabis ETF');
+  ('POTX', 'Global X Cannabis ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POWI', 'Power Integrations');
+  ('POWI', 'Power Integrations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POWL', 'Powell Industries');
+  ('POWL', 'Powell Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POWRU', 'Powered Brandss');
+  ('POWRU', 'Powered Brandss');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('POWW', 'AMMO');
+  ('POWW', 'AMMO');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPBI', 'Pacific Premier Bancorp Inc');
+  ('PPBI', 'Pacific Premier Bancorp Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPBT', 'Purple Biotech Ltd. ');
+  ('PPBT', 'Purple Biotech Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPC', 'Pilgrim''s Pride Corporation');
+  ('PPC', 'Pilgrim''s Pride Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPD', 'PPD');
+  ('PPD', 'PPD');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPGHU', 'Poema Global Holdings Corp.');
+  ('PPGHU', 'Poema Global Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPH', 'VanEck Vectors Pharmaceutical ETF');
+  ('PPH', 'VanEck Vectors Pharmaceutical ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPIH', 'Perma-Pipe International Holdings');
+  ('PPIH', 'Perma-Pipe International Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPSI', 'Pioneer Power Solutions');
+  ('PPSI', 'Pioneer Power Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PPTA', 'Perpetua Resources Corp.');
+  ('PPTA', 'Perpetua Resources Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRAA', 'PRA Group');
+  ('PRAA', 'PRA Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRAH', 'PRA Health Sciences');
+  ('PRAH', 'PRA Health Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRAX', 'Praxis Precision Medicines');
+  ('PRAX', 'Praxis Precision Medicines');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRCH', 'Porch Group');
+  ('PRCH', 'Porch Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRCHW', 'Porch Group');
+  ('PRCHW', 'Porch Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRDO', 'Perdoceo Education Corporation');
+  ('PRDO', 'Perdoceo Education Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRFT', 'Perficient');
+  ('PRFT', 'Perficient');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRFX', 'PainReform Ltd. s');
+  ('PRFX', 'PainReform Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRFZ', 'Invesco FTSE RAFI US 1500 Small-Mid ETF');
+  ('PRFZ', 'Invesco FTSE RAFI US 1500 Small-Mid ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRGS', 'Progress Software Corporation');
+  ('PRGS', 'Progress Software Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRGX', 'PRGX Global');
+  ('PRGX', 'PRGX Global');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRIM', 'Primoris Services Corporation');
+  ('PRIM', 'Primoris Services Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRLD', 'Prelude Therapeutics Incorporated');
+  ('PRLD', 'Prelude Therapeutics Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRN', 'Invesco DWA Industrials Momentum ETF');
+  ('PRN', 'Invesco DWA Industrials Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PROF', 'Profound Medical Corp.');
+  ('PROF', 'Profound Medical Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PROG', 'Progenity');
+  ('PROG', 'Progenity');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PROV', 'Provident Financial Holdings');
+  ('PROV', 'Provident Financial Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRPH', 'ProPhase Labs');
+  ('PRPH', 'ProPhase Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRPL', 'Purple Innovation');
+  ('PRPL', 'Purple Innovation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRPO', 'Precipio');
+  ('PRPO', 'Precipio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRQR', 'ProQR Therapeutics N.V. s');
+  ('PRQR', 'ProQR Therapeutics N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRSRU', 'Prospector Capital Corp.');
+  ('PRSRU', 'Prospector Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRTA', 'Prothena Corporation plc s');
+  ('PRTA', 'Prothena Corporation plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRTC', 'PureTech Health plc ');
+  ('PRTC', 'PureTech Health plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRTH', 'Priority Technology Holdings');
+  ('PRTH', 'Priority Technology Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRTK', 'Paratek Pharmaceuticals');
+  ('PRTK', 'Paratek Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRTS', 'CarParts.com');
+  ('PRTS', 'CarParts.com');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PRVB', 'Provention Bio');
+  ('PRVB', 'Provention Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PS', 'Pluralsight');
+  ('PS', 'Pluralsight');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSAC', 'Property Solutions Acquisition Corp.');
+  ('PSAC', 'Property Solutions Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSACU', 'Property Solutions Acquisition Corp.');
+  ('PSACU', 'Property Solutions Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSACW', 'Property Solutions Acquisition Corp.');
+  ('PSACW', 'Property Solutions Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSC', 'Principal U.S. Small-Cap Multi-Factor ETF');
+  ('PSC', 'Principal U.S. Small-Cap Multi-Factor ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCC', 'Invesco S&P SmallCap Consumer Staples ETF');
+  ('PSCC', 'Invesco S&P SmallCap Consumer Staples ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCD', 'Invesco S&P SmallCap Consumer Discretionary ETF');
+  ('PSCD', 'Invesco S&P SmallCap Consumer Discretionary ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCE', 'Invesco S&P SmallCap Energy ETF');
+  ('PSCE', 'Invesco S&P SmallCap Energy ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCF', 'Invesco S&P SmallCap Financials ETF');
+  ('PSCF', 'Invesco S&P SmallCap Financials ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCH', 'Invesco S&P SmallCap Health Care ETF');
+  ('PSCH', 'Invesco S&P SmallCap Health Care ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCI', 'Invesco S&P SmallCap Industrials ETF');
+  ('PSCI', 'Invesco S&P SmallCap Industrials ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCM', 'Invesco S&P SmallCap Materials ETF');
+  ('PSCM', 'Invesco S&P SmallCap Materials ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCT', 'Invesco S&P SmallCap Information Technology ETF');
+  ('PSCT', 'Invesco S&P SmallCap Information Technology ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSCU', 'Invesco S&P SmallCap Utilities & Communication Services ETF');
+  ('PSCU', 'Invesco S&P SmallCap Utilities & Communication Services ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSEC', 'Prospect Capital Corporation');
+  ('PSEC', 'Prospect Capital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSET', 'Principal Quality ETF');
+  ('PSET', 'Principal Quality ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSHG', 'Performance Shipping Inc.');
+  ('PSHG', 'Performance Shipping Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSL', 'Invesco DWA Consumer Staples Momentum ETF');
+  ('PSL', 'Invesco DWA Consumer Staples Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSMT', 'PriceSmart');
+  ('PSMT', 'PriceSmart');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSNL', 'Personalis');
+  ('PSNL', 'Personalis');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSTI', 'Pluristem Therapeutics');
+  ('PSTI', 'Pluristem Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSTV', 'PLUS THERAPEUTICS');
+  ('PSTV', 'PLUS THERAPEUTICS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PSTX', 'Poseida Therapeutics');
+  ('PSTX', 'Poseida Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PT', 'Pintec Technology Holdings Limited ');
+  ('PT', 'Pintec Technology Holdings Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTC', 'PTC Inc.');
+  ('PTC', 'PTC Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTCT', 'PTC Therapeutics');
+  ('PTCT', 'PTC Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTE', 'PolarityTE');
+  ('PTE', 'PolarityTE');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTEN', 'Patterson-UTI Energy');
+  ('PTEN', 'Patterson-UTI Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTF', 'Invesco DWA Technology Momentum ETF');
+  ('PTF', 'Invesco DWA Technology Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTGX', 'Protagonist Therapeutics');
+  ('PTGX', 'Protagonist Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTH', 'Invesco DWA Healthcare Momentum ETF');
+  ('PTH', 'Invesco DWA Healthcare Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTIC', 'PropTech Investment Corporation II ');
+  ('PTIC', 'PropTech Investment Corporation II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTICU', 'PropTech Investment Corporation II');
+  ('PTICU', 'PropTech Investment Corporation II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTICW', 'PropTech Investment Corporation II');
+  ('PTICW', 'PropTech Investment Corporation II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTMN', 'Portman Ridge Finance Corporation');
+  ('PTMN', 'Portman Ridge Finance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTNR', 'Partner Communications Company Ltd. ');
+  ('PTNR', 'Partner Communications Company Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTON', 'Peloton Interactive');
+  ('PTON', 'Peloton Interactive');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTPI', 'Petros Pharmaceuticals');
+  ('PTPI', 'Petros Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTRS', 'Partners Bancorp');
+  ('PTRS', 'Partners Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTSI', 'P.A.M. Transportation Services');
+  ('PTSI', 'P.A.M. Transportation Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTVCA', 'Protective Insurance Corporation - Class A (voting) Common Stock');
+  ('PTVCA', 'Protective Insurance Corporation - Class A (voting) Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTVCB', 'Protective Insurance Corporation - Class B (nonvoting) Common Stock');
+  ('PTVCB', 'Protective Insurance Corporation - Class B (nonvoting) Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PTVE', 'Pactiv Evergreen Inc.');
+  ('PTVE', 'Pactiv Evergreen Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PUBM', 'PubMatic');
+  ('PUBM', 'PubMatic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PUCKU', 'Goal Acquisitions Corp.');
+  ('PUCKU', 'Goal Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PUI', 'Invesco DWA Utilities Momentum ETF');
+  ('PUI', 'Invesco DWA Utilities Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PULM', 'Pulmatrix');
+  ('PULM', 'Pulmatrix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PUYI', 'Puyi Inc. - American Depository Shares');
+  ('PUYI', 'Puyi Inc. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PVAC', 'Penn Virginia Corporation');
+  ('PVAC', 'Penn Virginia Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PVBC', 'Provident Bancorp');
+  ('PVBC', 'Provident Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PWFL', 'PowerFleet');
+  ('PWFL', 'PowerFleet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PWOD', 'Penns Woods Bancorp');
+  ('PWOD', 'Penns Woods Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PXI', 'Invesco DWA Energy Momentum ETF');
+  ('PXI', 'Invesco DWA Energy Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PXLW', 'Pixelworks');
+  ('PXLW', 'Pixelworks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PXS', 'Pyxis Tankers Inc.');
+  ('PXS', 'Pyxis Tankers Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PXSAP', 'Pyxis Tankers Inc. - 7.75% Series A Cumulative Convertible Preferred Shares');
+  ('PXSAP', 'Pyxis Tankers Inc. - 7.75% Series A Cumulative Convertible Preferred Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PXSAW', 'Pyxis Tankers Inc.');
+  ('PXSAW', 'Pyxis Tankers Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PY', 'Principal Value ETF');
+  ('PY', 'Principal Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PYPD', 'PolyPid Ltd. s');
+  ('PYPD', 'PolyPid Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PYPL', 'PayPal Holdings');
+  ('PYPL', 'PayPal Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PYZ', 'Invesco DWA Basic Materials Momentum ETF');
+  ('PYZ', 'Invesco DWA Basic Materials Momentum ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('PZZA', 'Papa John''s International');
+  ('PZZA', 'Papa John''s International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QABA', 'First Trust NASDAQ ABA Community Bank Index Fund');
+  ('QABA', 'First Trust NASDAQ ABA Community Bank Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QADA', 'QAD Inc. ');
+  ('QADA', 'QAD Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QADB', 'QAD Inc. - Class B Common Stock');
+  ('QADB', 'QAD Inc. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QAT', 'iShares MSCI Qatar ETF');
+  ('QAT', 'iShares MSCI Qatar ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QCLN', 'First Trust NASDAQ Clean Edge Green Energy Index Fund');
+  ('QCLN', 'First Trust NASDAQ Clean Edge Green Energy Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QCOM', 'QUALCOMM Incorporated');
+  ('QCOM', 'QUALCOMM Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QCRH', 'QCR Holdings');
+  ('QCRH', 'QCR Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QDEL', 'Quidel Corporation');
+  ('QDEL', 'Quidel Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QELL', 'Qell Acquisition Corp.s');
+  ('QELL', 'Qell Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QELLU', 'Qell Acquisition Corp.');
+  ('QELLU', 'Qell Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QELLW', 'Qell Acquisition Corp.');
+  ('QELLW', 'Qell Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QFIN', '360 DigiTech');
+  ('QFIN', '360 DigiTech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QH', 'Quhuo Limited - American Depository Shares');
+  ('QH', 'Quhuo Limited - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QIWI', 'QIWI plc ');
+  ('QIWI', 'QIWI plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QK', 'Q&K International Group Limited ');
+  ('QK', 'Q&K International Group Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QLGN', 'Qualigen Therapeutics');
+  ('QLGN', 'Qualigen Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QLI', 'Qilian International Holding Group Ltd. s');
+  ('QLI', 'Qilian International Holding Group Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QLYS', 'Qualys');
+  ('QLYS', 'Qualys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QMCO', 'Quantum Corporation');
+  ('QMCO', 'Quantum Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QNST', 'QuinStreet');
+  ('QNST', 'QuinStreet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQC', 'Simplify Growth Equity Plus Convexity ETF');
+  ('QQC', 'Simplify Growth Equity Plus Convexity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQD', 'Simplify Growth Equity Plus Downside Convexity ETF');
+  ('QQD', 'Simplify Growth Equity Plus Downside Convexity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQEW', 'First Trust NASDAQ-100 Equal Weighted Index Fund');
+  ('QQEW', 'First Trust NASDAQ-100 Equal Weighted Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQQ', 'Invesco QQQ Trust');
+  ('QQQ', 'Invesco QQQ Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQQJ', 'Invesco NASDAQ Next Gen 100 ETF');
+  ('QQQJ', 'Invesco NASDAQ Next Gen 100 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQQM', 'Invesco NASDAQ 100 ETF');
+  ('QQQM', 'Invesco NASDAQ 100 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQQN', 'VictoryShares Nasdaq Next 50 ETF');
+  ('QQQN', 'VictoryShares Nasdaq Next 50 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQQX', 'Nuveen NASDAQ 100 Dynamic Overwrite Fund - Shares of Beneficial Interest');
+  ('QQQX', 'Nuveen NASDAQ 100 Dynamic Overwrite Fund - Shares of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QQXT', 'First Trust NASDAQ-100 Ex-Technology Sector Index Fund');
+  ('QQXT', 'First Trust NASDAQ-100 Ex-Technology Sector Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QRHC', 'Quest Resource Holding Corporation');
+  ('QRHC', 'Quest Resource Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QRTEA', 'Qurate Retail');
+  ('QRTEA', 'Qurate Retail');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QRTEB', 'Qurate Retail');
+  ('QRTEB', 'Qurate Retail');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QRTEP', 'Qurate Retail');
+  ('QRTEP', 'Qurate Retail');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QRVO', 'Qorvo');
+  ('QRVO', 'Qorvo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QTEC', 'First Trust NASDAQ-100-Technology Sector Index Fund');
+  ('QTEC', 'First Trust NASDAQ-100-Technology Sector Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QTNT', 'Quotient Limited s');
+  ('QTNT', 'Quotient Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QTRX', 'Quanterix Corporation');
+  ('QTRX', 'Quanterix Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QTT', 'Qutoutiao Inc. ');
+  ('QTT', 'Qutoutiao Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QUIK', 'QuickLogic Corporation');
+  ('QUIK', 'QuickLogic Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QUMU', 'Qumu Corporation');
+  ('QUMU', 'Qumu Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QURE', 'uniQure N.V. s');
+  ('QURE', 'uniQure N.V. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QYLD', 'Global X NASDAQ-100 Covered Call ETF');
+  ('QYLD', 'Global X NASDAQ-100 Covered Call ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('QYLG', 'Global X Nasdaq 100 Covered Call & Growth ETF');
+  ('QYLG', 'Global X Nasdaq 100 Covered Call & Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAAC', 'Revolution Acceleration Acquisition Corp ');
+  ('RAAC', 'Revolution Acceleration Acquisition Corp ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAACU', 'Revolution Acceleration Acquisition Corp');
+  ('RAACU', 'Revolution Acceleration Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAACW', 'Revolution Acceleration Acquisition Corp');
+  ('RAACW', 'Revolution Acceleration Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RACA', 'Therapeutics Acquisition Corp. ');
+  ('RACA', 'Therapeutics Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RADA', 'RADA Electronic Industries Ltd. s');
+  ('RADA', 'RADA Electronic Industries Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RADI', 'Radius Global Infrastructure');
+  ('RADI', 'Radius Global Infrastructure');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAIL', 'Freightcar America');
+  ('RAIL', 'Freightcar America');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAND', 'Rand Capital Corporation');
+  ('RAND', 'Rand Capital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAPT', 'RAPT Therapeutics');
+  ('RAPT', 'RAPT Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RARE', 'Ultragenyx Pharmaceutical Inc.');
+  ('RARE', 'Ultragenyx Pharmaceutical Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAVE', 'Rave Restaurant Group');
+  ('RAVE', 'Rave Restaurant Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RAVN', 'Raven Industries');
+  ('RAVN', 'Raven Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBB', 'RBB Bancorp');
+  ('RBB', 'RBB Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBBN', 'Ribbon Communications Inc. ');
+  ('RBBN', 'Ribbon Communications Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBCAA', 'Republic Bancorp');
+  ('RBCAA', 'Republic Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBCN', 'Rubicon Technology');
+  ('RBCN', 'Rubicon Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBKB', 'Rhinebeck Bancorp');
+  ('RBKB', 'Rhinebeck Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RBNC', 'Reliant Bancorp');
+  ('RBNC', 'Reliant Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCEL', 'Avita Therapeutics');
+  ('RCEL', 'Avita Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCHG', 'Recharge Acquisition Corp. ');
+  ('RCHG', 'Recharge Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCHGU', 'Recharge Acquisition Corp.');
+  ('RCHGU', 'Recharge Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCHGW', 'Recharge Acquisition Corp.');
+  ('RCHGW', 'Recharge Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCII', 'Rent-A-Center Inc.');
+  ('RCII', 'Rent-A-Center Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCKT', 'Rocket Pharmaceuticals');
+  ('RCKT', 'Rocket Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCKY', 'Rocky Brands');
+  ('RCKY', 'Rocky Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCLFU', 'Rosecliff Acquisition Corp Is');
+  ('RCLFU', 'Rosecliff Acquisition Corp Is');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCM', 'R1 RCM Inc.');
+  ('RCM', 'R1 RCM Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCMT', 'RCM Technologies');
+  ('RCMT', 'RCM Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RCON', 'Recon Technology');
+  ('RCON', 'Recon Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDCM', 'Radcom Ltd. s');
+  ('RDCM', 'Radcom Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDFN', 'Redfin Corporation');
+  ('RDFN', 'Redfin Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDHL', 'Redhill Biopharma Ltd. ');
+  ('RDHL', 'Redhill Biopharma Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDI', 'Reading International Inc - Class A Non-voting Common Stock');
+  ('RDI', 'Reading International Inc - Class A Non-voting Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDIB', 'Reading International Inc - Class B Voting Common Stock');
+  ('RDIB', 'Reading International Inc - Class B Voting Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDNT', 'RadNet');
+  ('RDNT', 'RadNet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDUS', 'Radius Health');
+  ('RDUS', 'Radius Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDVT', 'Red Violet');
+  ('RDVT', 'Red Violet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDVY', 'First Trust Rising Dividend Achievers ETF');
+  ('RDVY', 'First Trust Rising Dividend Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RDWR', 'Radware Ltd. s');
+  ('RDWR', 'Radware Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REAL', 'The RealReal');
+  ('REAL', 'The RealReal');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REDU', 'RISE Education Cayman Ltd ');
+  ('REDU', 'RISE Education Cayman Ltd ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REED', 'Reeds');
+  ('REED', 'Reeds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REFR', 'Research Frontiers Incorporated');
+  ('REFR', 'Research Frontiers Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REG', 'Regency Centers Corporation');
+  ('REG', 'Regency Centers Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REGI', 'Renewable Energy Group');
+  ('REGI', 'Renewable Energy Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REGN', 'Regeneron Pharmaceuticals');
+  ('REGN', 'Regeneron Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REKR', 'Rekor Systems');
+  ('REKR', 'Rekor Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RELI', 'Reliance Global Group');
+  ('RELI', 'Reliance Global Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RELIW', 'Reliance Global Group');
+  ('RELIW', 'Reliance Global Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RELL', 'Richardson Electronics');
+  ('RELL', 'Richardson Electronics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REPH', 'Recro Pharma');
+  ('REPH', 'Recro Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REPL', 'Replimune Group');
+  ('REPL', 'Replimune Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RESN', 'Resonant Inc.');
+  ('RESN', 'Resonant Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RETA', 'Reata Pharmaceuticals');
+  ('RETA', 'Reata Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RETO', 'ReTo Eco-Solutions');
+  ('RETO', 'ReTo Eco-Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('REYN', 'Reynolds Consumer Products Inc.');
+  ('REYN', 'Reynolds Consumer Products Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RFAP', 'First Trust RiverFront Dynamic Asia Pacific ETF');
+  ('RFAP', 'First Trust RiverFront Dynamic Asia Pacific ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RFDI', 'First Trust RiverFront Dynamic Developed International ETF');
+  ('RFDI', 'First Trust RiverFront Dynamic Developed International ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RFEM', 'First Trust RiverFront Dynamic Emerging Markets ETF');
+  ('RFEM', 'First Trust RiverFront Dynamic Emerging Markets ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RFEU', 'First Trust RiverFront Dynamic Europe ETF');
+  ('RFEU', 'First Trust RiverFront Dynamic Europe ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RFIL', 'RF Industries');
+  ('RFIL', 'RF Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGCO', 'RGC Resources Inc.');
+  ('RGCO', 'RGC Resources Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGEN', 'Repligen Corporation');
+  ('RGEN', 'Repligen Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGLD', 'Royal Gold');
+  ('RGLD', 'Royal Gold');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGLS', 'Regulus Therapeutics Inc.');
+  ('RGLS', 'Regulus Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGNX', 'REGENXBIO Inc.');
+  ('RGNX', 'REGENXBIO Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RGP', 'Resources Connection');
+  ('RGP', 'Resources Connection');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RIBT', 'RiceBran Technologies');
+  ('RIBT', 'RiceBran Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RICK', 'RCI Hospitality Holdings');
+  ('RICK', 'RCI Hospitality Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RIDE', 'Lordstown Motors Corp. ');
+  ('RIDE', 'Lordstown Motors Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RIGL', 'Rigel Pharmaceuticals');
+  ('RIGL', 'Rigel Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILY', 'B. Riley Financial');
+  ('RILY', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYG', 'B. Riley Financial');
+  ('RILYG', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYH', 'B. Riley Financial');
+  ('RILYH', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYI', 'B. Riley Financial');
+  ('RILYI', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYL', 'B. Riley Financial');
+  ('RILYL', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYM', 'B. Riley Financial');
+  ('RILYM', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYN', 'B. Riley Financial');
+  ('RILYN', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYO', 'B. Riley Financial');
+  ('RILYO', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYP', 'B. Riley Financial');
+  ('RILYP', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYT', 'B. Riley Financial');
+  ('RILYT', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RILYZ', 'B. Riley Financial');
+  ('RILYZ', 'B. Riley Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RING', 'iShares MSCI Global Gold Miners ETF');
+  ('RING', 'iShares MSCI Global Gold Miners ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RIOT', 'Riot Blockchain');
+  ('RIOT', 'Riot Blockchain');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RIVE', 'Riverview Financial Corporation');
+  ('RIVE', 'Riverview Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RKDA', 'Arcadia Biosciences');
+  ('RKDA', 'Arcadia Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RLAY', 'Relay Therapeutics');
+  ('RLAY', 'Relay Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RLMD', 'Relmada Therapeutics');
+  ('RLMD', 'Relmada Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMBI', 'Richmond Mutual Bancorporation');
+  ('RMBI', 'Richmond Mutual Bancorporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMBL', 'RumbleOn');
+  ('RMBL', 'RumbleOn');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMBS', 'Rambus');
+  ('RMBS', 'Rambus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMCF', 'Rocky Mountain Chocolate Factory');
+  ('RMCF', 'Rocky Mountain Chocolate Factory');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMGB', 'RMG Acquisition Corp. IIs');
+  ('RMGB', 'RMG Acquisition Corp. IIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMGBU', 'RMG Acquisition Corp. II');
+  ('RMGBU', 'RMG Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMGBW', 'RMG Acquisition Corp. II');
+  ('RMGBW', 'RMG Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMGCU', 'RMG Acquisition Corp. III');
+  ('RMGCU', 'RMG Acquisition Corp. III');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMNI', 'Rimini Street');
+  ('RMNI', 'Rimini Street');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMR', 'The RMR Group Inc. ');
+  ('RMR', 'The RMR Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMRM', 'RMR Mortgage Trust');
+  ('RMRM', 'RMR Mortgage Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RMTI', 'Rockwell Medical');
+  ('RMTI', 'Rockwell Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNA', 'Avidity Biosciences');
+  ('RNA', 'Avidity Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNDB', 'Randolph Bancorp');
+  ('RNDB', 'Randolph Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNDM', 'Developed International Equity Select ETF');
+  ('RNDM', 'Developed International Equity Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNDV', 'US Equity Dividend Select ETF');
+  ('RNDV', 'US Equity Dividend Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNEM', 'Emerging Markets Equity Select ETF');
+  ('RNEM', 'Emerging Markets Equity Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNET', 'RigNet');
+  ('RNET', 'RigNet');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNLC', 'Large Cap US Equity Select ETF');
+  ('RNLC', 'Large Cap US Equity Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNLX', 'Renalytix AI plc ');
+  ('RNLX', 'Renalytix AI plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNMC', 'Mid Cap US Equity Select ETF');
+  ('RNMC', 'Mid Cap US Equity Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNRG', 'Global X Renewable Energy Producers ETF');
+  ('RNRG', 'Global X Renewable Energy Producers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNSC', 'Small Cap US Equity Select ETF');
+  ('RNSC', 'Small Cap US Equity Select ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNST', 'Renasant Corporation');
+  ('RNST', 'Renasant Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RNWK', 'RealNetworks');
+  ('RNWK', 'RealNetworks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROAD', 'Construction Partners');
+  ('ROAD', 'Construction Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROBT', 'First Trust Nasdaq Artificial Intelligence and Robotics ETF');
+  ('ROBT', 'First Trust Nasdaq Artificial Intelligence and Robotics ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCC', 'Roth CH Acquisition II Co.');
+  ('ROCC', 'Roth CH Acquisition II Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCCU', 'Roth CH Acquisition II Co.');
+  ('ROCCU', 'Roth CH Acquisition II Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCCW', 'Roth CH Acquisition II Co.');
+  ('ROCCW', 'Roth CH Acquisition II Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCH', 'Roth CH Acquisition I Co.');
+  ('ROCH', 'Roth CH Acquisition I Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCHU', 'Roth CH Acquisition I Co.');
+  ('ROCHU', 'Roth CH Acquisition I Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCHW', 'Roth CH Acquisition I Co.');
+  ('ROCHW', 'Roth CH Acquisition I Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROCK', 'Gibraltar Industries');
+  ('ROCK', 'Gibraltar Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROIC', 'Retail Opportunity Investments Corp.');
+  ('ROIC', 'Retail Opportunity Investments Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROKU', 'Roku');
+  ('ROKU', 'Roku');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROLL', 'RBC Bearings Incorporated');
+  ('ROLL', 'RBC Bearings Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROOT', 'Root');
+  ('ROOT', 'Root');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ROST', 'Ross Stores');
+  ('ROST', 'Ross Stores');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RP', 'RealPage');
+  ('RP', 'RealPage');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RPAY', 'Repay Holdings Corporation ');
+  ('RPAY', 'Repay Holdings Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RPD', 'Rapid7');
+  ('RPD', 'Rapid7');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RPRX', 'Royalty Pharma plcs');
+  ('RPRX', 'Royalty Pharma plcs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RPTX', 'Repare Therapeutics Inc.');
+  ('RPTX', 'Repare Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RRBI', 'Red River Bancshares');
+  ('RRBI', 'Red River Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RRGB', 'Red Robin Gourmet Burgers');
+  ('RRGB', 'Red Robin Gourmet Burgers');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RRR', 'Red Rock Resorts');
+  ('RRR', 'Red Rock Resorts');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RSSS', 'Research Solutions');
+  ('RSSS', 'Research Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RSVA', 'Rodgers Silicon Valley Acquisition Corp.');
+  ('RSVA', 'Rodgers Silicon Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RSVAU', 'Rodgers Silicon Valley Acquisition Corp.');
+  ('RSVAU', 'Rodgers Silicon Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RSVAW', 'Rodgers Silicon Valley Acquisition Corp.');
+  ('RSVAW', 'Rodgers Silicon Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RTH', 'VanEck Vectors Retail ETF');
+  ('RTH', 'VanEck Vectors Retail ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RTLR', 'Rattler Midstream LP - Common Units Representing Limited Partnership Interests');
+  ('RTLR', 'Rattler Midstream LP - Common Units Representing Limited Partnership Interests');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUBY', 'Rubius Therapeutics');
+  ('RUBY', 'Rubius Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUHN', 'Ruhnn Holding Limited ');
+  ('RUHN', 'Ruhnn Holding Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUN', 'Sunrun Inc.');
+  ('RUN', 'Sunrun Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUSHA', 'Rush Enterprises');
+  ('RUSHA', 'Rush Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUSHB', 'Rush Enterprises');
+  ('RUSHB', 'Rush Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RUTH', 'Ruth''s Hospitality Group');
+  ('RUTH', 'Ruth''s Hospitality Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RVMD', 'Revolution Medicines');
+  ('RVMD', 'Revolution Medicines');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RVNC', 'Revance Therapeutics');
+  ('RVNC', 'Revance Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RVPH', 'Reviva Pharmaceuticals Holdings');
+  ('RVPH', 'Reviva Pharmaceuticals Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RVPHW', 'Reviva Pharmaceuticals Holdings');
+  ('RVPHW', 'Reviva Pharmaceuticals Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RVSB', 'Riverview Bancorp Inc');
+  ('RVSB', 'Riverview Bancorp Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RWLK', 'ReWalk Robotics Ltd. s');
+  ('RWLK', 'ReWalk Robotics Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RXT', 'Rackspace Technology');
+  ('RXT', 'Rackspace Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RYAAY', 'Ryanair Holdings plc ');
+  ('RYAAY', 'Ryanair Holdings plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RYTM', 'Rhythm Pharmaceuticals');
+  ('RYTM', 'Rhythm Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('RZLT', 'Rezolute');
+  ('RZLT', 'Rezolute');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SABR', 'Sabre Corporation');
+  ('SABR', 'Sabre Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SABRP', 'Sabre Corporation - 6.50% Series A Mandatory Convertible Preferred Stock');
+  ('SABRP', 'Sabre Corporation - 6.50% Series A Mandatory Convertible Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAFM', 'Sanderson Farms');
+  ('SAFM', 'Sanderson Farms');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAFT', 'Safety Insurance Group');
+  ('SAFT', 'Safety Insurance Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAGE', 'Sage Therapeutics');
+  ('SAGE', 'Sage Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAIA', 'Saia');
+  ('SAIA', 'Saia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAII', 'Software Acquisition Group Inc. II ');
+  ('SAII', 'Software Acquisition Group Inc. II ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAIIU', 'Software Acquisition Group Inc. II');
+  ('SAIIU', 'Software Acquisition Group Inc. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAIIW', 'Software Acquisition Group Inc. II');
+  ('SAIIW', 'Software Acquisition Group Inc. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAL', 'Salisbury Bancorp');
+  ('SAL', 'Salisbury Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SALM', 'Salem Media Group');
+  ('SALM', 'Salem Media Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAMG', 'Silvercrest Asset Management Group Inc.');
+  ('SAMG', 'Silvercrest Asset Management Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SANA', 'Sana Biotechnology');
+  ('SANA', 'Sana Biotechnology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SANM', 'Sanmina Corporation');
+  ('SANM', 'Sanmina Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SANW', 'S&W Seed Company');
+  ('SANW', 'S&W Seed Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SASR', 'Sandy Spring Bancorp');
+  ('SASR', 'Sandy Spring Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SATS', 'EchoStar Corporation');
+  ('SATS', 'EchoStar Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SAVA', 'Cassava Sciences');
+  ('SAVA', 'Cassava Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBAC', 'SBA Communications Corporation ');
+  ('SBAC', 'SBA Communications Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBBP', 'Strongbridge Biopharma plc s');
+  ('SBBP', 'Strongbridge Biopharma plc s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBCF', 'Seacoast Banking Corporation of Florida');
+  ('SBCF', 'Seacoast Banking Corporation of Florida');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBFG', 'SB Financial Group');
+  ('SBFG', 'SB Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBGI', 'Sinclair Broadcast Group');
+  ('SBGI', 'Sinclair Broadcast Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBLK', 'Star Bulk Carriers Corp.');
+  ('SBLK', 'Star Bulk Carriers Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBLKZ', 'Star Bulk Carriers Corp. - 8.30% Senior Notes due 2022');
+  ('SBLKZ', 'Star Bulk Carriers Corp. - 8.30% Senior Notes due 2022');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBNY', 'Signature Bank');
+  ('SBNY', 'Signature Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBNYP', 'Signature Bank - Depositary shares');
+  ('SBNYP', 'Signature Bank - Depositary shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBRA', 'Sabra Health Care REIT');
+  ('SBRA', 'Sabra Health Care REIT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBSI', 'Southside Bancshares');
+  ('SBSI', 'Southside Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBT', 'Sterling Bancorp');
+  ('SBT', 'Sterling Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBTX', 'Silverback Therapeutics');
+  ('SBTX', 'Silverback Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SBUX', 'Starbucks Corporation');
+  ('SBUX', 'Starbucks Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCHL', 'Scholastic Corporation');
+  ('SCHL', 'Scholastic Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCHN', 'Schnitzer Steel Industries');
+  ('SCHN', 'Schnitzer Steel Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCKT', 'Socket Mobile');
+  ('SCKT', 'Socket Mobile');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCLEU', 'Broadscale Acquisition Corp.s');
+  ('SCLEU', 'Broadscale Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCOA', 'ScION Tech Growth Is');
+  ('SCOA', 'ScION Tech Growth Is');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCOAU', 'ScION Tech Growth I');
+  ('SCOAU', 'ScION Tech Growth I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCOAW', 'ScION Tech Growth I');
+  ('SCOAW', 'ScION Tech Growth I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCOBU', 'ScION Tech Growth IIs');
+  ('SCOBU', 'ScION Tech Growth IIs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCOR', 'comScore');
+  ('SCOR', 'comScore');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCPH', 'scPharmaceuticals Inc.');
+  ('SCPH', 'scPharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCPL', 'SciPlay Corporation ');
+  ('SCPL', 'SciPlay Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCPS', 'Scopus BioPharma Inc.');
+  ('SCPS', 'Scopus BioPharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCSC', 'ScanSource');
+  ('SCSC', 'ScanSource');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCVL', 'Shoe Carnival');
+  ('SCVL', 'Shoe Carnival');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCWX', 'SecureWorks Corp. ');
+  ('SCWX', 'SecureWorks Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCYX', 'SCYNEXIS');
+  ('SCYX', 'SCYNEXIS');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SCZ', 'iShares MSCI EAFE Small-Cap ETF');
+  ('SCZ', 'iShares MSCI EAFE Small-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDACU', 'Sustainable Development Acquisition I Corp.');
+  ('SDACU', 'Sustainable Development Acquisition I Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDC', 'SmileDirectClub');
+  ('SDC', 'SmileDirectClub');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDG', 'iShares MSCI Global Impact ETF');
+  ('SDG', 'iShares MSCI Global Impact ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDGR', 'Schrodinger');
+  ('SDGR', 'Schrodinger');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDH', 'Global Internet of People');
+  ('SDH', 'Global Internet of People');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SDVY', 'First Trust SMID Cap Rising Dividend Achievers ETF');
+  ('SDVY', 'First Trust SMID Cap Rising Dividend Achievers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEAC', 'SeaChange International');
+  ('SEAC', 'SeaChange International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SECO', 'Secoo Holding Limited ');
+  ('SECO', 'Secoo Holding Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEDG', 'SolarEdge Technologies');
+  ('SEDG', 'SolarEdge Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEED', 'Origin Agritech Limited');
+  ('SEED', 'Origin Agritech Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEEL', 'Seelos Therapeutics');
+  ('SEEL', 'Seelos Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEER', 'Seer');
+  ('SEER', 'Seer');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SEIC', 'SEI Investments Company');
+  ('SEIC', 'SEI Investments Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SELB', 'Selecta Biosciences');
+  ('SELB', 'Selecta Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SELF', 'Global Self Storage');
+  ('SELF', 'Global Self Storage');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SENEA', 'Seneca Foods Corp. ');
+  ('SENEA', 'Seneca Foods Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SENEB', 'Seneca Foods Corp. - Class B Common Stock');
+  ('SENEB', 'Seneca Foods Corp. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SESN', 'Sesen Bio');
+  ('SESN', 'Sesen Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFBC', 'Sound Financial Bancorp');
+  ('SFBC', 'Sound Financial Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFBS', 'ServisFirst Bancshares');
+  ('SFBS', 'ServisFirst Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFET', 'Safe-T Group Ltd. ');
+  ('SFET', 'Safe-T Group Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFIX', 'Stitch Fix');
+  ('SFIX', 'Stitch Fix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFM', 'Sprouts Farmers Market');
+  ('SFM', 'Sprouts Farmers Market');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFNC', 'Simmons First National Corporation');
+  ('SFNC', 'Simmons First National Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFST', 'Southern First Bancshares');
+  ('SFST', 'Southern First Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SFT', 'Shift Technologies');
+  ('SFT', 'Shift Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SG', 'Sirius International Insurance Group');
+  ('SG', 'Sirius International Insurance Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGA', 'Saga Communications');
+  ('SGA', 'Saga Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGAM', 'Seaport Global Acquisition Corp. ');
+  ('SGAM', 'Seaport Global Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGAMU', 'Seaport Global Acquisition Corp.');
+  ('SGAMU', 'Seaport Global Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGAMW', 'Seaport Global Acquisition Corp.');
+  ('SGAMW', 'Seaport Global Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGBX', 'SG Blocks');
+  ('SGBX', 'SG Blocks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGC', 'Superior Group of Companies');
+  ('SGC', 'Superior Group of Companies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGEN', 'Seagen Inc. ');
+  ('SGEN', 'Seagen Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGH', 'SMART Global Holdings');
+  ('SGH', 'SMART Global Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGLB', 'Sigma Labs');
+  ('SGLB', 'Sigma Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGLBW', 'Sigma Labs');
+  ('SGLBW', 'Sigma Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGMA', 'SigmaTron International');
+  ('SGMA', 'SigmaTron International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGMO', 'Sangamo Therapeutics');
+  ('SGMO', 'Sangamo Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGMS', 'Scientific Games Corp');
+  ('SGMS', 'Scientific Games Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGOC', 'SGOCO Group');
+  ('SGOC', 'SGOCO Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGRP', 'SPAR Group');
+  ('SGRP', 'SPAR Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGRY', 'Surgery Partners');
+  ('SGRY', 'Surgery Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SGTX', 'Sigilon Therapeutics');
+  ('SGTX', 'Sigilon Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHACU', 'SCP & CO Healthcare Acquisition Company');
+  ('SHACU', 'SCP & CO Healthcare Acquisition Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHBI', 'Shore Bancshares Inc');
+  ('SHBI', 'Shore Bancshares Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHC', 'Sotera Health Company');
+  ('SHC', 'Sotera Health Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHEN', 'Shenandoah Telecommunications Co');
+  ('SHEN', 'Shenandoah Telecommunications Co');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHIP', 'Seanergy Maritime Holdings Corp');
+  ('SHIP', 'Seanergy Maritime Holdings Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHIPW', 'Seanergy Maritime Holdings Corp - Class A Warrants');
+  ('SHIPW', 'Seanergy Maritime Holdings Corp - Class A Warrants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHIPZ', 'Seanergy Maritime Holdings Corp - Class B Warrant');
+  ('SHIPZ', 'Seanergy Maritime Holdings Corp - Class B Warrant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHLD', 'VictoryShares Protect America ETF');
+  ('SHLD', 'VictoryShares Protect America ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHLS', 'Shoals Technologies Group');
+  ('SHLS', 'Shoals Technologies Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHOO', 'Steven Madden');
+  ('SHOO', 'Steven Madden');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHSP', 'SharpSpring');
+  ('SHSP', 'SharpSpring');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHV', 'iShares Short Treasury Bond ETF');
+  ('SHV', 'iShares Short Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHY', 'iShares 1-3 Year Treasury Bond ETF');
+  ('SHY', 'iShares 1-3 Year Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SHYF', 'The Shyft Group');
+  ('SHYF', 'The Shyft Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIBN', 'SI-BONE');
+  ('SIBN', 'SI-BONE');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIC', 'Select Interior Concepts');
+  ('SIC', 'Select Interior Concepts');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIEB', 'Siebert Financial Corp.');
+  ('SIEB', 'Siebert Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIEN', 'Sientra');
+  ('SIEN', 'Sientra');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIFY', 'Sify Technologies Limited - American Depository Shares');
+  ('SIFY', 'Sify Technologies Limited - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIGA', 'SIGA Technologies Inc.');
+  ('SIGA', 'SIGA Technologies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIGI', 'Selective Insurance Group');
+  ('SIGI', 'Selective Insurance Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIGIP', 'Selective Insurance Group');
+  ('SIGIP', 'Selective Insurance Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SILC', 'Silicom Ltd s');
+  ('SILC', 'Silicom Ltd s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SILK', 'Silk Road Medical');
+  ('SILK', 'Silk Road Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIMO', 'Silicon Motion Technology Corporation ');
+  ('SIMO', 'Silicon Motion Technology Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SINA', 'Sina Corporation s');
+  ('SINA', 'Sina Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SINO', 'Sino-Global Shipping America');
+  ('SINO', 'Sino-Global Shipping America');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SINT', 'SiNtx Technologies');
+  ('SINT', 'SiNtx Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIOX', 'Sio Gene Therapies Inc.');
+  ('SIOX', 'Sio Gene Therapies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIRI', 'Sirius XM Holdings Inc.');
+  ('SIRI', 'Sirius XM Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SITM', 'SiTime Corporation');
+  ('SITM', 'SiTime Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIVB', 'SVB Financial Group');
+  ('SIVB', 'SVB Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SIVBP', 'SVB Financial Group - Depositary Shs each representing a 1/40th interest in a share of 5.25% Fixed-Rate Non-Cumulative Perpetual Preferred Stock');
+  ('SIVBP', 'SVB Financial Group - Depositary Shs each representing a 1/40th interest in a share of 5.25% Fixed-Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SJ', 'Scienjoy Holding Corporation s');
+  ('SJ', 'Scienjoy Holding Corporation s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SKOR', 'FlexShares Credit-Scored US Corporate Bond Index Fund');
+  ('SKOR', 'FlexShares Credit-Scored US Corporate Bond Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SKYU', 'ProShares Ultra Nasdaq Cloud Computing ETF');
+  ('SKYU', 'ProShares Ultra Nasdaq Cloud Computing ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SKYW', 'SkyWest');
+  ('SKYW', 'SkyWest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SKYY', 'First Trust Cloud Computing ETF');
+  ('SKYY', 'First Trust Cloud Computing ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLAB', 'Silicon Laboratories');
+  ('SLAB', 'Silicon Laboratories');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLAMU', 'Slam Corp.');
+  ('SLAMU', 'Slam Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLCRU', 'Silver Crest Acquisition Corporation');
+  ('SLCRU', 'Silver Crest Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLCT', 'Select Bancorp');
+  ('SLCT', 'Select Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLDB', 'Solid Biosciences Inc.');
+  ('SLDB', 'Solid Biosciences Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLGG', 'Super League Gaming');
+  ('SLGG', 'Super League Gaming');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLGL', 'Sol-Gel Technologies Ltd.');
+  ('SLGL', 'Sol-Gel Technologies Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLGN', 'Silgan Holdings Inc.');
+  ('SLGN', 'Silgan Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLM', 'SLM Corporation');
+  ('SLM', 'SLM Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLMBP', 'SLM Corporation - Floating Rate Non-Cumulative Preferred Stock');
+  ('SLMBP', 'SLM Corporation - Floating Rate Non-Cumulative Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLN', 'Silence Therapeutics Plc - American Depository Share');
+  ('SLN', 'Silence Therapeutics Plc - American Depository Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLNO', 'Soleno Therapeutics');
+  ('SLNO', 'Soleno Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLP', 'Simulations Plus');
+  ('SLP', 'Simulations Plus');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLQD', 'iShares 0-5 Year Investment Grade Corporate Bond ETF');
+  ('SLQD', 'iShares 0-5 Year Investment Grade Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLRC', 'Solar Capital Ltd.');
+  ('SLRC', 'Solar Capital Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLRX', 'Salarius Pharmaceuticals');
+  ('SLRX', 'Salarius Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLS', 'SELLAS Life Sciences Group');
+  ('SLS', 'SELLAS Life Sciences Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SLVO', 'Credit Suisse Silver Shares Covered Call Exchange Traded Notes');
+  ('SLVO', 'Credit Suisse Silver Shares Covered Call Exchange Traded Notes');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMBC', 'Southern Missouri Bancorp');
+  ('SMBC', 'Southern Missouri Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMBK', 'SmartFinancial');
+  ('SMBK', 'SmartFinancial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMCI', 'Super Micro Computer');
+  ('SMCI', 'Super Micro Computer');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMCP', 'AlphaMark Actively Managed Small Cap ETF');
+  ('SMCP', 'AlphaMark Actively Managed Small Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMED', 'Sharps Compliance Corp.');
+  ('SMED', 'Sharps Compliance Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMH', 'VanEck Vectors Semiconductor ETF');
+  ('SMH', 'VanEck Vectors Semiconductor ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMID', 'Smith-Midland Corporation');
+  ('SMID', 'Smith-Midland Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMIT', 'Schmitt Industries');
+  ('SMIT', 'Schmitt Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMMF', 'Summit Financial Group');
+  ('SMMF', 'Summit Financial Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMMT', 'Summit Therapeutics Inc. ');
+  ('SMMT', 'Summit Therapeutics Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMPL', 'The Simply Good Foods Company');
+  ('SMPL', 'The Simply Good Foods Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMSI', 'Smith Micro Software');
+  ('SMSI', 'Smith Micro Software');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMTC', 'Semtech Corporation');
+  ('SMTC', 'Semtech Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMTI', 'Sanara MedTech Inc.');
+  ('SMTI', 'Sanara MedTech Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SMTX', 'SMTC Corporation');
+  ('SMTX', 'SMTC Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNBR', 'Sleep Number Corporation');
+  ('SNBR', 'Sleep Number Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNCA', 'Seneca Biopharma');
+  ('SNCA', 'Seneca Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNCR', 'Synchronoss Technologies');
+  ('SNCR', 'Synchronoss Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SND', 'Smart Sand');
+  ('SND', 'Smart Sand');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNDE', 'Sundance Energy Inc. ');
+  ('SNDE', 'Sundance Energy Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNDL', 'Sundial Growers Inc.');
+  ('SNDL', 'Sundial Growers Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNDX', 'Syndax Pharmaceuticals');
+  ('SNDX', 'Syndax Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNES', 'SenesTech');
+  ('SNES', 'SenesTech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNEX', 'StoneX Group Inc.');
+  ('SNEX', 'StoneX Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNFCA', 'Security National Financial Corporation ');
+  ('SNFCA', 'Security National Financial Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNGX', 'Soligenix');
+  ('SNGX', 'Soligenix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNGXW', 'Soligenix');
+  ('SNGXW', 'Soligenix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNLN', 'Highland/iBoxx Senior Loan ETF');
+  ('SNLN', 'Highland/iBoxx Senior Loan ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNOA', 'Sonoma Pharmaceuticals');
+  ('SNOA', 'Sonoma Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNPS', 'Synopsys');
+  ('SNPS', 'Synopsys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNRH', 'Senior Connect Acquisition Corp. I ');
+  ('SNRH', 'Senior Connect Acquisition Corp. I ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNRHU', 'Senior Connect Acquisition Corp. I');
+  ('SNRHU', 'Senior Connect Acquisition Corp. I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNRHW', 'Senior Connect Acquisition Corp. I');
+  ('SNRHW', 'Senior Connect Acquisition Corp. I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNSE', 'Sensei Biotherapeutics');
+  ('SNSE', 'Sensei Biotherapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNSR', 'Global X Internet of Things ETF');
+  ('SNSR', 'Global X Internet of Things ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNSS', 'Sunesis Pharmaceuticals');
+  ('SNSS', 'Sunesis Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNUG', 'Merlyn.AI Tactical Growth & Income ETF');
+  ('SNUG', 'Merlyn.AI Tactical Growth & Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SNY', 'Sanofi ');
+  ('SNY', 'Sanofi ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOCL', 'Global X Social Media ETF');
+  ('SOCL', 'Global X Social Media ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOHO', 'Sotherly Hotels Inc.');
+  ('SOHO', 'Sotherly Hotels Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOHOB', 'Sotherly Hotels Inc. - 8.0% Series B Cumulative Redeemable Perpetual Preferred Stock');
+  ('SOHOB', 'Sotherly Hotels Inc. - 8.0% Series B Cumulative Redeemable Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOHON', 'Sotherly Hotels Inc. - 8.25% Series D Cumulative Redeemable Perpetual Preferred Stock');
+  ('SOHON', 'Sotherly Hotels Inc. - 8.25% Series D Cumulative Redeemable Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOHOO', 'Sotherly Hotels Inc. - 7.875% Series C Cumulative Redeemable Perpetual Preferred Stock');
+  ('SOHOO', 'Sotherly Hotels Inc. - 7.875% Series C Cumulative Redeemable Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOHU', 'Sohu.com Limited  ');
+  ('SOHU', 'Sohu.com Limited  ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOLO', 'Electrameccanica Vehicles Corp. Ltd.');
+  ('SOLO', 'Electrameccanica Vehicles Corp. Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOLOW', 'Electrameccanica Vehicles Corp. Ltd.s');
+  ('SOLOW', 'Electrameccanica Vehicles Corp. Ltd.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOLY', 'Soliton');
+  ('SOLY', 'Soliton');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SONA', 'Southern National Bancorp of Virginia');
+  ('SONA', 'Southern National Bancorp of Virginia');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SONM', 'Sonim Technologies');
+  ('SONM', 'Sonim Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SONN', 'Sonnet BioTherapeutics Holdings');
+  ('SONN', 'Sonnet BioTherapeutics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SONO', 'Sonos');
+  ('SONO', 'Sonos');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SOXX', 'iShares PHLX SOX Semiconductor Sector Index Fund');
+  ('SOXX', 'iShares PHLX SOX Semiconductor Sector Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SP', 'SP Plus Corporation');
+  ('SP', 'SP Plus Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPCB', 'SuperCom');
+  ('SPCB', 'SuperCom');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPFI', 'South Plains Financial');
+  ('SPFI', 'South Plains Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPI', 'SPI Energy Co.');
+  ('SPI', 'SPI Energy Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPKE', 'Spark Energy');
+  ('SPKE', 'Spark Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPKEP', 'Spark Energy');
+  ('SPKEP', 'Spark Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPLK', 'Splunk Inc.');
+  ('SPLK', 'Splunk Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPNE', 'SeaSpine Holdings Corporation');
+  ('SPNE', 'SeaSpine Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPNS', 'Sapiens International Corporation N.V.');
+  ('SPNS', 'Sapiens International Corporation N.V.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPOK', 'Spok Holdings');
+  ('SPOK', 'Spok Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPPI', 'Spectrum Pharmaceuticals');
+  ('SPPI', 'Spectrum Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPQQ', 'Siren Large Cap Blend Index ETF');
+  ('SPQQ', 'Siren Large Cap Blend Index ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPRB', 'Spruce Biosciences');
+  ('SPRB', 'Spruce Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPRO', 'Spero Therapeutics');
+  ('SPRO', 'Spero Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPRT', 'Support.com');
+  ('SPRT', 'Support.com');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPSC', 'SPS Commerce');
+  ('SPSC', 'SPS Commerce');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPT', 'Sprout Social');
+  ('SPT', 'Sprout Social');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPTKU', 'SportsTek Acquisition Corp.');
+  ('SPTKU', 'SportsTek Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPTN', 'SpartanNash Company');
+  ('SPTN', 'SpartanNash Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPWH', 'Sportsman''s Warehouse Holdings');
+  ('SPWH', 'Sportsman''s Warehouse Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SPWR', 'SunPower Corporation');
+  ('SPWR', 'SunPower Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SQBG', 'Sequential Brands Group');
+  ('SQBG', 'Sequential Brands Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SQFT', 'Presidio Property Trust');
+  ('SQFT', 'Presidio Property Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SQLV', 'Legg Mason Small-Cap Quality Value ETF');
+  ('SQLV', 'Legg Mason Small-Cap Quality Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SQQQ', 'ProShares UltraPro Short QQQ');
+  ('SQQQ', 'ProShares UltraPro Short QQQ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRAC', 'Stable Road Acquisition Corp. ');
+  ('SRAC', 'Stable Road Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRACU', 'Stable Road Acquisition Corp.');
+  ('SRACU', 'Stable Road Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRACW', 'Stable Road Acquisition Corp.');
+  ('SRACW', 'Stable Road Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRAX', 'SRAX');
+  ('SRAX', 'SRAX');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRCE', '1st Source Corporation');
+  ('SRCE', '1st Source Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRCL', 'Stericycle');
+  ('SRCL', 'Stericycle');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRDX', 'Surmodics');
+  ('SRDX', 'Surmodics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRET', 'Global X SuperDividend REIT ETF');
+  ('SRET', 'Global X SuperDividend REIT ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SREV', 'ServiceSource International');
+  ('SREV', 'ServiceSource International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRGA', 'Surgalign Holdings');
+  ('SRGA', 'Surgalign Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRNE', 'Sorrento Therapeutics');
+  ('SRNE', 'Sorrento Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRNGU', 'Soaring Eagle Acquisition Corp.');
+  ('SRNGU', 'Soaring Eagle Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRPT', 'Sarepta Therapeutics');
+  ('SRPT', 'Sarepta Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRRA', 'Sierra Oncology');
+  ('SRRA', 'Sierra Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRRK', 'Scholar Rock Holding Corporation');
+  ('SRRK', 'Scholar Rock Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRSA', 'Sarissa Capital Acquisition Corp.s');
+  ('SRSA', 'Sarissa Capital Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRSAU', 'Sarissa Capital Acquisition Corp.');
+  ('SRSAU', 'Sarissa Capital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRSAW', 'Sarissa Capital Acquisition Corp.s');
+  ('SRSAW', 'Sarissa Capital Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SRTS', 'Sensus Healthcare');
+  ('SRTS', 'Sensus Healthcare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSAAU', 'Science Strategic Acquisition Corp. Alpha');
+  ('SSAAU', 'Science Strategic Acquisition Corp. Alpha');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSB', 'South State Corporation');
+  ('SSB', 'South State Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSBI', 'Summit State Bank');
+  ('SSBI', 'Summit State Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSKN', 'Strata Skin Sciences');
+  ('SSKN', 'Strata Skin Sciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSNC', 'SS&C Technologies Holdings');
+  ('SSNC', 'SS&C Technologies Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSNT', 'SilverSun Technologies');
+  ('SSNT', 'SilverSun Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSP', 'E.W. Scripps Company (The) ');
+  ('SSP', 'E.W. Scripps Company (The) ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSPK', 'Silver Spike Acquisition Corp.s');
+  ('SSPK', 'Silver Spike Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSPKU', 'Silver Spike Acquisition Corp.s');
+  ('SSPKU', 'Silver Spike Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSPKW', 'Silver Spike Acquisition Corp.s');
+  ('SSPKW', 'Silver Spike Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSRM', 'SSR Mining Inc.');
+  ('SSRM', 'SSR Mining Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSSS', 'SuRo Capital Corp.');
+  ('SSSS', 'SuRo Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSTI', 'ShotSpotter');
+  ('SSTI', 'ShotSpotter');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SSYS', 'Stratasys');
+  ('SSYS', 'Stratasys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STAA', 'STAAR Surgical Company');
+  ('STAA', 'STAAR Surgical Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STAF', 'Staffing 360 Solutions');
+  ('STAF', 'Staffing 360 Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STAY', 'Extended Stay America');
+  ('STAY', 'Extended Stay America');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STBA', 'S&T Bancorp');
+  ('STBA', 'S&T Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STCN', 'Steel Connect');
+  ('STCN', 'Steel Connect');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STEP', 'StepStone Group Inc. ');
+  ('STEP', 'StepStone Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STFC', 'State Auto Financial Corporation');
+  ('STFC', 'State Auto Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STIM', 'Neuronetics');
+  ('STIM', 'Neuronetics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STKL', 'SunOpta');
+  ('STKL', 'SunOpta');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STKS', 'The ONE Group Hospitality');
+  ('STKS', 'The ONE Group Hospitality');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STLD', 'Steel Dynamics');
+  ('STLD', 'Steel Dynamics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STMP', 'Stamps.com Inc.');
+  ('STMP', 'Stamps.com Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STND', 'Standard AVB Financial Corp.');
+  ('STND', 'Standard AVB Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STNE', 'StoneCo Ltd. - Class A Common Share');
+  ('STNE', 'StoneCo Ltd. - Class A Common Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STOK', 'Stoke Therapeutics');
+  ('STOK', 'Stoke Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRA', 'Strategic Education');
+  ('STRA', 'Strategic Education');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRL', 'Sterling Construction Company Inc');
+  ('STRL', 'Sterling Construction Company Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRM', 'Streamline Health Solutions');
+  ('STRM', 'Streamline Health Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRO', 'Sutro Biopharma');
+  ('STRO', 'Sutro Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRR', 'Star Equity Holdings');
+  ('STRR', 'Star Equity Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRRP', 'Star Equity Holdings');
+  ('STRRP', 'Star Equity Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRS', 'Stratus Properties Inc.');
+  ('STRS', 'Stratus Properties Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STRT', 'STRATTEC SECURITY CORPORATION');
+  ('STRT', 'STRATTEC SECURITY CORPORATION');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STSA', 'Satsuma Pharmaceuticals');
+  ('STSA', 'Satsuma Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STTK', 'Shattuck Labs');
+  ('STTK', 'Shattuck Labs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STWO', 'ACON S2 Acquisition Corp.s');
+  ('STWO', 'ACON S2 Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STWOU', 'ACON S2 Acquisition Corp.');
+  ('STWOU', 'ACON S2 Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STWOW', 'ACON S2 Acquisition Corp.');
+  ('STWOW', 'ACON S2 Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STX', 'Seagate Technology PLC s (Ireland)');
+  ('STX', 'Seagate Technology PLC s (Ireland)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('STXB', 'Spirit of Texas Bancshares');
+  ('STXB', 'Spirit of Texas Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUMO', 'Sumo Logic');
+  ('SUMO', 'Sumo Logic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUMR', 'Summer Infant');
+  ('SUMR', 'Summer Infant');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUNS', 'Solar Senior Capital Ltd.');
+  ('SUNS', 'Solar Senior Capital Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUNW', 'Sunworks');
+  ('SUNW', 'Sunworks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUPN', 'Supernus Pharmaceuticals');
+  ('SUPN', 'Supernus Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SURF', 'Surface Oncology');
+  ('SURF', 'Surface Oncology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUSB', 'iShares ESG Aware 1-5 Year USD Corporate Bond ETF');
+  ('SUSB', 'iShares ESG Aware 1-5 Year USD Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUSC', 'iShares ESG Aware USD Corporate Bond ETF');
+  ('SUSC', 'iShares ESG Aware USD Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SUSL', 'iShares ESG MSCI USA Leaders ETF');
+  ('SUSL', 'iShares ESG MSCI USA Leaders ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SV', 'Spring Valley Acquisition Corp.');
+  ('SV', 'Spring Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVA', 'Sinovac Biotech');
+  ('SVA', 'Sinovac Biotech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVAC', 'Starboard Value Acquisition Corp. ');
+  ('SVAC', 'Starboard Value Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVACU', 'Starboard Value Acquisition Corp.');
+  ('SVACU', 'Starboard Value Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVACW', 'Starboard Value Acquisition Corp.');
+  ('SVACW', 'Starboard Value Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVBI', 'Severn Bancorp Inc');
+  ('SVBI', 'Severn Bancorp Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVC', 'Service Properties Trust - Shares of Beneficial Interest');
+  ('SVC', 'Service Properties Trust - Shares of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVFA', 'SVF Investment Corp.s');
+  ('SVFA', 'SVF Investment Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVFAU', 'SVF Investment Corp.');
+  ('SVFAU', 'SVF Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVFAW', 'SVF Investment Corp.');
+  ('SVFAW', 'SVF Investment Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVMK', 'SVMK Inc.');
+  ('SVMK', 'SVMK Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVOK', 'Seven Oaks Acquisition Corp. ');
+  ('SVOK', 'Seven Oaks Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVOKU', 'Seven Oaks Acquisition Corp.');
+  ('SVOKU', 'Seven Oaks Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVOKW', 'Seven Oaks Acquisition Corp.');
+  ('SVOKW', 'Seven Oaks Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVRA', 'Savara');
+  ('SVRA', 'Savara');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVSVU', 'Spring Valley Acquisition Corp.');
+  ('SVSVU', 'Spring Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVSVW', 'Spring Valley Acquisition Corp.');
+  ('SVSVW', 'Spring Valley Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SVVC', 'Firsthand Technology Value Fund');
+  ('SVVC', 'Firsthand Technology Value Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWAV', 'ShockWave Medical');
+  ('SWAV', 'ShockWave Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWBI', 'Smith & Wesson Brands');
+  ('SWBI', 'Smith & Wesson Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWETU', 'Athlon Acquisition Corp.');
+  ('SWETU', 'Athlon Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWIR', 'Sierra Wireless');
+  ('SWIR', 'Sierra Wireless');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWKH', 'SWK Holdings Corporation');
+  ('SWKH', 'SWK Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWKS', 'Skyworks Solutions');
+  ('SWKS', 'Skyworks Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SWTX', 'SpringWorks Therapeutics');
+  ('SWTX', 'SpringWorks Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SXTC', 'China SXT Pharmaceuticals');
+  ('SXTC', 'China SXT Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SY', 'So-Young International Inc. - American Depository Shares');
+  ('SY', 'So-Young International Inc. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYBT', 'Stock Yards Bancorp');
+  ('SYBT', 'Stock Yards Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYBX', 'Synlogic');
+  ('SYBX', 'Synlogic');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYKE', 'Sykes Enterprises');
+  ('SYKE', 'Sykes Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYNA', 'Synaptics Incorporated');
+  ('SYNA', 'Synaptics Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYNC', 'Synacor');
+  ('SYNC', 'Synacor');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYNH', 'Syneos Health');
+  ('SYNH', 'Syneos Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYNL', 'Synalloy Corporation');
+  ('SYNL', 'Synalloy Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYPR', 'Sypris Solutions');
+  ('SYPR', 'Sypris Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYRS', 'Syros Pharmaceuticals');
+  ('SYRS', 'Syros Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYTA', 'Siyata Mobile');
+  ('SYTA', 'Siyata Mobile');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('SYTAW', 'Siyata Mobile');
+  ('SYTAW', 'Siyata Mobile');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TA', 'TravelCenters of America Inc. ');
+  ('TA', 'TravelCenters of America Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TACO', 'Del Taco Restaurants');
+  ('TACO', 'Del Taco Restaurants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TACT', 'TransAct Technologies Incorporated');
+  ('TACT', 'TransAct Technologies Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TAIT', 'Taitron Components Incorporated ');
+  ('TAIT', 'Taitron Components Incorporated ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TANH', 'Tantech Holdings Ltd.');
+  ('TANH', 'Tantech Holdings Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TANNI', 'TravelCenters of America Inc.  - 8.25% Senior Notes due 2028');
+  ('TANNI', 'TravelCenters of America Inc.  - 8.25% Senior Notes due 2028');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TANNL', 'TravelCenters of America Inc.  - 8.00% Senior Notes due 2029');
+  ('TANNL', 'TravelCenters of America Inc.  - 8.00% Senior Notes due 2029');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TANNZ', 'TravelCenters of America Inc.  - 8.00% Senior Notes due 2030');
+  ('TANNZ', 'TravelCenters of America Inc.  - 8.00% Senior Notes due 2030');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TAOP', 'Taoping Inc. s');
+  ('TAOP', 'Taoping Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TARA', 'Protara Therapeutics');
+  ('TARA', 'Protara Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TARS', 'Tarsus Pharmaceuticals');
+  ('TARS', 'Tarsus Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TAST', 'Carrols Restaurant Group');
+  ('TAST', 'Carrols Restaurant Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TATT', 'TAT Technologies Ltd. s');
+  ('TATT', 'TAT Technologies Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TAYD', 'Taylor Devices');
+  ('TAYD', 'Taylor Devices');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBBK', 'The Bancorp');
+  ('TBBK', 'The Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBCPU', 'Thunder Bridge Capital Partners III Inc.s');
+  ('TBCPU', 'Thunder Bridge Capital Partners III Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBIO', 'Translate Bio');
+  ('TBIO', 'Translate Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBK', 'Triumph Bancorp');
+  ('TBK', 'Triumph Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBKCP', 'Triumph Bancorp');
+  ('TBKCP', 'Triumph Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBLT', 'ToughBuilt Industries');
+  ('TBLT', 'ToughBuilt Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBLTW', 'ToughBuilt Industries');
+  ('TBLTW', 'ToughBuilt Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBNK', 'Territorial Bancorp Inc.');
+  ('TBNK', 'Territorial Bancorp Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TBPH', 'Theravance Biopharma');
+  ('TBPH', 'Theravance Biopharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TC', 'TuanChe Limited ');
+  ('TC', 'TuanChe Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCACU', 'Tuatara Capital Acquisition Corporation');
+  ('TCACU', 'Tuatara Capital Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCBI', 'Texas Capital Bancshares');
+  ('TCBI', 'Texas Capital Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCBIL', 'Texas Capital Bancshares');
+  ('TCBIL', 'Texas Capital Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCBIP', 'Texas Capital Bancshares');
+  ('TCBIP', 'Texas Capital Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCBK', 'TriCo Bancshares');
+  ('TCBK', 'TriCo Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCDA', 'Tricida');
+  ('TCDA', 'Tricida');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCF', 'TCF Financial Corporation');
+  ('TCF', 'TCF Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCFC', 'The Community Financial Corporation');
+  ('TCFC', 'The Community Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCFCP', 'TCF Financial Corporation - Depositary Shares representing 5.70% Series C Non-Cumulative Preferred Stock');
+  ('TCFCP', 'TCF Financial Corporation - Depositary Shares representing 5.70% Series C Non-Cumulative Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCMD', 'Tactile Systems Technology');
+  ('TCMD', 'Tactile Systems Technology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCOM', 'Trip.com Group Limited ');
+  ('TCOM', 'Trip.com Group Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCON', 'TRACON Pharmaceuticals');
+  ('TCON', 'TRACON Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCPC', 'BlackRock TCP Capital Corp.');
+  ('TCPC', 'BlackRock TCP Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCRR', 'TCR2 Therapeutics Inc.');
+  ('TCRR', 'TCR2 Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TCX', 'Tucows Inc.');
+  ('TCX', 'Tucows Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TDAC', 'Trident Acquisitions Corp.');
+  ('TDAC', 'Trident Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TDACU', 'Trident Acquisitions Corp.s');
+  ('TDACU', 'Trident Acquisitions Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TDACW', 'Trident Acquisitions Corp.');
+  ('TDACW', 'Trident Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TDIV', 'First Trust NASDAQ Technology Dividend Index Fund');
+  ('TDIV', 'First Trust NASDAQ Technology Dividend Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TEAM', 'Atlassian Corporation Plcs');
+  ('TEAM', 'Atlassian Corporation Plcs');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TECH', 'Bio-Techne Corp');
+  ('TECH', 'Bio-Techne Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TECTP', 'Tectonic Financial');
+  ('TECTP', 'Tectonic Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TEDU', 'Tarena International');
+  ('TEDU', 'Tarena International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TEKK', 'Tekkorp Digital Acquisition Corp.s');
+  ('TEKK', 'Tekkorp Digital Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TEKKU', 'Tekkorp Digital Acquisition Corp.');
+  ('TEKKU', 'Tekkorp Digital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TEKKW', 'Tekkorp Digital Acquisition Corp.');
+  ('TEKKW', 'Tekkorp Digital Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TELA', 'TELA Bio');
+  ('TELA', 'TELA Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TELL', 'Tellurian Inc.');
+  ('TELL', 'Tellurian Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TENB', 'Tenable Holdings');
+  ('TENB', 'Tenable Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TENX', 'Tenax Therapeutics');
+  ('TENX', 'Tenax Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TER', 'Teradyne');
+  ('TER', 'Teradyne');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TERN', 'Terns Pharmaceuticals');
+  ('TERN', 'Terns Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TESS', 'TESSCO Technologies Incorporated');
+  ('TESS', 'TESSCO Technologies Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TFFP', 'TFF Pharmaceuticals');
+  ('TFFP', 'TFF Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TFSL', 'TFS Financial Corporation');
+  ('TFSL', 'TFS Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TGA', 'TransGlobe Energy Corporation');
+  ('TGA', 'TransGlobe Energy Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TGLS', 'Tecnoglass Inc. s');
+  ('TGLS', 'Tecnoglass Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TGTX', 'TG Therapeutics');
+  ('TGTX', 'TG Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TH', 'Target Hospitality Corp.');
+  ('TH', 'Target Hospitality Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THBR', 'Thunder Bridge Acquisition II');
+  ('THBR', 'Thunder Bridge Acquisition II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THBRU', 'Thunder Bridge Acquisition II');
+  ('THBRU', 'Thunder Bridge Acquisition II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THBRW', 'Thunder Bridge Acquisition II');
+  ('THBRW', 'Thunder Bridge Acquisition II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCA', 'Tuscan Holdings Corp. II');
+  ('THCA', 'Tuscan Holdings Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCAU', 'Tuscan Holdings Corp. II');
+  ('THCAU', 'Tuscan Holdings Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCAW', 'Tuscan Holdings Corp. II');
+  ('THCAW', 'Tuscan Holdings Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCB', 'Tuscan Holdings Corp.');
+  ('THCB', 'Tuscan Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCBU', 'Tuscan Holdings Corp.');
+  ('THCBU', 'Tuscan Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THCBW', 'Tuscan Holdings Corp.');
+  ('THCBW', 'Tuscan Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THFF', 'First Financial Corporation Indiana');
+  ('THFF', 'First Financial Corporation Indiana');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THMAU', 'Thimble Point Acquisition Corp.');
+  ('THMAU', 'Thimble Point Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THMO', 'ThermoGenesis Holdings');
+  ('THMO', 'ThermoGenesis Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THRM', 'Gentherm Inc');
+  ('THRM', 'Gentherm Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THRY', 'Thryv Holdings');
+  ('THRY', 'Thryv Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THTX', 'Theratechnologies Inc.');
+  ('THTX', 'Theratechnologies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('THWWW', 'Target Hospitality Corp. expiring 3/15/2024');
+  ('THWWW', 'Target Hospitality Corp. expiring 3/15/2024');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TIG', 'Trean Insurance Group');
+  ('TIG', 'Trean Insurance Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TIGO', 'Millicom International Cellular S.A.');
+  ('TIGO', 'Millicom International Cellular S.A.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TIGR', 'UP Fintech Holding Limited  representing fifteen Class A Ordinary Shares');
+  ('TIGR', 'UP Fintech Holding Limited  representing fifteen Class A Ordinary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TILE', 'Interface');
+  ('TILE', 'Interface');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TIPT', 'Tiptree Inc.');
+  ('TIPT', 'Tiptree Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TIRX', 'TIAN RUIXIANG Holdings Ltds');
+  ('TIRX', 'TIAN RUIXIANG Holdings Ltds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TITN', 'Titan Machinery Inc.');
+  ('TITN', 'Titan Machinery Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLC', 'Taiwan Liposome Company');
+  ('TLC', 'Taiwan Liposome Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLGT', 'Teligent');
+  ('TLGT', 'Teligent');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLIS', 'Talis Biomedical Corporation');
+  ('TLIS', 'Talis Biomedical Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLMD', 'SOC Telemed');
+  ('TLMD', 'SOC Telemed');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLMDW', 'SOC Telemed');
+  ('TLMDW', 'SOC Telemed');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLND', 'Talend S.A. ');
+  ('TLND', 'Talend S.A. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLRY', 'Tilray');
+  ('TLRY', 'Tilray');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLS', 'Telos Corporation');
+  ('TLS', 'Telos Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLSA', 'Tiziana Life Sciences plc - American Depository Share');
+  ('TLSA', 'Tiziana Life Sciences plc - American Depository Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TLT', 'iShares 20+ Year Treasury Bond ETF');
+  ('TLT', 'iShares 20+ Year Treasury Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMDI', 'Titan Medical Inc. s');
+  ('TMDI', 'Titan Medical Inc. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMDX', 'TransMedics Group');
+  ('TMDX', 'TransMedics Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMKRU', 'Tastemaker Acquisition Corp.');
+  ('TMKRU', 'Tastemaker Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMPM', 'Turmeric Acquisition Corp.s');
+  ('TMPM', 'Turmeric Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMPMU', 'Turmeric Acquisition Corp.');
+  ('TMPMU', 'Turmeric Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMPMW', 'Turmeric Acquisition Corp.');
+  ('TMPMW', 'Turmeric Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMTS', 'Spartacus Acquisition Corporation ');
+  ('TMTS', 'Spartacus Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMTSU', 'Spartacus Acquisition Corporation');
+  ('TMTSU', 'Spartacus Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMTSW', 'Spartacus Acquisition Corporation');
+  ('TMTSW', 'Spartacus Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TMUS', 'T-Mobile US');
+  ('TMUS', 'T-Mobile US');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TNDM', 'Tandem Diabetes Care');
+  ('TNDM', 'Tandem Diabetes Care');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TNXP', 'Tonix Pharmaceuticals Holding Corp.');
+  ('TNXP', 'Tonix Pharmaceuticals Holding Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TOMZ', 'TOMI Environmental Solutions');
+  ('TOMZ', 'TOMI Environmental Solutions');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TOPS', 'TOP Ships Inc.');
+  ('TOPS', 'TOP Ships Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TOUR', 'Tuniu Corporation ');
+  ('TOUR', 'Tuniu Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TOWN', 'Towne Bank');
+  ('TOWN', 'Towne Bank');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TPCO', 'Tribune Publishing Company');
+  ('TPCO', 'Tribune Publishing Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TPIC', 'TPI Composites');
+  ('TPIC', 'TPI Composites');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TPTX', 'Turning Point Therapeutics');
+  ('TPTX', 'Turning Point Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TQQQ', 'ProShares UltraPro QQQ');
+  ('TQQQ', 'ProShares UltraPro QQQ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRCH', 'Torchlight Energy Resources');
+  ('TRCH', 'Torchlight Energy Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TREE', 'LendingTree');
+  ('TREE', 'LendingTree');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRHC', 'Tabula Rasa HealthCare');
+  ('TRHC', 'Tabula Rasa HealthCare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRIB', 'Trinity Biotech plc  each representing 4 A Ordinary Shares');
+  ('TRIB', 'Trinity Biotech plc  each representing 4 A Ordinary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRIL', 'Trillium Therapeutics Inc.');
+  ('TRIL', 'Trillium Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRIN', 'Trinity Capital Inc.');
+  ('TRIN', 'Trinity Capital Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRIP', 'TripAdvisor');
+  ('TRIP', 'TripAdvisor');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRIT', 'Triterras');
+  ('TRIT', 'Triterras');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRITW', 'Triterras');
+  ('TRITW', 'Triterras');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRMB', 'Trimble Inc.');
+  ('TRMB', 'Trimble Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRMD', 'TORM plc ');
+  ('TRMD', 'TORM plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRMK', 'Trustmark Corporation');
+  ('TRMK', 'Trustmark Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRMT', 'Tremont Mortgage Trust of Beneficial Interest');
+  ('TRMT', 'Tremont Mortgage Trust of Beneficial Interest');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRNS', 'Transcat');
+  ('TRNS', 'Transcat');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TROW', 'T. Rowe Price Group');
+  ('TROW', 'T. Rowe Price Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRS', 'TriMas Corporation');
+  ('TRS', 'TriMas Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRST', 'TrustCo Bank Corp NY');
+  ('TRST', 'TrustCo Bank Corp NY');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRUE', 'TrueCar');
+  ('TRUE', 'TrueCar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRUP', 'Trupanion');
+  ('TRUP', 'Trupanion');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRVG', 'trivago N.V. ');
+  ('TRVG', 'trivago N.V. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRVI', 'Trevi Therapeutics');
+  ('TRVI', 'Trevi Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TRVN', 'Trevena');
+  ('TRVN', 'Trevena');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSBK', 'Timberland Bancorp');
+  ('TSBK', 'Timberland Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSC', 'TriState Capital Holdings');
+  ('TSC', 'TriState Capital Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSCAP', 'TriState Capital Holdings');
+  ('TSCAP', 'TriState Capital Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSCBP', 'TriState Capital Holdings');
+  ('TSCBP', 'TriState Capital Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSCO', 'Tractor Supply Company');
+  ('TSCO', 'Tractor Supply Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSEM', 'Tower Semiconductor Ltd. s');
+  ('TSEM', 'Tower Semiconductor Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSHA', 'Taysha Gene Therapies');
+  ('TSHA', 'Taysha Gene Therapies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSIA', 'TS Innovation Acquisitions Corp. ');
+  ('TSIA', 'TS Innovation Acquisitions Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSIAU', 'TS Innovation Acquisitions Corp.');
+  ('TSIAU', 'TS Innovation Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSIAW', 'TS Innovation Acquisitions Corp.');
+  ('TSIAW', 'TS Innovation Acquisitions Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSIBU', 'Tishman Speyer Innovation Corp. II');
+  ('TSIBU', 'Tishman Speyer Innovation Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSLA', 'Tesla');
+  ('TSLA', 'Tesla');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TSRI', 'TSR');
+  ('TSRI', 'TSR');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTCF', 'Tattooed Chef');
+  ('TTCF', 'Tattooed Chef');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTD', 'The Trade Desk');
+  ('TTD', 'The Trade Desk');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTEC', 'TTEC Holdings');
+  ('TTEC', 'TTEC Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTEK', 'Tetra Tech');
+  ('TTEK', 'Tetra Tech');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTGT', 'TechTarget');
+  ('TTGT', 'TechTarget');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTMI', 'TTM Technologies');
+  ('TTMI', 'TTM Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTNP', 'Titan Pharmaceuticals');
+  ('TTNP', 'Titan Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTOO', 'T2 Biosystems');
+  ('TTOO', 'T2 Biosystems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TTWO', 'Take-Two Interactive Software');
+  ('TTWO', 'Take-Two Interactive Software');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TUR', 'iShares MSCI Turkey ETF');
+  ('TUR', 'iShares MSCI Turkey ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TURN', '180 Degree Capital Corp.');
+  ('TURN', '180 Degree Capital Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TUSA', 'First Trust Total US Market AlphaDEX ETF');
+  ('TUSA', 'First Trust Total US Market AlphaDEX ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TUSK', 'Mammoth Energy Services');
+  ('TUSK', 'Mammoth Energy Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TVAC', 'Thayer Ventures Acquisition Corporation ');
+  ('TVAC', 'Thayer Ventures Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TVACU', 'Thayer Ventures Acquisition Corporations');
+  ('TVACU', 'Thayer Ventures Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TVACW', 'Thayer Ventures Acquisition Corporation');
+  ('TVACW', 'Thayer Ventures Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TVTX', 'Travere Therapeutics');
+  ('TVTX', 'Travere Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TVTY', 'Tivity Health');
+  ('TVTY', 'Tivity Health');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TW', 'Tradeweb Markets Inc. ');
+  ('TW', 'Tradeweb Markets Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWCT', 'TWC Tech Holdings II Corp. ');
+  ('TWCT', 'TWC Tech Holdings II Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWCTU', 'TWC Tech Holdings II Corp.');
+  ('TWCTU', 'TWC Tech Holdings II Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWCTW', 'TWC Tech Holdings II Corp.');
+  ('TWCTW', 'TWC Tech Holdings II Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWIN', 'Twin Disc');
+  ('TWIN', 'Twin Disc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWNK', 'Hostess Brands');
+  ('TWNK', 'Hostess Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWNKW', 'Hostess Brands');
+  ('TWNKW', 'Hostess Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWOU', '2U');
+  ('TWOU', '2U');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TWST', 'Twist Bioscience Corporation');
+  ('TWST', 'Twist Bioscience Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TXG', '10x Genomics');
+  ('TXG', '10x Genomics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TXMD', 'TherapeuticsMD');
+  ('TXMD', 'TherapeuticsMD');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TXN', 'Texas Instruments Incorporated');
+  ('TXN', 'Texas Instruments Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TXRH', 'Texas Roadhouse');
+  ('TXRH', 'Texas Roadhouse');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TYHT', 'Shineco');
+  ('TYHT', 'Shineco');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TYME', 'Tyme Technologies');
+  ('TYME', 'Tyme Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TZOO', 'Travelzoo');
+  ('TZOO', 'Travelzoo');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('TZPSU', 'TZP Strategies Acquisition Corp.');
+  ('TZPSU', 'TZP Strategies Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UAE', 'iShares MSCI UAE ETF');
+  ('UAE', 'iShares MSCI UAE ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UAL', 'United Airlines Holdings');
+  ('UAL', 'United Airlines Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UBCP', 'United Bancorp');
+  ('UBCP', 'United Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UBFO', 'United Security Bancshares');
+  ('UBFO', 'United Security Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UBOH', 'United Bancshares');
+  ('UBOH', 'United Bancshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UBSI', 'United Bankshares');
+  ('UBSI', 'United Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UBX', 'Unity Biotechnology');
+  ('UBX', 'Unity Biotechnology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UCBI', 'United Community Banks');
+  ('UCBI', 'United Community Banks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UCBIO', 'United Community Banks');
+  ('UCBIO', 'United Community Banks');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UCL', 'uCloudlink Group Inc. ');
+  ('UCL', 'uCloudlink Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UCTT', 'Ultra Clean Holdings');
+  ('UCTT', 'Ultra Clean Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UCYB', 'ProShares Ultra Nasdaq Cybersecurity ETF');
+  ('UCYB', 'ProShares Ultra Nasdaq Cybersecurity ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UEIC', 'Universal Electronics Inc.');
+  ('UEIC', 'Universal Electronics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UEPS', 'Net 1 UEPS Technologies');
+  ('UEPS', 'Net 1 UEPS Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UFCS', 'United Fire Group');
+  ('UFCS', 'United Fire Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UFO', 'Procure Space ETF');
+  ('UFO', 'Procure Space ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UFPI', 'UFP Industries');
+  ('UFPI', 'UFP Industries');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UFPT', 'UFP Technologies');
+  ('UFPT', 'UFP Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UG', 'United-Guardian');
+  ('UG', 'United-Guardian');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UGRO', 'urban-gro');
+  ('UGRO', 'urban-gro');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UHAL', 'Amerco');
+  ('UHAL', 'Amerco');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UIHC', 'United Insurance Holdings Corp.');
+  ('UIHC', 'United Insurance Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UK', 'Ucommune International Ltd  s');
+  ('UK', 'Ucommune International Ltd  s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UKOMW', 'Ucommune International Ltd  expiring 11/17/2025');
+  ('UKOMW', 'Ucommune International Ltd  expiring 11/17/2025');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ULBI', 'Ultralife Corporation');
+  ('ULBI', 'Ultralife Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ULH', 'Universal Logistics Holdings');
+  ('ULH', 'Universal Logistics Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ULTA', 'Ulta Beauty');
+  ('ULTA', 'Ulta Beauty');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UMBF', 'UMB Financial Corporation');
+  ('UMBF', 'UMB Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UMPQ', 'Umpqua Holdings Corporation');
+  ('UMPQ', 'Umpqua Holdings Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UNAM', 'Unico American Corporation');
+  ('UNAM', 'Unico American Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UNB', 'Union Bankshares');
+  ('UNB', 'Union Bankshares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UNIT', 'Uniti Group Inc.');
+  ('UNIT', 'Uniti Group Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UNTY', 'Unity Bancorp');
+  ('UNTY', 'Unity Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UONE', 'Urban One');
+  ('UONE', 'Urban One');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UONEK', 'Urban One');
+  ('UONEK', 'Urban One');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UPLD', 'Upland Software');
+  ('UPLD', 'Upland Software');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UPST', 'Upstart Holdings');
+  ('UPST', 'Upstart Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UPWK', 'Upwork Inc.');
+  ('UPWK', 'Upwork Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('URBN', 'Urban Outfitters');
+  ('URBN', 'Urban Outfitters');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('URGN', 'UroGen Pharma Ltd. s');
+  ('URGN', 'UroGen Pharma Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UROV', 'Urovant Sciences Ltd.');
+  ('UROV', 'Urovant Sciences Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USAK', 'USA Truck');
+  ('USAK', 'USA Truck');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USAP', 'Universal Stainless & Alloy Products');
+  ('USAP', 'Universal Stainless & Alloy Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USAT', 'USA Technologies');
+  ('USAT', 'USA Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USAU', 'U.S. Gold Corp.');
+  ('USAU', 'U.S. Gold Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USCR', 'U S Concrete');
+  ('USCR', 'U S Concrete');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USEG', 'U.S. Energy Corp.');
+  ('USEG', 'U.S. Energy Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USIG', 'iShares Broad USD Investment Grade Corporate Bond ETF');
+  ('USIG', 'iShares Broad USD Investment Grade Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USIO', 'Usio');
+  ('USIO', 'Usio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USLB', 'Invesco Russell 1000 Low Beta Equal Weight ETF');
+  ('USLB', 'Invesco Russell 1000 Low Beta Equal Weight ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USLM', 'United States Lime & Minerals');
+  ('USLM', 'United States Lime & Minerals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USMC', 'Principal U.S. Mega-Cap ETF');
+  ('USMC', 'Principal U.S. Mega-Cap ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USOI', 'Credit Suisse X-Links Crude Oil Shares Covered Call ETN');
+  ('USOI', 'Credit Suisse X-Links Crude Oil Shares Covered Call ETN');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USWS', 'U.S. Well Services');
+  ('USWS', 'U.S. Well Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USWSW', 'U.S. Well Services');
+  ('USWSW', 'U.S. Well Services');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('USXF', 'iShares ESG Advanced MSCI USA ETF');
+  ('USXF', 'iShares ESG Advanced MSCI USA ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UTHR', 'United Therapeutics Corporation');
+  ('UTHR', 'United Therapeutics Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UTMD', 'Utah Medical Products');
+  ('UTMD', 'Utah Medical Products');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UTSI', 'UTStarcom Holdings Corp s');
+  ('UTSI', 'UTStarcom Holdings Corp s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UVSP', 'Univest Financial Corporation');
+  ('UVSP', 'Univest Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('UXIN', 'Uxin Limited ');
+  ('UXIN', 'Uxin Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VACQ', 'Vector Acquisition Corporation ');
+  ('VACQ', 'Vector Acquisition Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VACQU', 'Vector Acquisition Corporation');
+  ('VACQU', 'Vector Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VACQW', 'Vector Acquisition Corporation');
+  ('VACQW', 'Vector Acquisition Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VALU', 'Value Line');
+  ('VALU', 'Value Line');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VBFC', 'Village Bank and Trust Financial Corp.');
+  ('VBFC', 'Village Bank and Trust Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VBIV', 'VBI Vaccines');
+  ('VBIV', 'VBI Vaccines');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VBLT', 'Vascular Biogenics Ltd. s');
+  ('VBLT', 'Vascular Biogenics Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VBTX', 'Veritex Holdings');
+  ('VBTX', 'Veritex Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VC', 'Visteon Corporation');
+  ('VC', 'Visteon Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCEL', 'Vericel Corporation');
+  ('VCEL', 'Vericel Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCIT', 'Vanguard Intermediate-Term Corporate Bond ETF');
+  ('VCIT', 'Vanguard Intermediate-Term Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCKAU', 'Vickers Vantage Corp. I');
+  ('VCKAU', 'Vickers Vantage Corp. I');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCLT', 'Vanguard Long-Term Corporate Bond ETF');
+  ('VCLT', 'Vanguard Long-Term Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCNX', 'Vaccinex');
+  ('VCNX', 'Vaccinex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCSH', 'Vanguard Short-Term Corporate Bond ETF');
+  ('VCSH', 'Vanguard Short-Term Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCTR', 'Victory Capital Holdings');
+  ('VCTR', 'Victory Capital Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCVC', '10X Capital Venture Acquisition Corp');
+  ('VCVC', '10X Capital Venture Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCVCU', '10X Capital Venture Acquisition Corp');
+  ('VCVCU', '10X Capital Venture Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCVCW', '10X Capital Venture Acquisition Corp');
+  ('VCVCW', '10X Capital Venture Acquisition Corp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VCYT', 'Veracyte');
+  ('VCYT', 'Veracyte');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VECO', 'Veeco Instruments Inc.');
+  ('VECO', 'Veeco Instruments Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VELOU', 'Velocity Acquisition Corp.s');
+  ('VELOU', 'Velocity Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VENAU', 'Venus Acquisition Corporations');
+  ('VENAU', 'Venus Acquisition Corporations');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VEON', 'VEON Ltd. ');
+  ('VEON', 'VEON Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERB', 'Verb Technology Company');
+  ('VERB', 'Verb Technology Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERBW', 'Verb Technology Company');
+  ('VERBW', 'Verb Technology Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERI', 'Veritone');
+  ('VERI', 'Veritone');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERO', 'Venus Concept Inc. ');
+  ('VERO', 'Venus Concept Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERU', 'Veru Inc.');
+  ('VERU', 'Veru Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERX', 'Vertex');
+  ('VERX', 'Vertex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VERY', 'Vericity');
+  ('VERY', 'Vericity');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VETS', 'Pacer Military Times Best Employers ETF');
+  ('VETS', 'Pacer Military Times Best Employers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VFF', 'Village Farms International');
+  ('VFF', 'Village Farms International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VG', 'Vonage Holdings Corp.');
+  ('VG', 'Vonage Holdings Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VGIT', 'Vanguard Intermediate-Term Treasury ETF');
+  ('VGIT', 'Vanguard Intermediate-Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VGLT', 'Vanguard Long-Treasury ETF');
+  ('VGLT', 'Vanguard Long-Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VGSH', 'Vanguard Short-Term Treasury ETF');
+  ('VGSH', 'Vanguard Short-Term Treasury ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIAC', 'ViacomCBS Inc. - Class B Common Stock');
+  ('VIAC', 'ViacomCBS Inc. - Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIACA', 'ViacomCBS Inc. ');
+  ('VIACA', 'ViacomCBS Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIAV', 'Viavi Solutions Inc.');
+  ('VIAV', 'Viavi Solutions Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VICR', 'Vicor Corporation');
+  ('VICR', 'Vicor Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIE', 'Viela Bio');
+  ('VIE', 'Viela Bio');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIGI', 'Vanguard International Dividend Appreciation ETF');
+  ('VIGI', 'Vanguard International Dividend Appreciation ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIH', 'VPC Impact Acquisition Holdingss');
+  ('VIH', 'VPC Impact Acquisition Holdingss');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIHAU', 'VPC Impact Acquisition Holdings');
+  ('VIHAU', 'VPC Impact Acquisition Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIHAW', 'VPC Impact Acquisition Holdings');
+  ('VIHAW', 'VPC Impact Acquisition Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VII', '7GC & Co. Holdings Inc. ');
+  ('VII', '7GC & Co. Holdings Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIIAU', '7GC & Co. Holdings Inc.');
+  ('VIIAU', '7GC & Co. Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIIAW', '7GC & Co. Holdings Inc.');
+  ('VIIAW', '7GC & Co. Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VINC', 'Vincerx Pharma');
+  ('VINC', 'Vincerx Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VINCU', 'Vincerx Pharma');
+  ('VINCU', 'Vincerx Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VINCW', 'Vincerx Pharma');
+  ('VINCW', 'Vincerx Pharma');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VINO', 'Gaucho Group Holdings');
+  ('VINO', 'Gaucho Group Holdings');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VINP', 'Vinci Partners Investments Ltd. ');
+  ('VINP', 'Vinci Partners Investments Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIOT', 'Viomi Technology Co.');
+  ('VIOT', 'Viomi Technology Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIR', 'Vir Biotechnology');
+  ('VIR', 'Vir Biotechnology');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIRC', 'Virco Manufacturing Corporation');
+  ('VIRC', 'Virco Manufacturing Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIRI', 'Virios Therapeutics');
+  ('VIRI', 'Virios Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIRT', 'Virtu Financial');
+  ('VIRT', 'Virtu Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VISL', 'Vislink Technologies');
+  ('VISL', 'Vislink Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VITL', 'Vital Farms');
+  ('VITL', 'Vital Farms');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIVE', 'Viveve Medical');
+  ('VIVE', 'Viveve Medical');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VIVO', 'Meridian Bioscience Inc.');
+  ('VIVO', 'Meridian Bioscience Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VJET', 'voxeljet AG ');
+  ('VJET', 'voxeljet AG ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VKTX', 'Viking Therapeutics');
+  ('VKTX', 'Viking Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VKTXW', 'Viking Therapeutics');
+  ('VKTXW', 'Viking Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLDR', 'Velodyne Lidar');
+  ('VLDR', 'Velodyne Lidar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLDRW', 'Velodyne Lidar');
+  ('VLDRW', 'Velodyne Lidar');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLGEA', 'Village Super Market');
+  ('VLGEA', 'Village Super Market');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLON', 'Vallon Pharmaceuticals Inc.');
+  ('VLON', 'Vallon Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLY', 'Valley National Bancorp');
+  ('VLY', 'Valley National Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLYPO', 'Valley National Bancorp - 5.5% Fixed to Floating Rate Series B Non-Cumulative Perpetual Preferred Stock');
+  ('VLYPO', 'Valley National Bancorp - 5.5% Fixed to Floating Rate Series B Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VLYPP', 'Valley National Bancorp - 6.25% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock');
+  ('VLYPP', 'Valley National Bancorp - 6.25% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMAC', 'Vistas Media Acquisition Company Inc. ');
+  ('VMAC', 'Vistas Media Acquisition Company Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMACU', 'Vistas Media Acquisition Company Inc.');
+  ('VMACU', 'Vistas Media Acquisition Company Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMACW', 'Vistas Media Acquisition Company Inc.');
+  ('VMACW', 'Vistas Media Acquisition Company Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMAR', 'Vision Marine Technologies Inc.');
+  ('VMAR', 'Vision Marine Technologies Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMBS', 'Vanguard Mortgage-Backed Securities ETF');
+  ('VMBS', 'Vanguard Mortgage-Backed Securities ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VMD', 'Viemed Healthcare');
+  ('VMD', 'Viemed Healthcare');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VNDA', 'Vanda Pharmaceuticals Inc.');
+  ('VNDA', 'Vanda Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VNET', '21Vianet Group');
+  ('VNET', '21Vianet Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VNOM', 'Viper Energy Partners LP - Common Unit');
+  ('VNOM', 'Viper Energy Partners LP - Common Unit');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VNQI', 'Vanguard Global ex-U.S. Real Estate ETF');
+  ('VNQI', 'Vanguard Global ex-U.S. Real Estate ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VOD', 'Vodafone Group Plc  each representing ten Ordinary Shares');
+  ('VOD', 'Vodafone Group Plc  each representing ten Ordinary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VONE', 'Vanguard Russell 1000 ETF');
+  ('VONE', 'Vanguard Russell 1000 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VONG', 'Vanguard Russell 1000 Growth ETF');
+  ('VONG', 'Vanguard Russell 1000 Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VONV', 'Vanguard Russell 1000 Value ETF');
+  ('VONV', 'Vanguard Russell 1000 Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VOR', 'Vor Biopharma Inc.');
+  ('VOR', 'Vor Biopharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VOSOU', 'Virtuoso Acquisition Corp.');
+  ('VOSOU', 'Virtuoso Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VOXX', 'VOXX International Corporation ');
+  ('VOXX', 'VOXX International Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VPN', 'Global X Data Center REITs & Digital Infrastructure ETF');
+  ('VPN', 'Global X Data Center REITs & Digital Infrastructure ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRA', 'Vera Bradley');
+  ('VRA', 'Vera Bradley');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRAY', 'ViewRay');
+  ('VRAY', 'ViewRay');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRCA', 'Verrica Pharmaceuticals Inc.');
+  ('VRCA', 'Verrica Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRDN', 'Viridian Therapeutics');
+  ('VRDN', 'Viridian Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VREX', 'Varex Imaging Corporation');
+  ('VREX', 'Varex Imaging Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRIG', 'Invesco Variable Rate Investment Grade ETF');
+  ('VRIG', 'Invesco Variable Rate Investment Grade ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRM', 'Vroom');
+  ('VRM', 'Vroom');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRME', 'VerifyMe');
+  ('VRME', 'VerifyMe');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRMEW', 'VerifyMe');
+  ('VRMEW', 'VerifyMe');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRNA', 'Verona Pharma plc ');
+  ('VRNA', 'Verona Pharma plc ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRNS', 'Varonis Systems');
+  ('VRNS', 'Varonis Systems');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRNT', 'Verint Systems Inc.');
+  ('VRNT', 'Verint Systems Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRPX', 'Virpax Pharmaceuticals');
+  ('VRPX', 'Virpax Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRRM', 'Verra Mobility Corporation ');
+  ('VRRM', 'Verra Mobility Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRSK', 'Verisk Analytics');
+  ('VRSK', 'Verisk Analytics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRSN', 'VeriSign');
+  ('VRSN', 'VeriSign');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRTS', 'Virtus Investment Partners');
+  ('VRTS', 'Virtus Investment Partners');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VRTX', 'Vertex Pharmaceuticals Incorporated');
+  ('VRTX', 'Vertex Pharmaceuticals Incorporated');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VS', 'Versus Systems Inc.');
+  ('VS', 'Versus Systems Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSAT', 'ViaSat');
+  ('VSAT', 'ViaSat');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSDA', 'VictoryShares Dividend Accelerator ETF');
+  ('VSDA', 'VictoryShares Dividend Accelerator ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSEC', 'VSE Corporation');
+  ('VSEC', 'VSE Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSMV', 'VictoryShares US Multi-Factor Minimum Volatility ETF');
+  ('VSMV', 'VictoryShares US Multi-Factor Minimum Volatility ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSPR', 'Vesper Healthcare Acquisition Corp. ');
+  ('VSPR', 'Vesper Healthcare Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSPRU', 'Vesper Healthcare Acquisition Corp.');
+  ('VSPRU', 'Vesper Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSPRW', 'Vesper Healthcare Acquisition Corp.');
+  ('VSPRW', 'Vesper Healthcare Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSSYW', 'Versus Systems Inc. - Class A Warrants');
+  ('VSSYW', 'Versus Systems Inc. - Class A Warrants');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSTA', 'Vasta Platform Limiteds');
+  ('VSTA', 'Vasta Platform Limiteds');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VSTM', 'Verastem');
+  ('VSTM', 'Verastem');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTAQ', 'Ventoux CCM Acquisition Corp.');
+  ('VTAQ', 'Ventoux CCM Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTAQR', 'Ventoux CCM Acquisition Corp.');
+  ('VTAQR', 'Ventoux CCM Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTAQU', 'Ventoux CCM Acquisition Corp.');
+  ('VTAQU', 'Ventoux CCM Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTAQW', 'Ventoux CCM Acquisition Corp.');
+  ('VTAQW', 'Ventoux CCM Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTC', 'Vanguard Total Corporate Bond ETF');
+  ('VTC', 'Vanguard Total Corporate Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTGN', 'VistaGen Therapeutics');
+  ('VTGN', 'VistaGen Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTHR', 'Vanguard Russell 3000 ETF');
+  ('VTHR', 'Vanguard Russell 3000 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTIP', 'Vanguard Short-Term Inflation-Protected Securities Index Fund');
+  ('VTIP', 'Vanguard Short-Term Inflation-Protected Securities Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTIQU', 'VectoIQ Acquisition Corp. II');
+  ('VTIQU', 'VectoIQ Acquisition Corp. II');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTNR', 'Vertex Energy');
+  ('VTNR', 'Vertex Energy');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTRN', 'VictoryShares Top Veteran Employers ETF');
+  ('VTRN', 'VictoryShares Top Veteran Employers ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTRS', 'Viatris Inc.');
+  ('VTRS', 'Viatris Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTRU', 'Vitru Limited');
+  ('VTRU', 'Vitru Limited');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTSI', 'VirTra');
+  ('VTSI', 'VirTra');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTVT', 'vTv Therapeutics Inc. ');
+  ('VTVT', 'vTv Therapeutics Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTWG', 'Vanguard Russell 2000 Growth ETF');
+  ('VTWG', 'Vanguard Russell 2000 Growth ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTWO', 'Vanguard Russell 2000 ETF');
+  ('VTWO', 'Vanguard Russell 2000 ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VTWV', 'Vanguard Russell 2000 Value ETF');
+  ('VTWV', 'Vanguard Russell 2000 Value ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VUZI', 'Vuzix Corporation');
+  ('VUZI', 'Vuzix Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VVOS', 'Vivos Therapeutics');
+  ('VVOS', 'Vivos Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VVPR', 'VivoPower International PLC s');
+  ('VVPR', 'VivoPower International PLC s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VWOB', 'Vanguard Emerging Markets Government Bond ETF');
+  ('VWOB', 'Vanguard Emerging Markets Government Bond ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VXRT', 'Vaxart');
+  ('VXRT', 'Vaxart');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VXUS', 'Vanguard Total International Stock ETF');
+  ('VXUS', 'Vanguard Total International Stock ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VYGR', 'Voyager Therapeutics');
+  ('VYGR', 'Voyager Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VYMI', 'Vanguard International High Dividend Yield ETF');
+  ('VYMI', 'Vanguard International High Dividend Yield ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('VYNE', 'VYNE Therapeutics Inc.');
+  ('VYNE', 'VYNE Therapeutics Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WABC', 'Westamerica Bancorporation');
+  ('WABC', 'Westamerica Bancorporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WAFD', 'Washington Federal');
+  ('WAFD', 'Washington Federal');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WAFDP', 'Washington Federal');
+  ('WAFDP', 'Washington Federal');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WAFU', 'Wah Fu Education Group Limited s');
+  ('WAFU', 'Wah Fu Education Group Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WASH', 'Washington Trust Bancorp');
+  ('WASH', 'Washington Trust Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WATT', 'Energous Corporation');
+  ('WATT', 'Energous Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WB', 'Weibo Corporation ');
+  ('WB', 'Weibo Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WBA', 'Walgreens Boots Alliance');
+  ('WBA', 'Walgreens Boots Alliance');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WBND', 'Western Asset Total Return ETF');
+  ('WBND', 'Western Asset Total Return ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WCBR', 'WisdomTree Cybersecurity Fund');
+  ('WCBR', 'WisdomTree Cybersecurity Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WCLD', 'WisdomTree Cloud Computing Fund');
+  ('WCLD', 'WisdomTree Cloud Computing Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WDAY', 'Workday');
+  ('WDAY', 'Workday');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WDC', 'Western Digital Corporation');
+  ('WDC', 'Western Digital Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WDFC', 'WD-40 Company');
+  ('WDFC', 'WD-40 Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WEN', 'Wendy''s Company (The)');
+  ('WEN', 'Wendy''s Company (The)');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WERN', 'Werner Enterprises');
+  ('WERN', 'Werner Enterprises');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WETF', 'WisdomTree Investments');
+  ('WETF', 'WisdomTree Investments');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WEYS', 'Weyco Group');
+  ('WEYS', 'Weyco Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHF', 'WhiteHorse Finance');
+  ('WHF', 'WhiteHorse Finance');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHFBZ', 'WhiteHorse Finance');
+  ('WHFBZ', 'WhiteHorse Finance');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHLM', 'Wilhelmina International');
+  ('WHLM', 'Wilhelmina International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHLR', 'Wheeler Real Estate Investment Trust');
+  ('WHLR', 'Wheeler Real Estate Investment Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHLRD', 'Wheeler Real Estate Investment Trust');
+  ('WHLRD', 'Wheeler Real Estate Investment Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WHLRP', 'Wheeler Real Estate Investment Trust');
+  ('WHLRP', 'Wheeler Real Estate Investment Trust');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WIFI', 'Boingo Wireless');
+  ('WIFI', 'Boingo Wireless');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WILC', 'G. Willi-Food International');
+  ('WILC', 'G. Willi-Food International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WIMI', 'WiMi Hologram Cloud Inc. - American Depositary Share');
+  ('WIMI', 'WiMi Hologram Cloud Inc. - American Depositary Share');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WINA', 'Winmark Corporation');
+  ('WINA', 'Winmark Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WINC', 'Western Asset Short Duration Income ETF');
+  ('WINC', 'Western Asset Short Duration Income ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WING', 'Wingstop Inc.');
+  ('WING', 'Wingstop Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WINT', 'Windtree Therapeutics');
+  ('WINT', 'Windtree Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WIRE', 'Encore Wire Corporation');
+  ('WIRE', 'Encore Wire Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WISA', 'Summit Wireless Technologies');
+  ('WISA', 'Summit Wireless Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WISH', 'ContextLogic Inc. ');
+  ('WISH', 'ContextLogic Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WIX', 'Wix.com Ltd. s');
+  ('WIX', 'Wix.com Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WKEY', 'WISeKey International Holding AG ');
+  ('WKEY', 'WISeKey International Holding AG ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WKHS', 'Workhorse Group');
+  ('WKHS', 'Workhorse Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WLDN', 'Willdan Group');
+  ('WLDN', 'Willdan Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WLFC', 'Willis Lease Finance Corporation');
+  ('WLFC', 'Willis Lease Finance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WLTW', 'Willis Towers Watson Public Limited Company s');
+  ('WLTW', 'Willis Towers Watson Public Limited Company s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WMG', 'Warner Music Group Corp. ');
+  ('WMG', 'Warner Music Group Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WNEB', 'Western New England Bancorp');
+  ('WNEB', 'Western New England Bancorp');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WNW', 'Wunong Net Technology Company Limited s');
+  ('WNW', 'Wunong Net Technology Company Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WOOD', 'iShares S&P Global Timber & Forestry Index Fund');
+  ('WOOD', 'iShares S&P Global Timber & Forestry Index Fund');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WOOF', 'Petco Health and Wellness Company');
+  ('WOOF', 'Petco Health and Wellness Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WORX', 'SCWorx Corp.');
+  ('WORX', 'SCWorx Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WPRT', 'Westport Fuel Systems Inc');
+  ('WPRT', 'Westport Fuel Systems Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WRAP', 'Wrap Technologies');
+  ('WRAP', 'Wrap Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WRLD', 'World Acceptance Corporation');
+  ('WRLD', 'World Acceptance Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSBC', 'WesBanco');
+  ('WSBC', 'WesBanco');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSBCP', 'WesBanco');
+  ('WSBCP', 'WesBanco');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSBF', 'Waterstone Financial');
+  ('WSBF', 'Waterstone Financial');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSC', 'WillScot Mobile Mini Holdings Corp. ');
+  ('WSC', 'WillScot Mobile Mini Holdings Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSFS', 'WSFS Financial Corporation');
+  ('WSFS', 'WSFS Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WSTG', 'Wayside Technology Group');
+  ('WSTG', 'Wayside Technology Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTBA', 'West Bancorporation');
+  ('WTBA', 'West Bancorporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTER', 'The Alkaline Water Company Inc.');
+  ('WTER', 'The Alkaline Water Company Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTFC', 'Wintrust Financial Corporation');
+  ('WTFC', 'Wintrust Financial Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTFCM', 'Wintrust Financial Corporation - Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock');
+  ('WTFCM', 'Wintrust Financial Corporation - Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTFCP', 'Wintrust Financial Corporation - Depositary Shares');
+  ('WTFCP', 'Wintrust Financial Corporation - Depositary Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTRE', 'Watford Holdings Ltd.');
+  ('WTRE', 'Watford Holdings Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTREP', 'Watford Holdings Ltd. - 8.25% Cumulative Redeemable Preference Shares');
+  ('WTREP', 'Watford Holdings Ltd. - 8.25% Cumulative Redeemable Preference Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WTRH', 'Waitr Holdings Inc.');
+  ('WTRH', 'Waitr Holdings Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WVE', 'Wave Life Sciences Ltd. s');
+  ('WVE', 'Wave Life Sciences Ltd. s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WVFC', 'WVS Financial Corp.');
+  ('WVFC', 'WVS Financial Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WVVI', 'Willamette Valley Vineyards');
+  ('WVVI', 'Willamette Valley Vineyards');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WVVIP', 'Willamette Valley Vineyards');
+  ('WVVIP', 'Willamette Valley Vineyards');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WW', 'WW International');
+  ('WW', 'WW International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WWD', 'Woodward');
+  ('WWD', 'Woodward');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WWR', 'Westwater Resources');
+  ('WWR', 'Westwater Resources');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('WYNN', 'Wynn Resorts');
+  ('WYNN', 'Wynn Resorts');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XAIR', 'Beyond Air');
+  ('XAIR', 'Beyond Air');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XBIO', 'Xenetic Biosciences');
+  ('XBIO', 'Xenetic Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XBIOW', 'Xenetic Biosciences');
+  ('XBIOW', 'Xenetic Biosciences');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XBIT', 'XBiotech Inc.');
+  ('XBIT', 'XBiotech Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XCUR', 'Exicure');
+  ('XCUR', 'Exicure');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XEL', 'Xcel Energy Inc.');
+  ('XEL', 'Xcel Energy Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XELA', 'Exela Technologies');
+  ('XELA', 'Exela Technologies');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XELB', 'Xcel Brands');
+  ('XELB', 'Xcel Brands');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XENE', 'Xenon Pharmaceuticals Inc.');
+  ('XENE', 'Xenon Pharmaceuticals Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XENT', 'Intersect ENT');
+  ('XENT', 'Intersect ENT');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XERS', 'Xeris Pharmaceuticals');
+  ('XERS', 'Xeris Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XFOR', 'X4 Pharmaceuticals');
+  ('XFOR', 'X4 Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XGN', 'Exagen Inc.');
+  ('XGN', 'Exagen Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XLNX', 'Xilinx');
+  ('XLNX', 'Xilinx');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XLRN', 'Acceleron Pharma Inc.');
+  ('XLRN', 'Acceleron Pharma Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XM', 'Qualtrics International Inc. ');
+  ('XM', 'Qualtrics International Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XNCR', 'Xencor');
+  ('XNCR', 'Xencor');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XNET', 'Xunlei Limited ');
+  ('XNET', 'Xunlei Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XOG', 'Extraction Oil & Gas');
+  ('XOG', 'Extraction Oil & Gas');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XOMA', 'XOMA Corporation');
+  ('XOMA', 'XOMA Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XOMAP', 'XOMA Corporation - 8.625% Series A Cumulative Perpetual Preferred Stock');
+  ('XOMAP', 'XOMA Corporation - 8.625% Series A Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XONE', 'The ExOne Company');
+  ('XONE', 'The ExOne Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XP', 'XP Inc. ');
+  ('XP', 'XP Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XPDIU', 'Power & Digital Infrastructure Acquisition Corp.');
+  ('XPDIU', 'Power & Digital Infrastructure Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XPEL', 'XPEL');
+  ('XPEL', 'XPEL');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XPER', 'Xperi Holding Corporation');
+  ('XPER', 'Xperi Holding Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XRAY', 'DENTSPLY SIRONA Inc.');
+  ('XRAY', 'DENTSPLY SIRONA Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XSPA', 'XpresSpa Group');
+  ('XSPA', 'XpresSpa Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XT', 'iShares Exponential Technologies ETF');
+  ('XT', 'iShares Exponential Technologies ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('XTLB', 'XTL Biopharmaceuticals Ltd. ');
+  ('XTLB', 'XTL Biopharmaceuticals Ltd. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YELL', 'Yellow Corporation');
+  ('YELL', 'Yellow Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YGMZ', 'MingZhu Logistics Holdings Limited s');
+  ('YGMZ', 'MingZhu Logistics Holdings Limited s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YI', '111');
+  ('YI', '111');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YJ', 'Yunji Inc. - American Depository Shares');
+  ('YJ', 'Yunji Inc. - American Depository Shares');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YLDE', 'ClearBridge Dividend Strategy ESG ETF');
+  ('YLDE', 'ClearBridge Dividend Strategy ESG ETF');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YMAB', 'Y-mAbs Therapeutics');
+  ('YMAB', 'Y-mAbs Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YMTX', 'Yumanity Therapeutics');
+  ('YMTX', 'Yumanity Therapeutics');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YNDX', 'Yandex N.V.s');
+  ('YNDX', 'Yandex N.V.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YORW', 'The York Water Company');
+  ('YORW', 'The York Water Company');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YQ', '17 Education & Technology Group Inc. ');
+  ('YQ', '17 Education & Technology Group Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YSAC', 'Yellowstone Acquisition Company ');
+  ('YSAC', 'Yellowstone Acquisition Company ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YSACU', 'Yellowstone Acquisition Companys');
+  ('YSACU', 'Yellowstone Acquisition Companys');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YSACW', 'Yellowstone Acquisition Companys to purchase Class A common stock');
+  ('YSACW', 'Yellowstone Acquisition Companys to purchase Class A common stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YTEN', 'Yield10 Bioscience');
+  ('YTEN', 'Yield10 Bioscience');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YTRA', 'Yatra Online');
+  ('YTRA', 'Yatra Online');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YVR', 'Liquid Media Group Ltd.');
+  ('YVR', 'Liquid Media Group Ltd.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('YY', 'JOYY Inc. ');
+  ('YY', 'JOYY Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('Z', 'Zillow Group');
+  ('Z', 'Zillow Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZAZZT', 'Tick Pilot Test Stock Class A Common Stock');
+  ('ZAZZT', 'Tick Pilot Test Stock Class A Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZBRA', 'Zebra Technologies Corporation ');
+  ('ZBRA', 'Zebra Technologies Corporation ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZBZZT', 'Test Pilot Test Stock Class B Common Stock');
+  ('ZBZZT', 'Test Pilot Test Stock Class B Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZCMD', 'Zhongchao Inc.s');
+  ('ZCMD', 'Zhongchao Inc.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZCZZT', 'Tick Pilot Test Stock Class C');
+  ('ZCZZT', 'Tick Pilot Test Stock Class C');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZEAL', 'Zealand Pharma A/S ');
+  ('ZEAL', 'Zealand Pharma A/S ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZEUS', 'Olympic Steel');
+  ('ZEUS', 'Olympic Steel');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZG', 'Zillow Group');
+  ('ZG', 'Zillow Group');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZGNX', 'Zogenix');
+  ('ZGNX', 'Zogenix');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZGYH', 'Yunhong Internationals');
+  ('ZGYH', 'Yunhong Internationals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZGYHR', 'Yunhong International');
+  ('ZGYHR', 'Yunhong International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZGYHU', 'Yunhong International');
+  ('ZGYHU', 'Yunhong International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZGYHW', 'Yunhong International');
+  ('ZGYHW', 'Yunhong International');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZI', 'ZoomInfo Technologies Inc. ');
+  ('ZI', 'ZoomInfo Technologies Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZION', 'Zions Bancorporation N.A.');
+  ('ZION', 'Zions Bancorporation N.A.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIONL', 'Zions Bancorporation N.A. - 6.95% Fixed-to-Floating Rate Subordinated Notes due September 15');
+  ('ZIONL', 'Zions Bancorporation N.A. - 6.95% Fixed-to-Floating Rate Subordinated Notes due September 15');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIONN', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series H 5.75% Non-Cumulative Perpetual Preferred Stock');
+  ('ZIONN', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series H 5.75% Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIONO', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series G Fixed/Floating-Rate Non-Cumulative Perpetual Preferred Stock');
+  ('ZIONO', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series G Fixed/Floating-Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIONP', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock');
+  ('ZIONP', 'Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIOP', 'ZIOPHARM Oncology Inc');
+  ('ZIOP', 'ZIOPHARM Oncology Inc');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZIXI', 'Zix Corporation');
+  ('ZIXI', 'Zix Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZJZZT', 'NASDAQ TEST STOCK');
+  ('ZJZZT', 'NASDAQ TEST STOCK');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZKIN', 'ZK International Group Co.');
+  ('ZKIN', 'ZK International Group Co.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZLAB', 'Zai Lab Limited ');
+  ('ZLAB', 'Zai Lab Limited ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZM', 'Zoom Video Communications');
+  ('ZM', 'Zoom Video Communications');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZNGA', 'Zynga Inc. ');
+  ('ZNGA', 'Zynga Inc. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZNTE', 'Zanite Acquisition Corp. ');
+  ('ZNTE', 'Zanite Acquisition Corp. ');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZNTEU', 'Zanite Acquisition Corp.');
+  ('ZNTEU', 'Zanite Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZNTEW', 'Zanite Acquisition Corp.');
+  ('ZNTEW', 'Zanite Acquisition Corp.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZNTL', 'Zentalis Pharmaceuticals');
+  ('ZNTL', 'Zentalis Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZS', 'Zscaler');
+  ('ZS', 'Zscaler');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZSAN', 'Zosano Pharma Corporation');
+  ('ZSAN', 'Zosano Pharma Corporation');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZUMZ', 'Zumiez Inc.');
+  ('ZUMZ', 'Zumiez Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZVO', 'Zovio Inc.');
+  ('ZVO', 'Zovio Inc.');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZVZZC', 'NASDAQ TEST STOCK Nextshares Test Security');
+  ('ZVZZC', 'NASDAQ TEST STOCK Nextshares Test Security');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZVZZT', 'NASDAQ TEST STOCK');
+  ('ZVZZT', 'NASDAQ TEST STOCK');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZWRKU', 'Z-Work Acquisition Corp.s');
+  ('ZWRKU', 'Z-Work Acquisition Corp.s');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZWZZT', 'NASDAQ TEST STOCK');
+  ('ZWZZT', 'NASDAQ TEST STOCK');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZXYZ.A', 'Nasdaq Symbology Test Common Stock');
+  ('ZXYZ.A', 'Nasdaq Symbology Test Common Stock');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZXZZT', 'NASDAQ TEST STOCK');
+  ('ZXZZT', 'NASDAQ TEST STOCK');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZYNE', 'Zynerba Pharmaceuticals');
+  ('ZYNE', 'Zynerba Pharmaceuticals');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('ZYXI', 'Zynex');
+  ('ZYXI', 'Zynex');
 INSERT INTO tickertable
-    (ticker,company)
+  (ticker,company)
 VALUES
-    ('File Creation Time: 0224202114:02', NULL);
+  ('File Creation Time: 0224202114:02', NULL);

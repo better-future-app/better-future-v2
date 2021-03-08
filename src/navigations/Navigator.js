@@ -7,6 +7,7 @@ import News from "../screens/News";
 import Detail from "../screens/Detail";
 import Profile from "../screens/Profile";
 import { Image } from "react-native";
+import OnboardingScreen from "../screens/Onboardingscreen";
 
 const Tab = createBottomTabNavigator();
 const BottomTabNavigator = () => {
@@ -86,6 +87,7 @@ const screenOptionStyle = {
 const HomeStackNavigator = () => {
   return (
     <Stack.Navigator screenOptions={screenOptionStyle}>
+      <Stack.Screen name="Onboarding" component={OnboardingScreen} />
       <Stack.Screen name="Home" component={BottomTabNavigator} />
       <Stack.Screen name="Detail" component={Detail} />
     </Stack.Navigator>
