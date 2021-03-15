@@ -1,15 +1,27 @@
 import { StyleSheet, Dimensions } from "react-native";
 const windowWidth = Dimensions.get("window").width;
+const windowHight = Dimensions.get("window").height;
+const color = ["red", "#66CCFF", "#FFCC00", "#1C9379", "#8A7BA7"];
 
+randomColor = () => {
+  let col = color[Math.floor(Math.random() * color.length)];
+  return col;
+};
 const styleSheet = StyleSheet.create({
   header: {
     color: "#ffffff",
+    backgroundColor: "#00a46c",
+    paddingHorizontal: 20,
+    paddingVertical: 5,
+    borderRadius: 15,
+    borderTopStartRadius: 0,
+    borderTopEndRadius: 0,
   },
   header_text: {
     fontWeight: "bold",
     fontSize: 30,
     color: "#FFF",
-    paddingTop: 35,
+    paddingTop: 25,
   },
   image: {
     height: 250,
@@ -74,7 +86,7 @@ const styleSheet = StyleSheet.create({
     flexDirection: "row",
     fontWeight: "100",
     color: "#000000",
-    fontSize: 18,
+    fontSize: 20,
     paddingTop: 10,
     paddingLeft: 10,
   },
@@ -152,17 +164,24 @@ const styleSheet = StyleSheet.create({
     fontSize: 19,
     width: 300,
   },
+
+  home_news_image: {
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: "contain",
+  },
   home_component: {
     flexDirection: "row",
     paddingHorizontal: 20,
     width: "100%",
     alignItems: "center",
   },
-  home_news_image: {
-    flex: 1,
-    width: null,
-    height: null,
-    resizeMode: "contain",
+  position_component: {
+    flexDirection: "row",
+    width: "95%",
+    paddingTop: 10,
+    alignItems: "center",
   },
   tutorial_title: {
     fontWeight: "100",
@@ -176,6 +195,16 @@ const styleSheet = StyleSheet.create({
     width: windowWidth - 50,
     marginLeft: 25,
     borderRadius: 10,
+  },
+  searchbar: {
+    backgroundColor: "#FFF",
+    paddingVertical: 8,
+    paddingHorizontal: 20,
+    marginHorizontal: 25,
+    borderRadius: 15,
+    marginTop: 25,
+    flexDirection: "row",
+    alignItems: "center",
   },
   Searchbar_result: {
     flexDirection: "row",
@@ -194,6 +223,23 @@ const styleSheet = StyleSheet.create({
     marginTop: 25,
     flexDirection: "row",
     alignItems: "center",
+  },
+  position: {
+    height: windowHight * 0.125,
+    elevation: 2,
+    backgroundColor: "#FFF",
+    marginLeft: "5%",
+    borderRadius: 15,
+    marginLeft: 10,
+    width: windowWidth - 20,
+  },
+  priceBar: {
+    flexDirection: "row",
+    width: windowWidth,
+    justifyContent: "space-between",
+  },
+  backgrundrandomcolor: {
+    backgroundColor: randomColor(),
   },
 });
 

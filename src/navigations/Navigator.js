@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
@@ -8,6 +8,7 @@ import Detail from "../screens/Detail";
 import Profile from "../screens/Profile";
 import { Image } from "react-native";
 import OnboardingScreen from "../screens/Onboardingscreen";
+import AsyncStorage from "@react-native-community/async-storage";
 
 const Tab = createBottomTabNavigator();
 const BottomTabNavigator = () => {
@@ -50,7 +51,7 @@ const BottomTabNavigator = () => {
           ),
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="News"
         component={News}
         options={{
@@ -62,7 +63,7 @@ const BottomTabNavigator = () => {
             />
           ),
         }}
-      />
+      /> */}
       <Tab.Screen
         name="Profile"
         component={Profile}
@@ -85,12 +86,39 @@ const screenOptionStyle = {
   headerShown: false,
 };
 const HomeStackNavigator = () => {
+  const [isFirstLaunch, setIsFirstLaunch] = useState(null);
+  let routeName;
+
+  useEffect(() => {
+    AsyncStorage.getItem("alreadyLaunched").then((value) => {
+      console.log(value);
+      if (value == null) {
+        AsyncStorage.setItem("alreadyLaunched", "true"); // No need to wait for `setItem` to finish, although you might want to handle errors
+        setIsFirstLaunch(true);
+      } else {
+        setIsFirstLaunch(false);
+      }
+    });
+  }, []);
+
+  if (isFirstLaunch === null) {
+    return null; // This is the 'tricky' part: The query to AsyncStorage is not finished, but we have to present something to the user. Null will just render nothing, so you can also put a placeholder of some sort, but effectively the interval between the first mount and AsyncStorage retrieving your data won't be noticeable to the user. But if you want to display anything then you can use a LOADER here
+  } else if (isFirstLaunch == true) {
+    routeName = "Onboarding";
+  } else {
+    routeName = "Home";
+  }
+
   return (
-    <Stack.Navigator screenOptions={screenOptionStyle}>
-      <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+    <Stack.Navigator
+      initialRouteName={routeName}
+      screenOptions={screenOptionStyle}
+    >
+      {/* <Stack.Screen name="Onboarding" component={OnboardingScreen} /> */}
       <Stack.Screen name="Home" component={BottomTabNavigator} />
       <Stack.Screen name="Detail" component={Detail} />
     </Stack.Navigator>
   );
 };
+
 export default HomeStackNavigator;

@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { View, Text, Image, ImageBackground, Keyboard } from "react-native";
 
+import { Chip } from "react-native-paper";
+import Chipfunction from "../components/Chipfunction";
 import {
   TextInput,
   ScrollView,
@@ -14,7 +16,49 @@ import { NavigationContainer } from "@react-navigation/native";
 import { debounce } from "lodash";
 import SearchBarInfoCard from "../components/Searchbar";
 import AsyncStorage from "@react-native-community/async-storage";
+import { set } from "react-native-reanimated";
 const Home = ({ navigation }) => {
+  ////////////////////////////////////////////////////////////////
+  ///////////////////indistry top 10//////////////////////////////
+  const [industryrank, setIndustryrank] = useState([]);
+  const [ASCDESCbutton, setASCDESCbutton] = useState("ASC");
+  const [setlectedindistry, setsetlectedindistry] = useState();
+  // useEffect(() => {
+  async function fetchIndustryRank(indistry) {
+    setsetlectedindistry(indistry);
+    const quary = `https://esgstock1.azurewebsites.net/top-ten?i=${encodeURIComponent(
+      indistry
+    ).replace(/%20/g, "+")}&q=${ASCDESCbutton}`;
+    console.log(quary);
+    const totalIndustryNumber = await fetch(quary);
+    const Data = await totalIndustryNumber.json();
+    setIndustryrank(Data);
+  }
+  const ASCDESCbuttonClicked = () => {
+    if (ASCDESCbutton === "ASC") {
+      setASCDESCbutton("DESC");
+    } else {
+      setASCDESCbutton("ASC");
+    }
+  };
+  useEffect(() => {
+    fetchIndustryRank(setlectedindistry);
+  }, [ASCDESCbutton]);
+  //   fetchIndustryNumber();
+  // }, []);
+  ///////////////////////////////////////////////////////////////
+  /////////////////color///////////////////////////////////////
+  const color = ["red", "#66CCFF", "#FFCC00", "#1C9379", "#8A7BA7"];
+
+  randomColor = () => {
+    let col = color[Math.floor(Math.random() * color.length)];
+    return col;
+  };
+  ////////////////////////////////////////////////////////////
+  ///////////////clear storage/////////////////////////////
+  const clearstorage = () => {
+    AsyncStorage.clear();
+  };
   /////////////////////////////////////////////////////////
   //////// top ten button/////////////////////////////////
   const [topTenButtonText, setTopTenButtonText] = useState("More"); // topTenButtonText = "More"
@@ -32,6 +76,7 @@ const Home = ({ navigation }) => {
   ///////////top ten data //////////////////////////////////////////
   const [isLoadingTopTen, setLoadingTopTen] = useState(true);
   const [topTen, setTopTen] = useState([]);
+  const [indistry, setindistry] = useState([]);
   useEffect(() => {
     async function fetchAutoTopTen() {
       const topTenResponse = await fetch(
@@ -46,6 +91,24 @@ const Home = ({ navigation }) => {
     // more functions
 
     fetchAutoTopTen();
+    // call more here
+  }, []);
+  useEffect(() => {
+    async function fetchindistry() {
+      const indistryResponse = await fetch(
+        "https://esgstock1.azurewebsites.net/getindistry"
+      );
+      const indistry = await indistryResponse.json();
+
+      setindistry(indistry);
+
+      // setTopTen(topTenData);
+      // setLoadingTopTen(false);
+    }
+
+    // more functions
+
+    fetchindistry();
     // call more here
   }, []);
   /////////////////////////////////////////////////////////
@@ -90,6 +153,7 @@ const Home = ({ navigation }) => {
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);
 
   useEffect(() => {
+    // console.log(isKeyboardVisible);
     const keyboardDidShowListener = Keyboard.addListener(
       "keyboardDidShow",
       () => {
@@ -118,8 +182,8 @@ const Home = ({ navigation }) => {
   const updateStarred = async () => {
     try {
       const keys = await AsyncStorage.getAllKeys();
-      //console.log("here are the keys");
-      //console.log(keys);
+      // console.log("here are the keys");
+      // console.log(keys);
       // for (var i = 0; i < keys.length; i++) {
       //   if (keys[i].substring(0, 9) == "numShares") {
       //     keys.splice(i, 1);
@@ -128,11 +192,13 @@ const Home = ({ navigation }) => {
 
       const allFavorites = await Promise.all(
         keys.map(async (item) => {
-          //console.log(item);
+          console.log(item);
           if (
             item.substring(0, 9) != "numShares" &&
-            item.substring(0, 12) != "averagePrice"
+            item.substring(0, 12) != "averagePrice" &&
+            item.substring() != "alreadyLaunched"
           ) {
+            console.log("processing in favorites");
             const data = await search(item, false);
             // console.log(data[0]["price"]);
             return data.length > 0 ? data[0] : null;
@@ -272,10 +338,23 @@ const Home = ({ navigation }) => {
       ) : (
         <Text></Text>
       )}
+      <View style={externalStyle.more_buttom}>
+        <TouchableOpacity onPress={() => clearstorage()}>
+          <Text
+            style={{
+              fontWeight: "bold",
+              fontSize: 13,
+              color: "#FFF",
+            }}
+          >
+            clear storage
+          </Text>
+        </TouchableOpacity>
+      </View>
 
       <View style={externalStyle.home_component}>
         <View style={{ width: "50%" }}>
-          <Text style={externalStyle.home_title}>Most Popular Stock</Text>
+          <Text style={externalStyle.home_title}>Popular Stock</Text>
         </View>
         <View style={{ width: "50%", alignItems: "flex-end" }}>
           <View style={externalStyle.more_buttom}>
@@ -375,76 +454,84 @@ const Home = ({ navigation }) => {
       </ScrollView>
       <View style={externalStyle.home_component}>
         <View style={{ width: "50%" }}>
-          <Text style={externalStyle.home_title}>Trending News</Text>
+          <Text style={externalStyle.home_title}>Indistry</Text>
         </View>
         <View style={{ width: "50%", alignItems: "flex-end" }}>
           <View style={externalStyle.more_buttom}>
-            <Text
-              style={{
-                fontWeight: "bold",
-                fontSize: 13,
-                color: "#FFF",
-              }}
-            >
-              More
-            </Text>
+            <TouchableOpacity onPress={() => ASCDESCbuttonClicked()}>
+              <Text
+                style={{
+                  fontWeight: "bold",
+                  fontSize: 13,
+                  color: "#FFF",
+                }}
+              >
+                {ASCDESCbutton}
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </View>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        <View style={externalStyle.news}>
-          <Image
-            style={externalStyle.home_news_image}
-            source={require("../images/news1.jpg")}
-          />
-          <View style={externalStyle.news_card}>
-            <Text style={{ fontWeight: "bold" }}>Business Insider</Text>
-            <Text
-              style={{
-                fontWeight: "bold",
-                paddingTop: 10,
-              }}
-            >
-              Impact investing finances companies that aim to do good in the
-              world — here's how it works and how to get involved
-            </Text>
-          </View>
-        </View>
 
-        <View style={externalStyle.news}>
-          <Image
-            style={externalStyle.home_news_image}
-            source={require("../images/news2.jpg")}
-          />
-          <View style={externalStyle.news_card}>
-            <Text style={{ fontWeight: "bold" }}>Financial Times</Text>
-            <Text
-              style={{
-                fontWeight: "bold",
-                paddingTop: 10,
-              }}
-            >
-              ESG accounting needs to cut through the greenwash
-            </Text>
-          </View>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={{ paddingBottom: 0 }}
+      >
+        <View
+          style={{
+            margin: 5,
+            flexWrap: "wrap",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "flex-start",
+            maxWidth: 1800,
+          }}
+        >
+          {indistry ? (
+            indistry.map((item, index) => (
+              <Chip
+                onPress={() => fetchIndustryRank(item.group)}
+                key={index}
+                height={30}
+                textStyle={{ color: "white", fontSize: 15 }}
+                style={{ backgroundColor: randomColor(), margin: 5 }}
+                mode="flat"
+              >
+                {item.group}
+              </Chip>
+            ))
+          ) : (
+            <View>indisty did not work</View>
+          )}
         </View>
       </ScrollView>
+      <View>
+        {setlectedindistry ? (
+          <View style={{ width: "50%", paddingLeft: 20 }}>
+            <Text style={externalStyle.home_title}>{setlectedindistry}</Text>
+          </View>
+        ) : (
+          <View></View>
+        )}
+        {industryrank ? (
+          industryrank.map((item, index) => (
+            <InfoCard
+              navigation={navigation}
+              stock={item.name || item.company}
+              ticker={item.ticker || item.stockticker}
+              esgrating={item.esgrating}
+              industry={item.group}
+              esgwarning={item.rating}
+              key={index}
+            />
+          ))
+        ) : (
+          <Text>nothing in industryrank</Text>
+        )}
+      </View>
     </ScrollView>
   );
 };
-export default Home;
 
-const data1 = [
-  {
-    stock: "Walmart",
-    esgrating: "$117.8",
-  },
-  {
-    stock: "MC DONALDS",
-    esgrating: "$127.83",
-  },
-  {
-    stock: "CISCO",
-    esgrating: "$117.8",
-  },
-];
+export default Home;

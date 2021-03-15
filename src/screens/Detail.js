@@ -56,18 +56,16 @@ const Detail = ({ navigation, route }) => {
   //this is how to get your pass in data .
   const { stock, esgrating, industry, esgwarning, ticker } = route.params;
 
-  const [isStartedStock, setisStartedStock] = useState(false);
-
   const _storeData = async () => {
     try {
-      // await AsyncStorage.setItem(stock, status); //setItem (key ,value ) (tsla,stared ) ("numberofstock"stock+,10)
+      await AsyncStorage.setItem(stock, status); //setItem (key ,value ) (tsla,stared ) ("numberofstock"stock+,10)
     } catch (error) {
       console.log("error in _storeData", error);
     }
   };
   const _removeData = async () => {
     try {
-      // await AsyncStorage.removeItem(stock);
+      await AsyncStorage.removeItem(stock);
     } catch (error) {
       // Error retrieving data
       console.log("error in _removeData ");
@@ -80,16 +78,51 @@ const Detail = ({ navigation, route }) => {
   const defaults = require("../Interface_icons/62-Star/rating-star-add.png");
   const clicked = require("../Interface_icons/62-Star/rating-star-check.png");
   const loading = require("../images/giphy.gif");
+  const noStock = require("../Interface_icons/63-Stock/stock.png");
+  const yseStock = require("../Interface_icons/63-Stock/stockdel.png");
+  const [stockicon, setstockicon] = useState(noStock);
   const [starPath, setstartPath] = useState(loading);
-  const count = 0;
+  const [numshare, setnumshare] = useState();
+  const [avgprice, setavgprice] = useState();
+  const [equalityvalue, setEqualityvalue] = useState(0);
+  const [isAddStockCliked, setisAddStockCliked] = useState(false);
+  const [averagePrice, setAveragePrice] = useState();
+  const [placeholder, setplaceholder] = useState("number of stock");
+  const saveinstorage = async (value) => {
+    if (averagePrice) {
+      try {
+        setisAddStockCliked(false);
+        setplaceholder("number of stock");
+        setAveragePrice(null);
+
+        AsyncStorage.setItem(`numShares${stock}`, String(value));
+        AsyncStorage.setItem(`averagePrice${stock}`, String(averagePrice));
+        var message = "Your setup is compeleted";
+        if (Platform.OS === "android") {
+          ToastAndroid.showWithGravityAndOffset(
+            message,
+            ToastAndroid.LONG,
+            ToastAndroid.BOTTOM,
+            40,
+            5
+          );
+        }
+      } catch (error) {
+        // Error retrieving data
+        console.log(error.message);
+      }
+    } else {
+      setplaceholder("Average Price");
+      setAveragePrice(value);
+    }
+  };
   useEffect(() => {
     async function checkifstarted() {
       try {
-        console.log(stock);
         const value = await AsyncStorage.getItem(stock);
         if (value !== null) {
           // We have data!!
-          console.log(value);
+
           setstartPath(clicked);
         } else {
           setstartPath(defaults);
@@ -100,16 +133,71 @@ const Detail = ({ navigation, route }) => {
         // console.log(error);
       }
     }
+
+    async function checkifisinvested() {
+      try {
+        const value = await AsyncStorage.getItem(`numShares${stock}`);
+        if (value !== null) {
+          console.log("number of shares", value);
+          setnumshare(value);
+          setstockicon(yseStock);
+          getaverageprice();
+        } else {
+          setnumshare(null);
+        }
+      } catch (error) {
+        console.log("error in _retrieveData");
+        // Error retrieving data
+        // console.log(error);
+      }
+    }
+
+    async function getaverageprice() {
+      try {
+        const getaveragepriceesult = await AsyncStorage.getItem(
+          `averagePrice${stock}`
+        );
+        if (getaveragepriceesult !== null) {
+          setavgprice(getaveragepriceesult);
+
+          console.log("average", getaveragepriceesult);
+        }
+      } catch (error) {
+        console.log("error in _retrieveData");
+        // Error retrieving data
+        // console.log(error);
+      }
+    }
+
+    checkifisinvested();
     checkifstarted();
-  }, []);
+  }, [averagePrice]);
 
   const starButtonClicked = () => {
     if (starPath === defaults) {
       _storeData();
+      setnumshare(null);
       setstartPath(clicked);
     } else {
       setstartPath(defaults);
       _removeData();
+    }
+  };
+
+  const addOrRemoveInvestedstock = async () => {
+    if (stockicon === noStock) {
+      _storeData();
+      setstockicon(yseStock);
+      setisAddStockCliked(true);
+    } else {
+      setstockicon(noStock);
+      _removeData();
+      setplaceholder("number of stock");
+      setAveragePrice(null);
+      setisAddStockCliked(false);
+      console.log("deleted");
+      await AsyncStorage.removeItem(`numShares${stock}`);
+      await AsyncStorage.removeItem(`averagePrice${stock}`);
     }
   };
   ////Butttons For GRAPH///
@@ -197,41 +285,25 @@ const Detail = ({ navigation, route }) => {
   const [currentstockprice, setcurrentstockprice] = useState("N/A");
   const [stockdiscription, setstockdiscription] = useState();
 
+  async function fetchPriceData() {
+    const stockhistoricPriceResponse = await fetch(
+      `https://esgstock1.azurewebsites.net/stockprice?q=${ticker}`
+    );
+    const stockpricedata = await stockhistoricPriceResponse.json();
+    setcurrentstockprice(stockpricedata[0].close);
+    const stockdiscriptionresponse = await fetch(
+      `https://esgstock1.azurewebsites.net/meta?q=${ticker}`
+    );
+    const stockdiscription = await stockdiscriptionresponse.json();
+    setstockdiscription(stockdiscription.description.substr(0, 430) + "...");
+  }
+
   useEffect(() => {
-    async function fetchPriceData() {
-      const stockhistoricPriceResponse = await fetch(
-        `https://esgstock1.azurewebsites.net/stockprice?q=${ticker}`
-      );
-      const stockpricedata = await stockhistoricPriceResponse.json();
-      setcurrentstockprice(stockpricedata[0].close);
-      const stockdiscriptionresponse = await fetch(
-        `https://esgstock1.azurewebsites.net/meta?q=${ticker}`
-      );
-      const stockdiscription = await stockdiscriptionresponse.json();
-      setstockdiscription(stockdiscription.description.substr(0, 430) + "...");
-    }
     if (ticker) {
       fetchPriceData();
     }
   }, []);
-  // const [star, setTopTen] = useState([]);
-  // useEffect(() => {
-  //   const starData = require("../local_data/data.json");
-  //   var json = JSON.stringify(starData);
-  //   var parsedJson = JSON.parse(json);
-  //   //searching in json
-  //   // parsedJson.company.map((item, index) => {
-  //   //     console.log(item);
-  //   //   }
-  //   // });
-  // 1   const data = JSON.parse(storage.getItem(starKey) || ""); // might crash the first time
-  //   const valueToRemove = "Apple";
-  //  2 const filteredItems = data.filter(  // adding or removing
-  //     (item) => item !== valueToRemove
-  //   );
-  //  3  storage.setItem(starKey, JSON.stringify(filteredItems));
-  //   console.log(filteredItems);
-  // });
+
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, "0");
   var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
@@ -294,23 +366,15 @@ const Detail = ({ navigation, route }) => {
       style={{ paddingBottom: 0 }}
     >
       <View style={externalStyle.header}>
-        <View style={externalStyle.more_buttom}>
-          <Text style={externalStyle.header_text}>{stock}</Text>
-          <Text>{ticker}</Text>
-        </View>
+        <Text style={externalStyle.header_text}>{stock}</Text>
+        <Text>{ticker}</Text>
       </View>
 
-      <View
-        style={{
-          flexDirection: "row",
-
-          justifyContent: "space-between",
-        }}
-      >
+      <View style={externalStyle.priceBar}>
         <Text
           style={{
             fontWeight: "200",
-            fontSize: 50,
+            fontSize: 60,
             padding: 10,
             paddingBottom: -10,
           }}
@@ -326,6 +390,18 @@ const Detail = ({ navigation, route }) => {
           </Text>
         </Text>
 
+        <TouchableOpacity onPress={() => addOrRemoveInvestedstock()}>
+          <Image
+            source={stockicon}
+            style={{
+              Height: 36,
+              Width: 38,
+              marginTop: 22,
+              marginLeft: 20,
+            }}
+          />
+        </TouchableOpacity>
+
         <TouchableOpacity onPress={() => starButtonClicked()}>
           <Image
             // source={starPath}
@@ -339,6 +415,25 @@ const Detail = ({ navigation, route }) => {
           />
         </TouchableOpacity>
       </View>
+      {isAddStockCliked ? (
+        <View style={externalStyle.searchbar}>
+          <TextInput
+            placeholder={placeholder}
+            placeholderTextColor="#b1e5d3"
+            keyboardType="numeric"
+            style={externalStyle.home_input}
+            // onChangeText={(text) => onChangeText(text)}
+            onChangeText={(text) => onChangeText(text)}
+            onSubmitEditing={({ nativeEvent: { text } }) => {
+              // console.log("Text value on press enter: ", text);
+              saveinstorage(text);
+            }}
+          />
+        </View>
+      ) : (
+        <View></View>
+      )}
+
       <View>
         {stockPrice ? (
           <View>
@@ -454,6 +549,54 @@ const Detail = ({ navigation, route }) => {
           </View>
         )}
       </View>
+      {numshare ? (
+        <View>
+          <View style={externalStyle.position_component}>
+            <View style={{ width: "50%" }}>
+              <Text style={externalStyle.company_overallESG_text}>
+                Position
+              </Text>
+            </View>
+            <View style={{ width: "50%", alignItems: "flex-end" }}>
+              <View style={externalStyle.more_buttom}>
+                <TouchableOpacity>
+                  <Text
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: 13,
+                      color: "#FFF",
+                    }}
+                  >
+                    Edit
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+
+          <View style={externalStyle.position}>
+            <View style={externalStyle.card}>
+              <Text style={externalStyle.company_status}>
+                Shares {"\n"}
+                <Text style={{ fontSize: 30 }}>{numshare} </Text>
+              </Text>
+              <Text style={externalStyle.company_status}>
+                Avg Cost{"\n"}
+                <Text style={{ fontSize: 30 }}>{avgprice} </Text>
+              </Text>
+              <Text style={externalStyle.company_status}>
+                Equality value {"\n"}
+                <Text style={{ fontSize: 30 }}>
+                  {Math.ceil(numshare * currentstockprice)}{" "}
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+      ) : (
+        <View></View>
+      )}
+
       {esgrating ? ( // if no esgrating, no showing the esg data
         <View>
           <Text style={externalStyle.company_overallESG_text}>ESG Score</Text>

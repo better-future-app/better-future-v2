@@ -152,13 +152,14 @@ const Favourite = ({ navigation }) => {
       //console.log("here are the keys");
       //console.log(keys);
       var qarr = [];
-      for (const property in keys) {
-        //console.log(keys[property]);
-        //console.log(await AsyncStorage.getItem(keys[property]));
-        qarr.push(await AsyncStorage.getItem(keys[property]));
+      for (var property = 0; property < keys.length; property += 1) {
+        if (keys[property].substring(0, 9) != "numShares") {
+          console.log(keys[property]);
+          qarr.unshift(await AsyncStorage.getItem(keys[property]));
+        }
       }
       setstockQuantity(qarr);
-
+      console.log(stockQuantity);
       const allinvestedsocks = await Promise.all(
         keys.map(async (item) => {
           if (item.substring(0, 9) == "numShares") {
@@ -189,11 +190,9 @@ const Favourite = ({ navigation }) => {
     // };
   }, [addbuttonactivity]);
 
-  const [stockPrice, setstockPrice] = useState([]);
-  const [stockESGrating, setstockESGrating] = useState([]);
-  const [portfolioValue, setportfolioValue] = useState(0);
+  ///////////////////////////////////////////////////////////////////////////Grabs current total value and current weighted ESG///////////////
+  const [portfolioValue, setportfolioValue] = useState("N/A");
   const [portfolioweightedESG, setportfolioweightedESG] = useState(0);
-  var tickers;
 
   useEffect(() => {
     async function fetchcurrentPrice(x) {
@@ -201,41 +200,109 @@ const Favourite = ({ navigation }) => {
         `https://esgstock1.azurewebsites.net/stockprice?q=${x}`
       );
       const stockpricedata = await stockhistoricPriceResponse.json();
-      //console.log(x);
-      //console.log(stockpricedata[0].close);
       return stockpricedata[0].close; ///Grabs price
     }
-
+    var tickers;
     var parr = [];
     var ESGarr = [];
     var totalvalue = 0; //empty varaibles....
     var weightedESG = 0;
+
     (async () => {
       for (const x in investedsocks) {
-        tickers = await fetchcurrentPrice(investedsocks[x]["ticker"]); //grabs price for each stocks
+        tickers = await fetchcurrentPrice(investedsocks[x]["ticker"]);
         parr.push(tickers); //grabs ticker prices
-
         ESGarr.push(investedsocks[x]["esgrating"]); //appends to array
       }
-      setstockPrice(parr); ///sets const variable equiv to temp array for both ESG and stockPRice
-      setstockESGrating(ESGarr);
+
+      for (const x in parr) {
+        totalvalue =
+          totalvalue + parseInt(parr[x]) * parseInt(stockQuantity[x]); //loop to create total value of portfolio
+      }
+
+      for (const x in ESGarr) {
+        weightedESG =
+          weightedESG +
+          parseInt(ESGarr[x]) *
+            ((parseInt(parr[x]) * parseInt(stockQuantity[x])) / totalvalue); //loop to create weighed ESG value
+      }
+
+      setportfolioValue(totalvalue); //sets temp values to const.
+      setportfolioweightedESG(weightedESG); //sets temp value to const.
     })();
-    //console.log(stockPrice);
-    for (const x in stockPrice) {
-      totalvalue =
-        totalvalue + parseInt(stockPrice[x]) * parseInt(stockQuantity[x]); //loop to create total value of portfolio
+  }, [investedsocks]);
+
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, "0");
+  var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+  var yyyy = today.getFullYear();
+  today = yyyy + "-" + mm + "-" + dd; //Todays current date for the end endDate in URL
+
+  ///////////////////////////////////////////////////////////////////////////////////////Grabs the historcal value of portfolio for the last 5 years/////
+  const [porthistvalue, setporthistvalue] = useState([0]);
+  useEffect(() => {
+    async function fetchhistoryPrice(x, y) {
+      const stockhistoricsPriceResponse = await fetch(
+        `https://api.tiingo.com/tiingo/daily/${x}/prices?startDate=2016-1-1&endDate=${today}&resampleFreq=annually&token=480b701b38e160ecba1ccd3d9ecd6a5d2dd8a72d`
+      );
+      const stockpricedatas = await stockhistoricsPriceResponse.json();
+      var harr;
+
+      harr = parseInt(stockpricedatas[y].close); ///Grabs price
+
+      return harr;
     }
-    for (const x in stockPrice) {
-      weightedESG =
-        weightedESG +
-        parseInt(stockESGrating[x]) *
-          ((parseInt(stockPrice[x]) * parseInt(stockQuantity[x])) / totalvalue); //loop to create weighed ESG value
-    }
-    console.log("totalvalue");
-    console.log(weightedESG);
-    setportfolioValue(totalvalue); //sets temp values to const.
-    setportfolioweightedESG(weightedESG); //sets temp value to const.
-  }, [addbuttonactivity]);
+
+    (async () => {
+      var hprice = [];
+      var tickerstwo;
+      var count = 0;
+      var histreturnsarray = [];
+      for (var y = 0; y < 6; y += 1) {
+        for (const x in investedsocks) {
+          tickerstwo = await fetchhistoryPrice(investedsocks[x]["ticker"], y);
+
+          count = count + tickerstwo * stockQuantity[x];
+        }
+        hprice.push(count);
+        count = 0;
+      }
+      if (hprice[0] == 0) {
+        console.log("im more powerful then you know");
+      } else {
+        for (var z = 1; z < 6; z += 1) {
+          histreturnsarray.push(
+            ((hprice[z] - hprice[z - 1]) / hprice[z - 1]) * 100
+          );
+        }
+        setporthistvalue(histreturnsarray);
+      }
+    })();
+  }, [investedsocks]);
+  /////////////////////////////////////////Grabs benchmark data/////for graph
+  const [benchmark, setbenchmark] = useState([0]);
+  useEffect(() => {
+    (async () => {
+      const stockhistoricsPriceResponse = await fetch(
+        `https://api.tiingo.com/tiingo/daily/SPY/prices?startDate=2016-1-1&endDate=${today}&resampleFreq=annually&token=480b701b38e160ecba1ccd3d9ecd6a5d2dd8a72d`
+      );
+      const stockpricedatass = await stockhistoricsPriceResponse.json();
+      var spyArr = [];
+      var spyHistArr = [];
+      for (var z = 0; z < 6; z += 1) {
+        spyArr.push(parseInt(stockpricedatass[z].close)); ///Grabs price
+      }
+      if (spyArr[0] == 0) {
+        console.log(spy[z]);
+      } else {
+        for (var z = 1; z < 6; z += 1) {
+          spyHistArr.push(((spyArr[z] - spyArr[z - 1]) / spyArr[z - 1]) * 100);
+          console.log(spyHistArr);
+        }
+        setbenchmark(spyHistArr);
+      }
+    })();
+  }, [investedsocks]);
 
   return (
     <ScrollView
@@ -275,17 +342,15 @@ const Favourite = ({ navigation }) => {
           <View>
             <LineChart
               data={{
-                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+                labels: ["2017", "2018", "2019", "2020", "2021"],
                 datasets: [
                   {
-                    data: [
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                      Math.ceil(portfolioValue) - Math.random() * 100,
-                    ],
+                    data: porthistvalue,
+                    color: (opacity = 1) => `rgba(60, 179, 113, ${opacity})`,
+                  },
+                  {
+                    data: benchmark,
+                    color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
                   },
                 ],
               }}
@@ -293,15 +358,23 @@ const Favourite = ({ navigation }) => {
               height={300}
               withInnerLines={false}
               withOuterLines={false}
-              yAxisLabel="$"
+              yAxisLabel="."
               yAxisInterval={1} // optional, defaults to 1
               chartConfig={{
                 backgroundColor: "#ffffff",
                 backgroundGradientFrom: "#ffffff",
                 backgroundGradientTo: "#ffffff",
-                decimalPlaces: 2, // optional, defaults to 2dp
-                color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+                decimalPlaces: 0, // optional, defaults to 2dp
+                color: (opacity = 1) => `rgba(60, 179, 113, ${opacity})`,
                 labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+                style: {
+                  borderRadius: 16,
+                },
+                propsforDots: {
+                  r: "6",
+                  strokeWdith: "2",
+                  stroke: "#ffa726",
+                },
               }}
               bezier
               style={{
@@ -311,7 +384,56 @@ const Favourite = ({ navigation }) => {
               }}
             />
           </View>
-          <Text style={externalStyle.company_overallESG_text}>ESG Score</Text>
+          <View style={{ marginTop: -25 }}>
+            <View
+              style={{
+                flex: 1,
+                flexDirection: "row",
+                justifyContent: "center",
+              }}
+            >
+              <Text
+                style={{
+                  fontWeight: "bold",
+                  fontSize: 13,
+                  color: "mediumseagreen",
+                }}
+              >
+                Investment Returns
+              </Text>
+
+              <View
+                style={{
+                  width: 20,
+                  height: 20,
+                  backgroundColor: "mediumseagreen",
+                }}
+              />
+              <View
+                style={{ width: 20, height: 20, backgroundColor: "black" }}
+              />
+              <Text
+                style={{
+                  fontWeight: "bold",
+                  fontSize: 13,
+                  color: "black",
+                }}
+              >
+                Benchmark Returns
+              </Text>
+            </View>
+          </View>
+
+          <Text
+            style={{
+              fontWeight: "bold",
+              fontSize: 17,
+              color: "#585a61",
+              padding: 20,
+            }}
+          >
+            ESG Score
+          </Text>
           <View style={externalStyle.company_esg_score_card}>
             <SafeAreaView style={{ flex: 1 }}>
               <RNSpeedometer
